@@ -899,6 +899,25 @@ Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
 Name: 短视频助手
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
 
+Package: com.lenglengyu.shortvideodl
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 2096
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
+Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
+Filename: ./debs/com.lenglengyu.shortvideodl_1.0.3_iphoneos-arm.deb
+Size: 669050
+MD5sum: 7b71d73a7090278ae1389c7299464286
+SHA1: e2cd3fc612e17326d0efba6f98e7b254e2b52f2b
+SHA256: c62bb0523f33a9e47605f705101eae11d9c24bf482a3dc040c33d8fa58e9ae56
+Section: Tweaks
+Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号、小程序视频下载。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
+Name: 短视频助手
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
+
 Package: com.lenglengyu.wxgzh
 Version: 0.0.4-2
 Architecture: iphoneos-arm
@@ -1134,26 +1153,21 @@ Name: libMRYIPC
 Package: com.opa334.ccsupport
 Version: 1.2.2
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 201
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Maintainer: opa334
+Installed-Size: 272
+Depends: mobilesubstrate, firmware (>=11.0)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Provides: com.ioscreatix.silo
 Filename: ./debs/com.opa334.ccsupport_1.2.2_iphoneos-arm.deb
-Size: 35410
-MD5sum: bedc14592047dfd4d98fd7118ade5cc2
-SHA1: f70e26d16dd5afe9576ee7801b9a4669d1077198
-SHA256: 0f3393ecbc3b4d0cf95f1a554aff9e113fd9a353006d96b8f8b8c7f55e6ce90f
+Size: 35312
+MD5sum: 17ed6254911b6492bb12db7344a0eb9f
+SHA1: 39adc47176ff48dcb495804891fdaef9a453ae18
+SHA256: e41dd7d92ff44770680bec46c0badc8fd815b3b85884b85106a2a9e363e1a17a
 Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Description: Support tweak for CC modules!
-Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
-Author: opa334 <opa334@protonmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Dev: opa334
+Author: opa334
 Name: CCSupport
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.choicy
 Version: 1.2.4-2
@@ -1280,16 +1294,16 @@ Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpgfarm.a-bypass
-Version: 1.2.5
+Version: 1.2.6
 Architecture: iphoneos-arm
 Maintainer: Baw Appie <pp121324@gmail.com>
-Installed-Size: 456
-Depends: mobilesubstrate, applist (>= 1.5.15~beta1), com.muirey03.libmryipc
-Filename: ./debs/com.rpgfarm.a-bypass_1.2.5_iphoneos-arm.deb
-Size: 30518
-MD5sum: ffb5d3398b854edcc58a893bcee7ee43
-SHA1: 31064f78a219a5356bfd58aad65fa254679c4ede
-SHA256: 236ac6a00beb6349d9573ae8f8b935ad011d2a8e701feadb791c6ea4d3c146f1
+Installed-Size: 432
+Depends: mobilesubstrate, com.muirey03.libmryipc
+Filename: ./debs/com.rpgfarm.a-bypass_1.2.6_iphoneos-arm.deb
+Size: 31840
+MD5sum: eb0327c48beb228bcd41bb73b0375f14
+SHA1: f07a82bd37625c1d3de47a62f092a987b26a5206
+SHA256: 91ee75a3099ca290ca83a24061d956031f7893b385b376987d1577987114e525
 Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
@@ -1364,17 +1378,17 @@ Author: subdiox
 Name: StoreSwitcher 2
 
 Package: com.tigisoftware.filza64bit
-Version: 3.8.0-8
+Version: 3.8.0-16
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
-Installed-Size: 23136
+Installed-Size: 22684
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.8.0-8_iphoneos-arm.deb
-Size: 9606524
-MD5sum: 43f0723a837f30cd4dd8456354d90608
-SHA1: 5401ad5ec724b38b2de828721e070d7e4f1b2f1a
-SHA256: 34b6cd9f9ac6b9a671c9409209f534c2c142d886b61244c8e4307e87a14ef374
+Filename: ./debs/com.tigisoftware.filza64bit_3.8.0-16_iphoneos-arm.deb
+Size: 9269842
+MD5sum: bb8fa56e4077e4753f218325f5fd993e
+SHA1: 37adb97be26c4ef1a3a843a898993bf34f977ba6
+SHA256: 24a7a2d5d5492a1ef00705a2b2968bb078fa05f00a5a080675504aca29533036
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
@@ -1945,16 +1959,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.9.8
+Version: 2.9.8.2
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12600
+Installed-Size: 11808
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.9.8_iphoneos-arm.deb
-Size: 2121492
-MD5sum: 7c1126bd061ce7aa24427ab77a9d2b55
-SHA1: cb439cb9e7d7754cd9e80c9e59ebb9c60e5de52b
-SHA256: 12a154b427e55fe95a788f1deadfcf8bd4b791c379373a9ea48dcccc53d17b1e
+Filename: ./debs/me.ahmedbafkir.dleasy_2.9.8.2_iphoneos-arm.deb
+Size: 2002498
+MD5sum: fa1b971d233ca9335266ca36bd3cd6aa
+SHA1: b73cee1ab2ef918d84b5743732ca9961dabc249a
+SHA256: 6a8c0c35fae858422c0fbdc032e68e7e8a535ae88047b996cd8bc238eb012a0f
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -1962,16 +1976,16 @@ Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
 Name: DLEasy
 
 Package: me.lochook.app
-Version: 1.0.0
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: 小哥哥
-Installed-Size: 316
-Depends: mobilesubstrate
-Filename: ./debs/me.lochook.app_1.0.0_iphoneos-arm.deb
-Size: 44640
-MD5sum: 99ab3fad518a3befd1b700fa60051c21
-SHA1: 36a0a851b760af0b6651b93af5a6b98213260d52
-SHA256: 273e186feb7d40a3b21b60492c9317e31c2f449970e657fb947ec556da3588e6
+Installed-Size: 348
+Depends: mobilesubstrate, applist, preferenceloader
+Filename: ./debs/me.lochook.app_1.1.0_iphoneos-arm.deb
+Size: 51146
+MD5sum: ba3a8f2fb20b815ab2248faf63d07ae2
+SHA1: 7ff7f0f1e723ddfc75df4167f704932877b28470
+SHA256: 57ea829fa05e825fd51a7eeb23e7a71aa42bc138375a16053e5c8f2b47593c45
 Section: Tweak
 Description: 免费无广告的虚拟定位，实现让您的iPhone在任意地点穿越。
  免费无广告的虚拟定位，实现让您的iPhone在任意地点穿越。
