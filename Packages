@@ -390,6 +390,29 @@ Dev: creaturecoding
 Name: libCSColorPicker
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.cydia.love.tiktokhook
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2728
+Depends: firmware (>= 13.0), mobilesubstrate
+Conflicts: com.cydia.love.tiktoksetarea,apt.cydiakk.tiktoksetarea,cn.yttxcs.tiktoksetarea
+Filename: ./debs/com.cydia.love.tiktokhook_1.0.1_iphoneos-arm.deb
+Size: 538226
+MD5sum: b4494c431c73ed1737cb2c53dd1d9c52
+SHA1: 41a845b0021d01e393c780e707d80eed6b7d263f
+SHA256: 4e6cfbf9310a9e5cfd4fd0bf0d2a5afe7ed8ba9bcfb3e23b2124ef3002459df0
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tiktokhookDp
+Description: 国际版抖音植入版免V
+Tag: purpose::extension, role::enduser, compatible::ios13
+Author: MacOS <admin@cydia.love>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tiktokhookDp
+Dev: ant
+Icon: file:///Library/PreferenceBundles/TikTokSetArea.bundle/icon@2x.png
+Name: TikTok 国际版抖音【植入版免V】
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.cydia.love.tiktoksetarea
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -996,15 +1019,15 @@ Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
 
 Package: com.michael.generatorautosetter
-Version: 0.2.7
+Version: 0.3.2
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
-Depends: firmware (>= 12.3), com.michael.dimentio
-Filename: ./debs/com.michael.generatorautosetter_0.2.7_iphoneos-arm.deb
-Size: 6816
-MD5sum: e147cd8692f59f3548b0e7d62ca4c3ac
-SHA1: 8623cd10f16b0a5cddb1707d78cbfd71061f568e
-SHA256: a6f8de6445443bbf83c4bf81d6f2c673a039ca3dcadb2cfc97a3c7a273d4797f
+Depends: firmware (>= 12.3), com.michael.dimentio, preferenceloader
+Filename: ./debs/com.michael.generatorautosetter_0.3.2_iphoneos-arm.deb
+Size: 11284
+MD5sum: 0108078bbcc9394f79811338cd87e09a
+SHA1: 8d3ba7a89e6bc8a6c88f28ca1166557c862c5bbe
+SHA256: b4544377d47638fe9391701db3f14f8fb5b03fbd9f795f0e739c16113cad00a9
 Section: Tweaks
 Description: Auto set your generator when jailbreaking!
 Author: halo_michael <yc992147156@me.com>
@@ -1294,16 +1317,17 @@ Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpgfarm.a-bypass
-Version: 1.2.6
+Version: 1.2.7
 Architecture: iphoneos-arm
 Maintainer: Baw Appie <pp121324@gmail.com>
-Installed-Size: 432
+Installed-Size: 444
 Depends: mobilesubstrate, com.muirey03.libmryipc
-Filename: ./debs/com.rpgfarm.a-bypass_1.2.6_iphoneos-arm.deb
-Size: 31840
-MD5sum: eb0327c48beb228bcd41bb73b0375f14
-SHA1: f07a82bd37625c1d3de47a62f092a987b26a5206
-SHA256: 91ee75a3099ca290ca83a24061d956031f7893b385b376987d1577987114e525
+Suggests: applist
+Filename: ./debs/com.rpgfarm.a-bypass_1.2.7_iphoneos-arm.deb
+Size: 36910
+MD5sum: ee6334c1d041d42f9ce387b6454c8c83
+SHA1: 94d54bde02bf4cf236a97a606fdd0c371c9bc3a4
+SHA256: 9593c58071fc376e595788274593d2d2970ff95f7b11e3648a8973adbac9f867
 Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
@@ -1378,17 +1402,17 @@ Author: subdiox
 Name: StoreSwitcher 2
 
 Package: com.tigisoftware.filza64bit
-Version: 3.8.0-16
+Version: 3.8.0-20
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
-Installed-Size: 22684
+Installed-Size: 21632
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.8.0-16_iphoneos-arm.deb
-Size: 9269842
-MD5sum: bb8fa56e4077e4753f218325f5fd993e
-SHA1: 37adb97be26c4ef1a3a843a898993bf34f977ba6
-SHA256: 24a7a2d5d5492a1ef00705a2b2968bb078fa05f00a5a080675504aca29533036
+Filename: ./debs/com.tigisoftware.filza64bit_3.8.0-20_iphoneos-arm.deb
+Size: 8332186
+MD5sum: 504f22fc6da2a571416ca802ca0a2d71
+SHA1: 3672cb53c03f3307e582a19abbf8fc734ac52b12
+SHA256: 6ee5f9f8093acc8c74c7a231a916664ff4cec203368fc7e093e2caa854e4be2c
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
@@ -1431,17 +1455,17 @@ Name: CydiaPlus
 Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydiaplus/native
 
 Package: com.udevs.dockx
-Version: 1.6.2
+Version: 1.6.3
 Architecture: iphoneos-arm
 Maintainer: udevs
 Installed-Size: 668
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0), firmware(>=12.0), ws.hbang.alderis
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_1.6.2_iphoneos-arm.deb
-Size: 101720
-MD5sum: 20869aef6a9204505e0b94209de9028b
-SHA1: 60cec72764f2a8d62f1bf39cbafcea19225a8576
-SHA256: bcc940cb5cb3c8569f01563343386ae0ce08ee389d778e9eb9b93f3c41a5990b
+Filename: ./debs/com.udevs.dockx_1.6.3_iphoneos-arm.deb
+Size: 102044
+MD5sum: db2790d55c193c84c5d3aad16b64deea
+SHA1: 5a1d5d4e7c014fff61bb8bdfb90fef886e7bc346
+SHA256: bc7a5d25c864e630f124f62f04c5ace3497e151c27be817438d181f593c818e1
 Section: Tweaks
 Description: Pasteboard shortcuts on your dock!
 Author: udevs
@@ -1885,6 +1909,24 @@ Description: pseudo-codesign Mach-O files
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
 
+Package: ldid
+Version: 2:2.1.2.7+g5420cb5q-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 464
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
+Filename: ./debs/ldid_2.1.2.7+g5420cb5q-1_iphoneos-arm.deb
+Size: 52172
+MD5sum: ac3987b37e5e1ba1e2bc46c8fb9c2cf4
+SHA1: ff5185177f94f65f862d2afd3e9f848f525fc130
+SHA256: 5c8869076183ed0f2efb7e2cc526b4ec0695d01529915adbdb3badccc0f53057
+Section: Development
+Priority: optional
+Description: pseudo-codesign Mach-O files
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Link Identity Editor
+
 Package: libapt
 Version: 1.8.2.1-1
 Architecture: iphoneos-arm
@@ -1924,6 +1966,133 @@ Priority: required
 Description: the advanced packaging library from Debian
 Name: APT (libapt-pkg)
 
+Package: libplist
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist-dev, libplist3, libplist++-dev, libplist++3, libplist-utils
+Filename: ./debs/libplist_2.2.1-1_iphoneos-arm.deb
+Size: 648
+MD5sum: 1e5880ba01f64220f7865861377639e6
+SHA1: b2e15862270ee7cfbbe21ae3716d3e020d183ef4
+SHA256: 58a3b6c0ae74a76edf6c9db9f20a56ce1f3b638bfff750d4e0295aef23b95293
+Section: Networking
+Priority: standard
+Description: Library for handling Apple binary and XML property lists (metapackage)
+
+Package: libplist++-dev
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 128
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist++3
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist++-dev_2.2.1-1_iphoneos-arm.deb
+Size: 3338
+MD5sum: 913c8acc252aabb7af92fe93335c4125
+SHA1: af636876dd14b72b49218d4b449d098bc6497a13
+SHA256: db5cd3812fcb607ac7783cfda5bae503d03e3ed0a28d37e4f47a1bbc0cc3b485
+Section: Networking
+Priority: standard
+Description: C++ library for handling Apple binary and XML property lists - dev files
+ libplist is a library for reading and writing the Apple binary and XML
+ property lists format. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This package contains the development files of the liplist++ library.
+
+Package: libplist++3
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 232
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist++3_2.2.1-1_iphoneos-arm.deb
+Size: 17022
+MD5sum: 23db2bc0a1223d30045c030565ac1296
+SHA1: 3e738a5579f5590f0c3c1e713cfe864bc7f80117
+SHA256: 91f978e4d2b9362a96604fe284f54fcb5ecc6fa085368577a48c7c9e5c398533
+Section: Networking
+Priority: standard
+Description: C++ Library for handling Apple binary and XML property lists
+ libplist is a library for reading and writing the Apple binary and XML
+ property lists format. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This library is the C++ implementation of the libplist API.
+
+Package: libplist-dev
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 96
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist3
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist-dev_2.2.1-1_iphoneos-arm.deb
+Size: 6468
+MD5sum: 119ade31ad45683e875223dd65e1f01b
+SHA1: 45dc3af47fe4373ecb78aea534852187940dab3a
+SHA256: 0d5b59f0eba926201093f50924c4e6d49e75ced8ffe73d74bf2a67fa82c141af
+Section: Networking
+Priority: standard
+Description: Library for handling Apple binary and XML property lists - dev files
+ libplist is a library for reading and writing the Apple binary and XML
+ property lists format. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This package contains the development files of the liplist library.
+
+Package: libplist-utils
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libplist3
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist-utils_2.2.1-1_iphoneos-arm.deb
+Size: 4110
+MD5sum: 502ec77e3968312f1f3392b68fc7a9c2
+SHA1: 5fc5714381da93def0300f05bf6e5d4d0c516d36
+SHA256: dc7e148b78f82f3632d34d576fb0fee7d28d087bb3fc9a26bc41b53a92759d0a
+Section: Networking
+Priority: standard
+Description: Apple property list converter
+ This package containt tools to convert Apple property list files from
+ binary to XML and vice-versa. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+
+Package: libplist3
+Version: 2.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 232
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: libplist (<<2.2.0)
+Replaces: libplist (<<2.2.0)
+Filename: ./debs/libplist3_2.2.1-1_iphoneos-arm.deb
+Size: 24334
+MD5sum: 0dfdbf60cf2061fdacb7634c4a33e627
+SHA1: d8681d8959b82dbe959e31c13d87d3857a3e65d1
+SHA256: 5ecaeb97ca1f9b0aa9f043c6c864c501e128647afd3d58f5f8f6281fd0b548a6
+Section: Networking
+Priority: standard
+Description: Library for handling Apple binary and XML property lists
+ libplist is a library for reading and writing the Apple binary and XML
+ property lists format. It's part of the libimobiledevice stack,
+ providing access to iDevices (iPod, iPhone, iPad ...).
+ .
+ This library is the C implementation of the libplist API.
+
 Package: libssl1.1.1
 Version: 1.1.1c-1
 Architecture: iphoneos-arm
@@ -1959,16 +2128,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.9.8.2
+Version: 2.9.9.1
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 11808
+Installed-Size: 11824
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.9.8.2_iphoneos-arm.deb
-Size: 2002498
-MD5sum: fa1b971d233ca9335266ca36bd3cd6aa
-SHA1: b73cee1ab2ef918d84b5743732ca9961dabc249a
-SHA256: 6a8c0c35fae858422c0fbdc032e68e7e8a535ae88047b996cd8bc238eb012a0f
+Filename: ./debs/me.ahmedbafkir.dleasy_2.9.9.1_iphoneos-arm.deb
+Size: 2017628
+MD5sum: 4a020fdf19705368277df260975ffac7
+SHA1: e3a5c23eacdc941b1977976804199a4809eab36b
+SHA256: 0dcddad1252037c6d6ec89cba159bcce17d01b3410df6e370868b9b242bc61f4
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -2295,20 +2464,20 @@ Name: Alipay Steps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
-Version: 1.5-6
+Version: 1.5-8
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 516
+Installed-Size: 543
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_1.5-6_iphoneos-arm.deb
-Size: 98838
-MD5sum: e2ff9da2837e01012943f5515ea3b78b
-SHA1: 693dbd07a4388731ae942f5dc56fd7dcf8a51de6
-SHA256: 1f63da46d46fcc8ca5cdc252030da2f3599844285b9e35bcba6b8154f4b2bba1
+Filename: ./debs/netskao.awemepurification_1.5-8_iphoneos-arm.deb
+Size: 103142
+MD5sum: 088c38cc253433bb0cb81ecd4f797560
+SHA1: 4cc4f5fddfa3353706013894e8718c0c935fb51c
+SHA256: 22d105970f2b7be180d7f597d2fd7ad0dd5a80c4f1c2209cc9bea9e9472ddd74
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
-Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，保存风险视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等！注意:遇到不可以保存的视频双击视频保存即可，摇一摇手机即可开启自动播放，开启强劲纯净模式，开启或关闭状态栏
+Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！「摇一摇手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
 Tag: purpose::extension, compatible::ios12, compatible::ios13
 Author: Netskao <admin@initnil.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
