@@ -155,18 +155,18 @@ Name: Respring Assistant(快速注销+联网修复)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: cn.tinyapps.xgpspro
-Version: 4.1.6-1
+Version: 4.1.7
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 7321
+Installed-Size: 7421
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
 Replaces: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro,cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
-Filename: ./debs/cn.tinyapps.xgpspro_4.1.6-1_iphoneos-arm.deb
-Size: 2502636
-MD5sum: 4d9071a12abf0e3be60a372216bf337c
-SHA1: b37f05a4851db398a4fa57e12d36faab0310be05
-SHA256: d664fc172456d29ac246d9ae8b3a3304dccf315bc05c5595020c5a3139780f18
+Filename: ./debs/cn.tinyapps.xgpspro_4.1.7_iphoneos-arm.deb
+Size: 2543662
+MD5sum: f16693f4fde8f3b0eb4e5457590f6143
+SHA1: b4ec1809166e0d3a85dcc2927cdd710d1ddb7d57
+SHA256: f4b2cb059e82063edb487846876fe11638d6adde32e7e26cd88f8cd2b9bd7f7b
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
 Description: iOS 5.1.1~13.5 CHANGE your iPhone's location as you wish.
@@ -904,36 +904,17 @@ Name: ReProvision汉化包
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/ReProvisioncnsileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.0.2-2
+Version: 1.0.4
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 2012
+Installed-Size: 2140
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.0.2-2_iphoneos-arm.deb
-Size: 649042
-MD5sum: 4d74a956f4681162eb038cd6fb56bdd8
-SHA1: 7256d13009f01159530f69f9408de1e5f07e40b3
-SHA256: d2a64a39e971bfa2e5247c7e1dc738c7893f96805fb109de7e6cc31b2395f2cd
-Section: Tweaks
-Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号、小程序视频下载。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
-Name: 短视频助手
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/shortvideodlsileo
-
-Package: com.lenglengyu.shortvideodl
-Version: 1.0.3
-Architecture: iphoneos-arm
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 2096
-Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
-Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.0.3_iphoneos-arm.deb
-Size: 669050
-MD5sum: 7b71d73a7090278ae1389c7299464286
-SHA1: e2cd3fc612e17326d0efba6f98e7b254e2b52f2b
-SHA256: c62bb0523f33a9e47605f705101eae11d9c24bf482a3dc040c33d8fa58e9ae56
+Filename: ./debs/com.lenglengyu.shortvideodl_1.0.4_iphoneos-arm.deb
+Size: 684872
+MD5sum: 85fe971d87dff9a2b4e9473d24ab5368
+SHA1: 236f35a62d3906985136573a564fdbe8fd0dfb68
+SHA256: 18a37fd2d141c3b8a1e16fd716cd673d526d2c9ee69481468b50575ffd233452
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号、小程序视频下载。
 Author: lenglengyu
@@ -1317,17 +1298,16 @@ Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpgfarm.a-bypass
-Version: 1.2.7
+Version: 1.2.8
 Architecture: iphoneos-arm
 Maintainer: Baw Appie <pp121324@gmail.com>
-Installed-Size: 444
-Depends: mobilesubstrate, com.muirey03.libmryipc
-Suggests: applist
-Filename: ./debs/com.rpgfarm.a-bypass_1.2.7_iphoneos-arm.deb
-Size: 36910
-MD5sum: ee6334c1d041d42f9ce387b6454c8c83
-SHA1: 94d54bde02bf4cf236a97a606fdd0c371c9bc3a4
-SHA256: 9593c58071fc376e595788274593d2d2970ff95f7b11e3648a8973adbac9f867
+Installed-Size: 892
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist
+Filename: ./debs/com.rpgfarm.a-bypass_1.2.8_iphoneos-arm.deb
+Size: 121012
+MD5sum: ebd6a103ad932f347172c296baa22b1e
+SHA1: 69ba9a58a8b0c725f1318afe89c89be30941e176
+SHA256: dcafa98f0b1bd29810cfd112ad5fbaef4496d7255f66ada980aba8ed38cd38ab
 Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
@@ -1455,17 +1435,17 @@ Name: CydiaPlus
 Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydiaplus/native
 
 Package: com.udevs.dockx
-Version: 1.6.3
+Version: 1.7.3
 Architecture: iphoneos-arm
 Maintainer: udevs
-Installed-Size: 668
+Installed-Size: 800
 Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0), firmware(>=12.0), ws.hbang.alderis
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_1.6.3_iphoneos-arm.deb
-Size: 102044
-MD5sum: db2790d55c193c84c5d3aad16b64deea
-SHA1: 5a1d5d4e7c014fff61bb8bdfb90fef886e7bc346
-SHA256: bc7a5d25c864e630f124f62f04c5ace3497e151c27be817438d181f593c818e1
+Filename: ./debs/com.udevs.dockx_1.7.3_iphoneos-arm.deb
+Size: 126936
+MD5sum: 336cbf420c5496195d52e63327cc021e
+SHA1: b36ad0f1f1545677aa16aa0eae5ffcd53e737796
+SHA256: 5c28df937461b3b6c5ff624aca5c9d0d4f5818619efb2c152ef756a6e4912d91
 Section: Tweaks
 Description: Pasteboard shortcuts on your dock!
 Author: udevs
@@ -2464,17 +2444,17 @@ Name: Alipay Steps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
-Version: 1.5-8
+Version: 1.6-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 543
+Installed-Size: 537
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_1.5-8_iphoneos-arm.deb
-Size: 103142
-MD5sum: 088c38cc253433bb0cb81ecd4f797560
-SHA1: 4cc4f5fddfa3353706013894e8718c0c935fb51c
-SHA256: 22d105970f2b7be180d7f597d2fd7ad0dd5a80c4f1c2209cc9bea9e9472ddd74
+Filename: ./debs/netskao.awemepurification_1.6-1_iphoneos-arm.deb
+Size: 103966
+MD5sum: 5a2023cc78b59cd298ef8ec64c6fbcd4
+SHA1: faf8de9258f4559e5a91f1fefb9a4089f1d4b36b
+SHA256: 0ac2f2f21c890d5c39e89d50eee95be82a048a4f8144019f53f74afc7a5ad36a
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
 Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！「摇一摇手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
