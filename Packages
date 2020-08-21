@@ -436,20 +436,20 @@ Name: TikTokSetArea
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ex.substitute
-Version: 0.1.14
+Version: 0.1.15
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner
-Installed-Size: 4384
+Installed-Size: 4768
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode, uikittools (>=1.1.13-4), darwintools
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_0.1.14_iphoneos-arm.deb
-Size: 1071648
-MD5sum: b83d10a1be1c5303f20d38e66f74ec7f
-SHA1: 0657ae23ca81dfde6734ea20dfcf8ce10b671c79
-SHA256: 3320fb97ea7da661f4b1b354be5c0f4ebe4520cc3344d9d1662cd0a0d8ebdd40
+Filename: ./debs/com.ex.substitute_0.1.15_iphoneos-arm.deb
+Size: 1177256
+MD5sum: 9d4adc7fc77869f683f3c2b4f938efb6
+SHA1: cf5edde0358d5a79b4d3c43aba28304782254ae2
+SHA256: c0765ceff693b99ecb3f6dc4e30647ec990a67a4043e10d8093a7549a800f63c
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution
@@ -611,17 +611,17 @@ Name: Gesturesi11
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.hius.halfipad
-Version: 3.5.0
+Version: 3.5.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 521
+Installed-Size: 503
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Filename: ./debs/com.hius.halfipad_3.5.0_iphoneos-arm.deb
-Size: 54586
-MD5sum: c436ae97eca06200f06fde1a50d713a3
-SHA1: cb311162234aa82a493e6acbc581045e0e64dbd5
-SHA256: 059831542698ed74193e55e5a59614c28f21650dbdee53c32d3b3d9b07522c6a
+Filename: ./debs/com.hius.halfipad_3.5.1_iphoneos-arm.deb
+Size: 53994
+MD5sum: 5628cd8613216ff57048101ec6ad7d18
+SHA1: 89f6b08e33be00e61da6e1f495f21d0a472f450d
+SHA256: 71053ddc61364ab49b5e8a4467dadfe5bf08424cc9cae32bebabacb6e59d4d4a
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
 Description: Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
@@ -961,6 +961,24 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/wxgzh.html
 Name: 微信视频下载
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/wxgzhsileo
+
+Package: com.lenglengyu.xmindpro
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 712
+Depends: mobilesubstrate
+Filename: ./debs/com.lenglengyu.xmindpro_0.0.1_iphoneos-arm.deb
+Size: 193978
+MD5sum: 29564712a05b2f0a41621b60a2861af5
+SHA1: ba06fe3f8a5cd8c846e1bf20eb96c85f38f214b0
+SHA256: 000b79eaf6e944656f898fcb6846a744e04861a3b2ea12235c15521102280849
+Section: Tweaks
+Description: 解锁订阅会员权限。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/xmindpro.html
+Name: Xmind思维导图Pro
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/xmindprosileo
 
 Package: com.linusyang.localeutf8
 Version: 1.0-1
@@ -1320,16 +1338,16 @@ Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpgfarm.a-bypass
-Version: 1.3
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: Baw Appie <pp121324@gmail.com>
 Installed-Size: 892
 Depends: mobilesubstrate, com.muirey03.libmryipc, applist
-Filename: ./debs/com.rpgfarm.a-bypass_1.3_iphoneos-arm.deb
-Size: 122894
-MD5sum: e4120812d090904d44c7580f3e440e9f
-SHA1: 7e2cb19aba6c3d3bb68f3902f58abce0c5d7538d
-SHA256: 2df5aa36d8ffa4bc142ea5f7b48e7c22a2a92b5d40ad827f8e92aebf3848da4f
+Filename: ./debs/com.rpgfarm.a-bypass_1.3.1_iphoneos-arm.deb
+Size: 122872
+MD5sum: ad2cb53e865a1f8c92c4ef3a6b0f77a8
+SHA1: 3c6fd1abe0551a93d011317bb834872f21dd31ff
+SHA256: b6d8b1a9586610219897a58b06762024069797c0b5dda76ae5869a3d133ab2a0
 Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
@@ -1468,6 +1486,25 @@ Size: 177580
 MD5sum: 9561642e8b5fc2c56f8e387fd443dbe3
 SHA1: 3dc6ad41caffca85d2f7e0b4dff11d6c15c8c530
 SHA256: 4ed27e47303e84e9d500c8d53d31c40bb38ab61c0fec13cc5a840c3dbe16f29c
+Section: Tweaks
+Description: Pasteboard shortcuts on your dock!
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.dockx
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX
+
+Package: com.udevs.dockx
+Version: 2.1.3
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 1208
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0), firmware(>=12.0), ws.hbang.alderis
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.1.3_iphoneos-arm.deb
+Size: 223554
+MD5sum: 7d68916c4d9efae5bfe14521dac908d0
+SHA1: 9fa6a89abd7ec1aff20005a518fdf92509e056d5
+SHA256: f6101d03581a811de0425620079ffceb0670b255f78f273be6dbf66e69db32ed
 Section: Tweaks
 Description: Pasteboard shortcuts on your dock!
 Author: udevs
@@ -2130,16 +2167,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.9.9.1
+Version: 2.10.0
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 11824
+Installed-Size: 12012
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.9.9.1_iphoneos-arm.deb
-Size: 2017628
-MD5sum: 4a020fdf19705368277df260975ffac7
-SHA1: e3a5c23eacdc941b1977976804199a4809eab36b
-SHA256: 0dcddad1252037c6d6ec89cba159bcce17d01b3410df6e370868b9b242bc61f4
+Filename: ./debs/me.ahmedbafkir.dleasy_2.10.0_iphoneos-arm.deb
+Size: 2058074
+MD5sum: 7ade3340261752b0b9bea93194390f34
+SHA1: 7a581100fcb190aab6416459bb668ee8e921727f
+SHA256: 886211350cd67e635af78b0bd74509ff3892b3dbc2729e58cfbb5310d336f649
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -2846,16 +2883,16 @@ Name: DingTalkHelperX
 Sponsor: Editornah <mxiaohan.2018@gmail.com>
 
 Package: x.DingTalkHelperX2
-Version: 2.1.0
+Version: 2.1.2
 Architecture: iphoneos-arm
 Maintainer: Editornah<mxiaohan.2018@gmail.com>
 Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
 Conflicts: com.kevll.dingtalkhelper,x.DingTalkHelperX
-Filename: ./debs/x.DingTalkHelperX2_2.1.0_iphoneos-arm.deb
-Size: 234432
-MD5sum: e67f868633345a81e3dc3acacfb59a73
-SHA1: 56b5c138bd7bda2d613077f18f194569039f6fd6
-SHA256: f5ef21d99d30921dd149e8e2d41d000937062c51ed2db7a3c0c2ee88cf7f2a2e
+Filename: ./debs/x.DingTalkHelperX2_2.1.2_iphoneos-arm.deb
+Size: 237256
+MD5sum: d3a55be9fcd2c4d8e1d76ba1c46e343f
+SHA1: 3cf4ede1b85ae9675b2e268c16dd60996b0d522d
+SHA256: 1e2ee41bc89f386684ed7e667f660b32d716bcb9fdd153423f32e387ce28228e
 Section: Tweaks
 Priority: optional
 Homepage: https://cydia.editornah.top
