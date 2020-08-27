@@ -611,17 +611,17 @@ Name: Gesturesi11
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.hius.halfipad
-Version: 3.5.1
+Version: 3.5.6
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 503
+Installed-Size: 601
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
-Filename: ./debs/com.hius.halfipad_3.5.1_iphoneos-arm.deb
-Size: 53994
-MD5sum: 5628cd8613216ff57048101ec6ad7d18
-SHA1: 89f6b08e33be00e61da6e1f495f21d0a472f450d
-SHA256: 71053ddc61364ab49b5e8a4467dadfe5bf08424cc9cae32bebabacb6e59d4d4a
+Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11, com.hius.halfipadvn
+Filename: ./debs/com.hius.halfipad_3.5.6_iphoneos-arm.deb
+Size: 56098
+MD5sum: 88b7229106b83e8446b11c1413acd518
+SHA1: 1844c6b97f2502d297db4c128531a6191c1fa6be
+SHA256: 74312696e51d66d4ac82ad0558e273ad3a75f310cf2de1b103fd93e45d8e36f9
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
 Description: Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
@@ -634,18 +634,18 @@ Name: HalFiPad
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.iarrays.calllogpro8
-Version: 12.0-beta-1
+Version: 12.0-beta-3
 Architecture: iphoneos-arm
 Maintainer: IArrays <support@iarrays.com>
 Installed-Size: 6530
 Pre-Depends: firmware (>=8.0)
 Depends: mobilesubstrate, com.iarrays.libiarrays (>= 1.0.12), com.rpetrich.rocketbootstrap
 Conflicts: com.iarrays.CallLogPro10
-Filename: ./debs/com.iarrays.calllogpro8_12.0-beta-1_iphoneos-arm.deb
-Size: 5396820
-MD5sum: c0f21f1eaf06c4b82d25769d9187e3d5
-SHA1: b72c35e998789f70e04845946a199331f59dfa0b
-SHA256: ae4b3fa0e1e62282ff3196ed80f0a9a914f04f86298827b4c148cd923cfd628c
+Filename: ./debs/com.iarrays.calllogpro8_12.0-beta-3_iphoneos-arm.deb
+Size: 5416542
+MD5sum: 51fce8aea7baf5738a1682fdc6e2f5a5
+SHA1: 8f7e4932039c5ffdb085027267a0adb75549f875
+SHA256: b1bb9cb2011f36cc0d4996600ca8002d0f795730ae5af2120fb81ab4e6255193
 Section: Utilities
 Homepage: http://iarrays.com/
 Description: Now with iOS 13.X support along with A13/12 devices. CallLogPro allows to manage your calls history and to delete call records one by one or all. This works on all iOS versions starting from 8.0.
@@ -1017,6 +1017,28 @@ Depiction: https://repo.lenglengyu.top/packageInfo/LocalIAPStore.html
 Name: LocalIAPStore 内购破解
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/LocalIAPStoresileo
 
+Package: com.magicsign.deb
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 7520
+Depends: firmware (>= 12.0)
+Filename: ./debs/com.magicsign.deb_1.1_iphoneos-arm.deb
+Size: 3028566
+MD5sum: 31fda6063bd316520d06ad56e08b5232
+SHA1: 0158dda27742a8c5e4ef7d68e6e36517fbbb35a0
+SHA256: e8cb18fe2748a864bf2f5b6239d17ba15b76c300d0d37920e9ea8ae0e68e9829
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magicsignDp
+Description: application signing tool
+Tag: purpose::uikit, compatible::ios12, compatible::ios13
+Author: ios-tool <admin@ios-tool.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magicsignDp
+Dev: ios-tool
+Icon: file:///Applications/magicsign.app/AppIcon60x60@2x.png
+Name: 魔力签 MagicSign
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.matchstic.reprovision
 Version: 0.5.2~EOL
 Architecture: iphoneos-arm
@@ -1040,15 +1062,15 @@ Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
 
 Package: com.michael.generatorautosetter
-Version: 0.3.4
+Version: 0.3.7
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
 Depends: firmware (>= 12.3), com.michael.dimentio, preferenceloader
-Filename: ./debs/com.michael.generatorautosetter_0.3.4_iphoneos-arm.deb
-Size: 11128
-MD5sum: a1503c65d64140df9e8a4fede7f5c83c
-SHA1: e1a4b3204c9ebfda9350ec4e1a49eebebabefe82
-SHA256: b207d055843abeaff46bec2ec229993f5d4631250c15eb3b960035e75a61be68
+Filename: ./debs/com.michael.generatorautosetter_0.3.7_iphoneos-arm.deb
+Size: 11084
+MD5sum: 1800091726522e07bf1bd2ff27fca197
+SHA1: f5041a7ff75ea4c5d6702f0b39fda16c79d0f299
+SHA256: d0f60e8ed7b9198844373a60813a5dc45aebfc8da9da1c5a1e76edb3c0e2d3c1
 Section: Tweaks
 Description: Auto set your generator when jailbreaking!
 Author: halo_michael <yc992147156@me.com>
@@ -1057,15 +1079,15 @@ Name: Generator Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.substrated
-Version: 0.9.7107
+Version: 0.9.7110-1
 Architecture: iphoneos-arm
 Maintainer: Halo_Michael <yc992147156@me.com>
-Depends: dpkg, firmware(>=12.3), grep
-Filename: ./debs/com.michael.substrated_0.9.7107_iphoneos-arm.deb
-Size: 2532880
-MD5sum: c21109ee29ee02ba58c3422f86093381
-SHA1: 98f4546c0905aef42f6e8ff4228d6d9a9a57fec5
-SHA256: 20324dfa0a6287bb6b8cd831528dfe636a190cdb74613075287fe3a1d19e2dee
+Depends: dpkg, firmware(>=12.3)
+Filename: ./debs/com.michael.substrated_0.9.7110-1_iphoneos-arm.deb
+Size: 2537512
+MD5sum: ac282170c33fec72a434cc83ea5b01a1
+SHA1: cebd7f1995b29f67c33828afb0833ce920a74c71
+SHA256: 38624fcd0cf777f75cfad48b942d584e9ddfbfc280cb76cb87de1c38d7aaa210
 Section: System
 Description: Simple gadget that allows switching from unc0ver to checkra1n without having to manually reinstall Cydia Substrate.
 Author: Halo_Michael <yc992147156@me.com>
@@ -1179,19 +1201,24 @@ Author: Muirey03
 Name: libimagepicker
 
 Package: com.muirey03.libmryipc
-Version: 1.0
+Version: 2.0
 Architecture: iphoneos-arm
-Maintainer: Muirey03
-Installed-Size: 196
-Filename: ./debs/com.muirey03.libmryipc_1.0_iphoneos-arm.deb
-Size: 12268
-MD5sum: 6957cf6c9b35f7d7bcf4920a52886442
-SHA1: 42992200cad14c69f466ccf902457636361f55c0
-SHA256: d433f62d0819c2d2e1b4a9656eea34550733f4acc612e3353b5485f4d723a7bf
-Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 481
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
+Conflicts: ws.hbang.stopcrashingpls (=1.0)
+Filename: ./debs/com.muirey03.libmryipc_2.0_iphoneos-arm.deb
+Size: 27254
+MD5sum: 48ee978b8ac2895ec318db77fd2b2779
+SHA1: 73b7225c87fa7a1c787957c1d3140dd9e2154837
+SHA256: bc3ae7260ab09b1cb456d41802793ec3e6b8bd316e2c01e972c9cfa7a05d5ad6
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
 Description: Easy-to-use, RocketBootstrap-less iOS IPC
-Tag: role::developer
-Author: Muirey03
+Tag: role::developer, purpose::library, cydia::obsolete, compatible::ios13
+Author: Muirey03 <tommy.muir@btinternet.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
+Dev: muirey03
 Name: libMRYIPC
 
 Package: com.opa334.ccsupport
@@ -1338,16 +1365,16 @@ Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpgfarm.a-bypass
-Version: 1.3.1
+Version: 1.3.2
 Architecture: iphoneos-arm
 Maintainer: Baw Appie <pp121324@gmail.com>
-Installed-Size: 892
+Installed-Size: 960
 Depends: mobilesubstrate, com.muirey03.libmryipc, applist
-Filename: ./debs/com.rpgfarm.a-bypass_1.3.1_iphoneos-arm.deb
-Size: 122872
-MD5sum: ad2cb53e865a1f8c92c4ef3a6b0f77a8
-SHA1: 3c6fd1abe0551a93d011317bb834872f21dd31ff
-SHA256: b6d8b1a9586610219897a58b06762024069797c0b5dda76ae5869a3d133ab2a0
+Filename: ./debs/com.rpgfarm.a-bypass_1.3.2_iphoneos-arm.deb
+Size: 123902
+MD5sum: 6b47b6abc6d829d53dbba358fd9853ce
+SHA1: 50c4facc055aeb21b246f57471397da6986426ac
+SHA256: 4c97e87b307136a59af93b5b4e323dd310dcf6e70889a232f789f42d5d5eb5b7
 Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
@@ -1404,6 +1431,26 @@ Description: Restore without updating via rootfilesystem DMG
 Author: Samg_is_a_Ninja
 Icon: file:///Applications/SuccessionRestore.app/AppIcon60x60@3x.png
 Name: Succession
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6004
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6004_iphoneos-arm.deb
+Size: 22494
+MD5sum: 84d571c91b20c2a49ff5a300c9671b44
+SHA1: c995201714cf8a2b86ec7f2d9d703a6b4698fbbd
+SHA256: dee1738c0fafc2be7e7c4bc1a92bd0f629af221e2a6d83b3fb748d8edbbd6bdd
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
 
 Package: com.subdiox.storeswitcher2
 Version: 1.0.3
@@ -1931,35 +1978,17 @@ Depiction: https://kupord.github.io/web/description.html?id=wechathookpro
 Name: WeChatHookPro
 
 Package: ldid
-Version: 2:2.1.2+g5420cb5-2
+Version: 2:2.1.2.7+g5420cb5q-2
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 464
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libplist (>= 2.0.0), libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: ./debs/ldid_2.1.2+g5420cb5-2_iphoneos-arm.deb
-Size: 52148
-MD5sum: b83b5c7b01ed46d68b2654d8c77fabea
-SHA1: a01962dfd5a957c3586ee12781dc53164c384a44
-SHA256: 1a3f40113f385aa6968349d29f7aaa63322823ea54151662b1bd43d69e4280ab
-Section: Development
-Priority: optional
-Description: pseudo-codesign Mach-O files
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Name: Link Identity Editor
-
-Package: ldid
-Version: 2:2.1.2.7+g5420cb5q-1
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 464
-Pre-Depends: dpkg (>= 1.14.25-8)
+Pre-Depends: dpkg (>= 1.14.25-8), libplist3
 Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: ./debs/ldid_2.1.2.7+g5420cb5q-1_iphoneos-arm.deb
-Size: 52172
-MD5sum: ac3987b37e5e1ba1e2bc46c8fb9c2cf4
-SHA1: ff5185177f94f65f862d2afd3e9f848f525fc130
-SHA256: 5c8869076183ed0f2efb7e2cc526b4ec0695d01529915adbdb3badccc0f53057
+Filename: ./debs/ldid_2.1.2.7+g5420cb5q-2_iphoneos-arm.deb
+Size: 52170
+MD5sum: a4e1d157a01283ea153ddebb467c16ed
+SHA1: 0087da4ad8326f2fd79d6552e657d44d44979239
+SHA256: d3702e8b0fb6151b28716ea5aa0c2a4c52f67eba98ba375474140415629a6695
 Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files
@@ -2006,17 +2035,18 @@ Description: the advanced packaging library from Debian
 Name: APT (libapt-pkg)
 
 Package: libplist
-Version: 2.2.1-1
+Version: 2.2.1-3
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 8
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: libplist-dev, libplist3, libplist++-dev, libplist++3, libplist-utils
-Filename: ./debs/libplist_2.2.1-1_iphoneos-arm.deb
-Size: 648
-MD5sum: 1e5880ba01f64220f7865861377639e6
-SHA1: b2e15862270ee7cfbbe21ae3716d3e020d183ef4
-SHA256: 58a3b6c0ae74a76edf6c9db9f20a56ce1f3b638bfff750d4e0295aef23b95293
+Conflicts: ldid (<<2:2.1.2.7+g5420cb5q)
+Filename: ./debs/libplist_2.2.1-3_iphoneos-arm.deb
+Size: 680
+MD5sum: 87d8f42faa9cd9985bbd2da89d1809b2
+SHA1: 4181e85dc314b5ea1f279cb167c8688bb248d030
+SHA256: 0f7374ab87900837600762f3556a70f05ca8800044f7989775d07c1bdf9b0a50
 Section: Networking
 Priority: standard
 Description: Library for handling Apple binary and XML property lists (metapackage)
@@ -2111,18 +2141,17 @@ Description: Apple property list converter
  providing access to iDevices (iPod, iPhone, iPad ...).
 
 Package: libplist3
-Version: 2.2.1-1
+Version: 2.2.1-2
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 232
 Pre-Depends: dpkg (>= 1.14.25-8)
-Breaks: libplist (<<2.2.0)
 Replaces: libplist (<<2.2.0)
-Filename: ./debs/libplist3_2.2.1-1_iphoneos-arm.deb
-Size: 24334
-MD5sum: 0dfdbf60cf2061fdacb7634c4a33e627
-SHA1: d8681d8959b82dbe959e31c13d87d3857a3e65d1
-SHA256: 5ecaeb97ca1f9b0aa9f043c6c864c501e128647afd3d58f5f8f6281fd0b548a6
+Filename: ./debs/libplist3_2.2.1-2_iphoneos-arm.deb
+Size: 24316
+MD5sum: 8e3f3cf6a77d1b024c5bb82752b0e403
+SHA1: e3b4825324520dca3b60032261914bd229d7aefd
+SHA256: 91b9fc59da9e3d58adfbc32dc6dbbe9fde73734191981f53407e28a25e70c83d
 Section: Networking
 Priority: standard
 Description: Library for handling Apple binary and XML property lists
@@ -2167,16 +2196,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.10.0
+Version: 2.10.2
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12012
+Installed-Size: 12080
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.10.0_iphoneos-arm.deb
-Size: 2058074
-MD5sum: 7ade3340261752b0b9bea93194390f34
-SHA1: 7a581100fcb190aab6416459bb668ee8e921727f
-SHA256: 886211350cd67e635af78b0bd74509ff3892b3dbc2729e58cfbb5310d336f649
+Filename: ./debs/me.ahmedbafkir.dleasy_2.10.2_iphoneos-arm.deb
+Size: 2051246
+MD5sum: 2e31c1f3e1c1a642c6f7c8d12602aaae
+SHA1: e0bd010c95f97c55f7dece23b9e3d2ec437f1073
+SHA256: 690a94ef3b9f277184d2685f63b81a4939079dab6da84a6de87c54df79739a0e
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -2481,24 +2510,23 @@ Name: AlipayScan
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.alipaysteps
-Version: 1.1
+Version: 1.2-3
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 342
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Filename: ./debs/netskao.alipaysteps_1.1_iphoneos-arm.deb
-Size: 37892
-MD5sum: 3274996d7f555409da8716a5c05ab89e
-SHA1: 1f62c36f4beed320b5661a886ac113c7abba2d2f
-SHA256: 19fbea4eeed59f15dfafa60903bfa4acc9480a0f0bc733f947b1fe9fb26ed05b
+Installed-Size: 532
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/netskao.alipaysteps_1.2-3_iphoneos-arm.deb
+Size: 98042
+MD5sum: 43fe663343e948094eaabcc1dd517506
+SHA1: bae7dc7af2e262883a3b7e030c3ab9d90edf1d46
+SHA256: c0d0803f0590731835b1a19bc7cc1bf7c347b697b1a1e4355d9531047ef9ddef
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
-Description: 支付宝自定义步数修改
+Description: 支付宝自定义步数修改，实时修改，设置位于支付宝-设置-右上角
 Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
 Author: Netskao <netskao@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
 Dev: netskao
-Icon: file:///Library/PreferenceBundles/AlipaySteps.bundle/AlipaySteps@2x.png
 Name: Alipay Steps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
@@ -2589,28 +2617,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurifica
 Dev: netskao
 Icon: file:///Library/PreferenceBundles/QQPurificationPrefs.bundle/icon@2x.png
 Name: QQ 净化
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: netskao.wechatpurification
-Version: 1.3-6
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 708
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_1.3-6_iphoneos-arm.deb
-Size: 140028
-MD5sum: a89678798fe3d7cf6ca1f45133c5f220
-SHA1: 67e20c14eb385ecdbbf00b72ea73d4266d5ae680
-SHA256: c9bae69c0a625b142b83d7470ee5dbf75db1fd9fe427af281e5295dabd951bcc
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Description: 微信净化，还原聊天本质，干净的微信给你，详情看预览图
-Tag: purpose::extension, compatible::ios12, compatible::ios13
-Author: Netskao <admin@initnil.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Dev: netskao
-Icon: file:///Library/PreferenceBundles/WeChatPurification.bundle/WeChatPurification@2x.png
-Name: 微信 净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatscan
@@ -2839,21 +2845,21 @@ Name: Alderis Color Picker
 Support: https://hashbang.productions/support/
 
 Package: ws.hbang.common
-Version: 1.15.1
+Version: 1.15.3
 Architecture: iphoneos-arm
 Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 1912
+Installed-Size: 1776
 Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
-Filename: ./debs/ws.hbang.common_1.15.1_iphoneos-arm.deb
-Size: 222316
-MD5sum: 463f08050142b9b1d1cb6a4391dac2cf
-SHA1: 221465b6696a7418b9f09aaf07228a5e432ddbd5
-SHA256: a76aeedb3197ceb00ef0547545db62dd6feb175b21bf3b763246b853f22cc4ac
+Filename: ./debs/ws.hbang.common_1.15.3_iphoneos-arm.deb
+Size: 213218
+MD5sum: 5450afe516bc2abd5fec36faeb06c32f
+SHA1: 23fd58d968b6159b6c4ec97ee85c60415abe4bf7
+SHA256: c86419285c356fb76d6a88f914e528bd8f353a5067016096f69d64fe9b1f2f61
 Section: Development
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios5.0
 Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://repo.chariz.com/package/ws.hbang.common/
+Depiction: https://chariz.com/get/cephei
 Dev: hbang
 Icon: https://chariz.com/cdn/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
