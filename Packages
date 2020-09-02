@@ -1078,6 +1078,23 @@ Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
 Name: Generator Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
+Package: com.michael.generatorautosetter
+Version: 0.3.8
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 12.3), com.michael.dimentio, preferenceloader
+Filename: ./debs/com.michael.generatorautosetter_0.3.8_iphoneos-arm.deb
+Size: 11088
+MD5sum: 5569a7737857b06cef5f7bc7adec3b5d
+SHA1: 4885cc6359c795436e4949bc12adfd2413587ee6
+SHA256: 75dc6e008da787bb0173636b2c51686a81c84441a2c7c11b5981bc5e49509a2c
+Section: Tweaks
+Description: Auto set your generator when jailbreaking!
+Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
+Name: Generator Auto Setter
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.substrated
 Version: 0.9.7110-1
 Architecture: iphoneos-arm
@@ -1088,6 +1105,21 @@ Size: 2537512
 MD5sum: ac282170c33fec72a434cc83ea5b01a1
 SHA1: cebd7f1995b29f67c33828afb0833ce920a74c71
 SHA256: 38624fcd0cf777f75cfad48b942d584e9ddfbfc280cb76cb87de1c38d7aaa210
+Section: System
+Description: Simple gadget that allows switching from unc0ver to checkra1n without having to manually reinstall Cydia Substrate.
+Author: Halo_Michael <yc992147156@me.com>
+Name: Unc0ver Support Package
+
+Package: com.michael.substrated
+Version: 0.9.7111
+Architecture: iphoneos-arm
+Maintainer: Halo_Michael <yc992147156@me.com>
+Depends: dpkg, firmware(>=12.3)
+Filename: ./debs/com.michael.substrated_0.9.7111_iphoneos-arm.deb
+Size: 2534608
+MD5sum: b7dba7f288cd4a7501ac197cd0acdeed
+SHA1: 7e972aae8de716747346c0a1535b3a61c4fb4430
+SHA256: e7ffff97f979c7febe5d9d3439a4896dddf5ae34917873a589c30b8aa49319ee
 Section: System
 Description: Simple gadget that allows switching from unc0ver to checkra1n without having to manually reinstall Cydia Substrate.
 Author: Halo_Michael <yc992147156@me.com>
@@ -1375,6 +1407,22 @@ Size: 123902
 MD5sum: 6b47b6abc6d829d53dbba358fd9853ce
 SHA1: 50c4facc055aeb21b246f57471397da6986426ac
 SHA256: 4c97e87b307136a59af93b5b4e323dd310dcf6e70889a232f789f42d5d5eb5b7
+Section: Tweaks
+Description: Super Jailbreak detection bypass!
+Author: Baw Appie <pp121324@gmail.com>
+Name: A-Bypass
+
+Package: com.rpgfarm.a-bypass
+Version: 1.3.4
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 960
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist
+Filename: ./debs/com.rpgfarm.a-bypass_1.3.4_iphoneos-arm.deb
+Size: 124768
+MD5sum: 4d9aee150ae66ae95096f59b1031f88a
+SHA1: 110c614c033578eed4ed369374acca2ed16890f4
+SHA256: b4b2e51cf3d19fb3b1aef34f152c822ae765426b935b2953d680c7e7b0b57b0a
 Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
@@ -1714,6 +1762,25 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Installer
+
+Package: dpkg
+Version: 1.19.7-2
+Architecture: iphoneos-arm
+Essential: yes
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 4424
+Pre-Depends: tar (>= 1.23)
+Depends: bash, bzip2, coreutils-bin (>= 8.31), diffutils, file (>= 5.35), findutils, gzip, ldid (>= 2:2.1.1), lzma, ncurses, tar, xz
+Filename: ./debs/dpkg_1.19.7-2_iphoneos-arm.deb
+Size: 527468
+MD5sum: b494669f934170612efc35af8f605cab
+SHA1: c043eb82e1c270a0297f5f30d01984db0b0687b9
+SHA256: dc08c9ba22bd73ecacdb35a4337cb8b103c41c4d224c536a4a999761bb3db454
+Section: Packaging
+Priority: required
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Description: package maintainance tools from Debian
+Name: Debian Packager
 
 Package: github.io.gfp.AltStoreAlpha
 Version: 1.4a9
@@ -2530,6 +2597,27 @@ Dev: netskao
 Name: Alipay Steps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: netskao.alipaysteps
+Version: 1.2-5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 522
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/netskao.alipaysteps_1.2-5_iphoneos-arm.deb
+Size: 102752
+MD5sum: fff1f4f200bf2d2f151b83c0dbe8c04c
+SHA1: f95be19e25695503f13820d970b8fd186e2c868a
+SHA256: fbb6f64d13bfa7dcd7a7c58886a3af70c36d3d2bc5d7316c0a19fedc2e2c8888
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
+Description: 支付宝自定义步数修改，实时修改，设置位于支付宝-设置-右上角
+Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
+Dev: netskao
+Name: Alipay Steps
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: netskao.awemepurification
 Version: 1.6-1
 Architecture: iphoneos-arm
@@ -2545,6 +2633,28 @@ SHA256: 0ac2f2f21c890d5c39e89d50eee95be82a048a4f8144019f53f74afc7a5ad36a
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
 Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！「摇一摇手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
+Tag: purpose::extension, compatible::ios12, compatible::ios13
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
+Dev: netskao
+Name: 抖音 净化
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.awemepurification
+Version: 1.6-5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 590
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.awemehack
+Filename: ./debs/netskao.awemepurification_1.6-5_iphoneos-arm.deb
+Size: 118590
+MD5sum: 2919ad120b0bc42ec034e422521a3851
+SHA1: 4f88024d0fff4bbad1f95adc52e7f7ee091b4547
+SHA256: 01dd315e4f2d726cb3dad031e5414fb68fc91a1e6f01ab6bd1c1ba51ece791d5
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
+Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！在抖音-设置界面可开启关闭甩一甩，后台模糊。「甩一甩手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
 Tag: purpose::extension, compatible::ios12, compatible::ios13
 Author: Netskao <admin@initnil.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
@@ -2617,6 +2727,28 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurifica
 Dev: netskao
 Icon: file:///Library/PreferenceBundles/QQPurificationPrefs.bundle/icon@2x.png
 Name: QQ 净化
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.wechatpurification
+Version: 1.3-9
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 760
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/netskao.wechatpurification_1.3-9_iphoneos-arm.deb
+Size: 161140
+MD5sum: 7b8d50a8926d149b6384842b9dd042ad
+SHA1: 488ec929fb7bcda4522c73771160b1d8a60b64ee
+SHA256: f36ea4ddb15cf3344157425fecf557001f87c08916ca7e7df067cadd294e411f
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Description: 微信净化，还原聊天本质，干净的微信给你，详情看预览图
+Tag: purpose::extension, compatible::ios12, compatible::ios13
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Dev: netskao
+Icon: file:///Library/PreferenceBundles/WeChatPurification.bundle/WeChatPurification@2x.png
+Name: 微信 净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatscan
@@ -2899,6 +3031,29 @@ Size: 237256
 MD5sum: d3a55be9fcd2c4d8e1d76ba1c46e343f
 SHA1: 3cf4ede1b85ae9675b2e268c16dd60996b0d522d
 SHA256: 1e2ee41bc89f386684ed7e667f660b32d716bcb9fdd153423f32e387ce28228e
+Section: Tweaks
+Priority: optional
+Homepage: https://cydia.editornah.top
+Description: 启动页屏蔽、消息防撤回、自动抢红包、callkit语音
+Tag: purpose::extension, compatible::ios13
+Author: Editornah
+Depiction: https://cydia.editornah.top/depiction/DingTalkHelperX2/index.html
+Dev: EditorNah
+Icon: file:///Library/PreferenceLoader/Preferences/DingTalkHelperX.png
+Name: DingTalkHelperX2
+Sponsor: Editornah <mxiaohan.2018@gmail.com>
+
+Package: x.DingTalkHelperX2
+Version: 2.1.3
+Architecture: iphoneos-arm
+Maintainer: Editornah<mxiaohan.2018@gmail.com>
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Conflicts: com.kevll.dingtalkhelper,x.DingTalkHelperX
+Filename: ./debs/x.DingTalkHelperX2_2.1.3_iphoneos-arm.deb
+Size: 237248
+MD5sum: 5087264991abd6856c31bd42fdaa1022
+SHA1: 738cac62b5045f2741268c0fd4b59b0bbf42797f
+SHA256: 1b85c7f6fab4209f04983bf297f3e013cc8027c2e4bef144a11210faa1640b92
 Section: Tweaks
 Priority: optional
 Homepage: https://cydia.editornah.top
