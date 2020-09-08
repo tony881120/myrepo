@@ -292,6 +292,31 @@ Dev: cannathea
 Name: Apple File Conduit "2" (iOS 11+, arm64)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.cannathea.afc2d-arm64
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 671
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./debs/com.cannathea.afc2d-arm64_1.1.1_iphoneos-arm.deb
+Size: 19468
+MD5sum: 63342514d0bb6350d54a327150da1c32
+SHA1: 1e65a268ce9fd57ffc41cc9c563858581ec69c57
+SHA256: 5293c7908a4b6ba39bd1e0f189dcb25222b1d2831f4d001011a88d5e73312dc0
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
+Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Dev: cannathea
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.cemck.photon
 Version: 1.0.6
 Architecture: iphoneos-arm
@@ -1300,6 +1325,24 @@ Size: 5052
 MD5sum: 8a9810dc80973d249b26dd5166a5c795
 SHA1: 15f6aaa8e86d6c3e593cef85fcb4917e025c6dce
 SHA256: 886d888c90b8749fb96c4d8c4ef720017c517b408024d25a94f12361df6acfbe
+Section: Tweaks
+Description: Make mDNSResponder care more about /etc/hosts
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
+Name: LetMeBlock
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
+
+Package: com.ps.letmeblock
+Version: 0.0.7.5
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/com.ps.letmeblock_0.0.7.5_iphoneos-arm.deb
+Size: 5068
+MD5sum: 529fde6b36c7de2c777faf94b21f898d
+SHA1: 8f8d192410d312947681063c7092c2624d62ffa9
+SHA256: 94e0df2ebfb2ec0332bb3e23ba362c23d76fedbc67c1f158497c1fb42c62b69d
 Section: Tweaks
 Description: Make mDNSResponder care more about /etc/hosts
 Author: PoomSmart
@@ -2355,6 +2398,27 @@ Size: 42046
 MD5sum: 6ef3e0bd5be8edbff712fe3cd08a06f2
 SHA1: 98e6cd88b193962ee9c4fbd97d124a04dc32ceb8
 SHA256: 2408fcab9be1576efe7e42cc2390f79e3de9b092175796a3444c95496ac8c7f3
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
+Name: AppSync Unified
+
+Package: net.angelxwind.appsyncunified
+Version: 84.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 496
+Depends: firmware (>= 5.0), firmware (<= 13.7), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Provides: appsync
+Filename: ./debs/net.angelxwind.appsyncunified_84.0_iphoneos-arm.deb
+Size: 42058
+MD5sum: 979c1973c503b9eb4e9e1151d97c4421
+SHA1: e7b5a9a5fe95eef270b1d0e2e70a40a6567a1636
+SHA256: 41dd591135281ca31ed5564ffa283f126bc0da1818691c8601abe6d7c18b7fff
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
