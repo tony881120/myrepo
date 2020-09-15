@@ -352,6 +352,43 @@ Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.13-2
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.13-2_iphoneos-arm.deb
+Size: 682110
+MD5sum: c768fba2f92615fc74df16bca183ec38
+SHA1: f532ab2adf5a72008dc0b41db9cb99c638a9705e
+SHA256: a395d2c0b4a3b39bc2110038e4014e0783fb3baa3f0e83c818c54a3ad15f7798
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Name: AppStore++
+
+Package: com.cokepokes.letsdowngrade
+Version: 0.1-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debs/com.cokepokes.letsdowngrade_0.1-2_iphoneos-arm.deb
+Size: 61092
+MD5sum: bff4ab9d5db9b3d9ca44537cc41b43e0
+SHA1: 9d57b3802e2db213bbbaedd9ad0b95d2d44b3848
+SHA256: a8ce03aee404d3dc41e9c9c4603d46d175ad442f64819f554efdc45c80b07e11
+Section: Development
+Priority: optional
+Description: Library to allow developers to downgrade AppStore apps
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: CokePokes <cokepokes@gmail.com>
+Dev: cokepokes
+Name: letsdowngrade
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.cokepokes.libnotifications
 Version: 0.3-2
 Architecture: iphoneos-arm
@@ -1471,6 +1508,22 @@ Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
 Name: A-Bypass
 
+Package: com.rpgfarm.a-bypass
+Version: 1.3.5
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 960
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist
+Filename: ./debs/com.rpgfarm.a-bypass_1.3.5_iphoneos-arm.deb
+Size: 125508
+MD5sum: 6862e8aac2e8d172dc75c7ce40b3d497
+SHA1: 424331b0eaecf6449d46cbc939303154b15e8698
+SHA256: 2b5ca8dd8b74c9302b911d605f8b848189fe8f830944d5681c500f8c9b77000a
+Section: Tweaks
+Description: Super Jailbreak detection bypass!
+Author: Baw Appie <pp121324@gmail.com>
+Name: A-Bypass
+
 Package: com.ryleyangus.libertylite
 Version: 0.2.10
 Architecture: iphoneos-arm
@@ -1571,6 +1624,23 @@ Size: 8332186
 MD5sum: 504f22fc6da2a571416ca802ca0a2d71
 SHA1: 3672cb53c03f3307e582a19abbf8fc734ac52b12
 SHA256: 6ee5f9f8093acc8c74c7a231a916664ff4cec203368fc7e093e2caa854e4be2c
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
+Package: com.tigisoftware.filza64bit
+Version: 3.8.0-24
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 21680
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./debs/com.tigisoftware.filza64bit_3.8.0-24_iphoneos-arm.deb
+Size: 8360824
+MD5sum: 19d9a1a731da869c042e8f4d53edced4
+SHA1: c2062f731fded8947933312fc6402466b49f5faf
+SHA256: 7718dae2b4fe37810d88d9cf3801d19ad3030713d95690ae992573c0dcf445d5
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
@@ -3051,6 +3121,27 @@ Size: 213218
 MD5sum: 5450afe516bc2abd5fec36faeb06c32f
 SHA1: 23fd58d968b6159b6c4ec97ee85c60415abe4bf7
 SHA256: c86419285c356fb76d6a88f914e528bd8f353a5067016096f69d64fe9b1f2f61
+Section: Development
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios5.0
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://chariz.com/get/cephei
+Dev: hbang
+Icon: https://chariz.com/cdn/icon/cephei/icon@3x.png
+Name: Cephei Tweak Support
+Support: https://hashbang.productions/support/
+
+Package: ws.hbang.common
+Version: 1.16
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 2012
+Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.16_iphoneos-arm.deb
+Size: 237912
+MD5sum: 8e88f31a35e39e72ad670c8269a3630a
+SHA1: 0e100a44b977053deb2543317c2ccd4ff02ca3c8
+SHA256: b9691fec11afd5bb32fa7bae0efe5bea997566645ef9fe59f6c23f6b72ea3ea7
 Section: Development
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios5.0
