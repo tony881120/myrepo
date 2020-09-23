@@ -1,0 +1,9 @@
+Origin: A-CaptainWangHao's Debs
+Label: CaptainWang
+Suite: stable
+Version: 3.0
+Codename: A-CaptainWangHao
+Architectures: iphoneos-arm
+Components: main
+Description: A-CaptainWangHao's Debs
+
