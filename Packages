@@ -719,6 +719,29 @@ Icon: file:///Library/PreferenceBundles/HalFiPadPrefs.bundle/icon@2x.png
 Name: HalFiPad
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.hius.halfipad
+Version: 3.7.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 551
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11, com.hius.halfipadvn
+Filename: ./debs/com.hius.halfipad_3.7.1_iphoneos-arm.deb
+Size: 68218
+MD5sum: 0af6807a0476f62d31dea70f887e22b0
+SHA1: fe772f8eda45c5c92897ebd8f004c92728a62c9b
+SHA256: ccdabce642840f91925f220414f5a2d08853f33ff6bb11230ab131849b74a24e
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
+Description: Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
+Tag: purpose::extension, compatible::ios13
+Author: Hius <h.h.haiduog@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
+Dev: hius
+Icon: file:///Library/PreferenceBundles/HalFiPadPrefs.bundle/icon@2x.png
+Name: HalFiPad
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.iarrays.calllogpro8
 Version: 12.0-beta-3
 Architecture: iphoneos-arm
@@ -1220,6 +1243,23 @@ Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
 Name: Generator Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
+Package: com.michael.generatorautosetter
+Version: 0.4.2
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 12.0), com.michael.dimentio, preferenceloader
+Filename: ./debs/com.michael.generatorautosetter_0.4.2_iphoneos-arm.deb
+Size: 15452
+MD5sum: 128cbca6b4e90160b008bf55162b4f62
+SHA1: 295b9574805b97bda5377e8ae13411d80a045f72
+SHA256: 43020202682431a64077d8713987f528b0ff1b6c46ed53d648a9e1c93dfa9bed
+Section: Tweaks
+Description: Auto set your generator when jailbreaking!
+Author: halo_michael <yc992147156@me.com>
+Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
+Name: Generator Auto Setter
+Sponsor: halo_michael <yc992147156@me.com>
+
 Package: com.michael.substrated
 Version: 0.9.7110-1
 Architecture: iphoneos-arm
@@ -1397,6 +1437,30 @@ Description: Support tweak for CC modules!
 Author: opa334
 Name: CCSupport
 
+Package: com.opa334.ccsupport
+Version: 1.2.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 213
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./debs/com.opa334.ccsupport_1.2.3_iphoneos-arm.deb
+Size: 37348
+MD5sum: 7641a9af1523a38ef69a51377e9e7ad6
+SHA1: d76c20915cf522f6409ef18a6e4c6ac6029b5cf3
+SHA256: 3f387a4fd614141e1ace810e929629e7f882c4a357bad11e9d658d155e88b12d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Dev: opa334
+Name: CCSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.opa334.choicy
 Version: 1.2.4-2
 Architecture: iphoneos-arm
@@ -1517,6 +1581,27 @@ Section: Tweaks
 Description: Jailbroken version of AltStore with on device signing feauture.
 Author: Riley Testut - T7Y
 Name: AltStore (ALPHA)
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.10~beta1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.10_beta1_iphoneos-arm.deb
+Size: 38344
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Dev: rpetrich
+Name: RocketBootstrap
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpetrich.rocketbootstrap
 Version: 1.0.9
@@ -1776,6 +1861,25 @@ Size: 223554
 MD5sum: 7d68916c4d9efae5bfe14521dac908d0
 SHA1: 9fa6a89abd7ec1aff20005a518fdf92509e056d5
 SHA256: f6101d03581a811de0425620079ffceb0670b255f78f273be6dbf66e69db32ed
+Section: Tweaks
+Description: Pasteboard shortcuts on your dock!
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.dockx
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
+Name: DockX
+
+Package: com.udevs.dockx
+Version: 2.2.3
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 1368
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0), firmware(>=12.0), ws.hbang.alderis
+Conflicts: com.restiveconch.actionbar
+Filename: ./debs/com.udevs.dockx_2.2.3_iphoneos-arm.deb
+Size: 262070
+MD5sum: 88c7ef05d2144ee3c3bc010d5743985d
+SHA1: 67e834d950e26bb687c3f6b11e603bfcfc3d8c43
+SHA256: bf732394382d4a1c4ff8d159ea67c120fc30012a2318f2d897dd70d6a42639ef
 Section: Tweaks
 Description: Pasteboard shortcuts on your dock!
 Author: udevs
@@ -2455,6 +2559,23 @@ Author: AhmedBafkir <prooxy0@gmail.com>
 Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
 Name: DLEasy
 
+Package: me.ahmedbafkir.dleasy
+Version: 2.10.3.1
+Architecture: iphoneos-arm
+Maintainer: AhmedBafkir <prooxy0@gmail.com>
+Installed-Size: 12088
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Filename: ./debs/me.ahmedbafkir.dleasy_2.10.3.1_iphoneos-arm.deb
+Size: 2060258
+MD5sum: 761de1f415ae9e3092b2dbf928ed9b7c
+SHA1: 9cf317b8460c742c5fe404a5a92647aa8c73b97b
+SHA256: 50a0a37d6d7bdfd8d4e9eef383d2ff2ee32baa1a8ac9c137e9696a00de0d6910
+Section: Tweaks
+Description: Download/Share images & videos from social apps easily!
+Author: AhmedBafkir <prooxy0@gmail.com>
+Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
+Name: DLEasy
+
 Package: me.lochook.app
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -2623,6 +2744,26 @@ Dev: limneos
 Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtectPrefs@2x.png
 Name: BioProtect XS (iOS 12/13)
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: net.limneos.bioprotectxs
+Version: 4.4-55
+Architecture: iphoneos-arm
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2268
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debs/net.limneos.bioprotectxs_4.4-55_iphoneos-arm.deb
+Size: 622236
+MD5sum: 6fe203bd9bd6f409cd03f985b2ace3e2
+SHA1: 3ce7606d4f46b8bb4aa57af15091791016d891ea
+SHA256: 9c09a7b80f771b5944069d56656cf18f1d93898e746cefe34dc63ef93264db82
+Section: Tweaks
+Description: Protect your apps with Touch/Face ID!
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://limneos.net/bioprotectxs
+Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtect.png
+Mainlibmd5: 54ccaef76b0a8b392f7f2513817d3820
+Name: BioProtect XS (iOS 12/13)
 
 Package: net.limneos.callbarxs
 Version: 3.2-143
@@ -2849,6 +2990,28 @@ Size: 118590
 MD5sum: 2919ad120b0bc42ec034e422521a3851
 SHA1: 4f88024d0fff4bbad1f95adc52e7f7ee091b4547
 SHA256: 01dd315e4f2d726cb3dad031e5414fb68fc91a1e6f01ab6bd1c1ba51ece791d5
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
+Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！在抖音-设置界面可开启关闭甩一甩，后台模糊。「甩一甩手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
+Tag: purpose::extension, compatible::ios12, compatible::ios13
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
+Dev: netskao
+Name: 抖音 净化
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.awemepurification
+Version: 1.7-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1310
+Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: netskao.awemehack
+Filename: ./debs/netskao.awemepurification_1.7-1_iphoneos-arm.deb
+Size: 247734
+MD5sum: 686f0ac87ff81c1056423a8dbfa10bf3
+SHA1: 300a9665ad79389960c1b97cb3cc313ab9ad7b32
+SHA256: f7f2caa93bd081212c5a6e3a4eabd966a3726cfed8b52248e472b7a6929481a1
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
 Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！在抖音-设置界面可开启关闭甩一甩，后台模糊。「甩一甩手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
