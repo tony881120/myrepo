@@ -155,46 +155,21 @@ Name: Respring Assistant(快速注销+联网修复)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: cn.tinyapps.xgpspro
-Version: 4.1.7
+Version: 4.2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 7421
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
 Replaces: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro,cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
-Filename: ./debs/cn.tinyapps.xgpspro_4.1.7_iphoneos-arm.deb
-Size: 2543662
-MD5sum: f16693f4fde8f3b0eb4e5457590f6143
-SHA1: b4ec1809166e0d3a85dcc2927cdd710d1ddb7d57
-SHA256: f4b2cb059e82063edb487846876fe11638d6adde32e7e26cd88f8cd2b9bd7f7b
+Filename: ./debs/cn.tinyapps.xgpspro_4.2_iphoneos-arm.deb
+Size: 2570452
+MD5sum: 555826451d2718d8c6c5c18546e7b5bf
+SHA1: 33fa0af43e511dee29a285a5c44b55642069a88f
+SHA256: 457215e24832085294b3a050b0a74f2dfb356a6527b4089787538d433ad818af
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
-Description: iOS 5.1.1~13.5 CHANGE your iPhone's location as you wish.
- A perfect match for Facebook, Twitter, WeChat, Pokemon GO, Uber and other location-based apps. 经典的iPhone定位修改伪装插件，适合微信、口袋妖怪、微博、QQ、陌陌、美团、钉钉、口袋助理等地理位置应用。support all iOS versions(5.1.1~13.5), and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro)。支持所有iOS系统(5.1.1~13.5)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro), iPad, iPod Touch. 完美兼容最新13.5越狱
-Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Author: Sheng Wen <tinyapps@foxmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
-Dev: shengwen
-Icon: file:///Applications/XGPSPro.app/Icon.png
-Name: Fake GPS Pro(定位修改器)-FAKE your iPhone's location as you wish
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: cn.tinyapps.xgpspro
-Version: 4.1.9
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 7121
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
-Replaces: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro,cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
-Filename: ./debs/cn.tinyapps.xgpspro_4.1.9_iphoneos-arm.deb
-Size: 2409736
-MD5sum: 32a06d821e31c760d157166829957ded
-SHA1: 549f7de4c6a936ee660b5c4cb2a0face4fdddd4d
-SHA256: 3276dc0da6544683f4cf848c0ad41f2ad8073a38daa2d6931d9bc9fc04a9ff89
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
-Description: iOS 5.1.1~13.5 CHANGE your iPhone's location as you wish. A perfect match for Facebook, Twitter, WeChat, Pokemon GO, Uber and other location-based apps. 经典的iPhone定位修改伪装插件，适合微信、口袋妖怪、微博、QQ、陌陌、美团、钉钉、口袋助理等地理位置应用。support all iOS versions(5.1.1~13.5)  and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XS/XR/XS Max/11/11Pro)。支持所有iOS系统(5.1.1~13.5)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XS/XR/XS Max/11/11Pro), iPad, iPod Touch. 完美兼容最新13.5越狱。
+Description: iOS 5.1.1~13.5 CHANGE your iPhone's location as you wish. A perfect match for Facebook, Twitter, WeChat, Pokemon GO, Uber and other location-based apps. 经典的iPhone定位修改伪装插件，适合微信、口袋妖怪、微博、QQ、陌陌、美团、钉钉、口袋助理等地理位置应用。support all iOS versions(5.1.1~13.5), and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro)。支持所有iOS系统(5.1.1~13.5)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro), iPad, iPod Touch. 完美兼容最新13.5越狱
 Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
 Author: Sheng Wen <tinyapps@foxmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
@@ -292,31 +267,6 @@ Dev: c1d3r
 Name: PullOver Pro
 
 Package: com.cannathea.afc2d-arm64
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 672
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: cy+cpu.arm64, mobilesubstrate, ldid
-Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/com.cannathea.afc2d-arm64_1.1_iphoneos-arm.deb
-Size: 20418
-MD5sum: 5faf9cc4ca15e23015417e120fd6cecc
-SHA1: 804958c17908094008ecf2edfc89756dc2478cc7
-SHA256: ed5c840759c4bcc9b7b014dacf3cf8dcf23e5e97fe8eab03f97b1a8ab47cbf03
-Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
-Description: Allow full file-system access over USB for arm64 devices, especially for those using a KPPLess jailbreak.
-Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12
-Author: saurik, Cannathea <csupport@cannathea.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
-Dev: cannathea
-Name: Apple File Conduit "2" (iOS 11+, arm64)
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.cannathea.afc2d-arm64
 Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -357,24 +307,6 @@ Description: True Ambient Display
 Author: cemck
 Icon: file:///Library/PreferenceBundles/PhotonPrefs.bundle/icon_prefs@3x.png
 Name: Photon
-
-Package: com.cokepokes.appstoreplusplus
-Version: 0.9.12
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.12_iphoneos-arm.deb
-Size: 617924
-MD5sum: 3802ee4e3a8e09c1cc6f0b7088e2efe2
-SHA1: dba76c9b9ddb927cfe4d3c7ae2c63c0672f7dc6a
-SHA256: 714cb241b9c278bf349fe8b4dbcb08fe32c7151dba4910e49cd3db23c01e40c9
-Section: Tweaks
-Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
-Author: CokePokes
-Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Name: AppStore++
 
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.13-2
@@ -674,16 +606,16 @@ Name: libCSColorPicker
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=libcscolorpicker
 
 Package: com.hius.gesturesi11
-Version: 3.5.2
+Version: 3.6.4
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 282
+Installed-Size: 326
 Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
-Filename: ./debs/com.hius.gesturesi11_3.5.2_iphoneos-arm.deb
-Size: 23594
-MD5sum: abe5758f1d1c13bd66823f15c70aaa88
-SHA1: 1fba64e8be240097a5cafebbc176202fac22f7b5
-SHA256: 66011936a115fca02cbe21f72c90a95316f2a09ebda615d30bd8324c6329b07e
+Filename: ./debs/com.hius.gesturesi11_3.6.4_iphoneos-arm.deb
+Size: 32318
+MD5sum: fe7bf31e79207b253b021cfee54ec369
+SHA1: 4fbace6ca6943352fab5f4028d8804727815f23a
+SHA256: f69de441831655b59157b93e50963c27ee703d0864ba369dc38c9a7a332e8435
 Section: Tweaks
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gesturesi11Dp
@@ -697,40 +629,17 @@ Name: Gesturesi11
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.hius.halfipad
-Version: 3.5.6
+Version: 3.7.6
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 601
+Installed-Size: 559
 Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), preferenceloader
 Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11, com.hius.halfipadvn
-Filename: ./debs/com.hius.halfipad_3.5.6_iphoneos-arm.deb
-Size: 56098
-MD5sum: 88b7229106b83e8446b11c1413acd518
-SHA1: 1844c6b97f2502d297db4c128531a6191c1fa6be
-SHA256: 74312696e51d66d4ac82ad0558e273ad3a75f310cf2de1b103fd93e45d8e36f9
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
-Description: Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
-Tag: purpose::extension, compatible::ios13
-Author: Hius <h.h.haiduog@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
-Dev: hius
-Icon: file:///Library/PreferenceBundles/HalFiPadPrefs.bundle/icon@2x.png
-Name: HalFiPad
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.hius.halfipad
-Version: 3.7.1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 551
-Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11, com.hius.halfipadvn
-Filename: ./debs/com.hius.halfipad_3.7.1_iphoneos-arm.deb
-Size: 68218
-MD5sum: 0af6807a0476f62d31dea70f887e22b0
-SHA1: fe772f8eda45c5c92897ebd8f004c92728a62c9b
-SHA256: ccdabce642840f91925f220414f5a2d08853f33ff6bb11230ab131849b74a24e
+Filename: ./debs/com.hius.halfipad_3.7.6_iphoneos-arm.deb
+Size: 65670
+MD5sum: 8758f32af847c52d6c3aac3b426bb159
+SHA1: 8733d5358f303614f5486dba7d73b719384c9bc8
+SHA256: a97eb17e6d1e6831b72334768fbf85db3501f7cbdb105e349f1a8854e754cf81
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
 Description: Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
@@ -893,15 +802,15 @@ Author: Johnzaro <johnzrgnns@gmail.com>
 Name: NetworkSpeed13
 
 Package: com.julioverne.cydown
-Version: 7.1.0
+Version: 7.1.1
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Filename: ./debs/com.julioverne.cydown_7.1.0_iphoneos-arm.deb
-Size: 4325614
-MD5sum: abfcd6c91010d2ffc72575a5afa59d96
-SHA1: 8a319c42088dd119d506c40648ce6304dc342dbd
-SHA256: e7c908c61d146c2d22e68db6488162111ef62b8fa61c2de1744c977ec7f5a138
+Filename: ./debs/com.julioverne.cydown_7.1.1_iphoneos-arm.deb
+Size: 4358056
+MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
+SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
+SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
@@ -959,6 +868,24 @@ Description: Re-Active Pangu 9.3.x Jailbreak Offline, Install JailbreakMe 9.3.x 
 Author: julioverne
 Depiction: http://julioverne.github.io/description.html?id=com.julioverne.jbme93xwebclip
 Name: JBMe 9.3.x Webclip
+
+Package: com.julioverne.ntspeed
+Version: 0.2~beta7
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.ntspeed_0.2_beta7_iphoneos-arm.deb
+Size: 110788
+MD5sum: ef362c4050a24743dafc91feb02cac45
+SHA1: 55faba4da01bbb88f5f9d68f79516540cef48032
+SHA256: ef5cf1285d1fecf42e554a900f09b407c6012af7055bcc88d58a8743acb5bfa3
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: See Active Traffic Network Speed
+Author: julioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ntspeed
+Icon: file:///Library/PreferenceBundles/NtSpeedSettings.bundle/icon@2x.png
+Name: NtSpeed
 
 Package: com.kingpuffdaddi.control-center.ccvpn
 Version: 1.0.4
@@ -1127,28 +1054,6 @@ Name: LocalIAPStore 内购破解
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/LocalIAPStoresileo
 
 Package: com.magicsign.deb
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 7520
-Depends: firmware (>= 12.0)
-Filename: ./debs/com.magicsign.deb_1.1_iphoneos-arm.deb
-Size: 3028566
-MD5sum: 31fda6063bd316520d06ad56e08b5232
-SHA1: 0158dda27742a8c5e4ef7d68e6e36517fbbb35a0
-SHA256: e8cb18fe2748a864bf2f5b6239d17ba15b76c300d0d37920e9ea8ae0e68e9829
-Section: Utilities
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magicsignDp
-Description: application signing tool
-Tag: purpose::uikit, compatible::ios12, compatible::ios13
-Author: ios-tool <admin@ios-tool.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magicsignDp
-Dev: ios-tool
-Icon: file:///Applications/magicsign.app/AppIcon60x60@2x.png
-Name: 魔力签 MagicSign
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.magicsign.deb
 Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -1193,57 +1098,6 @@ Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 Name: ReProvision
 
 Package: com.michael.generatorautosetter
-Version: 0.3.7
-Architecture: iphoneos-arm
-Maintainer: halo_michael <yc992147156@me.com>
-Depends: firmware (>= 12.3), com.michael.dimentio, preferenceloader
-Filename: ./debs/com.michael.generatorautosetter_0.3.7_iphoneos-arm.deb
-Size: 11084
-MD5sum: 1800091726522e07bf1bd2ff27fca197
-SHA1: f5041a7ff75ea4c5d6702f0b39fda16c79d0f299
-SHA256: d0f60e8ed7b9198844373a60813a5dc45aebfc8da9da1c5a1e76edb3c0e2d3c1
-Section: Tweaks
-Description: Auto set your generator when jailbreaking!
-Author: halo_michael <yc992147156@me.com>
-Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
-Name: Generator Auto Setter
-Sponsor: halo_michael <yc992147156@me.com>
-
-Package: com.michael.generatorautosetter
-Version: 0.3.8
-Architecture: iphoneos-arm
-Maintainer: halo_michael <yc992147156@me.com>
-Depends: firmware (>= 12.3), com.michael.dimentio, preferenceloader
-Filename: ./debs/com.michael.generatorautosetter_0.3.8_iphoneos-arm.deb
-Size: 11088
-MD5sum: 5569a7737857b06cef5f7bc7adec3b5d
-SHA1: 4885cc6359c795436e4949bc12adfd2413587ee6
-SHA256: 75dc6e008da787bb0173636b2c51686a81c84441a2c7c11b5981bc5e49509a2c
-Section: Tweaks
-Description: Auto set your generator when jailbreaking!
-Author: halo_michael <yc992147156@me.com>
-Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
-Name: Generator Auto Setter
-Sponsor: halo_michael <yc992147156@me.com>
-
-Package: com.michael.generatorautosetter
-Version: 0.4.0
-Architecture: iphoneos-arm
-Maintainer: halo_michael <yc992147156@me.com>
-Depends: firmware (>= 12.0), com.michael.dimentio, preferenceloader
-Filename: ./debs/com.michael.generatorautosetter_0.4.0_iphoneos-arm.deb
-Size: 15452
-MD5sum: b90cfe588f8e2585b6cbfcf8fc8762d5
-SHA1: f0a9cf89b7c097b163fdb2ad218ca5be457ed195
-SHA256: 4038d9e8a04c66eb29fe09919388efccd7e6e1d2f59dd1db892c677d3a27b399
-Section: Tweaks
-Description: Auto set your generator when jailbreaking!
-Author: halo_michael <yc992147156@me.com>
-Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
-Name: Generator Auto Setter
-Sponsor: halo_michael <yc992147156@me.com>
-
-Package: com.michael.generatorautosetter
 Version: 0.4.2
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
@@ -1260,20 +1114,25 @@ Depiction: https://halo-michael.github.io/repo/info/generatorautosetter
 Name: Generator Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
-Package: com.michael.substrated
-Version: 0.9.7110-1
+Package: com.michael.localssh
+Version: 0.4.0
 Architecture: iphoneos-arm
-Maintainer: Halo_Michael <yc992147156@me.com>
-Depends: dpkg, firmware(>=12.3)
-Filename: ./debs/com.michael.substrated_0.9.7110-1_iphoneos-arm.deb
-Size: 2537512
-MD5sum: ac282170c33fec72a434cc83ea5b01a1
-SHA1: cebd7f1995b29f67c33828afb0833ce920a74c71
-SHA256: 38624fcd0cf777f75cfad48b942d584e9ddfbfc280cb76cb87de1c38d7aaa210
-Section: System
-Description: Simple gadget that allows switching from unc0ver to checkra1n without having to manually reinstall Cydia Substrate.
-Author: Halo_Michael <yc992147156@me.com>
-Name: Unc0ver Support Package
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 12.0), openssh(>= 8.0)
+Conflicts: com.midnightchips.localhostssh
+Replaces: com.midnightchips.localhostssh
+Provides: com.midnightchips.localhostssh
+Filename: ./debs/com.michael.localssh_0.4.0_iphoneos-arm.deb
+Size: 7196
+MD5sum: ae432269997f2c7c354c99f69bf9306b
+SHA1: a31497040bff28726452cc3ad2da98118fa407c6
+SHA256: b98dc24a21565ff7ed281c6165503bf3030a673b4eb04fee5d779b5cf8fc0ad8
+Section: Tweaks
+Description: Enable port 2222 on localhost for OpenSSH.
+ Support Checkra1n, Chimera , Odyssey and Unc0ver.
+Author: halo_michael <yc992147156@me.com>
+Name: LocalSSH
+Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.substrated
 Version: 0.9.7111
@@ -1419,42 +1278,23 @@ Dev: muirey03
 Name: libMRYIPC
 
 Package: com.opa334.ccsupport
-Version: 1.2.2
-Architecture: iphoneos-arm
-Maintainer: opa334
-Installed-Size: 272
-Depends: mobilesubstrate, firmware (>=11.0)
-Conflicts: com.ioscreatix.silo
-Replaces: com.ioscreatix.silo
-Provides: com.ioscreatix.silo
-Filename: ./debs/com.opa334.ccsupport_1.2.2_iphoneos-arm.deb
-Size: 35312
-MD5sum: 17ed6254911b6492bb12db7344a0eb9f
-SHA1: 39adc47176ff48dcb495804891fdaef9a453ae18
-SHA256: e41dd7d92ff44770680bec46c0badc8fd815b3b85884b85106a2a9e363e1a17a
-Section: Tweaks
-Description: Support tweak for CC modules!
-Author: opa334
-Name: CCSupport
-
-Package: com.opa334.ccsupport
-Version: 1.2.3
+Version: 1.3
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 213
+Installed-Size: 241
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Provides: com.ioscreatix.silo
-Filename: ./debs/com.opa334.ccsupport_1.2.3_iphoneos-arm.deb
-Size: 37348
-MD5sum: 7641a9af1523a38ef69a51377e9e7ad6
-SHA1: d76c20915cf522f6409ef18a6e4c6ac6029b5cf3
-SHA256: 3f387a4fd614141e1ace810e929629e7f882c4a357bad11e9d658d155e88b12d
+Filename: ./debs/com.opa334.ccsupport_1.3_iphoneos-arm.deb
+Size: 47594
+MD5sum: 183b4892c5040c910e489c355d806a9c
+SHA1: 4305514217b65b2d25bd235b704c9cc1d037e129
+SHA256: a6d88cecf96f34868a812c8467513f9e83fa512820cca9ab253054cd9f8d3a41
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Description: Support tweak for CC modules!
-Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Tag: purpose::extension
 Author: opa334 <opa334@protonmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Dev: opa334
@@ -1462,39 +1302,21 @@ Name: CCSupport
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.choicy
-Version: 1.2.4-2
+Version: 1.2.5
 Architecture: iphoneos-arm
 Maintainer: opa334 <opa334@protonmail.com>
 Installed-Size: 840
 Depends: mobilesubstrate, applist
-Filename: ./debs/com.opa334.choicy_1.2.4-2_iphoneos-arm.deb
-Size: 102492
-MD5sum: 18f2eea9bc7f374c71e3f6f7c2f231a9
-SHA1: 000ee2b93154cac5a493f36c4382ef1049525e6f
-SHA256: f09163f4854899a24af958871fd60317fed7ac5b0420f15c127b202021564d9b
+Filename: ./debs/com.opa334.choicy_1.2.5_iphoneos-arm.deb
+Size: 103090
+MD5sum: f04cc816d1f39ec6e63f0a5bc0d8aaf2
+SHA1: 8031125498dccdce32ce32562840dc71c50545a0
+SHA256: a2d30d91424bd5e4bc01275ce8667f6ae807e11246b587b1c8afb06fd82b957e
 Section: Tweaks
 Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
-
-Package: com.ps.letmeblock
-Version: 0.0.7.4
-Architecture: iphoneos-arm
-Maintainer: PoomSmart
-Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/com.ps.letmeblock_0.0.7.4_iphoneos-arm.deb
-Size: 5052
-MD5sum: 8a9810dc80973d249b26dd5166a5c795
-SHA1: 15f6aaa8e86d6c3e593cef85fcb4917e025c6dce
-SHA256: 886d888c90b8749fb96c4d8c4ef720017c517b408024d25a94f12361df6acfbe
-Section: Tweaks
-Description: Make mDNSResponder care more about /etc/hosts
-Author: PoomSmart
-Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
-Name: LetMeBlock
-Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
 Package: com.ps.letmeblock
 Version: 0.0.7.5
@@ -1552,18 +1374,18 @@ Icon: https://chariz.com/cdn/icon/swipeextenderx/icon@3x.png
 Name: SwipeExtenderX
 
 Package: com.rileytestut.altdaemon
-Version: 0.2
+Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Riley Testut
-Depends: firmware (>=12.2)
-Filename: ./debs/com.rileytestut.altdaemon_0.2_iphoneos-arm.deb
-Size: 873486
-MD5sum: da9adf74b588bad97fffa70d67273ead
-SHA1: d4d36d2b5d1877963c4ca4b2de952640105135bb
-SHA256: d5a225612d6fcacf886a67760db19932e908d90c41a37f4d046699ca9a2a61be
+Filename: ./debs/com.rileytestut.altdaemon_1.0_iphoneos-arm.deb
+Size: 597622
+MD5sum: 83660c2d5119ac6ecce72236b27cfae4
+SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
+SHA256: 1f5b35f4c402f6abab69e1833b260a4dfac156bbe1f9807b7aec4cd22665cc95
 Section: System
+Homepage: https://altstore.io
 Description: AltDaemon allows AltStore to install and refresh apps without a computer.
-Author: Riley Testut - T7Y
+Author: Riley Testut
 Name: AltDaemon
 
 Package: com.rileytestut.altstore.alpha.jailbroken
@@ -1602,59 +1424,6 @@ Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Dev: rpetrich
 Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.rpetrich.rocketbootstrap
-Version: 1.0.9
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 596
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.9_iphoneos-arm.deb
-Size: 37192
-MD5sum: 612e3c55752ee8cfc631e341c5618795
-SHA1: 6c2cb0c69f77b84090f76ebfa909bf64e40b11b9
-SHA256: 1f6aed403c557eec1ac93bdb2fc50fe5e9808f230783480ea488a2f42880642f
-Section: Tweaks
-Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Tag: purpose::extension, role::developer
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
-Dev: rpetrich
-Name: RocketBootstrap
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.rpgfarm.a-bypass
-Version: 1.3.2
-Architecture: iphoneos-arm
-Maintainer: Baw Appie <pp121324@gmail.com>
-Installed-Size: 960
-Depends: mobilesubstrate, com.muirey03.libmryipc, applist
-Filename: ./debs/com.rpgfarm.a-bypass_1.3.2_iphoneos-arm.deb
-Size: 123902
-MD5sum: 6b47b6abc6d829d53dbba358fd9853ce
-SHA1: 50c4facc055aeb21b246f57471397da6986426ac
-SHA256: 4c97e87b307136a59af93b5b4e323dd310dcf6e70889a232f789f42d5d5eb5b7
-Section: Tweaks
-Description: Super Jailbreak detection bypass!
-Author: Baw Appie <pp121324@gmail.com>
-Name: A-Bypass
-
-Package: com.rpgfarm.a-bypass
-Version: 1.3.4
-Architecture: iphoneos-arm
-Maintainer: Baw Appie <pp121324@gmail.com>
-Installed-Size: 960
-Depends: mobilesubstrate, com.muirey03.libmryipc, applist
-Filename: ./debs/com.rpgfarm.a-bypass_1.3.4_iphoneos-arm.deb
-Size: 124768
-MD5sum: 4d9aee150ae66ae95096f59b1031f88a
-SHA1: 110c614c033578eed4ed369374acca2ed16890f4
-SHA256: b4b2e51cf3d19fb3b1aef34f152c822ae765426b935b2953d680c7e7b0b57b0a
-Section: Tweaks
-Description: Super Jailbreak detection bypass!
-Author: Baw Appie <pp121324@gmail.com>
-Name: A-Bypass
 
 Package: com.rpgfarm.a-bypass
 Version: 1.3.5
@@ -1761,23 +1530,6 @@ Author: subdiox
 Name: StoreSwitcher 2
 
 Package: com.tigisoftware.filza64bit
-Version: 3.8.0-20
-Architecture: iphoneos-arm
-Maintainer: TIGI Software
-Installed-Size: 21632
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.8.0-20_iphoneos-arm.deb
-Size: 8332186
-MD5sum: 504f22fc6da2a571416ca802ca0a2d71
-SHA1: 3672cb53c03f3307e582a19abbf8fc734ac52b12
-SHA256: 6ee5f9f8093acc8c74c7a231a916664ff4cec203368fc7e093e2caa854e4be2c
-Section: Utilities
-Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
-Author: TIGI Software
-Name: Filza File Manager 64-bit
-
-Package: com.tigisoftware.filza64bit
 Version: 3.8.0-24
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
@@ -1829,44 +1581,6 @@ Author: t0mi <fritsch.weiding@yahoo.de>
 Depiction: https://repo.twickd.com/package/com.twickd.t0mi.cydiaplus
 Name: CydiaPlus
 Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydiaplus/native
-
-Package: com.udevs.dockx
-Version: 1.7.5
-Architecture: iphoneos-arm
-Maintainer: udevs
-Installed-Size: 964
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0), firmware(>=12.0), ws.hbang.alderis
-Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_1.7.5_iphoneos-arm.deb
-Size: 177580
-MD5sum: 9561642e8b5fc2c56f8e387fd443dbe3
-SHA1: 3dc6ad41caffca85d2f7e0b4dff11d6c15c8c530
-SHA256: 4ed27e47303e84e9d500c8d53d31c40bb38ab61c0fec13cc5a840c3dbe16f29c
-Section: Tweaks
-Description: Pasteboard shortcuts on your dock!
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.dockx
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
-Name: DockX
-
-Package: com.udevs.dockx
-Version: 2.1.3
-Architecture: iphoneos-arm
-Maintainer: udevs
-Installed-Size: 1208
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0), firmware(>=12.0), ws.hbang.alderis
-Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.1.3_iphoneos-arm.deb
-Size: 223554
-MD5sum: 7d68916c4d9efae5bfe14521dac908d0
-SHA1: 9fa6a89abd7ec1aff20005a518fdf92509e056d5
-SHA256: f6101d03581a811de0425620079ffceb0670b255f78f273be6dbf66e69db32ed
-Section: Tweaks
-Description: Pasteboard shortcuts on your dock!
-Author: udevs
-Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.dockx
-Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
-Name: DockX
 
 Package: com.udevs.dockx
 Version: 2.2.3
@@ -2543,23 +2257,6 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.10.2
-Architecture: iphoneos-arm
-Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12080
-Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.10.2_iphoneos-arm.deb
-Size: 2051246
-MD5sum: 2e31c1f3e1c1a642c6f7c8d12602aaae
-SHA1: e0bd010c95f97c55f7dece23b9e3d2ec437f1073
-SHA256: 690a94ef3b9f277184d2685f63b81a4939079dab6da84a6de87c54df79739a0e
-Section: Tweaks
-Description: Download/Share images & videos from social apps easily!
-Author: AhmedBafkir <prooxy0@gmail.com>
-Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
-Name: DLEasy
-
-Package: me.ahmedbafkir.dleasy
 Version: 2.10.3.1
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
@@ -2639,27 +2336,6 @@ Icon: file:///Applications/OTRLocation.app/icon.png
 Name: Anywhere!--虚拟定位
 
 Package: net.angelxwind.appsyncunified
-Version: 82.0
-Architecture: iphoneos-arm
-Maintainer: Karen/あけみ <karen@akemi.ai>
-Installed-Size: 496
-Depends: firmware (>= 5.0), firmware (<= 13.6.1), firmware (<< 12.0) | mobilesubstrate (>= 0.9.5100) | mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.0), firmware (<< 12.0) | mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
-Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
-Replaces: us.hackulo.appsync50
-Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_82.0_iphoneos-arm.deb
-Size: 42046
-MD5sum: 6ef3e0bd5be8edbff712fe3cd08a06f2
-SHA1: 98e6cd88b193962ee9c4fbd97d124a04dc32ceb8
-SHA256: 2408fcab9be1576efe7e42cc2390f79e3de9b092175796a3444c95496ac8c7f3
-Section: Tweaks
-Homepage: https://cydia.akemi.ai/
-Description: Enables the ability to install unsigned/fakesigned iOS applications.
-Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
-Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
-Name: AppSync Unified
-
-Package: net.angelxwind.appsyncunified
 Version: 84.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
@@ -2721,29 +2397,6 @@ Description: Most Advanced iOS Call Recorder Ever!
 Author: Elias Limneos <limneoselias@gmail.com>
 Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.audiorecorderxs
 Name: AudioRecorder XS (iOS 12/13)
-
-Package: net.limneos.bioprotectxs
-Version: 4.4-51
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 2224
-Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
-Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
-Filename: ./debs/net.limneos.bioprotectxs_4.4-51_iphoneos-arm.deb
-Size: 573462
-MD5sum: f95bbe8124e97b5c3635a3aca444824b
-SHA1: 007f8fa2360970f16d348c6fb59870bc2f74956a
-SHA256: abb13624de7fd002d6061658da9cb6805d11c9584fce4c0399e962f00e411b31
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bioprotectxsDp
-Description: Protect your apps with Touch/Face ID!
-Tag: purpose::extension, compatible::ios12, compatible::ios13
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bioprotectxsDp
-Dev: limneos
-Icon: file:///Library/PreferenceBundles/BioProtectPrefs.bundle/BioProtectPrefs@2x.png
-Name: BioProtect XS (iOS 12/13)
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.limneos.bioprotectxs
 Version: 4.4-55
@@ -2915,27 +2568,6 @@ Name: AlipayScan
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.alipaysteps
-Version: 1.2-3
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 532
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.alipaysteps_1.2-3_iphoneos-arm.deb
-Size: 98042
-MD5sum: 43fe663343e948094eaabcc1dd517506
-SHA1: bae7dc7af2e262883a3b7e030c3ab9d90edf1d46
-SHA256: c0d0803f0590731835b1a19bc7cc1bf7c347b697b1a1e4355d9531047ef9ddef
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
-Description: 支付宝自定义步数修改，实时修改，设置位于支付宝-设置-右上角
-Tag: purpose::extension, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
-Author: Netskao <netskao@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
-Dev: netskao
-Name: Alipay Steps
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: netskao.alipaysteps
 Version: 1.2-5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -2954,50 +2586,6 @@ Author: Netskao <netskao@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
 Dev: netskao
 Name: Alipay Steps
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: netskao.awemepurification
-Version: 1.6-1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 537
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_1.6-1_iphoneos-arm.deb
-Size: 103966
-MD5sum: 5a2023cc78b59cd298ef8ec64c6fbcd4
-SHA1: faf8de9258f4559e5a91f1fefb9a4089f1d4b36b
-SHA256: 0ac2f2f21c890d5c39e89d50eee95be82a048a4f8144019f53f74afc7a5ad36a
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
-Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！「摇一摇手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
-Tag: purpose::extension, compatible::ios12, compatible::ios13
-Author: Netskao <admin@initnil.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
-Dev: netskao
-Name: 抖音 净化
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: netskao.awemepurification
-Version: 1.6-5
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 590
-Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_1.6-5_iphoneos-arm.deb
-Size: 118590
-MD5sum: 2919ad120b0bc42ec034e422521a3851
-SHA1: 4f88024d0fff4bbad1f95adc52e7f7ee091b4547
-SHA256: 01dd315e4f2d726cb3dad031e5414fb68fc91a1e6f01ab6bd1c1ba51ece791d5
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
-Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！在抖音-设置界面可开启关闭甩一甩，后台模糊。「甩一甩手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
-Tag: purpose::extension, compatible::ios12, compatible::ios13
-Author: Netskao <admin@initnil.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
-Dev: netskao
-Name: 抖音 净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
@@ -3089,28 +2677,6 @@ Icon: file:///Library/PreferenceBundles/QQPurificationPrefs.bundle/icon@2x.png
 Name: QQ 净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: netskao.wechatpurification
-Version: 1.3-9
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 760
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_1.3-9_iphoneos-arm.deb
-Size: 161140
-MD5sum: 7b8d50a8926d149b6384842b9dd042ad
-SHA1: 488ec929fb7bcda4522c73771160b1d8a60b64ee
-SHA256: f36ea4ddb15cf3344157425fecf557001f87c08916ca7e7df067cadd294e411f
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Description: 微信净化，还原聊天本质，干净的微信给你，详情看预览图
-Tag: purpose::extension, compatible::ios12, compatible::ios13
-Author: Netskao <admin@initnil.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Dev: netskao
-Icon: file:///Library/PreferenceBundles/WeChatPurification.bundle/WeChatPurification@2x.png
-Name: 微信 净化
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: netskao.wechatscan
 Version: 1.2-1
 Architecture: iphoneos-arm
@@ -3151,17 +2717,17 @@ Description: arp, ifconfig, netstat, route, traceroute
 Name: Network Commands
 
 Package: openssh
-Version: 8.1-1
+Version: 8.3-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 9824
+Installed-Size: 10680
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: libssl1.1.1
-Filename: ./debs/openssh_8.1-1_iphoneos-arm.deb
-Size: 657520
-MD5sum: c78836e29190054ebd9e982fe0d5c71b
-SHA1: 645d378202cffa8c5725d16306868795096733bb
-SHA256: e31a640ee0f1f85f92d636ba7774d8d9847dff9c73ae8785e2bf4e9ced79ef22
+Filename: ./debs/openssh_8.3-1_iphoneos-arm.deb
+Size: 705064
+MD5sum: 65a335b031055f97a122b90ff8a04664
+SHA1: 05fcbd130b6f659baf3fd21e77fbe865976b28d3
+SHA256: bac3b6999fef92010b9237c8977345126a547fe6a6234db4c15a1648aef28da2
 Section: Networking
 Priority: important
 Description: secure remote access between machines
