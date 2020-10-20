@@ -494,20 +494,40 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
-Package: com.flex2areo.apptools13
-Version: 2.2.1
+Package: com.exile90.icleanerpro
+Version: 7.9.0~beta1
 Architecture: iphoneos-arm
-Maintainer: aReo <minikissbye@foxmail.com>
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: ./debs/com.exile90.icleanerpro_7.9.0_beta1_iphoneos-arm.deb
+Size: 4771624
+MD5sum: bf17296f5a9e00ab1a8ceecf6b0fa3c0
+SHA1: 3bcd8e0eab63024c892a66416575becd0b55d4fb
+SHA256: e14bbc7b1c0b5a54afd0780703828d9e6122f488960a65ac631990dd2619948f
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.flex2areo.apptools13
+Version: 2.2.2
+Architecture: iphoneos-arm
+Maintainer: aReo < >
 Depends: firmware (>=13.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools13_2.2.1_iphoneos-arm.deb
-Size: 246424
-MD5sum: c1a3db1c30ce6371fff4ee385d2a1588
-SHA1: 9d70f4d9666966b92fefc20504c47e4c485aecbe
-SHA256: a00d1e68ca8b3b2a05e31cfc81019c9415d3895df58bbd8e70172bd83061cec7
+Filename: ./debs/com.flex2areo.apptools13_2.2.2_iphoneos-arm.deb
+Size: 245558
+MD5sum: c528b50152cc9173e105c5801d9f1be3
+SHA1: b3989a0bb4af24c9eaca1080c1375443bb25917b
+SHA256: 117b1b907292768f5e57c9d9bb58a2083f4ac1ca84044725e1f79df00461ab3b
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: An icon tool.
-Author: aReo <minikissbye@foxmail.com>
+Author: aReo < >
 Depiction: https://flex2areo.github.io/depiction/web/com.flex2areo.apptools13.html
 Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools13/icon.png
 Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools13.json
@@ -962,17 +982,17 @@ Name: ReProvision汉化包
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/ReProvisioncnsileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.0.4
+Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 2140
+Installed-Size: 2204
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.0.4_iphoneos-arm.deb
-Size: 684872
-MD5sum: 85fe971d87dff9a2b4e9473d24ab5368
-SHA1: 236f35a62d3906985136573a564fdbe8fd0dfb68
-SHA256: 18a37fd2d141c3b8a1e16fd716cd673d526d2c9ee69481468b50575ffd233452
+Filename: ./debs/com.lenglengyu.shortvideodl_1.0.5_iphoneos-arm.deb
+Size: 713024
+MD5sum: 85fd3aaaf0dd46e834216cdf87ec6016
+SHA1: 0fc537736931564e83e2803a3e1bb48346933499
+SHA256: 6a116ff629da4338e987811e36531001dc06f09b1545e983da64ae51701e3e5d
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号、小程序视频下载。
 Author: lenglengyu
@@ -1512,6 +1532,27 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
 Name: Substrate Safe Mode
+
+Package: com.sky.translation
+Version: 1.4.9
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 728
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0), preferenceloader, com.spark.libsparkcolourpicker, ws.hbang.common (>= 1.11)
+Filename: ./debs/com.sky.translation_1.4.9_iphoneos-arm.deb
+Size: 114304
+MD5sum: a518254fe119de198ce21028f2cae204
+SHA1: 1d0515080f0b2de19cb21a5b58465711f8b8dc4a
+SHA256: 2d0c857fe85f2df0d9e811a823708d22f4d422ae9bd3260aed2d1e31021423b4
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=translationDp
+Description: Translation是一款快速选择翻译插件
+Tag: purpose::extension
+Author: Sky - Pain <2398453359@qq.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=translationDp
+Dev: skypain
+Icon: file:///Library/PreferenceBundles/TranslationPrefs.bundle/icon/icon@2x.png
+Name: Translation
 
 Package: com.subdiox.storeswitcher2
 Version: 1.0.3
@@ -2380,18 +2421,18 @@ Name: AnsweringMachine XS (iOS 11/12/13)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.limneos.audiorecorderxs
-Version: 3.5-32
+Version: 3.5-74
 Architecture: iphoneos-arm
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 21820
 Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0)
 Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
 Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
-Filename: ./debs/net.limneos.audiorecorderxs_3.5-32_iphoneos-arm.deb
-Size: 3336328
-MD5sum: 880808e64979f6d6c49124f131d4deb9
-SHA1: 58e6e74ba2d6dc8905c2c730167b8eceb8df467e
-SHA256: 19c5cd4ea3c9b4c46dabffc047b5704d68fe99a9ad5ed0b237fd5fdb1f9607af
+Filename: ./debs/net.limneos.audiorecorderxs_3.5-74_iphoneos-arm.deb
+Size: 3333618
+MD5sum: 6b99a91ae034fc426385765e31dcf62c
+SHA1: a4f76cb767685d5211fd7cd7c0470fada4a8f690
+SHA256: b30bd150dfdb43cc7bf75b30655a88301886f3941542d37c52b937daa64bf4ac
 Section: Tweaks
 Description: Most Advanced iOS Call Recorder Ever!
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -2624,6 +2665,28 @@ Section: Netskao-Apps
 Description: 春水堂无限制观看，不可登陆，国行设备自行搞定联网问题，部分越狱环境闪退无解
 Author: Netskao
 Name: 春水堂-破解版
+
+Package: netskao.fakemodel
+Version: 1.1-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 450
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./debs/netskao.fakemodel_1.1-2_iphoneos-arm.deb
+Size: 78526
+MD5sum: c746ce4b7953dcef77da7a31cceab5cc
+SHA1: ee1104c48b58f9cb5dfd80181ce16974b8f6480e
+SHA256: 29f4f960af268c9e58a28403e39142b2eafdc38a508752bc73697c5092706bee
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakemodelDp
+Description: 伪装设备机型，多用于某些游戏在老设备上支持高画质
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakemodelDp
+Dev: netskao
+Icon: file:///Library/PreferenceBundles/FakeModelSettings.bundle/FakeModelSettings@2x.png
+Name: FakeModel
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.hgspappcrack
 Version: 1.1.0
@@ -2881,46 +2944,26 @@ Priority: important
 Description: de-compesses files in zip format
 
 Package: ws.hbang.alderis
-Version: 1.0.1
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 2172
+Installed-Size: 2492
 Depends: firmware (>= 12.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0)
 Replaces: org.thebigboss.libcolorpicker, me.nepeta.libcolorpicker
 Provides: org.thebigboss.libcolorpicker (= 99.0), me.nepeta.libcolorpicker (= 99.0)
-Filename: ./debs/ws.hbang.alderis_1.0.1_iphoneos-arm.deb
-Size: 492020
-MD5sum: 84dd9a5bd258ef8270f068123b5af8f0
-SHA1: 01739a5e4668277f1fe7d45be4e7139a37d8e4e7
-SHA256: 820ec9c2b1872123d1dc8af35aeecd9dda7132653663e9d2234f75af772c6caf
+Filename: ./debs/ws.hbang.alderis_1.1_iphoneos-arm.deb
+Size: 750212
+MD5sum: 0dcf3a64f9951b8e2c4827a65a82157b
+SHA1: 35690ce3beace57e975a60dc2c7e79a56d18598f
+SHA256: fd9603a77b2be6dc04400a32f5131a0704e0610f18d71dfd0308191e9b555e28
 Section: Development
 Description: Color picker support library for tweaks
 Tag: role::developer, compatible_min::ios12.0
 Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://repo.chariz.com/package/ws.hbang.alderis/
+Depiction: https://chariz.com/get/alderis
 Dev: hbang
+Icon: https://chariz.com/cdn/icon/alderis/icon@3x.png
 Name: Alderis Color Picker
-Support: https://hashbang.productions/support/
-
-Package: ws.hbang.common
-Version: 1.15.3
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 1776
-Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
-Filename: ./debs/ws.hbang.common_1.15.3_iphoneos-arm.deb
-Size: 213218
-MD5sum: 5450afe516bc2abd5fec36faeb06c32f
-SHA1: 23fd58d968b6159b6c4ec97ee85c60415abe4bf7
-SHA256: c86419285c356fb76d6a88f914e528bd8f353a5067016096f69d64fe9b1f2f61
-Section: Development
-Description: Support library for tweaks
-Tag: role::developer, compatible_min::ios5.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/cephei
-Dev: hbang
-Icon: https://chariz.com/cdn/icon/cephei/icon@3x.png
-Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
 Package: ws.hbang.common
