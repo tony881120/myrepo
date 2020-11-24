@@ -216,6 +216,41 @@ Dev: ashikase
 Name: libpackageinfo (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.0x7ff.dimentio
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: 1Conan <tweaks@1conan.com>
+Installed-Size: 148
+Conflicts: dimentio
+Provides: dimentio
+Filename: ./debs/com.0x7ff.dimentio_1.0.4_iphoneos-arm.deb
+Size: 11336
+MD5sum: 72b9dd6c0e88d112ed1b13e45ec29790
+SHA1: df322407d91514ae8ed030aef8b49e43f3f961eb
+SHA256: 9403020b18a12aa1fe1591a1abfe23bc508524c7129514216dbd5398b6205e68
+Section: System
+Description: PoC tool for setting/getting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
+Tag: role::hacker
+Author: 0x7ff
+Name: dimentio
+
+Package: com.1conan.tsssaver
+Version: 0.0.6-1
+Architecture: iphoneos-arm
+Maintainer: 1Conan <tweaks@1conan.com>
+Installed-Size: 232
+Depends: dimentio (>=1.0.1) | com.0x7ff.dimentio (>=1.0.0)
+Conflicts: co.dynastic.TSSsaver
+Filename: ./debs/com.1conan.tsssaver_0.0.6-1_iphoneos-arm.deb
+Size: 53442
+MD5sum: 038561ea246d468aa709cf4dc8e4e351
+SHA1: a3073852cc88ad3db17f9ef28e66fd9651bd5da4
+SHA256: 38a6d43900e0653074f9fa7223f425d1baddc2415123c84342a5e52cb5dab725
+Section: Applications
+Description: An awesome application!
+Author: 1Conan <tweaks@1conan.com>
+Name: TSS Saver
+
 Package: com.aohuiliu.tripletaplock
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -628,6 +663,29 @@ Icon: file:///Library/PreferenceBundles/Gesturesi11Prefs.bundle/icon@2x.png
 Name: Gesturesi11
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.hius.gesturesi11
+Version: 3.6.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 317
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
+Filename: ./debs/com.hius.gesturesi11_3.6.6_iphoneos-arm.deb
+Size: 29320
+MD5sum: 8122532d709303c83de5abc366ebac58
+SHA1: 5c8f4bc26e783f7008a4e5f8c285bca7d072c065
+SHA256: be8504fcae1ee6ef23a5f066e07ba2bf08a8d9e26f260031de16f1be031ab30f
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gesturesi11Dp
+Description: iPhone 11 gestures and other options.
+Tag: purpose::extension, compatible::ios13
+Author: Hius <h.h.haiduog@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gesturesi11Dp
+Dev: hius
+Icon: file:///Library/PreferenceBundles/Gesturesi11Prefs.bundle/icon@2x.png
+Name: Gesturesi11
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.hius.halfipad
 Version: 3.8.1
 Architecture: iphoneos-arm
@@ -640,6 +698,29 @@ Size: 62832
 MD5sum: f74422f235100356c366b234a5f7c778
 SHA1: c358e2b52eee11e43e1ced362ce594cc07a52a2d
 SHA256: 6a35994e4bb0ce8bfde2cae8756a88b6df8337c0e3172b84316941c66fc048fa
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
+Description: Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
+Tag: purpose::extension, compatible::ios13
+Author: Hius <h.h.haiduog@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
+Dev: hius
+Icon: file:///Library/PreferenceBundles/HalFiPadPrefs.bundle/icon@2x.png
+Name: HalFiPad
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.hius.halfipad
+Version: 3.8.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 527
+Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11, com.hius.halfipadvn
+Filename: ./debs/com.hius.halfipad_3.8.2_iphoneos-arm.deb
+Size: 63004
+MD5sum: b706ea4a225bd308c362987fc82ba4ac
+SHA1: c3ac9289163ac7db147fbbb3fab51ede64df18bf
+SHA256: f30146bbc9d30679bd1d6cbd5cd3c0180368981b287c22105d2b17c49065df60
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
 Description: Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
@@ -1163,6 +1244,26 @@ Size: 7196
 MD5sum: ae432269997f2c7c354c99f69bf9306b
 SHA1: a31497040bff28726452cc3ad2da98118fa407c6
 SHA256: b98dc24a21565ff7ed281c6165503bf3030a673b4eb04fee5d779b5cf8fc0ad8
+Section: Tweaks
+Description: Enable port 2222 on localhost for OpenSSH.
+ Support Checkra1n, Chimera , Odyssey and Unc0ver.
+Author: halo_michael <yc992147156@me.com>
+Name: LocalSSH
+Sponsor: halo_michael <yc992147156@me.com>
+
+Package: com.michael.localssh
+Version: 0.4.1
+Architecture: iphoneos-arm
+Maintainer: halo_michael <yc992147156@me.com>
+Depends: firmware (>= 12.0), openssh(>= 8.0)
+Conflicts: com.midnightchips.localhostssh
+Replaces: com.midnightchips.localhostssh
+Provides: com.midnightchips.localhostssh
+Filename: ./debs/com.michael.localssh_0.4.1_iphoneos-arm.deb
+Size: 7360
+MD5sum: b28df1f2b17daab8e177d67ed0884c0a
+SHA1: 77b67195b8382246d5f81861cc9c7be0b97ecaae
+SHA256: e50fc5d24e47f1ace1c8a8f5d82b3ee1ead9554c0353ac4958ecb5d1e74cf2b8
 Section: Tweaks
 Description: Enable port 2222 on localhost for OpenSSH.
  Support Checkra1n, Chimera , Odyssey and Unc0ver.
@@ -2297,6 +2398,23 @@ Size: 2070764
 MD5sum: c136d6b4de1dcf97b528bc20e05b9f0a
 SHA1: a3a75c31a9140312b6463496b1ffc792be7b5933
 SHA256: e5828f4f87161087894ac6069d58427264fb6b9ab7b95bfa8ad2a754cfb70f27
+Section: Tweaks
+Description: Download/Share images & videos from social apps easily!
+Author: AhmedBafkir <prooxy0@gmail.com>
+Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
+Name: DLEasy
+
+Package: me.ahmedbafkir.dleasy
+Version: 2.10.5.1
+Architecture: iphoneos-arm
+Maintainer: AhmedBafkir <prooxy0@gmail.com>
+Installed-Size: 12104
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Filename: ./debs/me.ahmedbafkir.dleasy_2.10.5.1_iphoneos-arm.deb
+Size: 2077054
+MD5sum: ed73e3849f11c566960845d4dcd45e6b
+SHA1: 1a20297f7f384015fe53a2b421d0cc8f3b7a0981
+SHA256: ff8216d65967e13c80fb182b00f0be4f13f703320f879d42e2fb347ec3193341
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
