@@ -33,6 +33,23 @@ Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
 Author: Ayden Panhuyzen
 Name: Ultrasound
 
+Package: applebetas.ios.tweak.willow
+Version: 1.2.14
+Architecture: iphoneos-arm
+Maintainer: Ayden Panhuyzen
+Installed-Size: 984
+Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader, dev.ayden.ios.tweak.lib.libdundas
+Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
+Filename: ./debs/applebetas.ios.tweak.willow_1.2.14_iphoneos-arm.deb
+Size: 253166
+MD5sum: 05773a164a2c79f209e7bec9a4c39b48
+SHA1: 5106ed6c327e51155e67f1ed4ea47c474edafe2b
+SHA256: ff543d46cee0c5b143583c61fa3d3c9269e284ce2bdbd1f3957eea3912bd86ad
+Section: Tweaks
+Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
+Author: Ayden Panhuyzen
+Name: Ultrasound
+
 Package: applist
 Version: 1.5.16
 Architecture: iphoneos-arm
@@ -178,6 +195,31 @@ Icon: file:///Applications/XGPSPro.app/Icon.png
 Name: Fake GPS Pro(定位修改器)-FAKE your iPhone's location as you wish
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: cn.tinyapps.xgpspro
+Version: 4.3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 7421
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
+Replaces: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro,cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
+Filename: ./debs/cn.tinyapps.xgpspro_4.3_iphoneos-arm.deb
+Size: 2569338
+MD5sum: 6b4a2a2cd908aa497eb8ac0ac867942c
+SHA1: ea9a411a74c927a95ebda52d662a8a661a5ad805
+SHA256: 66fe71f542d1c46df220879086e1025739a738fe3f823bb59710065b222092c2
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
+Description: iOS 5.1.1~14.2 CHANGE your iPhone's location as you wish. A perfect match for Facebook, Twitter, WeChat, Pokemon GO, Uber and other location-based apps.
+ 经典的iPhone定位修改伪装插件，适合微信、口袋妖怪、微博、QQ、陌陌、美团、钉钉、口袋助理等地理位置应用。support all iOS versions(5.1.1~14.2)  and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XS/XR/XS Max/11/11Pro/12)。支持所有iOS系统(5.1.1~14.2)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XS/XR/XS Max/11/11Pro/12), iPad, iPod Touch. 完美兼容最新14.2越狱。
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Sheng Wen <tinyapps@foxmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
+Dev: shengwen
+Icon: file:///Applications/XGPSPro.app/Icon.png
+Name: Fake GPS Pro(定位修改器)-FAKE your iPhone's location as you wish
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: co.dynastic.tsssaver
 Version: 1.2.0
 Architecture: iphoneos-arm
@@ -234,6 +276,24 @@ Tag: role::hacker
 Author: 0x7ff
 Name: dimentio
 
+Package: com.0x7ff.dimentio
+Version: 2.0.0-1
+Architecture: iphoneos-arm
+Maintainer: 1Conan <tweaks@1conan.com>
+Installed-Size: 372
+Conflicts: dimentio, libdimentio0, libdimentio-dev
+Provides: dimentio, libdimentio0, libdimentio-dev
+Filename: ./debs/com.0x7ff.dimentio_2.0.0-1_iphoneos-arm.deb
+Size: 21262
+MD5sum: 5709b429f0128130c8767ebc58344d7e
+SHA1: 862582da789c710bcd01d2a9ea7334010261247d
+SHA256: 366abaa0a0f04a450331428ea605b28c982d5fe827dc4efeac62ef059ed1cadd
+Section: System
+Description: PoC tool for setting/getting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
+Tag: role::hacker
+Author: 0x7ff
+Name: dimentio
+
 Package: com.1conan.tsssaver
 Version: 0.0.6-1
 Architecture: iphoneos-arm
@@ -246,6 +306,23 @@ Size: 53442
 MD5sum: 038561ea246d468aa709cf4dc8e4e351
 SHA1: a3073852cc88ad3db17f9ef28e66fd9651bd5da4
 SHA256: 38a6d43900e0653074f9fa7223f425d1baddc2415123c84342a5e52cb5dab725
+Section: Applications
+Description: An awesome application!
+Author: 1Conan <tweaks@1conan.com>
+Name: TSS Saver
+
+Package: com.1conan.tsssaver
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: 1Conan <tweaks@1conan.com>
+Installed-Size: 232
+Depends: dimentio (>=1.0.3+git20201124.7ffffff) | com.0x7ff.dimentio (>=2.0.0)
+Conflicts: co.dynastic.TSSsaver
+Filename: ./debs/com.1conan.tsssaver_2.0.1_iphoneos-arm.deb
+Size: 53898
+MD5sum: 34ac2f2461cd219b376032673603a0f6
+SHA1: b111ac8f8fef1e674e466475d65659954d86c913
+SHA256: 977f13b98bb08471782ec5f4d93ce4ec519c306d3f31aafe4e0d3f0e8a39ee50
 Section: Applications
 Description: An awesome application!
 Author: 1Conan <tweaks@1conan.com>
@@ -1024,6 +1101,24 @@ Depiction: https://repo.lenglengyu.top/packageInfo/blhszpro.html
 Name: 贝乐虎识字Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/blhszprosileo
 
+Package: com.lenglengyu.ffbaidu
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.lenglengyu.ffbaidu_0.0.2_iphoneos-arm.deb
+Size: 26706
+MD5sum: b9e76de44f948f73339844127dfca3fd
+SHA1: b0d1ea8908249e439c45a3670fdea5e44a674ce1
+SHA256: 1951ae7eaf441eea8f40b55b16cc479027b27987a1cc958e783dfc6b20e3eb66
+Section: Tweaks
+Description: 解决Safari浏览器跳转百度问题。
+Author: lenglengyu
+Depiction: https://apt.167025.cn/packageInfo/ffbaidu.html
+Name: 百度不跳转
+Sileodepiction: https://apt.167025.cn/packageInfo/ffbaidusileo
+
 Package: com.lenglengyu.psexpresspro
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -1627,6 +1722,26 @@ Size: 22494
 MD5sum: 84d571c91b20c2a49ff5a300c9671b44
 SHA1: c995201714cf8a2b86ec7f2d9d703a6b4698fbbd
 SHA256: dee1738c0fafc2be7e7c4bc1a92bd0f629af221e2a6d83b3fb748d8edbbd6bdd
+Section: Tweaks
+Priority: optional
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Name: Substrate Safe Mode
+
+Package: com.saurik.substrate.safemode
+Version: 0.9.6005
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 144
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6005_iphoneos-arm.deb
+Size: 22736
+MD5sum: 73e56c9f8209fc56c8852bfcfd5b23d7
+SHA1: 8bb7866945dac32ad68648ebf38ca343fa715b7d
+SHA256: de3f3c5e0bfde32d61e14daaca7a7899a73215f94753a77fca1aa4203b018c87
 Section: Tweaks
 Priority: optional
 Description: safe mode safety extension (safe)
@@ -2415,6 +2530,23 @@ Size: 2077054
 MD5sum: ed73e3849f11c566960845d4dcd45e6b
 SHA1: 1a20297f7f384015fe53a2b421d0cc8f3b7a0981
 SHA256: ff8216d65967e13c80fb182b00f0be4f13f703320f879d42e2fb347ec3193341
+Section: Tweaks
+Description: Download/Share images & videos from social apps easily!
+Author: AhmedBafkir <prooxy0@gmail.com>
+Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
+Name: DLEasy
+
+Package: me.ahmedbafkir.dleasy
+Version: 2.10.5.2
+Architecture: iphoneos-arm
+Maintainer: AhmedBafkir <prooxy0@gmail.com>
+Installed-Size: 12496
+Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
+Filename: ./debs/me.ahmedbafkir.dleasy_2.10.5.2_iphoneos-arm.deb
+Size: 2199878
+MD5sum: 0a5baef87708e3cd60e350072d6833f5
+SHA1: f6aa637044c5faf38a0454e4059bcd470b5aa2aa
+SHA256: fc0f7f77f0dc7e060239eaf7777d1d9cb7f898f74c4636c1b83f74bdae66931b
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
