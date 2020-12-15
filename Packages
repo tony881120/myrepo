@@ -1,15 +1,15 @@
 Package: Flex3beta
-Version: 1:3~Beta97
+Version: 1:3~Beta98
 Architecture: iphoneos-arm
 Maintainer: John Coates
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/flex3beta_3_Beta97_iphoneos-arm.deb
-Size: 14371310
-MD5sum: 1f450b09787761c0a32b802652b4f897
-SHA1: f23e581e4e25b828ee69106bfb228798af4c6cce
-SHA256: 7a560b2c3387343d3e37027bb785263409bc60b6bf90b134704988b9fc519f9d
+Filename: ./debs/flex3beta_1%3a3_Beta98_iphoneos-arm.deb
+Size: 14346600
+MD5sum: 693c569e78f37e6d0e9c2e63287bc97e
+SHA1: c6b44a4c7ef73f7b68240775ee58f7591c14d2e4
+SHA256: 2b71e64db3e4b352ef73d54e76e0808bb122c614d97160bf5338b903d2d8f6a4
 Section: Tweaks
 Description: Develop your own tweaks and share them on the Flex Community Cloud
 Author: John Coates
@@ -1534,21 +1534,26 @@ Name: CCSupport
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.choicy
-Version: 1.2.6
+Version: 1.3
 Architecture: iphoneos-arm
-Maintainer: opa334 <opa334@protonmail.com>
-Installed-Size: 840
-Depends: mobilesubstrate, applist
-Filename: ./debs/com.opa334.choicy_1.2.6_iphoneos-arm.deb
-Size: 103266
-MD5sum: 0a82fed9244bb4e7cf4353885c7ebb77
-SHA1: fb3798151af33f155637ad4d3f2dbbd26c922282
-SHA256: ada7f4e739da266e34366ef406b5361c7027a0c1596b8b3c587727b787fcbd47
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 800
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
+Filename: ./debs/com.opa334.choicy_1.3_iphoneos-arm.deb
+Size: 117108
+MD5sum: 3bc17c94ffbd77af82626ed9be9f4c55
+SHA1: a7b6c91a382940d45670c151784ecf52835ce37b
+SHA256: 001f607ba6d9e321e58d1de3bb9ba011442a494564b102ccd278181734c30aae
 Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
 Description: Advanced Tweak Configuration!
+Tag: purpose::extension
 Author: opa334 <opa334@protonmail.com>
-Depiction: https://opa334.github.io/depic/Choicy/index.html
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
 Name: Choicy
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ps.letmeblock
 Version: 0.0.7.5
@@ -2106,28 +2111,28 @@ Icon: https://twickd.com/cdn/screenshots/f8cb38eac4198b7c0812d7e075313c08/defaul
 Name: ModernSettings
 
 Package: jp.akusio.kernbypass-unofficial
-Version: 0.0.4-1
+Version: 0.0.5
 Architecture: iphoneos-arm
 Maintainer: ichitaso
-Installed-Size: 704
-Pre-Depends: firmware (>= 12.0), firmware (<< 14.2)
+Installed-Size: 920
+Pre-Depends: firmware (>= 12.0), firmware (<< 15.0)
 Depends: mobilesubstrate, preferenceloader
 Conflicts: jp.akusio.kernbypass, com.apple.memecity
 Replaces: jp.akusio.kernbypass-unofficial
-Filename: ./debs/jp.akusio.kernbypass-unofficial_0.0.4-1_iphoneos-arm.deb
-Size: 124572
-MD5sum: 2c2b66ad38f31c88d9ce296eed8cd820
-SHA1: 9dd23c9263ea835024cffce1b004dabe05c6f3ed
-SHA256: f059bf1b650ac75e16b8c3f0934fe9d5094fb633bd336c67551ff2f474ea39ce
+Filename: ./debs/jp.akusio.kernbypass-unofficial_0.0.5_iphoneos-arm.deb
+Size: 144922
+MD5sum: 88664e2a63933c4ba6c58a13936d4299
+SHA1: d2eed190bf07e978ec7e78c4f3ae5c39729a91f2
+SHA256: 8ee495c8fff663df9ddeb562b595bd8438fcc86a3a5e83fcbe0bfbf9a6a14f6b
 Section: System
 Homepage: https://ichitaso.com
 Description: kernel level jailbreak detection bypass.
 Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
 Author: akusio
 Depiction: https://cydia.ichitaso.com/depiction/kernbypass.html
-Dev: akusio, Misty, ichitaso
+Dev: akusio, Misty, ichitaso, XsF1re
 Icon: file:///Library/PreferenceBundles/KernBypassPrefs.bundle/icon@2x.png
-Name: KernBypass
+Name: KernBypass (Unofficial)
 
 Package: jp.ashikase.techsupport
 Version: 1.5.0.1-2
@@ -2150,6 +2155,22 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=techsuppor
 Dev: ashikase
 Name: TechSupport Framework (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: jp.yuri.milkyway3
+Version: 0.2.6
+Architecture: iphoneos-arm
+Maintainer: YuriDevTeam
+Installed-Size: 1608
+Depends: mobilesubstrate, applist, preferenceloader
+Filename: ./debs/jp.yuri.milkyway3_0.2.6_iphoneos-arm.deb
+Size: 319604
+MD5sum: a468e56fd66750af55953590e53cd205
+SHA1: 859dd791646feac066f754d0de5cf64f666ddeaa
+SHA256: 664b3410069f1959880f1e80ff8a2b1a502715cac45ddea7b8d059c9c641e76f
+Section: Tweaks
+Description: multitasking for iOS14.
+Author: YuriDevTeam
+Name: MilkyWay3
 
 Package: kr.xsf1re.flyjb
 Version: 0.2.5.6
