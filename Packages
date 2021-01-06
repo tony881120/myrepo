@@ -17,23 +17,6 @@ Name: Flex 3 Beta
 Recommended: com.rpetrich.rocketbootstrap
 
 Package: applebetas.ios.tweak.willow
-Version: 1.2.13
-Architecture: iphoneos-arm
-Maintainer: Ayden Panhuyzen
-Installed-Size: 984
-Depends: mobilesubstrate, firmware (>= 11.0), preferenceloader
-Conflicts: com.ruler225.videohud, com.spark.melior, net.midkin.smartvolumecontrol2, es.ubikstyl.sonus12, me.nepeta.brokenhud, me.nepeta.flashyhud, hi.my.name.is.ubik.sonus13, com.ikilledappl3.switchhud, com.muirey03.13hud, com.kingpuffdaddi.ringer13
-Filename: ./debs/applebetas.ios.tweak.willow_1.2.13_iphoneos-arm.deb
-Size: 253172
-MD5sum: 8d706567f7ab46697135c84b57f1f042
-SHA1: 7d1d4c61bf8531921bcebf67314395d47869b6b7
-SHA256: 84ecd721eaeafa7a5de8b7df097e471b0e0f72b87b2b2b024fc063b457ecc90b
-Section: Tweaks
-Description: A brand-new, unobtrusive, OLED-friendly volume HUD.
-Author: Ayden Panhuyzen
-Name: Ultrasound
-
-Package: applebetas.ios.tweak.willow
 Version: 1.2.14
 Architecture: iphoneos-arm
 Maintainer: Ayden Panhuyzen
@@ -172,30 +155,6 @@ Name: Respring Assistant(快速注销+联网修复)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: cn.tinyapps.xgpspro
-Version: 4.2.1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 9521
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
-Replaces: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro,cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
-Filename: ./debs/cn.tinyapps.xgpspro_4.2.1_iphoneos-arm.deb
-Size: 3159638
-MD5sum: 06cb7891616e9f418436aca5e673b206
-SHA1: 7678ae285d6e0b7f50c553323e6a08e009e8e903
-SHA256: bf971354c256aeeb315a54d42b7c33a7e8a29a91493cca9f07c6e898fcf03ca5
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
-Description: iOS 5.1.1~13.5 CHANGE your iPhone's location as you wish. A perfect match for Facebook, Twitter, WeChat, Pokemon GO, Uber and other location-based apps. 经典的iPhone定位修改伪装插件，适合微信、口袋妖怪、微博、QQ、陌陌、美团、钉钉、口袋助理等地理位置应用。support all iOS versions(5.1.1~13.5), and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro)。支持所有iOS系统(5.1.1~13.5)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XR/Xs/Max/11/11Pro), iPad, iPod Touch. 完美兼容最新13.5越狱
-Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-Author: Sheng Wen <tinyapps@foxmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
-Dev: shengwen
-Icon: file:///Applications/XGPSPro.app/Icon.png
-Name: Fake GPS Pro(定位修改器)-FAKE your iPhone's location as you wish
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: cn.tinyapps.xgpspro
 Version: 4.3
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -220,23 +179,6 @@ Icon: file:///Applications/XGPSPro.app/Icon.png
 Name: Fake GPS Pro(定位修改器)-FAKE your iPhone's location as you wish
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: co.dynastic.tsssaver
-Version: 1.2.0
-Architecture: iphoneos-arm
-Maintainer: Jamie Bishop <jamie@dynastic.co>
-Installed-Size: 444
-Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
-Filename: ./debs/co.dynastic.tsssaver_1.2.0_iphoneos-arm.deb
-Size: 152032
-MD5sum: fe2e43efaa390e4b81f100175ad1cddb
-SHA1: e669009b17ce74000712124861e4fc0f22d31386
-SHA256: 483f16008726c8882984f014565b921c443d4a39ebc036e1ada981584c7e0c59
-Section: Utilities
-Description: A one-click tool to save blobs using TSSsaver.1conan.com
-Author: Jamie Bishop <jamie@dynastic.co>
-Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
-Name: TSS Saver
-
 Package: cokepokes.jp.ashikase.libpackageinfo
 Version: 1.1.0.1-3
 Architecture: iphoneos-arm
@@ -259,24 +201,6 @@ Name: libpackageinfo (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.0x7ff.dimentio
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: 1Conan <tweaks@1conan.com>
-Installed-Size: 148
-Conflicts: dimentio
-Provides: dimentio
-Filename: ./debs/com.0x7ff.dimentio_1.0.4_iphoneos-arm.deb
-Size: 11336
-MD5sum: 72b9dd6c0e88d112ed1b13e45ec29790
-SHA1: df322407d91514ae8ed030aef8b49e43f3f961eb
-SHA256: 9403020b18a12aa1fe1591a1abfe23bc508524c7129514216dbd5398b6205e68
-Section: System
-Description: PoC tool for setting/getting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
-Tag: role::hacker
-Author: 0x7ff
-Name: dimentio
-
-Package: com.0x7ff.dimentio
 Version: 2.0.0-1
 Architecture: iphoneos-arm
 Maintainer: 1Conan <tweaks@1conan.com>
@@ -294,22 +218,21 @@ Tag: role::hacker
 Author: 0x7ff
 Name: dimentio
 
-Package: com.1conan.tsssaver
-Version: 0.0.6-1
+Package: com.1conan.scmfi
+Version: 0.0.1-1
 Architecture: iphoneos-arm
 Maintainer: 1Conan <tweaks@1conan.com>
-Installed-Size: 232
-Depends: dimentio (>=1.0.1) | com.0x7ff.dimentio (>=1.0.0)
-Conflicts: co.dynastic.TSSsaver
-Filename: ./debs/com.1conan.tsssaver_0.0.6-1_iphoneos-arm.deb
-Size: 53442
-MD5sum: 038561ea246d468aa709cf4dc8e4e351
-SHA1: a3073852cc88ad3db17f9ef28e66fd9651bd5da4
-SHA256: 38a6d43900e0653074f9fa7223f425d1baddc2415123c84342a5e52cb5dab725
-Section: Applications
-Description: An awesome application!
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.1conan.scmfi_0.0.1-1_iphoneos-arm.deb
+Size: 15060
+MD5sum: 0f3e3f030a7e3fae61e3ec082dc461bb
+SHA1: 541808c8985654f9d0f924834c196f72c70adb3a
+SHA256: e924c14438b399ec50ab5a97914302a2074345ad341469258d95b423991627cd
+Section: Tweaks
+Description: Doesn't seem to work. Uses https://github.com/zydeco/SteamController
 Author: 1Conan <tweaks@1conan.com>
-Name: TSS Saver
+Name: Steam Controller MFi
 
 Package: com.1conan.tsssaver
 Version: 2.0.1
@@ -421,16 +344,16 @@ Icon: file:///Library/PreferenceBundles/PhotonPrefs.bundle/icon_prefs@3x.png
 Name: Photon
 
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.13-2
+Version: 0.9.14-1
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate, com.rpetrich.rocketbootstrap
 Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.13-2_iphoneos-arm.deb
-Size: 682110
-MD5sum: c768fba2f92615fc74df16bca183ec38
-SHA1: f532ab2adf5a72008dc0b41db9cb99c638a9705e
-SHA256: a395d2c0b4a3b39bc2110038e4014e0783fb3baa3f0e83c818c54a3ad15f7798
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.14-1_iphoneos-arm.deb
+Size: 960180
+MD5sum: 4d559fb215d78d33fd2bfe9cb6fecb67
+SHA1: 87468d4ce1f6250780acb95e04677bde7b6c5655
+SHA256: 2cadfe19868f6ed0ffbc06f20e383540eac1a3040554652e0ad08110c361a4df
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.whatever
@@ -587,17 +510,17 @@ Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
 Package: com.exile90.icleanerpro
-Version: 7.9.0
+Version: 7.9.1~beta1
 Architecture: iphoneos-arm
 Maintainer: Ivano Bilenchi <support@ib-soft.net>
 Depends: firmware (>= 4.0), findutils, apt | apt7
 Conflicts: org.altervista.exilecom.icleaner
 Replaces: org.altervista.exilecom.icleaner
-Filename: ./debs/com.exile90.icleanerpro_7.9.0_iphoneos-arm.deb
-Size: 4772402
-MD5sum: 0ce90140ef3ebb38c8fdecda21f9eb7c
-SHA1: 4e9bf12c53b8e2ac07c2d4e5d21219739fe9f2ba
-SHA256: 7b35413010d2afc0c3df2d36d51aca3115a88a53bb2122fa52558e89e3205195
+Filename: ./debs/com.exile90.icleanerpro_7.9.1_beta1_iphoneos-arm.deb
+Size: 4787218
+MD5sum: a2871a6524c8d675df3662f5c823617d
+SHA1: 76096723ef033423d54cf1c401d4944c9628a172
+SHA256: dbd5c47e34ac089cdd62b208632e81def9bb7c1b22f359435a293e2d4bfc67b9
 Section: Utilities
 Homepage: http://ib-soft.net/icleaner
 Description: The first real iOS system cleaner & optimizer
@@ -718,29 +641,6 @@ Name: libCSColorPicker
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=libcscolorpicker
 
 Package: com.hius.gesturesi11
-Version: 3.6.5
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 317
-Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader
-Filename: ./debs/com.hius.gesturesi11_3.6.5_iphoneos-arm.deb
-Size: 29290
-MD5sum: 863cbb354e84dd6b6709f0a8a53468df
-SHA1: 8ae157e2ecc0290d086155cbfc80a7ff60353304
-SHA256: fd1e1e34d2afe7a0d8d88e52bfe516f8e6d6010beb8871ebaf6ecdee73d545df
-Section: Tweaks
-Priority: optional
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gesturesi11Dp
-Description: iPhone 11 gestures and other options.
-Tag: purpose::extension, compatible::ios13
-Author: Hius <h.h.haiduog@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gesturesi11Dp
-Dev: hius
-Icon: file:///Library/PreferenceBundles/Gesturesi11Prefs.bundle/icon@2x.png
-Name: Gesturesi11
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.hius.gesturesi11
 Version: 3.6.6
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
@@ -761,29 +661,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gesturesi1
 Dev: hius
 Icon: file:///Library/PreferenceBundles/Gesturesi11Prefs.bundle/icon@2x.png
 Name: Gesturesi11
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.hius.halfipad
-Version: 3.8.1
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 527
-Depends: firmware (>= 12.0), mobilesubstrate (>= 0.9.5000), preferenceloader
-Replaces: com.binksalex.fluidify, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11, com.hius.halfipadvn
-Filename: ./debs/com.hius.halfipad_3.8.1_iphoneos-arm.deb
-Size: 62832
-MD5sum: f74422f235100356c366b234a5f7c778
-SHA1: c358e2b52eee11e43e1ced362ce594cc07a52a2d
-SHA256: 6a35994e4bb0ce8bfde2cae8756a88b6df8337c0e3172b84316941c66fc048fa
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
-Description: Modern gestures, iPad features, and many unique features but lightweight and less battery drain.
-Tag: purpose::extension, compatible::ios13
-Author: Hius <h.h.haiduog@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=halfipadDp
-Dev: hius
-Icon: file:///Library/PreferenceBundles/HalFiPadPrefs.bundle/icon@2x.png
-Name: HalFiPad
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.hius.halfipad
@@ -1327,26 +1204,6 @@ Name: Generator Auto Setter
 Sponsor: halo_michael <yc992147156@me.com>
 
 Package: com.michael.localssh
-Version: 0.4.0
-Architecture: iphoneos-arm
-Maintainer: halo_michael <yc992147156@me.com>
-Depends: firmware (>= 12.0), openssh(>= 8.0)
-Conflicts: com.midnightchips.localhostssh
-Replaces: com.midnightchips.localhostssh
-Provides: com.midnightchips.localhostssh
-Filename: ./debs/com.michael.localssh_0.4.0_iphoneos-arm.deb
-Size: 7196
-MD5sum: ae432269997f2c7c354c99f69bf9306b
-SHA1: a31497040bff28726452cc3ad2da98118fa407c6
-SHA256: b98dc24a21565ff7ed281c6165503bf3030a673b4eb04fee5d779b5cf8fc0ad8
-Section: Tweaks
-Description: Enable port 2222 on localhost for OpenSSH.
- Support Checkra1n, Chimera , Odyssey and Unc0ver.
-Author: halo_michael <yc992147156@me.com>
-Name: LocalSSH
-Sponsor: halo_michael <yc992147156@me.com>
-
-Package: com.michael.localssh
 Version: 0.4.1
 Architecture: iphoneos-arm
 Maintainer: halo_michael <yc992147156@me.com>
@@ -1715,26 +1572,6 @@ Icon: file:///Applications/SuccessionRestore.app/AppIcon60x60@3x.png
 Name: Succession
 
 Package: com.saurik.substrate.safemode
-Version: 0.9.6004
-Architecture: iphoneos-arm
-Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
-Installed-Size: 144
-Depends: mobilesubstrate (>= 0.9.3367+38)
-Conflicts: safe-mode-fixer-ios7
-Replaces: safe-mode-fixer-ios7
-Filename: ./debs/com.saurik.substrate.safemode_0.9.6004_iphoneos-arm.deb
-Size: 22494
-MD5sum: 84d571c91b20c2a49ff5a300c9671b44
-SHA1: c995201714cf8a2b86ec7f2d9d703a6b4698fbbd
-SHA256: dee1738c0fafc2be7e7c4bc1a92bd0f629af221e2a6d83b3fb748d8edbbd6bdd
-Section: Tweaks
-Priority: optional
-Description: safe mode safety extension (safe)
-Author: Jay Freeman (saurik) <saurik@saurik.com>
-Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
-Name: Substrate Safe Mode
-
-Package: com.saurik.substrate.safemode
 Version: 0.9.6005
 Architecture: iphoneos-arm
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
@@ -1807,42 +1644,6 @@ Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
 Name: Filza File Manager 64-bit
-
-Package: com.twickd.t0mi.cydiaplus
-Version: 1.2
-Architecture: iphoneos-arm
-Maintainer: t0mi <fritsch.weiding@yahoo.de>
-Depends: mobilesubstrate
-Filename: ./debs/com.twickd.t0mi.cydiaplus_1.2_iphoneos-arm.deb
-Size: 51148
-MD5sum: 41a7b7809d4870113c878d8d4162b84c
-SHA1: 9efb9820f177e01e048ad71d660d77af225d2d92
-SHA256: 557d4f7393304968b02b7d3e10ea683929865ba1810cb673db06d55f2c41d6aa
-Section: Tweaks
-Description: The only tweak you need for Cydia.
-Tag: compatible_min::ios5.1, compatible_max::ios13.5
-Author: t0mi <fritsch.weiding@yahoo.de>
-Depiction: https://repo.twickd.com/package/com.twickd.t0mi.cydiaplus
-Name: CydiaPlus
-Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydiaplus/native
-
-Package: com.twickd.t0mi.cydiaplus
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: t0mi <fritsch.weiding@yahoo.de>
-Depends: mobilesubstrate
-Filename: ./debs/com.twickd.t0mi.cydiaplus_2.0_iphoneos-arm.deb
-Size: 808
-MD5sum: b61bc8a960b081ab5426c08e19da7bb1
-SHA1: 01e60a8a75c9fd4cb38c9b9acb5f40e2f12be3a8
-SHA256: 7f8d9617c9777bb2336730b398dfa6005adc908b9de93fa7fae93a67738dbba5
-Section: Tweaks
-Description: The only tweak you need for Cydia.
-Tag: compatible_min::ios5.1, compatible_max::ios13.5
-Author: t0mi <fritsch.weiding@yahoo.de>
-Depiction: https://repo.twickd.com/package/com.twickd.t0mi.cydiaplus
-Name: CydiaPlus
-Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydiaplus/native
 
 Package: com.udevs.dockx
 Version: 2.2.3.2
@@ -2189,6 +1990,24 @@ Author: XsF1re
 Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 Name: FlyJB
 
+Package: kr.xsf1re.flyjbx
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Installed-Size: 936
+Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
+Conflicts: kr.xsf1re.flyjb
+Filename: ./debs/kr.xsf1re.flyjbx_1.0.0_iphoneos-arm.deb
+Size: 407472
+MD5sum: 8a4adb21cb9957457d6116b122fcf8f7
+SHA1: 8d9db767e7f0bcadbc26c1498ef58defd09f7c11
+SHA256: 8e254b5b09da40f4f5e056c23583e40d924c52171ee0954f81470ba981361470
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
+Name: FlyJB X
+
 Package: kupord.MiYou
 Version: 0.2-7
 Architecture: iphoneos-arm
@@ -2522,40 +2341,6 @@ Priority: important
 Homepage: http://tukaani.org/lzma/
 Description: slower, but better, compression algorithm
 Name: LZMA Utils
-
-Package: me.ahmedbafkir.dleasy
-Version: 2.10.4
-Architecture: iphoneos-arm
-Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12104
-Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.10.4_iphoneos-arm.deb
-Size: 2070764
-MD5sum: c136d6b4de1dcf97b528bc20e05b9f0a
-SHA1: a3a75c31a9140312b6463496b1ffc792be7b5933
-SHA256: e5828f4f87161087894ac6069d58427264fb6b9ab7b95bfa8ad2a754cfb70f27
-Section: Tweaks
-Description: Download/Share images & videos from social apps easily!
-Author: AhmedBafkir <prooxy0@gmail.com>
-Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
-Name: DLEasy
-
-Package: me.ahmedbafkir.dleasy
-Version: 2.10.5.1
-Architecture: iphoneos-arm
-Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12104
-Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.10.5.1_iphoneos-arm.deb
-Size: 2077054
-MD5sum: ed73e3849f11c566960845d4dcd45e6b
-SHA1: 1a20297f7f384015fe53a2b421d0cc8f3b7a0981
-SHA256: ff8216d65967e13c80fb182b00f0be4f13f703320f879d42e2fb347ec3193341
-Section: Tweaks
-Description: Download/Share images & videos from social apps easily!
-Author: AhmedBafkir <prooxy0@gmail.com>
-Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
-Name: DLEasy
 
 Package: me.ahmedbafkir.dleasy
 Version: 2.10.5.2
