@@ -530,15 +530,15 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.flex2areo.apptools13
-Version: 2.2.3
+Version: 2.2.4
 Architecture: iphoneos-arm
 Maintainer: aReo < >
 Depends: firmware (>=13.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools13_2.2.3_iphoneos-arm.deb
-Size: 245784
-MD5sum: b43507e183d119e8ee718c36886a2f93
-SHA1: de1ec0d1135e920dff1ee54a2cd59819935e0fcd
-SHA256: 65e605c40735970ccc8fc135f70348ce21a89e13e266573f6b716299ab503639
+Filename: ./debs/com.flex2areo.apptools13_2.2.4_iphoneos-arm.deb
+Size: 248234
+MD5sum: 8971b54be74ddc4a517dfad0eac3b3b5
+SHA1: a45617f5de1ebf5a49b93d4d9ecf2d5e1e4f03f6
+SHA256: 31e8b5a5f22774d36974e2492467e0f9fdaacc56dbdd145d33be28167779465d
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: An icon tool.
@@ -855,15 +855,15 @@ Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 Name: CyDown
 
 Package: com.julioverne.goodwifi
-Version: 0.0~beta5a
+Version: 0.0~beta6
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.julioverne.goodwifi_0.0_beta5a_iphoneos-arm.deb
-Size: 97816
-MD5sum: ad2c6dc15aa9bb0495ba307d9551d235
-SHA1: 90d5393ff0df619d71b67ce730053c0794ef42db
-SHA256: 07a03fe96c45d7aa7349225df72e13da1f8d1b6f82761c0dfefc595cd6ebcaca
+Filename: ./debs/com.julioverne.goodwifi_0.0_beta6_iphoneos-arm.deb
+Size: 155794
+MD5sum: b7a838690e17bd7cb1611640e849f50f
+SHA1: 440a1040b3886c698ad35fa2893ac7a1f418c3a5
+SHA256: 24455e831fd73bf9149f8d5eab91fee4cbec2dab103ebe63f070b8f5e7a1f377
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Better WiFi Preferences
@@ -1449,16 +1449,16 @@ Author: Pwn20wnd <pwn20wndstuff@gmail.com>
 Name: SemiRestore11 / Rollectra
 
 Package: com.qiop1379.swipeextenderx
-Version: 1.3.2
+Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
-Installed-Size: 1708
+Installed-Size: 1172
 Depends: firmware (>= 12.0), mobilesubstrate, com.creaturesurvive.libcscolorpicker
-Filename: ./debs/com.qiop1379.swipeextenderx_1.3.2_iphoneos-arm.deb
-Size: 363744
-MD5sum: 69e261d67f974fcd445b041a92109a31
-SHA1: 8bd8f76819eb7a76fa5a870911cb231649cfb622
-SHA256: 9c2809b73f827860cdd7f7a79a2a8935ce99bbc6ed2fc7059a564dc07c5673aa
+Filename: ./debs/com.qiop1379.swipeextenderx_1.4.0_iphoneos-arm.deb
+Size: 219228
+MD5sum: 3df83bfca02da277dd51c0cfc02c8245
+SHA1: 41ae7112d171a065686fd9a9bad20dc314ad90f5
+SHA256: df24c73ab7f7bd31a60ea65cb0eb75b1c9fead2abfb6e202736273d52cf8bf06
 Section: Tweaks
 Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
 Tag: cydia::commercial, compatible_min::ios12.0
@@ -1504,20 +1504,39 @@ Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpgfarm.a-bypass
-Version: 1.3.5
+Version: 1.5.2
 Architecture: iphoneos-arm
 Maintainer: Baw Appie <pp121324@gmail.com>
-Installed-Size: 960
-Depends: mobilesubstrate, com.muirey03.libmryipc, applist
-Filename: ./debs/com.rpgfarm.a-bypass_1.3.5_iphoneos-arm.deb
-Size: 125508
-MD5sum: 6862e8aac2e8d172dc75c7ce40b3d497
-SHA1: 424331b0eaecf6449d46cbc939303154b15e8698
-SHA256: 2b5ca8dd8b74c9302b911d605f8b848189fe8f830944d5681c500f8c9b77000a
+Installed-Size: 844
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
+Filename: ./debs/com.rpgfarm.a-bypass_1.5.2_iphoneos-arm.deb
+Size: 98400
+MD5sum: 0754d76f510b0c3a5aaad64043ce8212
+SHA1: 472bcba031ca0fdc095d3eebdab1d71bfcb20b62
+SHA256: a336a04e50d4d934ddbe741d625af69286f90c2c0de90d1b3799a006ffd6b759
 Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
 Name: A-Bypass
+
+Package: com.ryannair05.little12
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Ryan Nair
+Installed-Size: 1024
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.VitaTaf.HomeGesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./debs/com.ryannair05.little12_1.0.0_iphoneos-arm.deb
+Size: 386036
+MD5sum: fb6da83453bcf26f83a90e77f6c52a9d
+SHA1: f4dba29a43a295029c9f48c880ea76f89c185ee3
+SHA256: e9464258fa517113aa0ea887bfcee085c31eced06bb71b6c1e5b274fab745528
+Section: Tweaks
+Description: iPhone 12 gestures and more for iOS 14
+Author: Ryan Nair
+Name: Little12
 
 Package: com.ryleyangus.libertylite
 Version: 0.2.10
@@ -1646,19 +1665,19 @@ Author: TIGI Software
 Name: Filza File Manager 64-bit
 
 Package: com.udevs.dockx
-Version: 2.2.3.2
+Version: 2.2.7
 Architecture: iphoneos-arm
 Maintainer: udevs
-Installed-Size: 1336
-Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0), firmware(>=12.0), ws.hbang.alderis
+Installed-Size: 1368
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware(>=12.0), ws.hbang.alderis
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.2.3.2_iphoneos-arm.deb
-Size: 257298
-MD5sum: d37242ad0a587150b9e7b2461aa4cab7
-SHA1: 62675ba794cdad92bae1f9941c70e1c399512b9a
-SHA256: 375d66f07ca7c3acf46abe1a5d70d7a2dd94f84ece7a23b831f1480659b6ca7a
+Filename: ./debs/com.udevs.dockx_2.2.7_iphoneos-arm.deb
+Size: 261790
+MD5sum: dab14e18f9fd1c0789422b663c3557e1
+SHA1: 7b470ea72c9c00b54c7ac4c5cfe4cdf3e647e043
+SHA256: 391542df131a19b732a5ed6c4c837913150fc8e9d431ba668bf83c22448bbae1
 Section: Tweaks
-Description: Pasteboard shortcuts on your dock!
+Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.dockx
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.png
@@ -1958,16 +1977,16 @@ Name: TechSupport Framework (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: jp.yuri.milkyway3
-Version: 0.2.6
+Version: 0.2.7-1
 Architecture: iphoneos-arm
 Maintainer: YuriDevTeam
-Installed-Size: 1608
+Installed-Size: 4064
 Depends: mobilesubstrate, applist, preferenceloader
-Filename: ./debs/jp.yuri.milkyway3_0.2.6_iphoneos-arm.deb
-Size: 319604
-MD5sum: a468e56fd66750af55953590e53cd205
-SHA1: 859dd791646feac066f754d0de5cf64f666ddeaa
-SHA256: 664b3410069f1959880f1e80ff8a2b1a502715cac45ddea7b8d059c9c641e76f
+Filename: ./debs/jp.yuri.milkyway3_0.2.7-1_iphoneos-arm.deb
+Size: 382698
+MD5sum: e7a3f8910ea09a8bc01402271535d40e
+SHA1: 75af85cf559073f72abffa03b4c2f06b571e14b4
+SHA256: 3d33176dda8ec6ccd139e3c52524b369369d9970b16f7d08017b9ae50dfd93b2
 Section: Tweaks
 Description: multitasking for iOS14.
 Author: YuriDevTeam
@@ -1991,17 +2010,17 @@ Icon: file:///Library/PreferenceBundles/flyjbprefs.bundle/icon@2x.png
 Name: FlyJB
 
 Package: kr.xsf1re.flyjbx
-Version: 1.0.0
+Version: 1.0.8
 Architecture: iphoneos-arm
 Maintainer: XsF1re
-Installed-Size: 936
+Installed-Size: 1108
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader
 Conflicts: kr.xsf1re.flyjb
-Filename: ./debs/kr.xsf1re.flyjbx_1.0.0_iphoneos-arm.deb
-Size: 407472
-MD5sum: 8a4adb21cb9957457d6116b122fcf8f7
-SHA1: 8d9db767e7f0bcadbc26c1498ef58defd09f7c11
-SHA256: 8e254b5b09da40f4f5e056c23583e40d924c52171ee0954f81470ba981361470
+Filename: ./debs/kr.xsf1re.flyjbx_1.0.8_iphoneos-arm.deb
+Size: 420530
+MD5sum: 695e33ec75dbc915faf8ba982f38ede7
+SHA1: 4bcd3df6ecc2f68747dc3403d88578a9c03b1d93
+SHA256: 1cab3f35937ef5ab41c89ec0773f69b922c5dd6906a13a44091f186d0fca515b
 Section: Tweaks
 Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
@@ -2343,16 +2362,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.10.5.2
+Version: 2.10.6
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12496
+Installed-Size: 11848
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.10.5.2_iphoneos-arm.deb
-Size: 2199878
-MD5sum: 0a5baef87708e3cd60e350072d6833f5
-SHA1: f6aa637044c5faf38a0454e4059bcd470b5aa2aa
-SHA256: fc0f7f77f0dc7e060239eaf7777d1d9cb7f898f74c4636c1b83f74bdae66931b
+Filename: ./debs/me.ahmedbafkir.dleasy_2.10.6_iphoneos-arm.deb
+Size: 2097476
+MD5sum: 5f5c3b44ce916c8f452165309affc46a
+SHA1: e2fe59839843eb0ba0c5407a37e07164fedb7442
+SHA256: 39475a613b09b50e4e0f5883bc3184eee5b85dd2d604148af6c00705011efe2d
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -2464,25 +2483,6 @@ Dev: limneos
 Icon: file:///Library/PreferenceBundles/AnsweringMachine.bundle/AnsweringMachine@2x.png
 Name: AnsweringMachine XS (iOS 11/12/13)
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: net.limneos.audiorecorderxs
-Version: 3.5-74
-Architecture: iphoneos-arm
-Maintainer: Elias Limneos <limneoselias@gmail.com>
-Installed-Size: 21820
-Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware(>=12.0)
-Conflicts: net.limneos.callrecorder, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
-Replaces: net.limneos.audiorecorder,net.limneos.audiorecorderx
-Filename: ./debs/net.limneos.audiorecorderxs_3.5-74_iphoneos-arm.deb
-Size: 3333618
-MD5sum: 6b99a91ae034fc426385765e31dcf62c
-SHA1: a4f76cb767685d5211fd7cd7c0470fada4a8f690
-SHA256: b30bd150dfdb43cc7bf75b30655a88301886f3941542d37c52b937daa64bf4ac
-Section: Tweaks
-Description: Most Advanced iOS Call Recorder Ever!
-Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.audiorecorderxs
-Name: AudioRecorder XS (iOS 12/13)
 
 Package: net.limneos.bioprotectxs
 Version: 4.4-55
@@ -2894,6 +2894,24 @@ Section: Networking
 Priority: important
 Homepage: http://www.samba.org/rsync/
 Description: synchronize files between computers
+
+Package: tar
+Version: 1.33-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1128
+Depends: bzip2, gzip, lzma, xz
+Conflicts: dpkg (=1.18.24)
+Filename: ./debs/tar_1.33-1_iphoneos-arm.deb
+Size: 254200
+MD5sum: f8ed6301a20a0048705bfeb69502b3cd
+SHA1: e5ea065dd5729fedd6b3fe79040904613eca22f0
+SHA256: a6785aab85a93a0719d5a4851e5aaf4f5c407f47d7dcde869282bdf3d891e6c9
+Section: Archiving
+Priority: required
+Homepage: http://www.gnu.org/software/tar/
+Description: tool for making tape archives
+Name: Tape Archive
 
 Package: tw.hiraku.ecgenabler
 Version: 1.4.1
