@@ -53,8 +53,28 @@ Dev: rpetrich
 Name: AppList
 Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
 
+Package: apt
+Version: 1.8.2.2-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1792
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libapt (>= 1.8.2.2), apt-key, berkeleydb
+Conflicts: apt7 (<<1:0), apt1.4 (<<1:0), apt1.8
+Replaces: apt1.8, apt1.4
+Provides: apt1.8 (=1.8.2.2)
+Filename: ./debs/apt_1.8.2.2-1_iphoneos-arm.deb
+Size: 147824
+MD5sum: 409dcabe29d3110839461f8246f7521c
+SHA1: e7a9a6dffaebc35aeb2ccc2a840a5938836fc6e8
+SHA256: 903eed12400f4a295c0857cbc3fb86c99ba33a7ffe65051de1a3e89c9dd008a7
+Section: Packaging
+Priority: standard
+Description: the advanced packaging tool from Debian
+Name: APT
+
 Package: apt-key
-Version: 1.8.2.1-1
+Version: 1.8.2.2-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 64
@@ -63,11 +83,11 @@ Depends: coreutils, libapt
 Conflicts: apt7-key (<<1:0)
 Breaks: apt7-key (<<1:0)
 Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4), apt7-key
-Filename: ./debs/apt-key_1.8.2.1-1_iphoneos-arm.deb
+Filename: ./debs/apt-key_1.8.2.2-1_iphoneos-arm.deb
 Size: 8728
-MD5sum: 605fa2abac45b1cb0852182960f891e3
-SHA1: e3becd1b14734bfaf5092e849fe0e1404d485a3e
-SHA256: b40b8fb3717c5fee956fdb6834ac98279c73f40c8cd522c71ebbd0a7f4c4db6c
+MD5sum: 10a665cbf7ccd53d59da8abcea60ad29
+SHA1: 979a3fc9c5c87c4d9592641bb0a3c62e4609e75a
+SHA256: 879b853e11af6fba0617c4093a291d5fd72ea768a5a20301fcd94bbe44808356
 Section: Packaging
 Priority: standard
 Description: repository encryption key management tool
@@ -171,18 +191,18 @@ Name: Respring Assistant(快速注销+联网修复)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: cn.tinyapps.xgpspro
-Version: 4.4.2
+Version: 4.4.5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 7521
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
 Replaces: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro,cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
-Filename: ./debs/cn.tinyapps.xgpspro_4.4.2_iphoneos-arm.deb
-Size: 2581106
-MD5sum: 05cdcbf424d6f5ea000f72f5f200802d
-SHA1: 0502d729845276c20b2933634c9c7bee8cefe482
-SHA256: f883623187991504aade5f93abf1f8e5361ea1b6225728f6130e58442cd0a574
+Filename: ./debs/cn.tinyapps.xgpspro_4.4.5_iphoneos-arm.deb
+Size: 2581096
+MD5sum: ac8b13329903abf78c5e117631f8014b
+SHA1: fcb9eadc873c36960508993744fa8e0c4786bb87
+SHA256: a2fd7aaa2212fcfe0c9091c55e4de19f159f8038d9bd61ae9290450192bafc38
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
 Description: iOS 5.1.1~14.3 CHANGE your iPhone's location as you wish. A perfect match for Facebook, Twitter, WeChat, Pokemon GO, Uber and other location-based apps.
@@ -587,15 +607,15 @@ Name: AppTools for iOS13
 Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools13.json
 
 Package: com.flex2areo.apptools14
-Version: 1.4.5
+Version: 1.5.1
 Architecture: iphoneos-arm
 Maintainer: aReo < >
 Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.4.5_iphoneos-arm.deb
-Size: 308326
-MD5sum: 63e9349c6946fcf1d28f4a2fbe0495c1
-SHA1: 1ba3f4eda21d4c9c15eab0d9eeb285fd0e1aa9cd
-SHA256: 820da06f7487ef006f7f9ad4693d03b69ba9584de18388113b2b2300c32c678b
+Filename: ./debs/com.flex2areo.apptools14_1.5.1_iphoneos-arm.deb
+Size: 323944
+MD5sum: 621ac599a1a9d732a1cc3419aba368ed
+SHA1: 3b23688ad4d823620b3f222697b5f4d2bb4f1729
+SHA256: 4d45ef32d3c88293246b86a9906e86efffcf7e3a8f2b757c82d81d52504bc6f1
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: An icon tool.
@@ -605,6 +625,23 @@ Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools14/icon.png
 Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
 Name: AppTools for iOS14
 Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
+
+Package: com.foxfort.aperturize
+Version: 2.2.1
+Architecture: iphoneos-arm
+Maintainer: FoxfortMobile
+Installed-Size: 2084
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.9)
+Filename: ./debs/com.foxfort.aperturize_2.2.1_iphoneos-arm.deb
+Size: 1208302
+MD5sum: 84e23ae2fc4494c716684c69bbf1163a
+SHA1: ed22ac3e2eb58c7a260a26120fbc7c4a29e8feb2
+SHA256: fd9223115023660af0fc117109ccae5c659bd1b54bdecb6b599f031f909b1756
+Section: Tweaks
+Description: Adjustable bokeh for portrait mode
+Author: FoxfortMobile
+Icon: file:///Library/PreferenceBundles/aperturizesettings.bundle/icon@3x.png
+Name: Aperturize
 
 Package: com.giorgioiavicoli.passby
 Version: 1.9.1
@@ -729,16 +766,17 @@ Name: HalFiPad
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.iarrays.calllogpro81
-Version: 14.0
+Version: 14.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 10527
-Depends: firmware(>= 8.0), mobilesubstrate, com.iarrays.libiarrays (>= 1.0.13), com.rpetrich.rocketbootstrap
-Filename: ./debs/com.iarrays.calllogpro81_14.0_iphoneos-arm.deb
-Size: 3203690
-MD5sum: cd2f4e61432661b1a36e47053ed2fab2
-SHA1: 80fed242b74f90b589718a96aed8f67332563280
-SHA256: a975b4811e74d48cd25fc7d8afd6c0e249e4d6c493c1474c9c2f273ea6f95ee4
+Installed-Size: 11427
+Depends: firmware(>= 8.0), mobilesubstrate, com.iarrays.libiarrays (>= 1.0.14), com.rpetrich.rocketbootstrap
+Conflicts: com.iarrays.CallLogPro10, com.iarrays.CallLogPro81
+Filename: ./debs/com.iarrays.calllogpro81_14.1_iphoneos-arm.deb
+Size: 3554624
+MD5sum: 4f99f0e99018f2d9900be6b09a03185d
+SHA1: e1ecf01ca0b347918420879bf09a498e0c9d47db
+SHA256: d3705488a6327fe0f050379f00e30fc53785bfcbb5ac2a212652ec891b4e4070
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=calllogpro8Dp
 Description: Now with iOS 14.X support along with A13/12 devices. CallLogPro allows to manage your calls history and to delete call records one by one or all. This works on all iOS versions starting from 8.0.
@@ -749,6 +787,28 @@ Dev: iarrays
 Icon: file:///Applications/CallLogPro.app/AppIcon29x29@2x.png
 Name: CallLogPro (iOS 14 to 8)
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.ichitaso.altstore
+Version: 1.4.5
+Architecture: iphoneos-arm
+Maintainer: ichitaso
+Depends: firmware (>= 12.2), com.rileytestut.altdaemon
+Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
+Replaces: com.ichitaso.altstore
+Filename: ./debs/com.ichitaso.altstore_1.4.5_iphoneos-arm.deb
+Size: 4591092
+MD5sum: 2ab8a810082f931e4a74f3e0199deabd
+SHA1: a3cf5ddaf7c21d093111f5bc51510135822a6bb0
+SHA256: 0765f62007897f79cda9870ab98e80b6b8e6604ca642a906586126d6445c2732
+Section: Utilities
+Homepage: https://altstore.io/
+Description: Jailbroken version of AltStore with on device signing feauture.
+Tag: purpose::extension, compatible::ios12, compatible::ios13, compatible::ios14
+Author: Riley Testut
+Depiction: https://cydia.ichitaso.com/depiction/altstore.html
+Dev: Riley Testut
+Icon: file:///Applications/AltStore.app/AppIcon60x60@2x.png
+Name: AltStore
 
 Package: com.ichitaso.icontweak
 Version: 1.0.9
@@ -1059,6 +1119,24 @@ Homepage: https://iosgods.com
 Description: Surge 4 iGMM Cheats by Laxus for iOSGods.com!
 Author: Laxus
 Name: Surge 4 Cheats
+
+Package: com.lenglengyu.ffbaidu
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.lenglengyu.ffbaidu_0.0.4_iphoneos-arm.deb
+Size: 8658
+MD5sum: c84a04a8e8dd5c2c718327c42e77181c
+SHA1: 4c010c1c955f34dc43e2fe06f6bfde07a7a79ba6
+SHA256: f25ac742b61ee00fcd0e6c5ba37ea088e40d26e0c28ee4a489c28e5f4d1f4566
+Section: Tweaks
+Description: 解决Safari浏览器跳转百度问题。
+Author: lenglengyu
+Depiction: https://apt.167025.cn/packageInfo/ffbaidu.html
+Name: 百度不跳转
+Sileodepiction: https://apt.167025.cn/packageInfo/ffbaidusileo
 
 Package: com.lenglengyu.psexpresspro
 Version: 0.0.1
@@ -1528,6 +1606,22 @@ Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
 Name: A-Bypass
 
+Package: com.rpgfarm.u0smscompletefix
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 332
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.rpgfarm.u0smscompletefix_1.0.1_iphoneos-arm.deb
+Size: 5710
+MD5sum: ff38e7305cdf6a93a553fcadce0acf2c
+SHA1: f39ec7e0c0d0db1ef71010f060aa22df5d9514f3
+SHA256: a5eec74b90040485cd6638f987d298cd0205df69bb86ee69d1164a2065dbc03b
+Section: Tweaks
+Description: Fix unc0ver sms auto complete
+Author: Baw Appie <pp121324@gmail.com>
+Name: u0SMSCompleteFix
+
 Package: com.ryannair05.little12
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1796,17 +1890,17 @@ Name: Cydia Timeout 5
 Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-timeout-5/native
 
 Package: com.udevs.dockx
-Version: 2.2.8
+Version: 2.3.0
 Architecture: iphoneos-arm
 Maintainer: udevs
-Installed-Size: 1368
+Installed-Size: 1464
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware(>=12.0), com.spark.libsparkcolourpicker
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.2.8_iphoneos-arm.deb
-Size: 261796
-MD5sum: 097e484cbe59b1108b178079a0024149
-SHA1: 68c838c48ba126305985a33c7b61c3394621ecaa
-SHA256: 7d578945e4e64d1e145ea6abf97153ddee5d124b9480de461659ff2abdbde702
+Filename: ./debs/com.udevs.dockx_2.3.0_iphoneos-arm.deb
+Size: 284776
+MD5sum: c17460ef9d47d4323ec368a8eb2ae3c2
+SHA1: 66cde04c1d3baf2b49070e83d7209011330691b4
+SHA256: fe3f537fed66d4edee40640f0872bfea317532d5958d2c3185b9444ef6b93077
 Section: Tweaks
 Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
@@ -2161,17 +2255,17 @@ Author: YuriDevTeam
 Name: MilkyWay3
 
 Package: kr.xsf1re.flyjbx
-Version: 1.1.15
+Version: 1.1.19
 Architecture: iphoneos-arm
 Maintainer: XsF1re
-Installed-Size: 1576
+Installed-Size: 1580
 Depends: mobilesubstrate
 Conflicts: kr.xsf1re.flyjb
-Filename: ./debs/kr.xsf1re.flyjbx_1.1.15_iphoneos-arm.deb
-Size: 642228
-MD5sum: 52c851dff2539d262f4f71a8f5105442
-SHA1: dbff1abb0cd0c2467e495cc9c2e5bb3a4dc60cdf
-SHA256: a1dfa4b716f48f42f42c17404c888dd9675f155cf3035b2ef6e5da236ed847bb
+Filename: ./debs/kr.xsf1re.flyjbx_1.1.19_iphoneos-arm.deb
+Size: 642904
+MD5sum: 0482bf30740812e3d75a2256c0d8fa0a
+SHA1: 0979d4e46d8e4988fa30e901f6a6da403933ad12
+SHA256: bff8aab6ee57fafcf76c0c3f4b483d28b338e745683838792a21dd77adca2ead
 Section: Tweaks
 Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
@@ -2329,39 +2423,39 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Link Identity Editor
 
 Package: libapt
-Version: 1.8.2.1-1
+Version: 1.8.2.2-1
 Architecture: iphoneos-arm
 Essential: yes
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 3616
+Installed-Size: 3624
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lz4, lzma, xz, libapt-pkg5.0 (>= 1.8.2.1), gnutls
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lz4, lzma, xz, libapt-pkg5.0 (>= 1.8.2.2), gnutls
 Conflicts: apt7-lib (<<1:0), apt7 (<<1:0), apt7-key (<<1:0), com.mc.xz
 Breaks: cydia (<< 1.1.10), aptitude (<< 0.4.11.11-6), apt7-lib (<< 1:0)
-Filename: ./debs/libapt_1.8.2.1-1_iphoneos-arm.deb
-Size: 302840
-MD5sum: b6d317427a7176e7dc50b7421d3d5c56
-SHA1: e84dcde6e597f177486bd6ffe43b653abd8fb170
-SHA256: 0b1fa3904b47c374ba2acd826068717a444649b6358bd7ac60c0096593bedafe
+Filename: ./debs/libapt_1.8.2.2-1_iphoneos-arm.deb
+Size: 304718
+MD5sum: c247457cb9188b9c9e33d28b4b956ad3
+SHA1: 4e41edc7c787a5efe63311e0b0d45aa9e0b1793d
+SHA256: a7930bdab9c626283a0c706c294d626784fa4345f58ae9fa657f30256b5b534f
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
 Name: APT (lib)
 
 Package: libapt-pkg5.0
-Version: 1.8.2.1-1
+Version: 1.8.2.2-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 3416
+Installed-Size: 3456
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bzip2, lz4, lzma, xz
 Conflicts: apt7-lib (<<1:0), com.mc.xz (<<5.2.4-7)
-Provides: libapt-pkg (=1.8.2.1)
-Filename: ./debs/libapt-pkg5.0_1.8.2.1-1_iphoneos-arm.deb
-Size: 535322
-MD5sum: 13d537fa6827230787583b928e32b600
-SHA1: 359ba45d3e1131897e179f63d24f14e58dbe546a
-SHA256: aa38b836c298c8e67429d02af39f109acec410ec3f2cf9ea08a6c5412644cb84
+Provides: libapt-pkg (=1.8.2.2)
+Filename: ./debs/libapt-pkg5.0_1.8.2.2-1_iphoneos-arm.deb
+Size: 536688
+MD5sum: d6996ad60172c960b02ca20991c42157
+SHA1: 3288bc6be38a6a88248c1f2a658aa981688a914f
+SHA256: 2386c434c8d2d34e39fd20ac69b8b41070183e3fa1cde288479fb8c4f5889750
 Section: Packaging
 Priority: required
 Description: the advanced packaging library from Debian
@@ -2562,16 +2656,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.10.10
+Version: 2.11.0
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
 Installed-Size: 12044
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.10.10_iphoneos-arm.deb
-Size: 2151310
-MD5sum: 1cc68ad85f777eb0cb08fb7d24f4f7ce
-SHA1: 5fdfb0ca7f03ccfdb8f1bd02785a67ae943c6f3f
-SHA256: baa567b09a2197e246670409b1018570adae962fdb35eb16717eab4225faf4a0
+Filename: ./debs/me.ahmedbafkir.dleasy_2.11.0_iphoneos-arm.deb
+Size: 2151600
+MD5sum: 47e3b998900c340a38d3ea051f8ceda6
+SHA1: ff3ad91017ab40dd3a82d7d94c20b72a68c436f0
+SHA256: c64b55dc8f8b8c0572485b3e5339f5d018be49b66fcafef8b09945722a388948
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -2748,27 +2842,24 @@ Name: BioProtect XS (iOS 12/13/14)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.limneos.callbarxs
-Version: 3.2-143
+Version: 4.0-116
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1616
-Depends: mobilesubstrate, preferenceloader, firmware (>= 12), net.limneos.simpleactivationactions
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 1708
+Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware ( >= 12)
 Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
-Filename: ./debs/net.limneos.callbarxs_3.2-143_iphoneos-arm.deb
-Size: 273888
-MD5sum: d3e7656f0c1c087a8974ee6c47866d25
-SHA1: 199273a74dc9c45d03f17a594fc2aaaaa1197748
-SHA256: 7548def3a84747ddb12c4abbd673b03bc688c66ccf1f319d51f9d878060bd125
+Filename: ./debs/net.limneos.callbarxs_4.0-116_iphoneos-arm.deb
+Size: 316380
+MD5sum: 2ed4c87522898dce5cc3f61bbd9b53e9
+SHA1: 2dd183a48c9d8dac0d62b5fd68cf004a1b4aadb0
+SHA256: 308fa47ecc522a47a1eaacce0bc463884561c95b5a46328534d83d684de5ad24
 Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=callbarxsDp
 Description: Don't let incoming calls interrupt you!
-Tag: purpose::extension, compatible::ios12, compatible::ios13
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=callbarxsDp
-Dev: limneos
+Depiction: http://limneos.net/callbarxs
 Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
-Name: CallBar XS (iOS 12/13)
-Sponsor: thebigboss.org <http://thebigboss.org>
+Mainlibmd5: 07210d793fc30eb50c98aa05800ed382
+Name: CallBar XS (iOS 12/13/14)
 
 Package: net.limneos.glow
 Version: 0.4-45
@@ -2811,17 +2902,17 @@ Name: libbulletin
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.limneos.nfcwriterx
-Version: 3.2-77+debug
+Version: 3.2-78+debug
 Architecture: iphoneos-arm
 Maintainer: Elias Limneos <limneoselias@gmail.com>
-Installed-Size: 4216
+Installed-Size: 4244
 Depends: mobilesubstrate, net.limneos.libbulletin
 Conflicts: net.limneos.nfcwriter, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos, me.kanam.nfcwriterquickaction
-Filename: ./debs/net.limneos.nfcwriterx_3.2-77+debug_iphoneos-arm.deb
-Size: 958580
-MD5sum: ce90cfcb663301925d92ebe23bf48cd0
-SHA1: e7d6b8b11b1efb01b7e52e01abd77e841c56ec37
-SHA256: 37d4e01954c0b9358165fb4d1e4de3441aa83e8c3d426438d411eac9f0471b1b
+Filename: ./debs/net.limneos.nfcwriterx_3.2-78+debug_iphoneos-arm.deb
+Size: 987320
+MD5sum: d6e167a1c97d55626d849fedcfefea85
+SHA1: bbd6345ce4142ea764fb7076b409539062beda1d
+SHA256: c78a7d80e1b1aea8bc3279b3119c60f73ce6e8cd5f69e5d0231d98ffee71423f
 Section: Utilities
 Description: NFCWriter XS for iOS 11/12/13
 Author: Elias Limneos <limneoselias@gmail.com>
