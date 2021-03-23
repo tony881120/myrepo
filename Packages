@@ -719,6 +719,35 @@ Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=libcs
 Name: libCSColorPicker
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=libcscolorpicker
 
+Package: com.haoict.iconcert
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 376
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 13)
+Filename: ./debs/com.haoict.iconcert_1.0.1_iphoneos-arm.deb
+Size: 18396
+MD5sum: d116c22385b41aa5b52af2457ad57f5d
+SHA1: 70fa41efae897bf851ba622415931d753008650d
+SHA256: bc5d51dbe735dcc61cbeb7eb3f938844755431db8dedb4ee4f3c97be00cfc1f0
+Section: Tweaks
+Description: Show remaining certificate time on app icon
+ Show remaining certificate time on app icon
+ Change log:
+ - v1.0.1: Fix crash due to conflict with SnowBoard
+ .
+ Features:
+ - Show remaining certificate time on app icon
+ - Custom styles (opacity, animation, time format)
+ - Support iOS 13 - 14
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: IconCert 14
+
 Package: com.hius.gesturesi11
 Version: 3.6.7
 Architecture: iphoneos-arm
@@ -2238,6 +2267,26 @@ Dev: ashikase
 Name: TechSupport Framework (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: jp.soh.reprovision
+Version: 0.6.1~release
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Depends: firmware (>= 9.0)
+Replaces: com.matchstic.Extender-Installer, com.matchstic.reprovision
+Provides: com.matchstic.Extender-Installer, com.matchstic.reprovision
+Filename: ./debs/jp.soh.reprovision_0.6.1_release_iphoneos-arm.deb
+Size: 14666572
+MD5sum: 04fcba9dbc28533e6ef63655f72bd88f
+SHA1: 7448c4c13f7dc447cb930d45c0407e623cadc931
+SHA256: 6e6e1660f58dea70ecac157b606706ad9950629bf83623b1a3afeedcbd939dee
+Section: System
+Priority: optional
+Description: Re-sign applications on your device
+Author: Soh Satoh, Matt Clarke
+Dev: Matt Clarke
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Name: ReProvision Reborn
+
 Package: jp.yuri.milkyway3
 Version: 0.2.8
 Architecture: iphoneos-arm
@@ -2266,6 +2315,23 @@ Size: 642904
 MD5sum: 0482bf30740812e3d75a2256c0d8fa0a
 SHA1: 0979d4e46d8e4988fa30e901f6a6da403933ad12
 SHA256: bff8aab6ee57fafcf76c0c3f4b483d28b338e745683838792a21dd77adca2ead
+Section: Tweaks
+Description: You can HIDE Doing jailbreak your iDevice.
+Author: XsF1re
+Name: FlyJB X
+
+Package: kr.xsf1re.flyjbx
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: XsF1re
+Installed-Size: 1580
+Depends: mobilesubstrate
+Conflicts: kr.xsf1re.flyjb
+Filename: ./debs/kr.xsf1re.flyjbx_1.2.0_iphoneos-arm.deb
+Size: 646772
+MD5sum: dd64f3be4df07ff72867cb3fcda58a62
+SHA1: f55929bd1bd59fe95ee65bd796547a98dc898353
+SHA256: d623947258d2e8182869b2e4fd92f86c6733892da85a65abd17ef2a8cd8a05f4
 Section: Tweaks
 Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
@@ -3449,6 +3515,29 @@ Dev: EditorNah
 Icon: file:///Library/PreferenceLoader/Preferences/DingTalkHelperX.png
 Name: DingTalkHelperX2
 Sponsor: Editornah <mxiaohan.2018@gmail.com>
+
+Package: x.DingTalkHelperX2
+Version: 2.1.7
+Architecture: iphoneos-arm
+Maintainer: Editornah<2330219387@qq.com>
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Conflicts: com.kevll.dingtalkhelper,x.DingTalkHelperX
+Filename: ./debs/x.DingTalkHelperX2_2.1.7_iphoneos-arm.deb
+Size: 246072
+MD5sum: e150b941b30640b383b7d29242aeb405
+SHA1: b8ca6cc1419e0dfcc626d819bde458d72eb883af
+SHA256: 54700b1b96ce11b50eead12ef05485a7e9e5386eac9f6574e0a1d4af2187da6d
+Section: Tweaks
+Priority: optional
+Homepage: https://cydia.editornah.top
+Description: 启动页屏蔽、消息防撤回、自动抢红包、callkit语音
+Tag: purpose::extension, compatible::ios14
+Author: Editornah
+Depiction: https://cydia.editornah.top/depiction/DingTalkHelperX2/index.html
+Dev: EditorNah
+Icon: file:///Library/PreferenceLoader/Preferences/DingTalkHelperX.png
+Name: DingTalkHelperX2
+Sponsor: Editornah <2330219387@qq.com>
 
 Package: xyz.tylerd3v.syncstore
 Version: 2.1
