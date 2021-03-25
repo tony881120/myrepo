@@ -545,21 +545,21 @@ Author: comex <comexk+da@gmail.com>
 Name: Substitute
 
 Package: com.ex.substitute
-Version: 2.0.9
+Version: 2.0.10
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner
-Installed-Size: 25328
+Installed-Size: 25248
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_2.0.9_iphoneos-arm.deb
-Size: 6818442
-MD5sum: e0bf43aa1cc3022d65ea97ba28748756
-SHA1: 7ce0aaea8086a99399b4aa20251aa04ee216bc20
-SHA256: 38768625cfffc60ad9e3a27e70bbcd0c93759bd094694bdf61607440c791956f
+Filename: ./debs/com.ex.substitute_2.0.10_iphoneos-arm.deb
+Size: 6823214
+MD5sum: 3eea8c2f7c2d0ad849a608050a5a1f90
+SHA1: cde4cc289f9520a53c0f9da78a0a06906254d78c
+SHA256: fd7f4ad7977af8ee33eae85a29416169e0a82425f719660c913fba28c06731a5
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution
@@ -627,21 +627,39 @@ Name: AppTools for iOS14
 Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
 
 Package: com.foxfort.aperturize
-Version: 2.2.1
+Version: 2.2.2
 Architecture: iphoneos-arm
 Maintainer: FoxfortMobile
-Installed-Size: 2084
+Installed-Size: 2116
 Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.9)
-Filename: ./debs/com.foxfort.aperturize_2.2.1_iphoneos-arm.deb
-Size: 1208302
-MD5sum: 84e23ae2fc4494c716684c69bbf1163a
-SHA1: ed22ac3e2eb58c7a260a26120fbc7c4a29e8feb2
-SHA256: fd9223115023660af0fc117109ccae5c659bd1b54bdecb6b599f031f909b1756
+Filename: ./debs/com.foxfort.aperturize_2.2.2_iphoneos-arm.deb
+Size: 1244406
+MD5sum: 9a8aede2bd91799f49e57c018b1a5c02
+SHA1: 470033137a6176f16131983c7e1924ddb83bad5f
+SHA256: 2726927784cf472d5d70bff5bd674c99a90a5d151073731205830087374601ab
 Section: Tweaks
 Description: Adjustable bokeh for portrait mode
 Author: FoxfortMobile
 Icon: file:///Library/PreferenceBundles/aperturizesettings.bundle/icon@3x.png
 Name: Aperturize
+
+Package: com.geosn0w.iSecureOS
+Version: 1.10
+Architecture: iphoneos-arm
+Maintainer: GeoSn0w (@FCE365)
+Depends: firmware (>= 11.0)
+Filename: ./debs/com.geosn0w.isecureos_1.10_iphoneos-arm.deb
+Size: 1269352
+MD5sum: dffcb82916714f7d7bc40d3c068d6068
+SHA1: 5430f5ae48c364caf8927a03f0fa867038a41f56
+SHA256: 673dce6e2c45c5dfcd0a412139e26cf13e60ef44f54d169c7e75b899eb7f627b
+Section: Utilities
+Description: An iOS Security Application for Jailbroken units.
+Author: GeoSn0w (@FCE365)
+Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
+Icon: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.png
+Name: iSecureOS
+Sileodepiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/sileo.json
 
 Package: com.giorgioiavicoli.passby
 Version: 1.9.1
@@ -862,6 +880,27 @@ Dev: ichitaso
 Icon: file:///Library/PreferenceBundles/IconTweakSettings.bundle/icon@2x.png
 Name: IconTweak
 
+Package: com.ichitaso.networkdisabler
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: ichitaso <willfeeltips+ntd@gmail.com>
+Installed-Size: 1044
+Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.ichitaso.networkdisabler_1.0.1_iphoneos-arm.deb
+Size: 198518
+MD5sum: cff5bc818596d1dda2f017ac27999f2f
+SHA1: 6f0476468e740a69aa4c687e7774256ab29bfe25
+SHA256: 0c1beffd1149c7b691491a2e51ddbc09526a4b9b45e488915b0ea7364df76a45
+Section: Tweaks
+Homepage: https://ichitaso.com
+Description: Control your network when using apps
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: ichitaso <willfeeltips+ntd@gmail.com>
+Depiction: https://cydia.ichitaso.com/depiction/networkdisabler.html
+Dev: ichitaso
+Icon: file:///Library/PreferenceBundles/NetworkDisablerSettings.bundle/icon@2x.png
+Name: NetworkDisabler
+
 Package: com.ichitaso.nonceset143
 Version: 0.0.3
 Architecture: iphoneos-arm
@@ -945,19 +984,19 @@ Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
 Name: OTADisabler
 
 Package: com.ichitaso.powerselector11
-Version: 1.3.0
+Version: 1.3.1
 Architecture: iphoneos-arm
 Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
-Installed-Size: 2292
+Installed-Size: 2424
 Pre-Depends: firmware (>= 11.0)
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
 Replaces: com.ichitaso.powerselector11
-Filename: ./debs/com.ichitaso.powerselector11_1.3.0_iphoneos-arm.deb
-Size: 214948
-MD5sum: 90e3d8202a7b2a1c5088df30e728a041
-SHA1: 341a4fccc7f46ce54b2b2f89d251530c8d07c62b
-SHA256: aada0ac28341dcdcb7329f1b42fd66f03e56a34a3626f8f8f098f05966919a18
+Filename: ./debs/com.ichitaso.powerselector11_1.3.1_iphoneos-arm.deb
+Size: 215720
+MD5sum: 746da79b4ffeef0788ec9041b3d09291
+SHA1: c5606e8c75c4b5b56d7e09701d64343400fbcef5
+SHA256: acb666d8f17b3502ea6b0a6c3cd344bcbe35ab6dcdcc14c7bf6bfcb0d756ec87
 Section: Utilities
 Homepage: https://cydia.ichitaso.com/depiction/powerselector11.html
 Description: The power supply relation of a device is operated.
@@ -1901,15 +1940,15 @@ Name: Cydia Timeout 10
 Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-timeout-10/native
 
 Package: com.twickd.t0mi.cydia-timeout-5
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: t0mi <fritsch.weiding@yahoo.de>
 Conflicts: com.chickenmatt5.cydiatimeout2, com.chickenmatt5.cydiatimeout5, com.chickenmatt5.cydiatimeout20, com.twickd.t0mi.cydia-timeout-10
-Filename: ./debs/com.twickd.t0mi.cydia-timeout-5_1.0_iphoneos-arm.deb
-Size: 1064
-MD5sum: 93faa4c435a2649a600ad1660b7b5be6
-SHA1: d2e8db5c019f21e28b085e2362fdcd22b5a6728b
-SHA256: dbc8ce5217247f8f96061bf80798ee5a4b9a4616c715e9ac902c62d44a4bd8eb
+Filename: ./debs/com.twickd.t0mi.cydia-timeout-5_1.1_iphoneos-arm.deb
+Size: 1068
+MD5sum: 1ed526529a93c7a3c2d38a8023938339
+SHA1: 666a4f627107abf306edc04be25104ad9b083f8a
+SHA256: 93c993871fd2f318624f15a2ccfba98bf462f71e0e89bc2dc1d883668ca62104
 Section: System
 Description: Force Cydia to only spend ten seconds trying to refresh each source. Cuts down on overall refresh time. Inspired by chickenmatt5's outdated Cydia Timeout 2/5/20.
 Tag: compatible_min::ios7.0, compatible_max::ios14.5
@@ -2302,23 +2341,6 @@ Section: Tweaks
 Description: multitasking for iOS14.
 Author: YuriDevTeam
 Name: MilkyWay3
-
-Package: kr.xsf1re.flyjbx
-Version: 1.1.19
-Architecture: iphoneos-arm
-Maintainer: XsF1re
-Installed-Size: 1580
-Depends: mobilesubstrate
-Conflicts: kr.xsf1re.flyjb
-Filename: ./debs/kr.xsf1re.flyjbx_1.1.19_iphoneos-arm.deb
-Size: 642904
-MD5sum: 0482bf30740812e3d75a2256c0d8fa0a
-SHA1: 0979d4e46d8e4988fa30e901f6a6da403933ad12
-SHA256: bff8aab6ee57fafcf76c0c3f4b483d28b338e745683838792a21dd77adca2ead
-Section: Tweaks
-Description: You can HIDE Doing jailbreak your iDevice.
-Author: XsF1re
-Name: FlyJB X
 
 Package: kr.xsf1re.flyjbx
 Version: 1.2.0
@@ -2843,27 +2865,22 @@ Name: Respring Helper(重启桌面)-restart SpringBoard
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.limneos.answeringmachinex
-Version: 1.2-60
+Version: 1.2-61
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 2332
-Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-158), firmware (>= 11.0)
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 2412
+Depends: mobilesubstrate, preferenceloader, net.limneos.libbulletin (>= 0.1-158) ,  firmware (>= 11.0)
 Conflicts: net.limneos.audiorecorder (<= 1.7-4)
-Filename: ./debs/net.limneos.answeringmachinex_1.2-60_iphoneos-arm.deb
-Size: 502836
-MD5sum: 8b2830221a7a08ecdf399d47f3488ca4
-SHA1: bbca1aa407d89cc92812b8432cbcb1ef82f54f16
-SHA256: 1b728960d62b185e10ac3dd050c761b4be1331e22ebcf8f09ae744347b356607
+Filename: ./debs/net.limneos.answeringmachinex_1.2-61_iphoneos-arm.deb
+Size: 541310
+MD5sum: ccdc760837318def6502ff5604a36985
+SHA1: cb01f9e8770d692602da33be0d4b390f9f591ae8
+SHA256: 720c6b562470ae8e86efb7d3aa5362c2eb86c8d231267bd15eb13d280a39c935
 Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=answeringmachinexDp
-Description: Receive voicemails on device!
-Tag: purpose::extension
+Description: AnsweringMachine XS (iOS 11 to 14)
 Author: Elias Limneos <limneoselias@gmail.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=answeringmachinexDp
-Dev: limneos
-Icon: file:///Library/PreferenceBundles/AnsweringMachine.bundle/AnsweringMachine@2x.png
-Name: AnsweringMachine XS (iOS 11 to 14)
-Sponsor: thebigboss.org <http://thebigboss.org>
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.answeringmachinex
+Name: AnsweringMachine XS
 
 Package: net.limneos.audiorecorderxs
 Version: 3.7-42
@@ -2908,23 +2925,23 @@ Name: BioProtect XS (iOS 12/13/14)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.limneos.callbarxs
-Version: 4.0-116
+Version: 4.0-118
 Architecture: iphoneos-arm
 Maintainer: Elias Limneos <limneoselias@gmail.com>
 Installed-Size: 1708
 Depends: mobilesubstrate, preferenceloader, net.limneos.simpleactivationactions, firmware ( >= 12)
 Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
-Filename: ./debs/net.limneos.callbarxs_4.0-116_iphoneos-arm.deb
-Size: 316380
-MD5sum: 2ed4c87522898dce5cc3f61bbd9b53e9
-SHA1: 2dd183a48c9d8dac0d62b5fd68cf004a1b4aadb0
-SHA256: 308fa47ecc522a47a1eaacce0bc463884561c95b5a46328534d83d684de5ad24
+Filename: ./debs/net.limneos.callbarxs_4.0-118_iphoneos-arm.deb
+Size: 313564
+MD5sum: e38de2d0849b91baf70cd6db290d9232
+SHA1: e8d43874c2d1140d3d45d020ff52b14207ba9a7d
+SHA256: 1c74588a60f26235a68677bf16e66ad6ea6ce8f1cc9ecb5101f2b799817235ca
 Section: Tweaks
 Description: Don't let incoming calls interrupt you!
 Author: Elias Limneos <limneoselias@gmail.com>
 Depiction: http://limneos.net/callbarxs
 Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
-Mainlibmd5: 07210d793fc30eb50c98aa05800ed382
+Mainlibmd5: 4f7a1b2dd5eba4e6267f59814811a2d8
 Name: CallBar XS (iOS 12/13/14)
 
 Package: net.limneos.glow
@@ -2986,6 +3003,23 @@ Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.nfcwriterx
 Icon: file:///Applcations/NFCWriter.app/icon@2x.png
 Mainlibmd5: 5c9513f65efdf5339b2ba47ef648a46c
 Name: NFCWriter XS
+
+Package: net.limneos.randomiconsflip
+Version: 0.3-15
+Architecture: iphoneos-arm
+Maintainer: Elias Limneos
+Installed-Size: 216
+Depends: mobilesubstrate, firmware (>= 4.0)
+Filename: ./debs/net.limneos.randomiconsflip_0.3-15_iphoneos-arm.deb
+Size: 11708
+MD5sum: e06830944f292c9eb0ca5d19c6801539
+SHA1: e8f25dcb3f18648cc269058e8be407d989d20259
+SHA256: 6053a01c1c4369a204258020c7cc90aa9b42d6afe87e7fb13509ef9fc41134fd
+Section: Tweaks
+Description: Randomly Flips SB Icons
+Author: Elias Limneos
+Depiction: http://limneos.net/cydia/depiction.php?package=net.limneos.randomiconsflip
+Name: Random Icon Flip
 
 Package: net.limneos.simpleactivationactions
 Version: 0.1-1
