@@ -359,29 +359,27 @@ Dev: c1d3r
 Name: PullOver Pro
 
 Package: com.cannathea.afc2d-arm64
-Version: 1.1.1
+Version: 1.1.2-1
 Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 671
+Maintainer: Cannathea <csupport@cannathea.com>
+Installed-Size: 408
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64, mobilesubstrate, ldid
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/com.cannathea.afc2d-arm64_1.1.1_iphoneos-arm.deb
-Size: 19468
-MD5sum: 63342514d0bb6350d54a327150da1c32
-SHA1: 1e65a268ce9fd57ffc41cc9c563858581ec69c57
-SHA256: 5293c7908a4b6ba39bd1e0f189dcb25222b1d2831f4d001011a88d5e73312dc0
+Filename: ./debs/com.cannathea.afc2d-arm64_1.1.2-1_iphoneos-arm.deb
+Size: 19290
+MD5sum: 5cc7bc63508de9e9f2fa334d86df90ca
+SHA1: b6c95383fd3319b9263d2bf9261ff2623754ab5f
+SHA256: f970219a6c8fd8c29a5b51e09d5777285638cc49d63e88386ffe97ea8efcde60
 Section: System
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Homepage: https://cannathea.com/
 Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
-Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Tag: purpose::daemon, role::enduser
 Author: saurik, Cannathea <csupport@cannathea.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
-Dev: cannathea
+Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
 Name: Apple File Conduit "2" (iOS 11+, arm64)
-Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.cemck.photon
 Version: 1.0.6
@@ -401,16 +399,16 @@ Icon: file:///Library/PreferenceBundles/PhotonPrefs.bundle/icon_prefs@3x.png
 Name: Photon
 
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.14-11
+Version: 0.9.15
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.14-11_iphoneos-arm.deb
-Size: 3003986
-MD5sum: a30f8a79a53c9abbfe257d489f2a26f6
-SHA1: d0173e732cb21922f62b814d6fc3dda8420b04d4
-SHA256: 79bc273816ca5e01421d50ded66296f611042957f73919de47463ad527c63b8f
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.15_iphoneos-arm.deb
+Size: 3017258
+MD5sum: 09d667aeb5b20d146e3d9487d8e9377e
+SHA1: bb6ff0483c8a19eed0a669fd1ce6971dcd8923e2
+SHA256: 46ded5a61d994ab00da9c1258efab8652f82a081a92e2863240d4aef6c6c6c42
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-14.whatever
@@ -644,22 +642,22 @@ Icon: file:///Library/PreferenceBundles/aperturizesettings.bundle/icon@3x.png
 Name: Aperturize
 
 Package: com.geosn0w.iSecureOS
-Version: 1.10
+Version: 1.16
 Architecture: iphoneos-arm
 Maintainer: GeoSn0w (@FCE365)
 Depends: firmware (>= 11.0)
-Filename: ./debs/com.geosn0w.isecureos_1.10_iphoneos-arm.deb
-Size: 1269352
-MD5sum: dffcb82916714f7d7bc40d3c068d6068
-SHA1: 5430f5ae48c364caf8927a03f0fa867038a41f56
-SHA256: 673dce6e2c45c5dfcd0a412139e26cf13e60ef44f54d169c7e75b899eb7f627b
+Filename: ./debs/com.geosn0w.isecureos_1.16_iphoneos-arm.deb
+Size: 1271320
+MD5sum: c44653c1efc602306718fbb5bdcabe87
+SHA1: 39f91c8e61594e5cee7b1c0e9c35492804a65d23
+SHA256: cc686346cf9c52718645f07f098fcad9db4cd119138629167a06d0d6849fce28
 Section: Utilities
 Description: An iOS Security Application for Jailbroken units.
 Author: GeoSn0w (@FCE365)
 Depiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.html
 Icon: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/iSecureOS.png
 Name: iSecureOS
-Sileodepiction: https://isecureos.idevicecentral.com/repo/Files/iSecureOS/sileo.json
+Sileodepiction: https://isecureos.idevicecentral.com/repo/sileo/isecureos.json
 
 Package: com.giorgioiavicoli.passby
 Version: 1.9.1
@@ -1568,16 +1566,16 @@ Author: P2KDev <p2kdev@gmail.com>
 Name: SwitchConfirm
 
 Package: com.ps.letmeblock
-Version: 0.0.7.5
+Version: 0.0.7.8
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/com.ps.letmeblock_0.0.7.5_iphoneos-arm.deb
-Size: 5068
-MD5sum: 529fde6b36c7de2c777faf94b21f898d
-SHA1: 8f8d192410d312947681063c7092c2624d62ffa9
-SHA256: 94e0df2ebfb2ec0332bb3e23ba362c23d76fedbc67c1f158497c1fb42c62b69d
+Filename: ./debs/com.ps.letmeblock_0.0.7.8_iphoneos-arm.deb
+Size: 6484
+MD5sum: 07cb96fba9fe6e979d13727d928c1e64
+SHA1: b44a5e1af3a72cbe2e123aa053a4cac5322e9225
+SHA256: fc32943d93d70d1f5df62052409990df565854c64cebf9e8a31c9897bb690a9e
 Section: Tweaks
 Description: Make mDNSResponder care more about /etc/hosts
 Author: PoomSmart
@@ -2307,17 +2305,17 @@ Name: TechSupport Framework (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: jp.soh.reprovision
-Version: 0.6.1~release
+Version: 0.6.2~release
 Architecture: iphoneos-arm
 Maintainer: Soh Satoh
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer, com.matchstic.reprovision
 Provides: com.matchstic.Extender-Installer, com.matchstic.reprovision
-Filename: ./debs/jp.soh.reprovision_0.6.1_release_iphoneos-arm.deb
-Size: 14666572
-MD5sum: 04fcba9dbc28533e6ef63655f72bd88f
-SHA1: 7448c4c13f7dc447cb930d45c0407e623cadc931
-SHA256: 6e6e1660f58dea70ecac157b606706ad9950629bf83623b1a3afeedcbd939dee
+Filename: ./debs/jp.soh.reprovision_0.6.2_release_iphoneos-arm.deb
+Size: 14667432
+MD5sum: d1f99bfa8aa62d5281416c973c9d12ce
+SHA1: d5c24c64df51f891a1e94b8d45bdeb997650d79f
+SHA256: 48b09b6d92e45ccd49c4249a025592247c9283342561b3615d532acc16844c43
 Section: System
 Priority: optional
 Description: Re-sign applications on your device
@@ -2744,16 +2742,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.11.0
+Version: 2.11.1
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
 Installed-Size: 12044
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.11.0_iphoneos-arm.deb
-Size: 2151600
-MD5sum: 47e3b998900c340a38d3ea051f8ceda6
-SHA1: ff3ad91017ab40dd3a82d7d94c20b72a68c436f0
-SHA256: c64b55dc8f8b8c0572485b3e5339f5d018be49b66fcafef8b09945722a388948
+Filename: ./debs/me.ahmedbafkir.dleasy_2.11.1_iphoneos-arm.deb
+Size: 2149828
+MD5sum: d2a1301dc360861e141103f4e08e1c8d
+SHA1: 4cec4408c8be714b4ecd0a60c27e184d94a29798
+SHA256: fc8d7c7f484b430f704e8e45027e6a6f515c3516144f47a428c98b820f2c4763
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -3087,46 +3085,47 @@ Name: 3DNetworkFixer
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.alipaysteps
-Version: 1.2-7
+Version: 1.3-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 385
+Installed-Size: 400
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.alipaysteps_1.2-7_iphoneos-arm.deb
-Size: 99436
-MD5sum: 83af81e00d488f25bfb3ba502ec8437b
-SHA1: 188e595b0f90a75503a9ea0230192f4d4efb94de
-SHA256: f9bd32262226be1913c54cd2e80187ba712818b2924e87f60984672a8852563c
+Filename: ./debs/netskao.alipaysteps_1.3-1_iphoneos-arm.deb
+Size: 97524
+MD5sum: 88e74eed41146caccc35c661b8cc9a5f
+SHA1: d4ee77072b9cd2c1d64cd71347fc8d40382992a9
+SHA256: 2671d8524585ea06f41dc02ce82c1124ecb28cc22587fb49580d3a07b455259d
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
-Description: 支付宝自定义步数修改，实时修改，设置位于支付宝-设置-右上角
+Description: 支付宝自定义步数修改，实时修改，设置位于支付宝-设置页面底部
 Tag: purpose::extension
 Author: Netskao <netskao@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
 Dev: netskao
-Name: Alipay Steps
+Name: AlipaySteps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
-Version: 1.7-1
+Version: 2.0-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 1310
+Installed-Size: 429
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_1.7-1_iphoneos-arm.deb
-Size: 247734
-MD5sum: 686f0ac87ff81c1056423a8dbfa10bf3
-SHA1: 300a9665ad79389960c1b97cb3cc313ab9ad7b32
-SHA256: f7f2caa93bd081212c5a6e3a4eabd966a3726cfed8b52248e472b7a6929481a1
+Filename: ./debs/netskao.awemepurification_2.0-1_iphoneos-arm.deb
+Size: 113466
+MD5sum: a7bfec90389a44a0bd4c94c0bc716cd7
+SHA1: 3f961635d7efd0707da23127622ef9bdf95ec777
+SHA256: df4f91281aeaed5cdd380b44f490e2068f279d6ee123cc9de9e8675590e40d54
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
-Description: 抖音净化！支持抖音短视频，抖音极速版。保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，去除刷视频时插播广告等，注意:遇到不可以保存的视频双击视频保存即可！在抖音-设置界面可开启关闭甩一甩，后台模糊。「甩一甩手机」开启自动播放，开启或关闭状态栏，开启双击快速保存无水印视频，开启普通纯净模式，开启强劲纯净模式
-Tag: purpose::extension, compatible::ios12, compatible::ios13
+Description: 抖音净化！设置位于抖音-设置，保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，
+ 去除视频流广告，去除首页推荐视频流中的直播，屏蔽青少年提示，开启浅色模式或关闭，关闭底部朋友或发抖音或私信按钮，关闭首页按钮刷新等，注意:遇到不可以保存的视频双击视频保存即可！
+Tag: purpose::extension
 Author: Netskao <admin@initnil.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
 Dev: netskao
-Name: 抖音 净化
+Name: 抖音净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.fakemodel
@@ -3149,6 +3148,48 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fakemodelD
 Dev: netskao
 Icon: file:///Library/PreferenceBundles/FakeModelSettings.bundle/FakeModelSettings@2x.png
 Name: FakeModel
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.qqpurification
+Version: 1.7-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 515
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/netskao.qqpurification_1.7-2_iphoneos-arm.deb
+Size: 140080
+MD5sum: cced76394af3c8d00aed4842c1aeba65
+SHA1: c2949de31553690100ec261667941f9420ea12ff
+SHA256: 7bc54ae553ccb1bfe68215ffc270a6347f941b026af3d2da779ddcb3b926869d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Tag: purpose::extension
+Author: Netskao <netskao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
+Dev: netskao
+Name: QQ净化
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.wechatpurification
+Version: 1.8-9
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 387
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/netskao.wechatpurification_1.8-9_iphoneos-arm.deb
+Size: 113158
+MD5sum: fea73d94cc0b165f6e3a15668954957a
+SHA1: 9814b03f9c94b47550a43a2b317ea7bdfa5e5dd7
+SHA256: 5b4dba15eededd57a39ab2434258e4e11d15cf0f32bc0a65d3cf92c0f7cb63dd
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.15及以上版本，设置位于微信-设置
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Dev: netskao
+Name: 微信净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatscan
