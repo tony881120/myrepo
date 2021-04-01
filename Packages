@@ -416,6 +416,24 @@ Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
 
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.16-2
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.16-2_iphoneos-arm.deb
+Size: 3024992
+MD5sum: e953eed8ca5b093477ba291a16c96d9e
+SHA1: bb9a0dfcf9f7c0cfe0e718c71d05c75e52c6cae3
+SHA256: 18e928fb6df9b351f0454a8ed738bcc22c64fe5a2ff4802bbbf12416dd7ec298
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-14.whatever
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Name: AppStore++
+
 Package: com.cokepokes.letsdowngrade
 Version: 0.1-2
 Architecture: iphoneos-arm
@@ -1956,17 +1974,17 @@ Name: Cydia Timeout 5
 Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-timeout-5/native
 
 Package: com.udevs.dockx
-Version: 2.3.0
+Version: 2.3.1
 Architecture: iphoneos-arm
 Maintainer: udevs
 Installed-Size: 1464
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware(>=12.0), com.spark.libsparkcolourpicker
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.3.0_iphoneos-arm.deb
-Size: 284776
-MD5sum: c17460ef9d47d4323ec368a8eb2ae3c2
-SHA1: 66cde04c1d3baf2b49070e83d7209011330691b4
-SHA256: fe3f537fed66d4edee40640f0872bfea317532d5958d2c3185b9444ef6b93077
+Filename: ./debs/com.udevs.dockx_2.3.1_iphoneos-arm.deb
+Size: 285102
+MD5sum: 6a2a6969f3526d344a9b69de55cb497b
+SHA1: 2a76aadb6baca2a68308e6429580bae24831aaef
+SHA256: 31f02de3fb8b2d6d5a80176d47a90a652061d6f5e0359115e2d721d3638d2fb4
 Section: Tweaks
 Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
@@ -1991,6 +2009,22 @@ Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.perseus
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.perseus/icon/icon.png
 Name: Perseus
+
+Package: com.wechat.fzye
+Version: 1.5.9-6
+Architecture: iphoneos-arm
+Maintainer: Jan
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.wechat.fzye_1.5.9-6_iphoneos-arm.deb
+Size: 2046766
+MD5sum: 610b15c7042e2e3ed53e48f7a40e95d1
+SHA1: 501e6f2f27c2acc7a671fc9abad0186f9cec4df6
+SHA256: 80415c5b820725250c963f06cb6d006ff6cf73b280169fddf427621f0fe82efb
+Section: System
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat
 
 Package: com.yourepo.ibreak.batterymeter
 Version: 1.3
@@ -2341,17 +2375,17 @@ Author: YuriDevTeam
 Name: MilkyWay3
 
 Package: kr.xsf1re.flyjbx
-Version: 1.2.0
+Version: 1.2.1
 Architecture: iphoneos-arm
 Maintainer: XsF1re
 Installed-Size: 1580
 Depends: mobilesubstrate
 Conflicts: kr.xsf1re.flyjb
-Filename: ./debs/kr.xsf1re.flyjbx_1.2.0_iphoneos-arm.deb
-Size: 646772
-MD5sum: dd64f3be4df07ff72867cb3fcda58a62
-SHA1: f55929bd1bd59fe95ee65bd796547a98dc898353
-SHA256: d623947258d2e8182869b2e4fd92f86c6733892da85a65abd17ef2a8cd8a05f4
+Filename: ./debs/kr.xsf1re.flyjbx_1.2.1_iphoneos-arm.deb
+Size: 647112
+MD5sum: 2706bce232475aaef98cf7702df99e96
+SHA1: 95b52711b9ada705664ffc6ea8b7969df93d947f
+SHA256: ee6b72e64b7be58d6a8b5ec6764330cd41b05224d152397e3e04beadc3956558
 Section: Tweaks
 Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
@@ -3085,16 +3119,16 @@ Name: 3DNetworkFixer
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.alipaysteps
-Version: 1.3-1
+Version: 1.3-2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 400
+Installed-Size: 394
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.alipaysteps_1.3-1_iphoneos-arm.deb
-Size: 97524
-MD5sum: 88e74eed41146caccc35c661b8cc9a5f
-SHA1: d4ee77072b9cd2c1d64cd71347fc8d40382992a9
-SHA256: 2671d8524585ea06f41dc02ce82c1124ecb28cc22587fb49580d3a07b455259d
+Filename: ./debs/netskao.alipaysteps_1.3-2_iphoneos-arm.deb
+Size: 98712
+MD5sum: 9002dd4728750354d2bc3bef33507ecd
+SHA1: a7d8a4b416f30075acf0778c4d5ed4c91a395a64
+SHA256: 2cb63f17f9351fb88279c03de418f9f01c5a168225a55f93a7c1cca7fc36892d
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=alipaystepsDp
 Description: 支付宝自定义步数修改，实时修改，设置位于支付宝-设置页面底部
