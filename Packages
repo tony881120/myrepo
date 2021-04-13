@@ -306,27 +306,6 @@ Description: Find out which packages are dra1ning your battery!
 Author: MegaDev & Amy While
 Name: Dra1n
 
-Package: com.amywhile.dra1n
-Version: 1.4
-Architecture: iphoneos-arm
-Maintainer: MegaDev and Amy While <me@elihc.dev>
-Depends: firmware (>=11.0), mobilesubstrate, firmware(>=12.2) | org.swift.libswift (>=5.0), ws.hbang.common,preferenceloader, com.cokepokes.libnotifications (>= 0.2-2)
-Conflicts: com.megadev.dra1n
-Filename: ./debs/com.amywhile.dra1n_1.4_iphoneos-arm.deb
-Size: 6484648
-MD5sum: 8336d8102290ef9c69be893d47e00704
-SHA1: ccc13ea586f971c030efbe00c4c90a905e20a768
-SHA256: 60b543ffc28d1dd779ac2bda5b6f992d6aa7070db881c2b2a405f35271f0237b
-Section: Tweaks
-Description: Find out which packages are dra1ning your battery!
-Author: MegaDev and Amy While <me@elihc.dev>
-Depiction: https://repo.elihc.dev/depiction/web/com.amywhile.dra1n.html
-Icon: https://repo.elihc.dev/assets/com.amywhile.dra1n/icon.png
-Moderndepiction: https://repo.elihc.dev/depiction/native/com.amywhile.dra1n.json
-Name: Dra1n
-Sileodepiction: https://repo.elihc.dev/depiction/native/com.amywhile.dra1n.json
-Tags: compatible_min::ios11.0, compatible_max::ios14.X
-
 Package: com.atwiiks.conditionalwifi4
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -400,24 +379,6 @@ Description: True Ambient Display
 Author: cemck
 Icon: file:///Library/PreferenceBundles/PhotonPrefs.bundle/icon_prefs@3x.png
 Name: Photon
-
-Package: com.cokepokes.appstoreplusplus
-Version: 0.9.15
-Architecture: iphoneos-arm
-Maintainer: CokePokes
-Depends: firmware (>= 11.0), mobilesubstrate
-Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.15_iphoneos-arm.deb
-Size: 3017258
-MD5sum: 09d667aeb5b20d146e3d9487d8e9377e
-SHA1: bb6ff0483c8a19eed0a669fd1ce6971dcd8923e2
-SHA256: 46ded5a61d994ab00da9c1258efab8652f82a081a92e2863240d4aef6c6c6c42
-Section: Tweaks
-Priority: optional
-Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-14.whatever
-Author: CokePokes
-Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
-Name: AppStore++
 
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.16-2
@@ -541,27 +502,6 @@ Dev: ant
 Icon: file:///Library/PreferenceBundles/TikTokSetArea.bundle/icon@2x.png
 Name: TikTok 国际版抖音【植入版免V】
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.ex.substitute
-Version: 0.1.15
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner
-Installed-Size: 4768
-Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
-Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode, uikittools (>=1.1.13-4), darwintools
-Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate
-Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
-Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_0.1.15_iphoneos-arm.deb
-Size: 1177256
-MD5sum: 9d4adc7fc77869f683f3c2b4f938efb6
-SHA1: cf5edde0358d5a79b4d3c43aba28304782254ae2
-SHA256: c0765ceff693b99ecb3f6dc4e30647ec990a67a4043e10d8093a7549a800f63c
-Section: System
-Priority: optional
-Description: Substrate substitute for code substitution
-Author: comex <comexk+da@gmail.com>
-Name: Substitute
 
 Package: com.ex.substitute
 Version: 2.0.10
@@ -1742,22 +1682,6 @@ Description: A general purpose jailbreak detection bypass patch. Configure the L
 Author: Ryley Angus
 Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
 Name: Liberty Lite (Beta)
-
-Package: com.samgisaninja.successionrestore
-Version: 1.4.15
-Architecture: iphoneos-arm
-Maintainer: Samg_is_a_Ninja
-Depends: firmware-sbin, rsync
-Filename: ./debs/com.samgisaninja.successionrestore_1.4.15_iphoneos-arm.deb
-Size: 1176050
-MD5sum: 49897046f0f21b2a5b69a8f035aa9201
-SHA1: bc8377c3723535aa71af974d3e7b4cede404e879
-SHA256: b62349fb95e1773ecde52407034f33b3bb223c2c2aef2e97d148556f944cc36a
-Section: Utilities
-Description: Restore without updating via rootfilesystem DMG
-Author: Samg_is_a_Ninja
-Icon: file:///Applications/SuccessionRestore.app/AppIcon60x60@3x.png
-Name: Succession
 
 Package: com.samgisaninja.successionrestore
 Version: 1.4.16~b4
