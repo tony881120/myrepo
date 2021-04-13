@@ -327,22 +327,6 @@ Name: Dra1n
 Sileodepiction: https://repo.elihc.dev/depiction/native/com.amywhile.dra1n.json
 Tags: compatible_min::ios11.0, compatible_max::ios14.X
 
-Package: com.aohuiliu.tripletaplock
-Version: 1.0.0
-Architecture: iphoneos-arm
-Maintainer: AohuiLiu <x345242281@outlook.com>
-Installed-Size: 152
-Depends: mobilesubstrate
-Filename: ./debs/ios13三击锁屏com.aohuiliu.tripletaplock_1.0.0_iphoneos-arm.deb
-Size: 3654
-MD5sum: 89a10b2ce95cb0867e2fc3931b465cd7
-SHA1: a178f9e9671b6f2e64588594d10d3db33a6f8383
-SHA256: 70e385ecc1575d5547ba093eb7c065ad6302015a2844213d70c5a8b042c1aa03
-Section: Tweaks
-Description: Tap 3 times to lock in HomeScreen.
-Author: AohuiLiu <x345242281@outlook.com>
-Name: TripleTapLock
-
 Package: com.atwiiks.conditionalwifi4
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -621,36 +605,16 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
-Package: com.flex2areo.apptools13
-Version: 2.5.8
-Architecture: iphoneos-arm
-Maintainer: aReo < >
-Depends: firmware (>=13.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools13_2.5.8_iphoneos-arm.deb
-Size: 292548
-MD5sum: 2b4f079f4482affdc92af172824950f5
-SHA1: bed0988c942f32a619a17097274384666ded769c
-SHA256: 80c1cb613993910482169560510a648d6e3da8125b1e3876ac11e51a674eab67
-Section: Tweaks
-Homepage: https://shuga.co/
-Description: An icon tool.
-Author: aReo < >
-Depiction: https://flex2areo.github.io/depiction/web/com.flex2areo.apptools13.html
-Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools13/icon.png
-Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools13.json
-Name: AppTools for iOS13
-Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools13.json
-
 Package: com.flex2areo.apptools14
-Version: 1.5.1
+Version: 1.5.3
 Architecture: iphoneos-arm
 Maintainer: aReo < >
 Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.5.1_iphoneos-arm.deb
-Size: 323944
-MD5sum: 621ac599a1a9d732a1cc3419aba368ed
-SHA1: 3b23688ad4d823620b3f222697b5f4d2bb4f1729
-SHA256: 4d45ef32d3c88293246b86a9906e86efffcf7e3a8f2b757c82d81d52504bc6f1
+Filename: ./debs/com.flex2areo.apptools14_1.5.3_iphoneos-arm.deb
+Size: 347142
+MD5sum: 2c793d2ebbc79130ca3f07ab8ad549f8
+SHA1: 245fa39f4cb997d877cc2129c8d0271bfd15ae8e
+SHA256: 7b8b5404358ac609ea2fbe2cd37fb2adc852e32a4fb10f2c27476757633e775c
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: An icon tool.
@@ -660,6 +624,24 @@ Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools14/icon.png
 Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
 Name: AppTools for iOS14
 Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
+
+Package: com.fouadraheb.appdata
+Version: 1.3.6
+Architecture: iphoneos-arm
+Maintainer: Fouad Raheb <support@fouadraheb.com>
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.fouadraheb.appdata_1.3.6_iphoneos-arm.deb
+Size: 270838
+MD5sum: baa467c88bf0e67e02f8f44129d5409e
+SHA1: 1379ec02add7ab1eba261c19e5146e10be85fc79
+SHA256: 2de71f49b41102bc02dc88a6a0694c4c018cc5aa903b6a9597aa4e228f5b43ef
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata
+Icon: file:///Library/PreferenceBundles/AppDataPrefs.bundle/AppData@3x.png
+Name: AppData
+Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
 
 Package: com.foxfort.aperturize
 Version: 2.2.2
@@ -679,15 +661,15 @@ Icon: file:///Library/PreferenceBundles/aperturizesettings.bundle/icon@3x.png
 Name: Aperturize
 
 Package: com.geosn0w.iSecureOS
-Version: 1.16
+Version: 1.20
 Architecture: iphoneos-arm
 Maintainer: GeoSn0w (@FCE365)
 Depends: firmware (>= 11.0)
-Filename: ./debs/com.geosn0w.isecureos_1.16_iphoneos-arm.deb
-Size: 1271320
-MD5sum: c44653c1efc602306718fbb5bdcabe87
-SHA1: 39f91c8e61594e5cee7b1c0e9c35492804a65d23
-SHA256: cc686346cf9c52718645f07f098fcad9db4cd119138629167a06d0d6849fce28
+Filename: ./debs/com.geosn0w.isecureos_1.20_iphoneos-arm.deb
+Size: 1428648
+MD5sum: 223fc0a8a9f6c5b5df0e361fd1740d8c
+SHA1: 95294a5553b2e3e9af4d3b29f806b44e461a784b
+SHA256: 5fec17200a5c5748d59995a4994083bff55e2b20171f0f2a3399904d36f444f4
 Section: Utilities
 Description: An iOS Security Application for Jailbroken units.
 Author: GeoSn0w (@FCE365)
@@ -998,7 +980,7 @@ Depiction: https://cydia.ichitaso.com/depiction/otadisabler.html
 Name: OTADisabler
 
 Package: com.ichitaso.powerselector11
-Version: 1.3.1
+Version: 1.3.3
 Architecture: iphoneos-arm
 Maintainer: ichitaso <willfeeltips+ps11@gmail.com>
 Installed-Size: 2424
@@ -1006,11 +988,11 @@ Pre-Depends: firmware (>= 11.0)
 Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
 Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
 Replaces: com.ichitaso.powerselector11
-Filename: ./debs/com.ichitaso.powerselector11_1.3.1_iphoneos-arm.deb
-Size: 215720
-MD5sum: 746da79b4ffeef0788ec9041b3d09291
-SHA1: c5606e8c75c4b5b56d7e09701d64343400fbcef5
-SHA256: acb666d8f17b3502ea6b0a6c3cd344bcbe35ab6dcdcc14c7bf6bfcb0d756ec87
+Filename: ./debs/com.ichitaso.powerselector11_1.3.3_iphoneos-arm.deb
+Size: 215836
+MD5sum: acdd395e70d757afa84bcdc4f0cfda35
+SHA1: 9b6a455c3e5a3fd8524d73738dc962b3093560f4
+SHA256: a60c4ba3fd59462a90829392d8d02b4b6f801d534cad55023d0effdf1b6ed17f
 Section: Utilities
 Homepage: https://cydia.ichitaso.com/depiction/powerselector11.html
 Description: The power supply relation of a device is operated.
@@ -1499,40 +1481,40 @@ Author: Muirey03
 Name: libimagepicker
 
 Package: com.muirey03.libmryipc
-Version: 2.0
+Version: 2.0.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 481
+Installed-Size: 464
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0)
 Conflicts: ws.hbang.stopcrashingpls (=1.0)
-Filename: ./debs/com.muirey03.libmryipc_2.0_iphoneos-arm.deb
-Size: 27254
-MD5sum: 48ee978b8ac2895ec318db77fd2b2779
-SHA1: 73b7225c87fa7a1c787957c1d3140dd9e2154837
-SHA256: bc3ae7260ab09b1cb456d41802793ec3e6b8bd316e2c01e972c9cfa7a05d5ad6
+Filename: ./debs/com.muirey03.libmryipc_2.0.1_iphoneos-arm.deb
+Size: 28236
+MD5sum: 5be4446b36ceeb8f300cefbc10dbcded
+SHA1: 0d910e67abf04135102e296519ad8f44f0f41113
+SHA256: 206b196b2acae7a0ebe7a82d3197e0f1fd358a1f77138d5e0ca130d67f2cd55e
 Section: Development
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
 Description: Easy-to-use, RocketBootstrap-less iOS IPC
-Tag: role::developer, purpose::library, cydia::obsolete, compatible::ios13
+Tag: role::developer, purpose::library, cydia::obsolete
 Author: Muirey03 <tommy.muir@btinternet.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libmryipcDp
 Dev: muirey03
 Name: libMRYIPC
 
 Package: com.opa334.ccsupport
-Version: 1.3.2
+Version: 1.3.3
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 248
+Installed-Size: 379
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Provides: com.ioscreatix.silo
-Filename: ./debs/com.opa334.ccsupport_1.3.2_iphoneos-arm.deb
-Size: 47666
-MD5sum: 349a1e6b130dfa953d593f92086c7fc2
-SHA1: 01662cdee514095d1b1c2e172d4557e245995fbe
-SHA256: 9d0ebcddd9470c42ffba0bf1c3582883dae588c2b74476a50886294071314ce0
+Filename: ./debs/com.opa334.ccsupport_1.3.3_iphoneos-arm.deb
+Size: 55346
+MD5sum: 7cc286a44def6661d51cf8238c62dff6
+SHA1: 77a7c3ef89602b5956fcc52d9f0225c65c5f7bb1
+SHA256: a30d91f1314a605b8811eb4d00089f2bb0510833ebdf6d1cf3b1bbf2a7135aa4
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Description: Support tweak for CC modules!
@@ -1598,24 +1580,6 @@ Author: PoomSmart
 Depiction: https://poomsmart.github.io/repo/depictions/letmeblock.html
 Name: LetMeBlock
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
-
-Package: com.pwn20wnd.semirestore11
-Version: 1.2-1
-Architecture: iphoneos-arm
-Maintainer: Pwn20wnd <pwn20wndstuff@gmail.com>
-Installed-Size: 220
-Depends: cy+cpu.arm64, coreutils-bin, uikittools, rsync, firmware (>= 11.0)
-Conflicts: org.coolstar.semirestore11-lite
-Replaces: org.coolstar.semirestore11-lite
-Filename: ./debs/com.pwn20wnd.semirestore11_1.2-1_iphoneos-arm.deb
-Size: 57098
-MD5sum: 214246e6d38ff62be6dfc8d2c252ebc3
-SHA1: ff4a6b2ef919c2e7d6c2af02cb55bb9ee61f133e
-SHA256: 631b6ea99e51b5a29b941cd6621529f8cb39e8e19819a889da58a29727558f42
-Section: System
-Description: A full system unjailbreaker that supports all devices running iOS 11.
-Author: Pwn20wnd <pwn20wndstuff@gmail.com>
-Name: SemiRestore11 / Rollectra
 
 Package: com.qiop1379.swipeextenderx
 Version: 1.4.2
@@ -1900,40 +1864,46 @@ Author: subdiox
 Name: StoreSwitcher 2
 
 Package: com.tigisoftware.filza64bit
-Version: 3.8.2-4
+Version: 3.8.2-6
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
-Installed-Size: 21772
+Installed-Size: 21788
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.8.2-4_iphoneos-arm.deb
-Size: 8387434
-MD5sum: eb947177c58647ec420a31af4610a64c
-SHA1: 05dd43c936b8f4994f051ec6c16452ac175b09db
-SHA256: af35a2784770b72c8b85734254ab050ba866ebbabe17b0c5ae31082739104d43
+Filename: ./debs/com.tigisoftware.filza64bit_3.8.2-6_iphoneos-arm.deb
+Size: 8387192
+MD5sum: 6b5b72b96b8249d976ce7b8db2da67c6
+SHA1: 5d4b197de8f2f3833b49ce20f7cc4e4a812b791a
+SHA256: ad9acf44d249ee16df0caa9d2047edb2ddad220b325d6ef4390a4e4208535a6b
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
 Name: Filza File Manager 64-bit
 
-Package: com.twickd.t0mi.cydia-quick-translations
-Version: 1.3
+Package: com.tomaszpoliszuk.magsafecontroller
+Version: 1.0.3
 Architecture: iphoneos-arm
-Maintainer: t0mi <fritsch.weiding@yahoo.de>
-Depends: com.yourepo.ibreak.cydiaquick
-Conflicts: com.t0mi.cydiaquicktranslations
-Filename: ./debs/com.twickd.t0mi.cydia-quick-translations_1.3_iphoneos-arm.deb
-Size: 4604
-MD5sum: 5bb2f3b9d6fc20f015bbd1ff465bb6f2
-SHA1: 469e2527b7809b0d2065891687a354d2153c1325
-SHA256: 7398dc5fad44540e825802ba81c412cdc23ccb7b2f5f2a298b28b26929e8d27b
-Section: System
-Description: Now you can enjoy Cydia Quick in English and German. This is JUST THE TRANSLATION. First of all, you need the original tweak called "Cydia Quick". Repo: https://ibreak.yourepo.com/
-Tag: compatible_min::ios7.0, compatible_max::ios14.4
-Author: t0mi <fritsch.weiding@yahoo.de>
-Depiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-quick-translations
-Name: Cydia Quick Translations
-Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-quick-translations/native
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 414
+Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
+Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
+Filename: ./debs/com.tomaszpoliszuk.magsafecontroller_1.0.3_iphoneos-arm.deb
+Size: 91838
+MD5sum: 109850937b031d8c9c1121c11a09ed7e
+SHA1: 92234f6c17219bd49296081b3002c6a7b9ed302b
+SHA256: ae7c5418f9cccae69adc41f80938b29fc93a48bc11882dec3fcbc24e2b035ecf
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Description: Customizable native "MagSafe" charging view
+Tag: purpose::extension
+Author: Tomasz Poliszuk <tomaszpoliszuk+bigboss@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
+Dev: tomaszpoliszuk
+Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/MagSafeController@3x.png
+Name: MagSafe Controller
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.twickd.t0mi.cydia-timeout-10
 Version: 1.1
@@ -2372,17 +2342,17 @@ Author: YuriDevTeam
 Name: MilkyWay3
 
 Package: kr.xsf1re.flyjbx
-Version: 1.2.1
+Version: 1.2.5
 Architecture: iphoneos-arm
 Maintainer: XsF1re
 Installed-Size: 1580
 Depends: mobilesubstrate
 Conflicts: kr.xsf1re.flyjb
-Filename: ./debs/kr.xsf1re.flyjbx_1.2.1_iphoneos-arm.deb
-Size: 647112
-MD5sum: 2706bce232475aaef98cf7702df99e96
-SHA1: 95b52711b9ada705664ffc6ea8b7969df93d947f
-SHA256: ee6b72e64b7be58d6a8b5ec6764330cd41b05224d152397e3e04beadc3956558
+Filename: ./debs/kr.xsf1re.flyjbx_1.2.5_iphoneos-arm.deb
+Size: 649864
+MD5sum: 5e955e26724e79ff8ca45032679f9cd9
+SHA1: 7fb5d1a3982b471a2af9e47e904d4d0519df3a16
+SHA256: 96491acad71a3696950acf68b06075c04a8e3753164221f7e8f16fe7ca528419
 Section: Tweaks
 Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
@@ -2406,20 +2376,20 @@ Depiction: https://kupord.github.io/web/description.html?id=MiYou
 Name: 微信助手-密友
 
 Package: kupord.fonts.mwzt2
-Version: 2.5
+Version: 2.6
 Architecture: iphoneos-arm
 Maintainer: kupord
 Depends: firmware (>= 11.0)
-Filename: ./debs/kupord.fonts.mwzt2_2.5_iphoneos-arm.deb
-Size: 1357156
-MD5sum: 92b611fc3b3d45885f8a394264b5458c
-SHA1: 98b3ca882aacea9d563125fc808e40514fe7c6a6
-SHA256: 0348d21784ef182a5e4ed23d8f358c977e4589c3058c1ac89380c92443ba7ceb
+Filename: ./debs/kupord.fonts.mwzt2_2.6_iphoneos-arm.deb
+Size: 1371260
+MD5sum: e3cdaef3f17ac48f718b72baf94c30cd
+SHA1: a348feacd940850136214b01651f3956eacc9a2a
+SHA256: 6e754eca9155c3f50106eee4da566770f65fd6bff0d9123711fa2c8ac42a882b
 Section: Fonts
-Description: 单独盲文字体 自动识别iOS11~13系统安装 卸载后自动还原
+Description: 单独盲文字体 自动识别iOS11~14系统安装 卸载后自动还原
 Author: kupord
 Depiction: https://kupord.github.io/web/description.html?id=mwzt2
-Name: kupord盲文字体(iOS11-13)
+Name: kupord盲文字体(iOS11-14)
 
 Package: kupord.limneoshelper
 Version: 1.6.1
@@ -2438,6 +2408,23 @@ Author: kupord
 Depiction: https://kupord.github.io/web/description.html?id=LimneosHelper
 Name: LimneosHelper
 Sponsor: kupord
+
+Package: kupord.semirestore
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Önder Azazi <onderazazi@hotmail.com>
+Depends: mobilesubstrate, firmware(>=11.0)
+Conflicts: com.BIENVANNHAT.SemiRestore
+Filename: ./debs/kupord.semirestore_1.1.4_iphoneos-arm.deb
+Size: 50316
+MD5sum: bd3359014de7a69687545ffd902754ce
+SHA1: fd6a6cd2eae76a5c765f834fa5b5eaa959320504
+SHA256: f61f28984c05ee4915c4ece08680a3cb04c2eb270840350b4a89cf02824dbf36
+Section: Tweaks
+Description: 快照恢复工具，支持11.3以上版本
+Author: Pwn20wnd
+Depiction: https://kupord.github.io/web/description.html?id=SemiRestore11
+Name: SemiRestore 11-14
 
 Package: kupord.shadow
 Version: 2.0.21
@@ -2487,22 +2474,6 @@ Description: VPN Master开启所有线路，去除中国地区限制
 Author: 7Loopy
 Depiction: https://kupord.github.io/web/description.html?id=vpnmastercrack
 Name: VPN Master Crack
-
-Package: kupord.wechathookpro
-Version: 0.3-5
-Architecture: iphoneos-arm
-Maintainer: Nets
-Depends: firmware (>= 9.0), mobilesubstrate
-Filename: ./debs/kupord.wechathookpro_0.3-5_iphoneos-arm.deb
-Size: 1374040
-MD5sum: 35c1264e36dc0d84b67d287fc1135dd1
-SHA1: 4dd51d77c63b1c7fc5b1be022e52fbe2ff146879
-SHA256: 47e5b8607eb9fd3cf91ea9f5a57cc64cc45269b07d822e884a8e2e111329003e
-Section: Tweaks
-Description: 微信全能辅助,抢红包/斗图/蜜友/防撤回/自带防越狱检测
-Author: Mao
-Depiction: https://kupord.github.io/web/description.html?id=wechathookpro
-Name: WeChatHookPro
 
 Package: launchctl
 Version: 25
@@ -2873,16 +2844,16 @@ Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.joebruce.respringhelper
-Version: 1.4.2
+Version: 1.4.3
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 6713
+Installed-Size: 6513
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
-Filename: ./debs/net.joebruce.respringhelper_1.4.2_iphoneos-arm.deb
-Size: 2059066
-MD5sum: 8e376b058912d2f45b42d4d1cfd0ffd7
-SHA1: 6efadccf1b759a74ee1d51e9ed495599b120dced
-SHA256: 93e344750ec1281b9032be6cde3e0cac08cfd23ba1234438e960b52507851583
+Filename: ./debs/net.joebruce.respringhelper_1.4.3_iphoneos-arm.deb
+Size: 2017984
+MD5sum: 93ea19128d9c85d68747dfb1ca0d6df3
+SHA1: 799ad7dbcb3df222ba23c3675d6b170910140dfb
+SHA256: f57d0943e079c55b10b5c94f3038eedf2bad4d3b58b4d6499028d5d19afc1bdb
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringhelperDp
 Description: App which restarts SpringBoard by one click.
@@ -3140,17 +3111,17 @@ Name: AlipaySteps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
-Version: 2.0-1
+Version: 2.0-3
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 429
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_2.0-1_iphoneos-arm.deb
-Size: 113466
-MD5sum: a7bfec90389a44a0bd4c94c0bc716cd7
-SHA1: 3f961635d7efd0707da23127622ef9bdf95ec777
-SHA256: df4f91281aeaed5cdd380b44f490e2068f279d6ee123cc9de9e8675590e40d54
+Filename: ./debs/netskao.awemepurification_2.0-3_iphoneos-arm.deb
+Size: 113346
+MD5sum: e7781cf396ab293da2a3595e645485f8
+SHA1: bb68681e8e522ddc71ffdcd29f228b3afe2b8a4d
+SHA256: 0cce6c98738f3d4ceb9c0667ecd8be3dd4ae60aab115829ea59ff683b51f7ee4
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
 Description: 抖音净化！设置位于抖音-设置，保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，
@@ -3185,16 +3156,16 @@ Name: FakeModel
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.qqpurification
-Version: 1.7-2
+Version: 1.7-6
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 515
+Installed-Size: 532
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/netskao.qqpurification_1.7-2_iphoneos-arm.deb
-Size: 140080
-MD5sum: cced76394af3c8d00aed4842c1aeba65
-SHA1: c2949de31553690100ec261667941f9420ea12ff
-SHA256: 7bc54ae553ccb1bfe68215ffc270a6347f941b026af3d2da779ddcb3b926869d
+Filename: ./debs/netskao.qqpurification_1.7-6_iphoneos-arm.deb
+Size: 142670
+MD5sum: 071205007b3a025980249e925d1d9db2
+SHA1: 46ec2b74b31b93b6c2ec0cafdd57da517338bfb7
+SHA256: 20cf0e1e6bd24270d0412c95f5fd1e34da8d79f16804f4d36fd58b6d7f568e39
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
@@ -3206,16 +3177,16 @@ Name: QQ净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatpurification
-Version: 1.8-9
+Version: 1.9-9.9
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 387
+Installed-Size: 512
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_1.8-9_iphoneos-arm.deb
-Size: 113158
-MD5sum: fea73d94cc0b165f6e3a15668954957a
-SHA1: 9814b03f9c94b47550a43a2b317ea7bdfa5e5dd7
-SHA256: 5b4dba15eededd57a39ab2434258e4e11d15cf0f32bc0a65d3cf92c0f7cb63dd
+Filename: ./debs/netskao.wechatpurification_1.9-9.9_iphoneos-arm.deb
+Size: 155204
+MD5sum: e57cfea2c859dbdbf4e91cf1e3414362
+SHA1: 89828770aab748cb94a01e682029729486d9fa8c
+SHA256: 6d0eb9ca95fbd9b025bbadd7a87206b700ca7da5617b3a2e6a86935a18f0e40d
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.15及以上版本，设置位于微信-设置
@@ -3662,6 +3633,24 @@ Section: Applications
 Description: App Installer for AltStore/AppSync Unified!
 Author: TylerD3V
 Name: SyncStore
+
+Package: xyz.willy.zebra
+Version: 1.1.16
+Architecture: iphoneos-arm
+Maintainer: Wilson Styres <wilson@styres.me>
+Installed-Size: 59036
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./debs/xyz.willy.zebra_1.1.16_iphoneos-arm.deb
+Size: 19159478
+MD5sum: 55c69fae6e270753f423b2d588e30a22
+SHA1: 6d3458c4af0a9fdaa12244dd1e94bc9aef3bfead
+SHA256: 5cf743dbe2e3add6f1ab007cdb30ca4ef80b5184421eccaa1277a0cc1cd92692
+Section: Packaging
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.4
+Author: Wilson Styres <wilson@styres.me>
+Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Name: Zebra
 
 Package: xyz.willy.zebra
 Version: 1.2~beta9a
