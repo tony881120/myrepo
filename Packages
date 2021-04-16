@@ -341,27 +341,29 @@ Dev: c1d3r
 Name: PullOver Pro
 
 Package: com.cannathea.afc2d-arm64
-Version: 1.1.2-1
+Version: 1.1.4
 Architecture: iphoneos-arm
-Maintainer: Cannathea <csupport@cannathea.com>
-Installed-Size: 408
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 736
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64, mobilesubstrate, ldid
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/com.cannathea.afc2d-arm64_1.1.2-1_iphoneos-arm.deb
-Size: 19290
-MD5sum: 5cc7bc63508de9e9f2fa334d86df90ca
-SHA1: b6c95383fd3319b9263d2bf9261ff2623754ab5f
-SHA256: f970219a6c8fd8c29a5b51e09d5777285638cc49d63e88386ffe97ea8efcde60
+Filename: ./debs/com.cannathea.afc2d-arm64_1.1.4_iphoneos-arm.deb
+Size: 20286
+MD5sum: dfc9fcd2ed58d58b5bea246369725a17
+SHA1: 68a47357380c8a2baa0e4c0f6ebc4206683b98e3
+SHA256: 29025062b18acdbe73d470e3846d43aa43381bce4f73642584d98e7b76bf695d
 Section: System
-Homepage: https://cannathea.com/
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
 Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
-Tag: purpose::daemon, role::enduser
+Tag: purpose::daemon
 Author: saurik, Cannathea <csupport@cannathea.com>
-Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Dev: cannathea
 Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.cemck.photon
 Version: 1.0.6
@@ -503,6 +505,29 @@ Icon: file:///Library/PreferenceBundles/TikTokSetArea.bundle/icon@2x.png
 Name: TikTok 国际版抖音【植入版免V】
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.cydiageek.coysim
+Version: 1.6.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 443
+Depends: mobilesubstrate, firmware (>= 8.0), preferenceloader
+Filename: ./debs/com.cydiageek.coysim_1.6.4_iphoneos-arm.deb
+Size: 41606
+MD5sum: a00c733e218146f14ffbe0100e0731da
+SHA1: 118783588ec078017027d1bf7070d24006a2b650
+SHA256: beb36cf7d97e42520d00c2e52d68a90760d4ca77e586e1919e080e2b2e002156
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=coysimDp
+Description: Get rid of No SIM Card Alerts and More!
+Tag: purpose::extension
+Author: CydiaGeek <lucaluca86@aol.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=coysimDp
+Dev: lucaluca86
+Icon: file:///Library/PreferenceBundles/CoySIM.bundle/CoySIM.png
+Name: CoySIM
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.ex.substitute
 Version: 2.0.10
 Architecture: iphoneos-arm
@@ -546,15 +571,15 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.flex2areo.apptools14
-Version: 1.5.3
+Version: 1.5.5
 Architecture: iphoneos-arm
 Maintainer: aReo < >
 Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.5.3_iphoneos-arm.deb
-Size: 347142
-MD5sum: 2c793d2ebbc79130ca3f07ab8ad549f8
-SHA1: 245fa39f4cb997d877cc2129c8d0271bfd15ae8e
-SHA256: 7b8b5404358ac609ea2fbe2cd37fb2adc852e32a4fb10f2c27476757633e775c
+Filename: ./debs/com.flex2areo.apptools14_1.5.5_iphoneos-arm.deb
+Size: 353246
+MD5sum: b9d3e6e78d0f8eafc91a809abd7dfa4b
+SHA1: d1d2f15933aef179809db131ece3dffb7f2feeaa
+SHA256: ce7f16b2ec961f8d9af75b8a8a90a03b7973a6213a723d47a52853c0a7aa4787
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: An icon tool.
@@ -1107,23 +1132,6 @@ Dev: kingpuffdaddi
 Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
 Name: CCVPN
 
-Package: com.laxus.surge4
-Version: 4.3.0+iOSGods.com
-Architecture: iphoneos-arm
-Maintainer: iOSGods.com
-Installed-Size: 8512
-Depends: mobilesubstrate
-Filename: ./debs/com.laxus.surge4_4.3.0 iOSGods.com_iphoneos-arm.deb
-Size: 2418080
-MD5sum: 5b2d4070137d945c98ab71e8d3be0116
-SHA1: 3f84166657ba2b342fb4823865eb28c725f4efb5
-SHA256: 921cbc876b28d5c00540f21744c90f702a6c6f4b1584a27b98ca80fb529826a4
-Section: Tweaks
-Homepage: https://iosgods.com
-Description: Surge 4 iGMM Cheats by Laxus for iOSGods.com!
-Author: Laxus
-Name: Surge 4 Cheats
-
 Package: com.lenglengyu.ffbaidu
 Version: 0.0.4
 Architecture: iphoneos-arm
@@ -1196,24 +1204,6 @@ Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/wxgzh.html
 Name: 微信视频下载
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/wxgzhsileo
-
-Package: com.lenglengyu.xmindpro
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 712
-Depends: mobilesubstrate
-Filename: ./debs/com.lenglengyu.xmindpro_0.0.1_iphoneos-arm.deb
-Size: 193978
-MD5sum: 29564712a05b2f0a41621b60a2861af5
-SHA1: ba06fe3f8a5cd8c846e1bf20eb96c85f38f214b0
-SHA256: 000b79eaf6e944656f898fcb6846a744e04861a3b2ea12235c15521102280849
-Section: Tweaks
-Description: 解锁订阅会员权限。
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/xmindpro.html
-Name: Xmind思维导图Pro
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/xmindprosileo
 
 Package: com.linusyang.appinst
 Version: 1.1.4
@@ -1442,19 +1432,19 @@ Dev: muirey03
 Name: libMRYIPC
 
 Package: com.opa334.ccsupport
-Version: 1.3.3
+Version: 1.3.4
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 379
+Installed-Size: 380
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Provides: com.ioscreatix.silo
-Filename: ./debs/com.opa334.ccsupport_1.3.3_iphoneos-arm.deb
-Size: 55346
-MD5sum: 7cc286a44def6661d51cf8238c62dff6
-SHA1: 77a7c3ef89602b5956fcc52d9f0225c65c5f7bb1
-SHA256: a30d91f1314a605b8811eb4d00089f2bb0510833ebdf6d1cf3b1bbf2a7135aa4
+Filename: ./debs/com.opa334.ccsupport_1.3.4_iphoneos-arm.deb
+Size: 56738
+MD5sum: ddf3f3979b9805137900e3e40a550e45
+SHA1: 09fd4c6f58ba988892541b3ab8157f662fa9b3ba
+SHA256: dc8099af721ad805c1f338962070bc0e9fe2ac7d193aa9726cc340800d2c1a2a
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Description: Support tweak for CC modules!
@@ -2302,23 +2292,6 @@ Description: You can HIDE Doing jailbreak your iDevice.
 Author: XsF1re
 Name: FlyJB X
 
-Package: kupord.MiYou
-Version: 0.2-7
-Architecture: iphoneos-arm
-Maintainer: admin@25mao.com
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/kupord.miyou_0.2-7_iphoneos-arm.deb
-Size: 158192
-MD5sum: 9bbbeb7180a82f9c0d6387b4eafcb15b
-SHA1: 2650d309eee696c2e2e34cb8ccab554a574817b6
-SHA256: 1b585c3b5caa55eb8900e92e8d9121ec03d76119dccf87c4033c7393ddafebc8
-Section: Tweaks
-Priority: optional
-Description: 微信助手-密友
-Author: Mao
-Depiction: https://kupord.github.io/web/description.html?id=MiYou
-Name: 微信助手-密友
-
 Package: kupord.fonts.mwzt2
 Version: 2.6
 Architecture: iphoneos-arm
@@ -2334,24 +2307,6 @@ Description: 单独盲文字体 自动识别iOS11~14系统安装 卸载后自动
 Author: kupord
 Depiction: https://kupord.github.io/web/description.html?id=mwzt2
 Name: kupord盲文字体(iOS11-14)
-
-Package: kupord.limneoshelper
-Version: 1.6.1
-Architecture: iphoneos-arm
-Maintainer: kupord
-Depends: mobilesubstrate
-Conflicts: com.cydiabc.limneoshelper
-Filename: ./debs/kupord.limneoshelper_1.6.1_iphoneos-arm.deb
-Size: 6460
-MD5sum: cec9d141dbd796764e0416edda32e896
-SHA1: 0fb9f42fa0109d6a0b73e24cd57460b0bfa550bf
-SHA256: 9c2ef0ed36df755969971601ac273746f5af55f76c3dfa5453950dbcc3f9723a
-Section: Security
-Description: LimneosHelper破解小助手，通杀Limneos的所有收费插件，完美共存所有破解，安装无设置，安装注销生效！
-Author: kupord
-Depiction: https://kupord.github.io/web/description.html?id=LimneosHelper
-Name: LimneosHelper
-Sponsor: kupord
 
 Package: kupord.semirestore
 Version: 1.1.4
@@ -3621,16 +3576,16 @@ Author: TylerD3V
 Name: SyncStore
 
 Package: xyz.willy.zebra
-Version: 1.1.16
+Version: 1.1.18
 Architecture: iphoneos-arm
 Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 59036
+Installed-Size: 58332
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/xyz.willy.zebra_1.1.16_iphoneos-arm.deb
-Size: 19159478
-MD5sum: 55c69fae6e270753f423b2d588e30a22
-SHA1: 6d3458c4af0a9fdaa12244dd1e94bc9aef3bfead
-SHA256: 5cf743dbe2e3add6f1ab007cdb30ca4ef80b5184421eccaa1277a0cc1cd92692
+Filename: ./debs/xyz.willy.zebra_1.1.18_iphoneos-arm.deb
+Size: 19150270
+MD5sum: ba4bf1d313ac50c522afc6376bdd3c04
+SHA1: 690322825ed543d7ee2c9e0f18ef2edaa2346c5c
+SHA256: 50c315a3df7686cb1014475c6fc7532e094ced032e1d7dbef8946799f1b483de
 Section: Packaging
 Description: A Useful Package Manager
 Tag: compatible::9.0-14.4
