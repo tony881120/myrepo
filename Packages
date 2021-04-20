@@ -290,17 +290,17 @@ Author: 1Conan <tweaks@1conan.com>
 Name: TSS Saver
 
 Package: com.amymega.dra1n
-Version: 1.4.1
+Version: 1.4.3
 Architecture: iphoneos-arm
 Maintainer: MegaDev & Amy While
-Installed-Size: 3976
+Installed-Size: 4000
 Depends: mobilesubstrate, firmware(>=12.2) | org.swift.libswift (>=5.0), ws.hbang.common,preferenceloader, com.cokepokes.libnotifications (>= 0.2-2)
 Conflicts: com.megadev.dra1n, com.amywhile.dra1n
-Filename: ./debs/com.amymega.dra1n_1.4.1_iphoneos-arm.deb
-Size: 1753982
-MD5sum: 4de775f7baebb9941d1405a7214fb432
-SHA1: 91990efc0139d7e0f6dcf9c8681b9ac61ad2e2d1
-SHA256: 8a07de5fd6b5a95dabdb25e65ca33ed7eb7eb2e80adb5c4acff54dc6c6f8a570
+Filename: ./debs/com.amymega.dra1n_1.4.3_iphoneos-arm.deb
+Size: 1762096
+MD5sum: b44b373bfe6096ddc3fd5b9bbac2d175
+SHA1: b83af0debdc9bf39b8ec12e32be132cf9d31d212
+SHA256: 82746202867a068f0609551814ed9c93048d6b7ae50cc5ae44112c9b223937f1
 Section: Tweaks
 Description: Find out which packages are dra1ning your battery!
 Author: MegaDev & Amy While
@@ -609,16 +609,16 @@ Name: AppData
 Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
 
 Package: com.foxfort.aperturize
-Version: 2.2.2
+Version: 2.2.3
 Architecture: iphoneos-arm
 Maintainer: FoxfortMobile
-Installed-Size: 2116
-Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.9)
-Filename: ./debs/com.foxfort.aperturize_2.2.2_iphoneos-arm.deb
-Size: 1244406
-MD5sum: 9a8aede2bd91799f49e57c018b1a5c02
-SHA1: 470033137a6176f16131983c7e1924ddb83bad5f
-SHA256: 2726927784cf472d5d70bff5bd674c99a90a5d151073731205830087374601ab
+Installed-Size: 2200
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.12)
+Filename: ./debs/com.foxfort.aperturize_2.2.3_iphoneos-arm.deb
+Size: 1278550
+MD5sum: 52babd1f86f4ed45d2597f52495f7405
+SHA1: fe8550966c11aa6f0871c6d418d00d1c3a1b651b
+SHA256: c2f088dda0535c9a352f3d2911803d321432a9c2029a935c2f7134a9fed277bd
 Section: Tweaks
 Description: Adjustable bokeh for portrait mode
 Author: FoxfortMobile
@@ -1602,6 +1602,22 @@ Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
 Name: A-Bypass
 
+Package: com.rpgfarm.libapappview
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 196
+Filename: ./debs/com.rpgfarm.libapappview_1.0_iphoneos-arm.deb
+Size: 22352
+MD5sum: f57d64c37f8b1e29b4d76591c28896d3
+SHA1: d253d0398819742ba3e7ea8bde6f33354cb11a66
+SHA256: 08438e9482dc5553a8f577b5186705c8272198b8ee2ee35048edcc9453a66564
+Section: System
+Description: Get Application View on SpringBoard.
+Tag: role::developer
+Author: Baw Appie <pp121324@gmail.com>
+Name: libAPAppView
+
 Package: com.rpgfarm.u0smscompletefix
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -1815,7 +1831,7 @@ Author: TIGI Software
 Name: Filza File Manager 64-bit
 
 Package: com.tomaszpoliszuk.magsafecontroller
-Version: 1.0.3
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 414
@@ -1823,11 +1839,11 @@ Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
-Filename: ./debs/com.tomaszpoliszuk.magsafecontroller_1.0.3_iphoneos-arm.deb
-Size: 91838
-MD5sum: 109850937b031d8c9c1121c11a09ed7e
-SHA1: 92234f6c17219bd49296081b3002c6a7b9ed302b
-SHA256: ae7c5418f9cccae69adc41f80938b29fc93a48bc11882dec3fcbc24e2b035ecf
+Filename: ./debs/com.tomaszpoliszuk.magsafecontroller_1.1_iphoneos-arm.deb
+Size: 89888
+MD5sum: 032a9c6e676191f067c63c5f44f2949c
+SHA1: 78d9f3e0423ebebc8a6270d9b421bec0be010159
+SHA256: 20841956db6f4fedfa6029dfe845dead3a26078c7beb02a02ff175c157d586be
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
 Description: Customizable native "MagSafe" charging view
@@ -1895,22 +1911,40 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.dockx/icon/icon.pn
 Name: DockX
 
 Package: com.udevs.perseus
-Version: 1.1.5
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: udevs
-Installed-Size: 428
-Depends: mobilesubstrate (>= 0.9.5000), firmware(>=13.0)
-Filename: ./debs/com.udevs.perseus_1.1.5_iphoneos-arm.deb
-Size: 95688
-MD5sum: ca91299cb48caf24fa90c9df102c4b09
-SHA1: 85f07199f7c839b7dfcee6f70ff4f7354e4e70cf
-SHA256: 8350a0b9647177fb5873044c88059d5d904504cb641269a789a5a9d766e48965
+Installed-Size: 444
+Depends: mobilesubstrate (>= 0.9.5000), firmware(>=13.0), com.udevs.vexillarius
+Filename: ./debs/com.udevs.perseus_1.2.0_iphoneos-arm.deb
+Size: 108980
+MD5sum: a23d958f7ce772b1138c3a7c098c077c
+SHA1: bd148d70a7d33045a3de80889675945026b4bfa8
+SHA256: 42ebb73c38ce9c5e0a802903fb6c4fff9c714ccb8276a532b42c34a83a5d825f
 Section: Tweaks
 Description: Unlock iPhone with Apple Watch
 Author: udevs
 Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.perseus
 Icon: https://udevsharold.github.io/repo/depictions/com.udevs.perseus/icon/icon.png
 Name: Perseus
+
+Package: com.udevs.vexillarius
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: udevs
+Installed-Size: 136
+Filename: ./debs/com.udevs.vexillarius_0.0.1_iphoneos-arm.deb
+Size: 5472
+MD5sum: 8f0203f6a109101d7484903760618d25
+SHA1: c4055562c3179fd21333806999b0687db3c820b6
+SHA256: 262032f056ca3cade7c2505831be2e83717a5a31177240f10ca614bf0c5e2151
+Section: System
+Description: Standard Bearer
+Tag: role::hacker
+Author: udevs
+Depiction: https://udevsharold.github.io/repo/depictions/?p=com.udevs.vexillarius
+Icon: https://udevsharold.github.io/repo/depictions/com.udevs.vexillarius/icon/icon.png
+Name: vexillarius
 
 Package: com.wechat.fzye
 Version: 1.5.9-6
@@ -3341,6 +3375,46 @@ Dev: domo
 Icon: file:///Applications/CocoaTop.app/Icon.png
 Name: CocoaTop64
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: se.geometric.graphite
+Version: 1.3.3
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 1068
+Depends: firmware(>=13.0), mobilesubstrate
+Conflicts: com.muris.libgraphite
+Filename: ./debs/se.geometric.graphite_1.3.3_iphoneos-arm.deb
+Size: 145454
+MD5sum: 223bbac77375ac77f7c8e8cd21bff637
+SHA1: c87c6fce1fe178815e1b807a28c0020fbb43204f
+SHA256: c7f74109fb6578a77794a19a86848db6757c795353374375e7cdb143a33ea7a5
+Section: Development
+Description: powerful library for iOS development
+Tag: purpose::library role::developer
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/se.geometric.graphite
+Name: Graphite Library
+Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.graphite/depiction
+
+Package: se.geometric.intelligentpass4
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 476
+Depends: mobilesubstrate, firmware(>=14.0), firmware(<<15), preferenceloader, se.geometric.graphite
+Filename: ./debs/se.geometric.intelligentpass4_1.0_iphoneos-arm.deb
+Size: 118846
+MD5sum: 2502898cdad493c8cd429644e0772a43
+SHA1: d61b880742bc10480447e91dff8fbb0542a6b737
+SHA256: 7fb0778ef399cfec4388e4e829aca080765a31b128c8326204bc7bc504a1794d
+Section: Tweaks
+Description: Disable passcode when not necessary
+Tag: cydia::commercial
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/se.geometric.intelligentpass4
+Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
+Name: IntelligentPass 4
+Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.intelligentpass4/depiction
 
 Package: sileot.locationfakerx
 Version: 2.7-2k
