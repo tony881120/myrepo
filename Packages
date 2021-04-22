@@ -626,15 +626,15 @@ Icon: file:///Library/PreferenceBundles/aperturizesettings.bundle/icon@3x.png
 Name: Aperturize
 
 Package: com.geosn0w.iSecureOS
-Version: 1.20
+Version: 1.24
 Architecture: iphoneos-arm
 Maintainer: GeoSn0w (@FCE365)
 Depends: firmware (>= 11.0)
-Filename: ./debs/com.geosn0w.isecureos_1.20_iphoneos-arm.deb
-Size: 1428648
-MD5sum: 223fc0a8a9f6c5b5df0e361fd1740d8c
-SHA1: 95294a5553b2e3e9af4d3b29f806b44e461a784b
-SHA256: 5fec17200a5c5748d59995a4994083bff55e2b20171f0f2a3399904d36f444f4
+Filename: ./debs/com.geosn0w.isecureos_1.24_iphoneos-arm.deb
+Size: 1578832
+MD5sum: 97adede4d0ad54d728e4ea050cbb7b79
+SHA1: fb8db4fa5eb5d6b648a88e86a200ee12f0717c62
+SHA256: f8ce4cd9773fefaccb02765ad918f4f2f2274370b69e44656102cea96a9cd29e
 Section: Utilities
 Description: An iOS Security Application for Jailbroken units.
 Author: GeoSn0w (@FCE365)
@@ -1831,19 +1831,19 @@ Author: TIGI Software
 Name: Filza File Manager 64-bit
 
 Package: com.tomaszpoliszuk.magsafecontroller
-Version: 1.1
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 414
+Installed-Size: 412
 Depends: firmware (>= 12.0), mobilesubstrate, preferenceloader
 Conflicts: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Replaces: com.tomaszpoliszuk.lockscreenbatterymagsafe
 Provides: com.tomaszpoliszuk.lockscreenbatterymagsafe
-Filename: ./debs/com.tomaszpoliszuk.magsafecontroller_1.1_iphoneos-arm.deb
-Size: 89888
-MD5sum: 032a9c6e676191f067c63c5f44f2949c
-SHA1: 78d9f3e0423ebebc8a6270d9b421bec0be010159
-SHA256: 20841956db6f4fedfa6029dfe845dead3a26078c7beb02a02ff175c157d586be
+Filename: ./debs/com.tomaszpoliszuk.magsafecontroller_1.1.1_iphoneos-arm.deb
+Size: 89784
+MD5sum: 76a54f1f1218b196f452f267e737db14
+SHA1: d4106fe568292895b9d2cc33e79d145525980a74
+SHA256: ae14793c567faf7971c1bc0da420f7f5e53dfc7e78fff0106c7ce3fbee151704
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magsafecontrollerDp
 Description: Customizable native "MagSafe" charging view
@@ -2426,17 +2426,17 @@ Description: Tells launchd what to do
 Name: Launch Daemon Controller
 
 Package: ldid
-Version: 2:2.1.2.7+g5420cb5q-2
+Version: 2:2.1.4-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 464
+Installed-Size: 456
 Pre-Depends: dpkg (>= 1.14.25-8), libplist3
 Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: ./debs/ldid_2.1.2.7+g5420cb5q-2_iphoneos-arm.deb
-Size: 52170
-MD5sum: a4e1d157a01283ea153ddebb467c16ed
-SHA1: 0087da4ad8326f2fd79d6552e657d44d44979239
-SHA256: d3702e8b0fb6151b28716ea5aa0c2a4c52f67eba98ba375474140415629a6695
+Filename: ./debs/ldid_2%3a2.1.4-1_iphoneos-arm.deb
+Size: 55008
+MD5sum: c35ac8c8a6ef1f766afccd1eca00dd7c
+SHA1: c9499a3e515e3d04733d72374f55f83476df5762
+SHA256: 7d9a8ca5f1d02f6fd399cc1418ff582e0f600ed508565f5db0dc28c853981040
 Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files
@@ -2677,16 +2677,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.11.1
+Version: 2.11.2
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12044
+Installed-Size: 12216
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.11.1_iphoneos-arm.deb
-Size: 2149828
-MD5sum: d2a1301dc360861e141103f4e08e1c8d
-SHA1: 4cec4408c8be714b4ecd0a60c27e184d94a29798
-SHA256: fc8d7c7f484b430f704e8e45027e6a6f515c3516144f47a428c98b820f2c4763
+Filename: ./debs/me.ahmedbafkir.dleasy_2.11.2_iphoneos-arm.deb
+Size: 2176548
+MD5sum: 02a217041282af1168743b844724377b
+SHA1: a97c4ba64244184dad79b3fb0c7842e3842cc548
+SHA256: b49f0dc616d1589f81857d0e328dbbd7cd5e5438daf45853f558cfaeb754cbea
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -3165,6 +3165,27 @@ SHA256: 6d0eb9ca95fbd9b025bbadd7a87206b700ca7da5617b3a2e6a86935a18f0e40d
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.15及以上版本，设置位于微信-设置
+Tag: purpose::extension
+Author: Netskao <admin@initnil.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Dev: netskao
+Name: 微信净化
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: netskao.wechatpurification
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 490
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/netskao.wechatpurification_2.0-1_iphoneos-arm.deb
+Size: 152732
+MD5sum: abf654f6ab9e069f6a5465a5ad3001e9
+SHA1: 448abfe0edba9937406bc936637f3a70205b84b7
+SHA256: 126b47ff80ad402450e2ad6890ead356e02efc598dacd04c3a8ee63e0169b4e9
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
+Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.0及以上版本，设置位于微信-设置
 Tag: purpose::extension
 Author: Netskao <admin@initnil.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
