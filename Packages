@@ -529,43 +529,21 @@ Name: CoySIM
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ex.substitute
-Version: 2.0.10
+Version: 2.0.12
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner
-Installed-Size: 25248
+Installed-Size: 25940
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_2.0.10_iphoneos-arm.deb
-Size: 6823214
-MD5sum: 3eea8c2f7c2d0ad849a608050a5a1f90
-SHA1: cde4cc289f9520a53c0f9da78a0a06906254d78c
-SHA256: fd7f4ad7977af8ee33eae85a29416169e0a82425f719660c913fba28c06731a5
-Section: System
-Priority: optional
-Description: Substrate substitute for code substitution
-Author: comex <comexk+da@gmail.com>
-Name: Substitute
-
-Package: com.ex.substitute
-Version: 2.0.11
-Architecture: iphoneos-arm
-Maintainer: Sam Bingner
-Installed-Size: 25608
-Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
-Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
-Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
-Breaks: com.saurik.substrate.safemode (<<0.9.6004)
-Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
-Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_2.0.11_iphoneos-arm.deb
-Size: 6902288
-MD5sum: 88f193bc393aee14f4c04e7553e0f17b
-SHA1: b483509a9c962aeb988beee3512b824d6fa24765
-SHA256: 6f605f8ed38275d754417fa6d65b5e5c4e80e5d399cea3f10b8d84bc14bfd645
+Filename: ./debs/com.ex.substitute_2.0.12_iphoneos-arm.deb
+Size: 7030870
+MD5sum: c72a56f86a9b6610f32232ab6a93cc44
+SHA1: 7052e242b6f5faaadbcf2740adc97839eb654d72
+SHA256: 76da97b5f4d1fb29f92a1331188913dd0a1da2c626ff0266750de513361dd290
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution
@@ -1900,54 +1878,18 @@ Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/M
 Name: MagSafe Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.twickd.t0mi.cydia-timeout-10
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: t0mi <fritsch.weiding@yahoo.de>
-Conflicts: com.chickenmatt5.cydiatimeout2, com.chickenmatt5.cydiatimeout5, com.chickenmatt5.cydiatimeout20
-Filename: ./debs/com.twickd.t0mi.cydia-timeout-10_1.1_iphoneos-arm.deb
-Size: 1064
-MD5sum: eee2484f42d0dad8d1acba5c5b301c47
-SHA1: 0d66fbfbbe21dbcc2a6f414b532c767489cd9008
-SHA256: d8c74f1bdc4e7d12e03dafa4885e00a4c24d2dbb8b4fa0f3a61dbe4065c78892
-Section: System
-Description: Force Cydia to only spend ten seconds trying to refresh each source. Cuts down on overall refresh time. Inspired by chickenmatt5's outdated Cydia Timeout 2/5/20.
-Tag: compatible_min::ios7.0, compatible_max::ios14.4
-Author: t0mi <fritsch.weiding@yahoo.de>
-Depiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-timeout-10
-Name: Cydia Timeout 10
-Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-timeout-10/native
-
-Package: com.twickd.t0mi.cydia-timeout-5
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: t0mi <fritsch.weiding@yahoo.de>
-Conflicts: com.chickenmatt5.cydiatimeout2, com.chickenmatt5.cydiatimeout5, com.chickenmatt5.cydiatimeout20, com.twickd.t0mi.cydia-timeout-10
-Filename: ./debs/com.twickd.t0mi.cydia-timeout-5_1.1_iphoneos-arm.deb
-Size: 1068
-MD5sum: 1ed526529a93c7a3c2d38a8023938339
-SHA1: 666a4f627107abf306edc04be25104ad9b083f8a
-SHA256: 93c993871fd2f318624f15a2ccfba98bf462f71e0e89bc2dc1d883668ca62104
-Section: System
-Description: Force Cydia to only spend ten seconds trying to refresh each source. Cuts down on overall refresh time. Inspired by chickenmatt5's outdated Cydia Timeout 2/5/20.
-Tag: compatible_min::ios7.0, compatible_max::ios14.5
-Author: t0mi <fritsch.weiding@yahoo.de>
-Depiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-timeout-5
-Name: Cydia Timeout 5
-Sileodepiction: https://repo.twickd.com/package/com.twickd.t0mi.cydia-timeout-5/native
-
 Package: com.udevs.dockx
-Version: 2.3.1
+Version: 2.3.2
 Architecture: iphoneos-arm
 Maintainer: udevs
 Installed-Size: 1464
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware(>=12.0), com.spark.libsparkcolourpicker
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.3.1_iphoneos-arm.deb
-Size: 285102
-MD5sum: 6a2a6969f3526d344a9b69de55cb497b
-SHA1: 2a76aadb6baca2a68308e6429580bae24831aaef
-SHA256: 31f02de3fb8b2d6d5a80176d47a90a652061d6f5e0359115e2d721d3638d2fb4
+Filename: ./debs/com.udevs.dockx_2.3.2_iphoneos-arm.deb
+Size: 292060
+MD5sum: de2e09aa828e9a4b7e782bd860a67719
+SHA1: 156ce0ca2055cf1f072fcab0fccab6357810ce4e
+SHA256: ffde18add41bdc099c652140bf16008c5316e09d046c33746a12cabd0feed9ae
 Section: Tweaks
 Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
@@ -2177,6 +2119,22 @@ Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/cydia/
 Icon: file:///Applications/Cydia.app/Icon-60.png
 Name: Cydia Installer
+
+Package: daniel.conditional
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: daniel
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/daniel.conditional_0.0.1_iphoneos-arm.deb
+Size: 2762
+MD5sum: 67c57a29b0dba8aad9aa070aaafe224a
+SHA1: 2713a37eaf132bb7f97206f5098d07e240cfbeaa
+SHA256: a4dbf6e0460e810069947399f048380075e8f8302404764238e3d8d5f8c8fe0a
+Section: Tweaks
+Description: Allows restricting which apps get WiFi + Cellular
+Author: daniel
+Name: Conditional
 
 Package: dpkg
 Version: 1.19.7-2
@@ -2801,19 +2759,19 @@ Icon: file:///Applications/OTRLocation.app/icon.png
 Name: Anywhere!--虚拟定位
 
 Package: net.angelxwind.appsyncunified
-Version: 92.0
+Version: 94.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.4.2)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.5)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_92.0_iphoneos-arm.deb
-Size: 58314
-MD5sum: f939aee24badb2c8d145aed68120a32c
-SHA1: 91e6d8239b4e75fe53920339a8a589819814f627
-SHA256: d7848ee4310f30b7dcf230d2281a97391d6c9984d2e333c254d9ddac060b9d1d
+Filename: ./debs/net.angelxwind.appsyncunified_94.0_iphoneos-arm.deb
+Size: 58296
+MD5sum: bfe642102ef85a7cfa808fc179a782d2
+SHA1: 4167eda796d3de17596fdc3bccd7ab5b94aaeb95
+SHA256: a6a6ade29efbda4feaea5c040eec79b525141a5d9a9b88e8830d5ee64fce89fd
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
@@ -3131,17 +3089,17 @@ Name: AlipaySteps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
-Version: 2.0-3
+Version: 2.1-8
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 429
+Installed-Size: 513
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_2.0-3_iphoneos-arm.deb
-Size: 113346
-MD5sum: e7781cf396ab293da2a3595e645485f8
-SHA1: bb68681e8e522ddc71ffdcd29f228b3afe2b8a4d
-SHA256: 0cce6c98738f3d4ceb9c0667ecd8be3dd4ae60aab115829ea59ff683b51f7ee4
+Filename: ./debs/netskao.awemepurification_2.1-8_iphoneos-arm.deb
+Size: 142870
+MD5sum: 6d997fcc2a0b500a8b143b0190eb89f8
+SHA1: 2922725b700765b6004319caf89a9f6f0e33ad44
+SHA256: 2fd8afe39bf2698381391793d8a531a7f08dec612cd146527a4e39ec0d58367e
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
 Description: 抖音净化！设置位于抖音-设置，保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，
@@ -3218,16 +3176,16 @@ Name: 微信净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatpurification
-Version: 2.0-1
+Version: 2.0-2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 490
+Installed-Size: 507
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_2.0-1_iphoneos-arm.deb
-Size: 152732
-MD5sum: abf654f6ab9e069f6a5465a5ad3001e9
-SHA1: 448abfe0edba9937406bc936637f3a70205b84b7
-SHA256: 126b47ff80ad402450e2ad6890ead356e02efc598dacd04c3a8ee63e0169b4e9
+Filename: ./debs/netskao.wechatpurification_2.0-2_iphoneos-arm.deb
+Size: 154824
+MD5sum: 43afcf5b2fe61d0e20bbe7f89716d85b
+SHA1: 23e40df8f5d63f6a655dfcf927b32e99b08a5bcc
+SHA256: 804aa0cf30208a8e69b72fc8a0340fe837c27c45ba59857c7875367a3b40d0ca
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.0及以上版本，设置位于微信-设置
@@ -3463,16 +3421,16 @@ Name: Graphite Library
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.graphite/depiction
 
 Package: se.geometric.intelligentpass4
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Geometric Software
-Installed-Size: 476
+Installed-Size: 444
 Depends: mobilesubstrate, firmware(>=14.0), firmware(<<15), preferenceloader, se.geometric.graphite
-Filename: ./debs/se.geometric.intelligentpass4_1.0_iphoneos-arm.deb
-Size: 118846
-MD5sum: 2502898cdad493c8cd429644e0772a43
-SHA1: d61b880742bc10480447e91dff8fbb0542a6b737
-SHA256: 7fb0778ef399cfec4388e4e829aca080765a31b128c8326204bc7bc504a1794d
+Filename: ./debs/se.geometric.intelligentpass4_1.1_iphoneos-arm.deb
+Size: 89284
+MD5sum: 1dcd31b775a702376678365ac6c433c9
+SHA1: aa549822eaaaadecd075a8d0172c840b271e99f8
+SHA256: bba0b731fd92ed5f71a84b9aca9972bf24047548771eaa93ecaed16e48529b94
 Section: Tweaks
 Description: Disable passcode when not necessary
 Tag: cydia::commercial
@@ -3481,6 +3439,26 @@ Depiction: https://store.geometricsoftware.se/packages/se.geometric.intelligentp
 Icon: file:///Library/PreferenceBundles/IntelligentPass.bundle/store.png
 Name: IntelligentPass 4
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.intelligentpass4/depiction
+
+Package: se.geometric.lendmyphone4
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Geometric Software
+Installed-Size: 7592
+Depends: mobilesubstrate, se.geometric.graphite(>=1.3), firmware(>=14.0), preferenceloader
+Filename: ./debs/se.geometric.lendmyphone4_1.0_iphoneos-arm.deb
+Size: 7124146
+MD5sum: db1d2f8d3b85178ecc09b489d339c9be
+SHA1: c005dbe73831680b7ca93442b572274f05cccb1c
+SHA256: 7e78ec13b3865c756e2d0130faedd2de258cf8418bb01e4617a7d7dbd1462328
+Section: Tweaks
+Description: A true guest mode for iOS
+Tag: cydia::commercial
+Author: Geometric Software
+Depiction: https://store.geometricsoftware.se/packages/se.geometric.lendmyphone4
+Icon: file:///Library/PreferenceBundles/LendMyPhone.bundle/store.png
+Name: LendMyPhone 4
+Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.lendmyphone4/depiction
 
 Package: sileot.locationfakerx
 Version: 2.7-2k
@@ -3497,6 +3475,21 @@ Section: TR - Uygulama
 Description: Harita kullanarak sahte bir konum edinin.
 Author: CUNSTUCK
 Name: LocationFakerX
+
+Package: sileoturkiye.nicecaller14tr
+Version: 1.0.0.6-625
+Architecture: iphoneos-arm
+Maintainer: Önder Azazi <onderazazi@hotmail.com>
+Depends: com.niceios.nicecaller14
+Filename: ./debs/sileoturkiye.nicecaller14tr_1.0.0.6-625_iphoneos-arm.deb
+Size: 14364
+MD5sum: 37eebb188b491d86daec2e50121497ca
+SHA1: 7b64c426cbb5520faf8cf867386f344ccb1f80bf
+SHA256: 10d71de109fd3dd454c928b3f5204cb6a1566d428f8f7257ffaf7efe66a83cd7
+Section: TR - TR Yama
+Description: NiceCaller için Türkçe dil yaması.
+Author: Önder Azazi <onderazazi@hotmail.com>
+Name: NiceCaller(iOS14) TR Yama
 
 Package: tar
 Version: 1.33-1
