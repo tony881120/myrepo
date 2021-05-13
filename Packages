@@ -571,15 +571,15 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.flex2areo.apptools14
-Version: 1.5.5
+Version: 1.5.8
 Architecture: iphoneos-arm
 Maintainer: aReo < >
 Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.5.5_iphoneos-arm.deb
-Size: 353246
-MD5sum: b9d3e6e78d0f8eafc91a809abd7dfa4b
-SHA1: d1d2f15933aef179809db131ece3dffb7f2feeaa
-SHA256: ce7f16b2ec961f8d9af75b8a8a90a03b7973a6213a723d47a52853c0a7aa4787
+Filename: ./debs/com.flex2areo.apptools14_1.5.8_iphoneos-arm.deb
+Size: 581450
+MD5sum: 96d283de27443e5cb1942abe755c08d8
+SHA1: 3562f84c781084f0aefa0e9423a13150ad73fdf9
+SHA256: 90bc07272c162c00a03150d44d1b90f80b453a3af88c90934f8ba9b950f52b63
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: An icon tool.
@@ -1244,6 +1244,24 @@ Depiction: https://repo.lenglengyu.top/packageInfo/LocalIAPStore.html
 Name: LocalIAPStore 内购破解
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/LocalIAPStoresileo
 
+Package: com.lunogroup.Legizmo
+Version: 1.0-20OA082310i
+Architecture: iphoneos-arm
+Maintainer: lunotech11
+Installed-Size: 2148
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/watchdown.deb
+Size: 844756
+MD5sum: 81c1e0b001ef7b3242bce79e80c875ee
+SHA1: 26332347c6c0250ecb3093855f2dde1957e1a282
+SHA256: f3260c134f0d7e6c7e30c82aacdc5bf23bf753694c272fc7fe4413b0cda3f2a7
+Section: Tweaks
+Description: Allow iOS to pair with newer versions of watchOS
+Tag: cydia::commercial
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+Name: Legizmo (Internal Release)
+
 Package: com.magicsign.deb
 Version: 2.0
 Architecture: iphoneos-arm
@@ -1573,6 +1591,28 @@ Depiction: https://chariz.com/buy/swipeextenderx
 Icon: https://chariz.com/cdn/icon/swipeextenderx/icon@3x.png
 Name: SwipeExtenderX
 
+Package: com.r333d.eqe
+Version: 2.2.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 16615
+Depends: firmware (<< 16), mobilesubstrate, coreutils
+Filename: ./debs/com.r333d.eqe_2.2.2-1_iphoneos-arm.deb
+Size: 5461060
+MD5sum: efdcc7d8279ef81118146e594fcc5405
+SHA1: 876034c91c23d71f832bc7150881eb19b40d64ed
+SHA256: 642a018885f561db81546905f2b5ea8210ba3d4ed23834780d4f21cf9f266604
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=eqe2Dp
+Description: System-wide parametric equalizer
+Tag: purpose::extension
+Author: Reed Weichler (rweichler) <rweichler+cydia@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=eqe2Dp
+Dev: rweichler
+Icon: file:///Library/Activator/Listeners/com.r333d.eqe.popup/icon-small@2x.png
+Name: EQE
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.rileytestut.altdaemon
 Version: 1.0
 Architecture: iphoneos-arm
@@ -1877,6 +1917,35 @@ Dev: tomaszpoliszuk
 Icon: file:///Library/PreferenceBundles/MagSafeControllerSettings.bundle/icons/MagSafeController@3x.png
 Name: MagSafe Controller
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.twickd.t0mi.cydia-timeout-10
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: t0mi <fritsch.weiding@yahoo.de>
+Depends: mobilesubstrate
+Filename: ./debs/com.twickd.t0mi.cydia-timeout-10_1.2_iphoneos-arm.deb
+Size: 944
+MD5sum: e6f0a234b0155970c36a2a60cdc63ffb
+SHA1: 69cf693676c76f575009745133906fcc6bfce1ad
+SHA256: d45267ce22198d25a75d74a15e8b693d0f0803eef20790ef4cf20db19aed8e57
+Section: System
+Description: Force Cydia to only spend ten seconds trying to refresh each source. Cuts down on overall refresh time.
+Author: t0mi <fritsch.weiding@yahoo.de>
+Name: Cydia Timeout 10
+
+Package: com.twickd.t0mi.cydia-timeout-5
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: t0mi <fritsch.weiding@yahoo.de>
+Filename: ./debs/com.twickd.t0mi.cydia-timeout-5_1.1_iphoneos-arm.deb
+Size: 964
+MD5sum: 5d519d96ca5b2a6981ce60cf859ffd7b
+SHA1: 593098dcc56b9f3581c903bd36bedbce351b85e5
+SHA256: b0f5578b8881f867114590928b38a38fa126cfe1c0e9436850993a5e757f9380
+Section: System
+Description: Force Cydia to only spend ten seconds trying to refresh each source. Cuts down on overall refresh time. Inspired by chickenmatt5's outdated Cydia Timeout 2/5/20.
+Author: t0mi <fritsch.weiding@yahoo.de>
+Name: Cydia Timeout 5
 
 Package: com.udevs.dockx
 Version: 2.3.2
