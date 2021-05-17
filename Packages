@@ -239,17 +239,17 @@ Name: libpackageinfo (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.0x7ff.dimentio
-Version: 2.0.5
+Version: 2.0.6
 Architecture: iphoneos-arm
 Maintainer: 1Conan <tweaks@1conan.com>
-Installed-Size: 372
+Installed-Size: 324
 Conflicts: dimentio, libdimentio0, libdimentio-dev
 Provides: dimentio, libdimentio0, libdimentio-dev
-Filename: ./debs/com.0x7ff.dimentio_2.0.5_iphoneos-arm.deb
-Size: 22688
-MD5sum: cab54f052e9bc0e05aff7caba9b954c4
-SHA1: 218584c4d5c367a70b410b4639c92cf0e19f4b69
-SHA256: 7f2a739a1cae538d29a152aeb138204cab78e5f7e77720da6b22e07bf0e033a1
+Filename: ./debs/com.0x7ff.dimentio_2.0.6_iphoneos-arm.deb
+Size: 20652
+MD5sum: 7bbb394f6afd25f562bb27820a87ba6b
+SHA1: 700680da23670a7c3077abc4a4ca38c7acbd2c8b
+SHA256: 3c145cb1738bd490f3c63f6d76eda72894dd1802b3507ebf04498284fe2c796f
 Section: System
 Description: PoC tool for setting/getting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
 Tag: role::hacker
@@ -529,21 +529,21 @@ Name: CoySIM
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ex.substitute
-Version: 2.0.12
+Version: 2.1.0
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner
-Installed-Size: 25940
+Installed-Size: 26968
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_2.0.12_iphoneos-arm.deb
-Size: 7030870
-MD5sum: c72a56f86a9b6610f32232ab6a93cc44
-SHA1: 7052e242b6f5faaadbcf2740adc97839eb654d72
-SHA256: 76da97b5f4d1fb29f92a1331188913dd0a1da2c626ff0266750de513361dd290
+Filename: ./debs/com.ex.substitute_2.1.0_iphoneos-arm.deb
+Size: 7312798
+MD5sum: 6c18a0a77fe5a558413bf1f645597d5e
+SHA1: c4721c815798803407c2d0fc44bd48a1804fb8e1
+SHA256: b0f87877e0d951d8e02868dc83ab5e1ce7bc7ff336a08997d94845fc9c9455bb
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution
@@ -992,6 +992,22 @@ Depiction: https://cydia.ichitaso.com/depiction/quickcc.html
 Dev: ichitaso
 Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
+
+Package: com.ios.wechat
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/1.0.1.deb
+Size: 6814432
+MD5sum: 0f438951f91b1fd86d13e6c6c91688a6
+SHA1: 3fa273ea64b6d11414a987c7da10e7ec65045e06
+SHA256: 2ec3c5856957d9bf7666c181b186d47f94a87779b7aa2af04317fc65e4ec882c
+Section: 插件
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat
 
 Package: com.jaxroth.supporttheunsupportedrevived
 Version: 1.0.0
@@ -1985,15 +2001,15 @@ Icon: https://udevsharold.github.io/repo/depictions/com.udevs.perseus/icon/icon.
 Name: Perseus
 
 Package: com.udevs.vexillarius
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Maintainer: udevs
 Installed-Size: 136
-Filename: ./debs/com.udevs.vexillarius_0.0.2_iphoneos-arm.deb
-Size: 5464
-MD5sum: 822774405b576e3de9853f61172bd261
-SHA1: 6c575bf3de90c0558677e61b9fd9ab29fca58985
-SHA256: 84e02202310bdb6602d83f007a51d748c459f05ffad6c37287417e9cfad9f2df
+Filename: ./debs/com.udevs.vexillarius_0.0.3_iphoneos-arm.deb
+Size: 5472
+MD5sum: 4b89ff607885606678559d688c77d5aa
+SHA1: 8e108531b7a78873a1b7767a2469b656e79c8d49
+SHA256: ba5a338afead68820ac3a7a759fe937f8bdd2395e592deadb452bf4dabe16155
 Section: System
 Description: Standard Bearer
 Tag: role::hacker
@@ -2828,19 +2844,19 @@ Icon: file:///Applications/OTRLocation.app/icon.png
 Name: Anywhere!--虚拟定位
 
 Package: net.angelxwind.appsyncunified
-Version: 94.0
+Version: 96.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.5)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.5.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_94.0_iphoneos-arm.deb
-Size: 58296
-MD5sum: bfe642102ef85a7cfa808fc179a782d2
-SHA1: 4167eda796d3de17596fdc3bccd7ab5b94aaeb95
-SHA256: a6a6ade29efbda4feaea5c040eec79b525141a5d9a9b88e8830d5ee64fce89fd
+Filename: ./debs/net.angelxwind.appsyncunified_96.0_iphoneos-arm.deb
+Size: 58314
+MD5sum: b05833ad9884975b7046cf42626d5412
+SHA1: 77e646ab74cd52cc5138d4391ab1831f891c76fa
+SHA256: 6431e859447a8279a3db69eb955e8a52f21baf9887cbcd00aad2ecf08f76e813
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
@@ -3158,17 +3174,17 @@ Name: AlipaySteps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
-Version: 2.1-8
+Version: 2.2-7
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 513
+Installed-Size: 533
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_2.1-8_iphoneos-arm.deb
-Size: 142870
-MD5sum: 6d997fcc2a0b500a8b143b0190eb89f8
-SHA1: 2922725b700765b6004319caf89a9f6f0e33ad44
-SHA256: 2fd8afe39bf2698381391793d8a531a7f08dec612cd146527a4e39ec0d58367e
+Filename: ./debs/netskao.awemepurification_2.2-7_iphoneos-arm.deb
+Size: 149698
+MD5sum: ca4a4a8bd5002e28a13a1e7032e31460
+SHA1: 44a9bc5aeadf5c0114055351552a7d74bcf75a4f
+SHA256: 0afec67e8e17645e4f66588e2de80fea0982bbda235aedc1c3dc16db512388f9
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
 Description: 抖音净化！设置位于抖音-设置，保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，
@@ -3203,16 +3219,16 @@ Name: FakeModel
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.qqpurification
-Version: 1.7-6
+Version: 1.7-8
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 532
+Installed-Size: 539
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/netskao.qqpurification_1.7-6_iphoneos-arm.deb
-Size: 142670
-MD5sum: 071205007b3a025980249e925d1d9db2
-SHA1: 46ec2b74b31b93b6c2ec0cafdd57da517338bfb7
-SHA256: 20cf0e1e6bd24270d0412c95f5fd1e34da8d79f16804f4d36fd58b6d7f568e39
+Filename: ./debs/netskao.qqpurification_1.7-8_iphoneos-arm.deb
+Size: 147908
+MD5sum: b83eafcddf04f6af9329899d5b9a14ab
+SHA1: 75dd120d76f084d4c19e3c6b57feb23a381fd05d
+SHA256: 739cd2cb3688e79151c32b912db31d74fb20b4b28f725c1cafb1abe55dac50a9
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
