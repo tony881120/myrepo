@@ -420,21 +420,21 @@ Name: letsdowngrade
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.cokepokes.libnotifications
-Version: 0.3-4
+Version: 0.3-5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 910
+Installed-Size: 980
 Depends: firmware (>= 8.0)
-Filename: ./debs/com.cokepokes.libnotifications_0.3-4_iphoneos-arm.deb
-Size: 74786
-MD5sum: f3a253c764f41a9756cc1dc6c8eaccbb
-SHA1: 12cf898184fa44b300d4fc127638757b7dc96389
-SHA256: 286b89de309bdae2eb500e66bab4f737233157a78423dfef88b5038b5459de2f
+Filename: ./debs/com.cokepokes.libnotifications_0.3-5_iphoneos-arm.deb
+Size: 163032
+MD5sum: 8884275a75ffdd95fca6aa60d4e0ec7d
+SHA1: 8b9e677748cdef53d8c4c975ab5c4eac591385b9
+SHA256: 922de051826c91762b43d87e829d5d76394d41ed507ce7edb074066b78e4e10a
 Section: Development
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
 Description: App notification library.
-Tag: purpose::extension
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, compatible::ios14
 Author: CokePokes <cokepokes@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libnotificationsDp
 Dev: cokepokes
@@ -571,24 +571,20 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.flex2areo.apptools14
-Version: 1.5.8
+Version: 1.6.0
 Architecture: iphoneos-arm
-Maintainer: aReo < >
-Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.5.8_iphoneos-arm.deb
-Size: 581450
-MD5sum: 96d283de27443e5cb1942abe755c08d8
-SHA1: 3562f84c781084f0aefa0e9423a13150ad73fdf9
-SHA256: 90bc07272c162c00a03150d44d1b90f80b453a3af88c90934f8ba9b950f52b63
+Maintainer: aReo
+Installed-Size: 1996
+Depends: mobilesubstrate
+Filename: ./debs/com.flex2areo.apptools14_1.6.0_iphoneos-arm.deb
+Size: 468958
+MD5sum: 34a47330469c47693d80e931352d1e28
+SHA1: fb78f17ff2b9c4d820464dfbb715fdcc72ada045
+SHA256: 6f3fe82f4c813dfd592de6c9d2b41b4ca9d43b4eec3c816e89713e34275c5f28
 Section: Tweaks
-Homepage: https://shuga.co/
 Description: An icon tool.
-Author: aReo < >
-Depiction: https://flex2areo.github.io/depiction/web/com.flex2areo.apptools14.html
-Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools14/icon.png
-Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
+Author: aReo
 Name: AppTools for iOS14
-Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
 
 Package: com.fouadraheb.appdata
 Version: 1.3.6
@@ -994,15 +990,15 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.1
+Version: 1.0.3
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/1.0.1.deb
-Size: 6814432
-MD5sum: 0f438951f91b1fd86d13e6c6c91688a6
-SHA1: 3fa273ea64b6d11414a987c7da10e7ec65045e06
-SHA256: 2ec3c5856957d9bf7666c181b186d47f94a87779b7aa2af04317fc65e4ec882c
+Filename: ./debs/com.ios.wechat_1.0.3_iphoneos-arm.deb
+Size: 6442672
+MD5sum: 066a32df9ee404c83ed0216f6f76b78b
+SHA1: b753fb83a12be0d758b97c4136d38b8b52790542
+SHA256: 6bbe6c6e0a7d5b895a01786090749193e8f57adbfb6a993cf0bf1613af64d9b7
 Section: 插件
 Priority: optional
 Description: 微信插件
@@ -1490,16 +1486,16 @@ Name: CCSupport
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.choicy
-Version: 1.3.4
+Version: 1.3.5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 807
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist
-Filename: ./debs/com.opa334.choicy_1.3.4_iphoneos-arm.deb
-Size: 117152
-MD5sum: 1d127d29b012b7c881ca72dac28a5412
-SHA1: 024f59a856e4ea3df51242ccde824c9caa3cfa7d
-SHA256: e691cbe5b961756ad4bc1ce06555db75e50813432878b0665a84766260f9d277
+Installed-Size: 789
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: ./debs/com.opa334.choicy_1.3.5_iphoneos-arm.deb
+Size: 109300
+MD5sum: c97db4a1079c84bd859c80ee33c2fd38
+SHA1: 38fd418daad54cf7a080d08cee8ef13ed9671e15
+SHA256: a1998be7adf42e149992aaa03742db046c9450d3c53d48a1d97e9bff804842a1
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
 Description: Advanced Tweak Configuration!
@@ -2923,17 +2919,17 @@ Depiction: http://www.limneos.net/cydia/depiction.php?package=net.limneos.audior
 Name: AudioRecorder XS (iOS 12/13/14)
 
 Package: net.limneos.bioprotectxs
-Version: 4.5-9
+Version: 4.5-17
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 2141
+Installed-Size: 2135
 Depends: mobilesubstrate, preferenceloader, firmware (>= 12)
 Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
-Filename: ./debs/net.limneos.bioprotectxs_4.5-9_iphoneos-arm.deb
-Size: 578652
-MD5sum: d55d9809eeed24be504ab79d530904c6
-SHA1: a758569521522cc2b09c4ee064c86fd991517543
-SHA256: 025e5bf617bae26d4c2b36315c6b06479a091338403385d82a665c693b02228a
+Filename: ./debs/net.limneos.bioprotectxs_4.5-17_iphoneos-arm.deb
+Size: 578250
+MD5sum: e3f89278afb8fe823cbb012e4bca9180
+SHA1: c58e09cc5f26a905d3106cfcfb1472cd93ebdb88
+SHA256: 86fafccc96976efc520b448f0458628759dc6c1ee1cad961418d3fe03d8672d0
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=bioprotectxsDp
 Description: Protect your apps with Touch/Face ID!
