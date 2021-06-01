@@ -239,17 +239,17 @@ Name: libpackageinfo (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.0x7ff.dimentio
-Version: 2.0.6
+Version: 2.0.7-1
 Architecture: iphoneos-arm
 Maintainer: 1Conan <tweaks@1conan.com>
-Installed-Size: 324
+Installed-Size: 372
 Conflicts: dimentio, libdimentio0, libdimentio-dev
 Provides: dimentio, libdimentio0, libdimentio-dev
-Filename: ./debs/com.0x7ff.dimentio_2.0.6_iphoneos-arm.deb
-Size: 20652
-MD5sum: 7bbb394f6afd25f562bb27820a87ba6b
-SHA1: 700680da23670a7c3077abc4a4ca38c7acbd2c8b
-SHA256: 3c145cb1738bd490f3c63f6d76eda72894dd1802b3507ebf04498284fe2c796f
+Filename: ./debs/com.0x7ff.dimentio_2.0.7-1_iphoneos-arm.deb
+Size: 23604
+MD5sum: e2d9b0e9a6bc3acbc565f58b8f918c72
+SHA1: 3ba6fe7a57e48f1b1c060f3bbd0d4a63d31dc779
+SHA256: 6984ccd7a19b5c9b84e415f2f3f03ca8faa13ffb3ad68cebf2d185fe3afedadf
 Section: System
 Description: PoC tool for setting/getting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
 Tag: role::hacker
@@ -273,17 +273,17 @@ Author: 1Conan <tweaks@1conan.com>
 Name: Steam Controller MFi
 
 Package: com.1conan.tsssaver
-Version: 2.0.3
+Version: 2.0.4
 Architecture: iphoneos-arm
 Maintainer: 1Conan <tweaks@1conan.com>
 Installed-Size: 232
 Depends: dimentio (>=1.0.3+git20201124.7ffffff) | com.0x7ff.dimentio (>=2.0.0)
 Conflicts: co.dynastic.TSSsaver
-Filename: ./debs/com.1conan.tsssaver_2.0.3_iphoneos-arm.deb
-Size: 53958
-MD5sum: 98695fe01d099f4e0f9462b0ebaea04c
-SHA1: 1bbcacc2d0e5ad1ea90381b7027b0aaf3bedc919
-SHA256: 25c8a95a749b5a9baed48ec4474d5b5533a25f1595f9d94ac1286b3e83338e83
+Filename: ./debs/com.1conan.tsssaver_2.0.4_iphoneos-arm.deb
+Size: 53992
+MD5sum: 03c1a16703aabfd02d8828b18b9d24dc
+SHA1: 5e8f04caa40dcb1168eb86c67ec5b2fe1399b678
+SHA256: 241df30de0adecefbe5b3eeffed3885ba4df1f9a697aa3b861b07b0907dde974
 Section: Applications
 Description: An awesome application!
 Author: 1Conan <tweaks@1conan.com>
@@ -571,16 +571,16 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.flex2areo.apptools14
-Version: 1.6.0
+Version: 1.6.2
 Architecture: iphoneos-arm
 Maintainer: aReo
-Installed-Size: 1996
+Installed-Size: 2176
 Depends: mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.6.0_iphoneos-arm.deb
-Size: 468958
-MD5sum: 34a47330469c47693d80e931352d1e28
-SHA1: fb78f17ff2b9c4d820464dfbb715fdcc72ada045
-SHA256: 6f3fe82f4c813dfd592de6c9d2b41b4ca9d43b4eec3c816e89713e34275c5f28
+Filename: ./debs/com.flex2areo.apptools14_1.6.2_iphoneos-arm.deb
+Size: 516088
+MD5sum: 4120c3c11e1eeda1b5e75256e16ee345
+SHA1: 95faffa29cddfa240d8d43d9186ee3d1305bb94e
+SHA256: 951a4ad32f6a3af7d6b8dd9ff11698bf52ef6632f84bf3b583b20f07c3f024f4
 Section: Tweaks
 Description: An icon tool.
 Author: aReo
@@ -605,16 +605,16 @@ Name: AppData
 Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
 
 Package: com.foxfort.aperturize
-Version: 2.2.3
+Version: 2.2.4
 Architecture: iphoneos-arm
 Maintainer: FoxfortMobile
-Installed-Size: 2200
-Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.12)
-Filename: ./debs/com.foxfort.aperturize_2.2.3_iphoneos-arm.deb
-Size: 1278550
-MD5sum: 52babd1f86f4ed45d2597f52495f7405
-SHA1: fe8550966c11aa6f0871c6d418d00d1c3a1b651b
-SHA256: c2f088dda0535c9a352f3d2911803d321432a9c2029a935c2f7134a9fed277bd
+Installed-Size: 2168
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.17)
+Filename: ./debs/com.foxfort.aperturize_2.2.4_iphoneos-arm.deb
+Size: 1259602
+MD5sum: cd3fb55d97725a4b87e828273a379f29
+SHA1: 3b4d42cbcb1dae5ddd89d2730a7a1ef4e2f1b0b2
+SHA256: 4a7065a23b3fcfa9b60fe61c98a050e194ac81ad159a91a1755f77178751babf
 Section: Tweaks
 Description: Adjustable bokeh for portrait mode
 Author: FoxfortMobile
@@ -1005,6 +1005,22 @@ Description: 微信插件
 Author: Jan
 Name: WeChat
 
+Package: com.ios.wechat
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.ios.wechat_1.0.4_iphoneos-arm.deb
+Size: 7156128
+MD5sum: 99fff3cd87df5b9e709c35a66bbc146f
+SHA1: 16f807d9371b947c05b18e207519ea4e3250e1d4
+SHA256: c2e069788c834b09649ab22e74c4afd315dbce09e2d9d5a6aa1ac9451641b82d
+Section: 插件
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat
+
 Package: com.jaxroth.supporttheunsupportedrevived
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1275,17 +1291,17 @@ Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
 Name: Legizmo (Internal Release)
 
 Package: com.magicsign.deb
-Version: 2.0
+Version: 2.2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 10322
+Installed-Size: 10512
 Depends: firmware (>= 12.0)
 Conflicts: com.cydiaapp.magicsign, com.ios-tool.magicsign
-Filename: ./debs/com.magicsign.deb_2.0_iphoneos-arm.deb
-Size: 4444112
-MD5sum: 081b016b7fdea430b7993d0219cf7c0f
-SHA1: 6d09d1ce7c660ce2fefc34dca3e27cff85b7867e
-SHA256: c4c7fa9cae87a4d90fbdd9f22daa9b8d6dd2d43f1ef6e87c9f06dc38243c1f6b
+Filename: ./debs/com.magicsign.deb_2.2_iphoneos-arm.deb
+Size: 4572522
+MD5sum: 72c991aebf5d1fbafbe8df9be8753042
+SHA1: b2c7e1613d1ff2fa46a8deaa91f2a014aa950cc2
+SHA256: 6512d991eec02c35f5988fd5f7b751cf1ef615c483a342ba335726cf6f3f1624
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magicsignDp
 Description: application signing tool
@@ -1544,20 +1560,20 @@ Author: P2KDev <p2kdev@gmail.com>
 Name: SwitchConfirm
 
 Package: com.platykor.dustbusterfree
-Version: 1.3
+Version: 1.4
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 818
+Installed-Size: 694
 Depends: mobilesubstrate, firmware (>= 11.0)
-Filename: ./debs/com.platykor.dustbusterfree_1.3_iphoneos-arm.deb
-Size: 316120
-MD5sum: 583d83b5b664d385ebe17d4c068c0f8b
-SHA1: 80929ded28f28f43f4cd86ee94b14594b1ce1818
-SHA256: cd0f70fd3e1fb0f76c1bb1e1903c8a9077db4dc79db50fcb1e641ba457aa8dd4
+Filename: ./debs/com.platykor.dustbusterfree_1.4_iphoneos-arm.deb
+Size: 271652
+MD5sum: 5eee4db1758e2fdece81826d3a291a13
+SHA1: 0d5e2f6092326ddfd13497c4b6b26a63dae00fc3
+SHA256: 114d4a2966455371affee989a0d5b7aae7972fe53fa2a78d320554aabb03b71d
 Section: Utilities
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dustbusterfreeDp
-Description: Let's clean up unnecessary files
+Description: Let's do a deep cleaning of the Uicache.
 Tag: purpose::uikit
 Author: Plat-Ykor <plat-ykor@libero.it>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dustbusterfreeDp
@@ -2761,16 +2777,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.11.2
+Version: 2.11.4
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12216
+Installed-Size: 12256
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.11.2_iphoneos-arm.deb
-Size: 2176548
-MD5sum: 02a217041282af1168743b844724377b
-SHA1: a97c4ba64244184dad79b3fb0c7842e3842cc548
-SHA256: b49f0dc616d1589f81857d0e328dbbd7cd5e5438daf45853f558cfaeb754cbea
+Filename: ./debs/me.ahmedbafkir.dleasy_2.11.4_iphoneos-arm.deb
+Size: 2159474
+MD5sum: b9e92d23cf10c5c38ed59aa80436d6cf
+SHA1: 4ce60c66ee893778946bd7cb5d003324cac4e1c7
+SHA256: dbd65dae3546d48a3b838261cc2c3bcb19bf761f9f8dfd18dfcc295e04885a62
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -3170,17 +3186,17 @@ Name: AlipaySteps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
-Version: 2.2-7
+Version: 2.3-3
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 533
+Installed-Size: 531
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_2.2-7_iphoneos-arm.deb
-Size: 149698
-MD5sum: ca4a4a8bd5002e28a13a1e7032e31460
-SHA1: 44a9bc5aeadf5c0114055351552a7d74bcf75a4f
-SHA256: 0afec67e8e17645e4f66588e2de80fea0982bbda235aedc1c3dc16db512388f9
+Filename: ./debs/netskao.awemepurification_2.3-3_iphoneos-arm.deb
+Size: 153166
+MD5sum: 4c9f58f277490fd7e2bd83d12341b774
+SHA1: 23b1af946622585836ce947d694f5b108a86add1
+SHA256: 5c78df9fea005e8b951cc034038b76ceee235ae89a96013871ba475f49bda950
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
 Description: 抖音净化！设置位于抖音-设置，保存视频去水印，保存不可下载视频，去除启动广告，去除流量警告提示，
@@ -3215,19 +3231,19 @@ Name: FakeModel
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.qqpurification
-Version: 1.7-8
+Version: 1.8-8.2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 539
+Installed-Size: 566
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/netskao.qqpurification_1.7-8_iphoneos-arm.deb
-Size: 147908
-MD5sum: b83eafcddf04f6af9329899d5b9a14ab
-SHA1: 75dd120d76f084d4c19e3c6b57feb23a381fd05d
-SHA256: 739cd2cb3688e79151c32b912db31d74fb20b4b28f725c1cafb1abe55dac50a9
+Filename: ./debs/netskao.qqpurification_1.8-8.2_iphoneos-arm.deb
+Size: 156378
+MD5sum: e46b3dc055ea3909008b6fe26ddfab25
+SHA1: 037a5fce215eb70be664cd404469767c5c49cc56
+SHA256: 26a1e2eaf62ac2a38a3b8f7e07c5fd0791cce91b7f643c8c8a7292847f4b9d35
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
-Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
 Tag: purpose::extension
 Author: Netskao <netskao@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
@@ -3236,37 +3252,16 @@ Name: QQ净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatpurification
-Version: 1.9-9.9
+Version: 2.0-2.2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 512
+Installed-Size: 531
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_1.9-9.9_iphoneos-arm.deb
-Size: 155204
-MD5sum: e57cfea2c859dbdbf4e91cf1e3414362
-SHA1: 89828770aab748cb94a01e682029729486d9fa8c
-SHA256: 6d0eb9ca95fbd9b025bbadd7a87206b700ca7da5617b3a2e6a86935a18f0e40d
-Section: Tweaks
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.15及以上版本，设置位于微信-设置
-Tag: purpose::extension
-Author: Netskao <admin@initnil.com>
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
-Dev: netskao
-Name: 微信净化
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: netskao.wechatpurification
-Version: 2.0-2
-Architecture: iphoneos-arm
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 507
-Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_2.0-2_iphoneos-arm.deb
-Size: 154824
-MD5sum: 43afcf5b2fe61d0e20bbe7f89716d85b
-SHA1: 23e40df8f5d63f6a655dfcf927b32e99b08a5bcc
-SHA256: 804aa0cf30208a8e69b72fc8a0340fe837c27c45ba59857c7875367a3b40d0ca
+Filename: ./debs/netskao.wechatpurification_2.0-2.2_iphoneos-arm.deb
+Size: 160644
+MD5sum: e8cb0e24fe9599d7e13ec2bd649f6e8d
+SHA1: fd613adecd2245dcf41b21f46b22dacd533b5d1b
+SHA256: b893d2dfee73d163f71b8f28218c88dc791d64b9f6bbef0e5801874112828195
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.0及以上版本，设置位于微信-设置
