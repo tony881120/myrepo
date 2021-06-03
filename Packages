@@ -990,35 +990,23 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.3
+Version: 1.0.5
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.3_iphoneos-arm.deb
-Size: 6442672
-MD5sum: 066a32df9ee404c83ed0216f6f76b78b
-SHA1: b753fb83a12be0d758b97c4136d38b8b52790542
-SHA256: 6bbe6c6e0a7d5b895a01786090749193e8f57adbfb6a993cf0bf1613af64d9b7
-Section: 插件
+Filename: ./debs/com.ios.wechat_1.0.5_iphoneos-arm.deb
+Size: 2009784
+MD5sum: 5682e8ea08eb3577ebaa7aeaaf273259
+SHA1: 2ae805ff2a7795a9e5a21579206c4152c5e06bb3
+SHA256: 138029cb13389f3496e0d43a928d2f2671d568a28bc575d294014a83884c30e5
+Section: Tweaks
 Priority: optional
-Description: 微信插件
+Homepage: https://twjacy.github.io/wx
+Description: 微信插件，购买授权联系微信/QQ：5889650
 Author: Jan
-Name: WeChat
-
-Package: com.ios.wechat
-Version: 1.0.4
-Architecture: iphoneos-arm
-Maintainer: Jan<237523005@qq.com>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.4_iphoneos-arm.deb
-Size: 7156128
-MD5sum: 99fff3cd87df5b9e709c35a66bbc146f
-SHA1: 16f807d9371b947c05b18e207519ea4e3250e1d4
-SHA256: c2e069788c834b09649ab22e74c4afd315dbce09e2d9d5a6aa1ac9451641b82d
-Section: 插件
-Priority: optional
-Description: 微信插件
-Author: Jan
+Depiction: https://twjacy.github.io/wx
+Dev: Jan
+Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
 Name: WeChat
 
 Package: com.jaxroth.supporttheunsupportedrevived
@@ -1159,6 +1147,22 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
 Dev: kingpuffdaddi
 Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
 Name: CCVPN
+
+Package: com.kuj.ECGSupport
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: omriku <kujmank@gmail.com>
+Filename: ./debs/com.kuj.ecgsupport_0.0.1_iphoneos-arm.deb
+Size: 1858
+MD5sum: 430fd9f31cd92cee165bd0f5e3cf397a
+SHA1: 53fb9f826f3e2aa0816d6677c8768d1d4c669d2b
+SHA256: fa710d30ab89c724a8adea656a66eef312ea08a5ba1ae49cab393a1fb92e4d06
+Section: Utility
+Description: Enable ECG for unsupported countries.
+ *********** ATTENTION ***********
+ THIS TWEAK WILL WORK ONLY ON APPLE WATCHES THAT WERE BOUGHT FROM ECG-SUPPORTED COUNTRIES!
+Author: 0xkuj
+Name: ECG Support
 
 Package: com.lenglengyu.ffbaidu
 Version: 0.0.4
@@ -2742,6 +2746,24 @@ Priority: standard
 Description: OpenSSL Libraries for version 1.1.1
 Name: OpenSSL 1.1.1 Libraries
 
+Package: lunotech11.Legizmo
+Version: 1.0-21MB081325i
+Architecture: iphoneos-arm
+Maintainer: lunotech11
+Installed-Size: 1840
+Depends: firmware (>= 12.0), mobilesubstrate
+Filename: ./debs/1.deb
+Size: 291344
+MD5sum: 6af2c79a3554b40a0a5ca5f8c0cfaef3
+SHA1: e1693cc80c21f44836dbb0218ad8184d936ee434
+SHA256: 593cdfc9c4560e6ed74e736fd6fabd666d92c24a9db09fcd65fc18b032fd1d2b
+Section: Tweaks
+Description: Allow iOS to pair with newer versions of watchOS
+Tag: cydia::commercial
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+Name: Legizmo (Internal Release)
+
 Package: lzma
 Version: 2:4.32.7-2
 Architecture: iphoneos-arm
@@ -2856,19 +2878,19 @@ Icon: file:///Applications/OTRLocation.app/icon.png
 Name: Anywhere!--虚拟定位
 
 Package: net.angelxwind.appsyncunified
-Version: 96.0
+Version: 98.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.5.1)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.6)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_96.0_iphoneos-arm.deb
-Size: 58314
-MD5sum: b05833ad9884975b7046cf42626d5412
-SHA1: 77e646ab74cd52cc5138d4391ab1831f891c76fa
-SHA256: 6431e859447a8279a3db69eb955e8a52f21baf9887cbcd00aad2ecf08f76e813
+Filename: ./debs/net.angelxwind.appsyncunified_98.0_iphoneos-arm.deb
+Size: 58308
+MD5sum: cd493deb0ef48d69d3568831c4fa2ab4
+SHA1: a5f8e680308228a880756e7d6cca5b6be2fe234b
+SHA256: ab386bd21e590b79a26cff21bec9d3ee3c10e4f67d095c7c30e49b67ee5f9367
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
