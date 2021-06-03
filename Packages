@@ -1148,22 +1148,6 @@ Dev: kingpuffdaddi
 Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
 Name: CCVPN
 
-Package: com.kuj.ECGSupport
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: omriku <kujmank@gmail.com>
-Filename: ./debs/com.kuj.ecgsupport_0.0.1_iphoneos-arm.deb
-Size: 1858
-MD5sum: 430fd9f31cd92cee165bd0f5e3cf397a
-SHA1: 53fb9f826f3e2aa0816d6677c8768d1d4c669d2b
-SHA256: fa710d30ab89c724a8adea656a66eef312ea08a5ba1ae49cab393a1fb92e4d06
-Section: Utility
-Description: Enable ECG for unsupported countries.
- *********** ATTENTION ***********
- THIS TWEAK WILL WORK ONLY ON APPLE WATCHES THAT WERE BOUGHT FROM ECG-SUPPORTED COUNTRIES!
-Author: 0xkuj
-Name: ECG Support
-
 Package: com.lenglengyu.ffbaidu
 Version: 0.0.4
 Architecture: iphoneos-arm
