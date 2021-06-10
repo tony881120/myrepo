@@ -605,16 +605,16 @@ Name: AppData
 Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
 
 Package: com.foxfort.aperturize
-Version: 2.2.4
+Version: 2.2.5
 Architecture: iphoneos-arm
 Maintainer: FoxfortMobile
-Installed-Size: 2168
-Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.17)
-Filename: ./debs/com.foxfort.aperturize_2.2.4_iphoneos-arm.deb
-Size: 1259602
-MD5sum: cd3fb55d97725a4b87e828273a379f29
-SHA1: 3b4d42cbcb1dae5ddd89d2730a7a1ef4e2f1b0b2
-SHA256: 4a7065a23b3fcfa9b60fe61c98a050e194ac81ad159a91a1755f77178751babf
+Installed-Size: 960
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.19)
+Filename: ./debs/com.foxfort.aperturize_2.2.5_iphoneos-arm.deb
+Size: 253342
+MD5sum: 6478dd83d4b677c70f46776287b72d06
+SHA1: 8a5d1ee8336547ab013d7b1967d300fd71fb95a3
+SHA256: 489f4236d5c765e2a216063018acca019520e84aeb682d825754ec03f8a6839f
 Section: Tweaks
 Description: Adjustable bokeh for portrait mode
 Author: FoxfortMobile
@@ -990,23 +990,19 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.5
+Version: 1.0.6
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.5_iphoneos-arm.deb
-Size: 2009784
-MD5sum: 5682e8ea08eb3577ebaa7aeaaf273259
-SHA1: 2ae805ff2a7795a9e5a21579206c4152c5e06bb3
-SHA256: 138029cb13389f3496e0d43a928d2f2671d568a28bc575d294014a83884c30e5
-Section: Tweaks
+Filename: ./debs/com.ios.wechat_1.0.6_iphoneos-arm.deb
+Size: 3643816
+MD5sum: f739166061fbd0704eaf79d770a6fb0a
+SHA1: bc541245b7836cfbdf3b5bce33a1d679b4cd1030
+SHA256: e73c389adec0d912f7c31747f16318199a17ff2c362bbfa3b9c22d188d84ae24
+Section: 插件
 Priority: optional
-Homepage: https://twjacy.github.io/wx
-Description: 微信插件，购买授权联系微信/QQ：5889650
+Description: 微信插件
 Author: Jan
-Depiction: https://twjacy.github.io/wx
-Dev: Jan
-Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
 Name: WeChat
 
 Package: com.jaxroth.supporttheunsupportedrevived
@@ -1185,17 +1181,17 @@ Name: PS Express Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/psexpressprosileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.0.6
+Version: 1.0.9K
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 2204
+Installed-Size: 1628
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.0.6_iphoneos-arm.deb
-Size: 715864
-MD5sum: 948d87252c2174e6fd075ba398dd108c
-SHA1: bce13170b6cb52eed836c2d144c34fbf74c23fcb
-SHA256: e3990f0c526f468bddb31a913fa422274262935328069bb35fbcd052b36f0dc4
+Filename: ./debs/com.lenglengyu.shortvideodl_1.0.9K_iphoneos-arm.deb
+Size: 619036
+MD5sum: 58fc5e2b91ef3bff713f0a424f4818d6
+SHA1: 69e95ac5244aca83b2aa4c1cc8d5720342c6f528
+SHA256: dfb2134c8398bb4bca8ff5ec8ff53ec9ed46777db11df41458b0f52b56670895
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号、小程序视频下载。
 Author: lenglengyu
@@ -1375,15 +1371,15 @@ Name: libswift4
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.moski.Divise
-Version: 1.1.1
+Version: 1.1.2
 Architecture: iphoneos-arm
 Maintainer: moski, Samg_is_a_Ninja
 Depends: firmware (>= 10.3.0), firmware-sbin, rsync, cy+cpu.arm64
-Filename: ./debs/com.moski.divise_1.1.1_iphoneos-arm.deb
-Size: 2892700
-MD5sum: 2b650a26a8ec011877b5c30d1356cc71
-SHA1: 82b0399762bf7088e02b118fc87388e021f3b3fb
-SHA256: 3b5271ad71093f8bfc0439567357dc42f804c83802a34bc0645cbdfed4a2a0b0
+Filename: ./debs/com.moski.divise_1.1.2_iphoneos-arm.deb
+Size: 2891246
+MD5sum: 1efec147cc71a9a0b2826538ce3e1d4b
+SHA1: 8a69917da665f80827e30ae076eed4b8d9d9be81
+SHA256: 4ec2eec0ce8ff852edc0fa76d5ef50059810775a409b61829f02d866a041d696
 Section: Utilities
 Description: arm64 Dualboots/Tethered Downgrades on device!
 Author: moski, Samg_is_a_Ninja
@@ -1490,16 +1486,16 @@ Name: CCSupport
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.choicy
-Version: 1.3.5
+Version: 1.3.6
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 789
-Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
-Filename: ./debs/com.opa334.choicy_1.3.5_iphoneos-arm.deb
-Size: 109300
-MD5sum: c97db4a1079c84bd859c80ee33c2fd38
-SHA1: 38fd418daad54cf7a080d08cee8ef13ed9671e15
-SHA256: a1998be7adf42e149992aaa03742db046c9450d3c53d48a1d97e9bff804842a1
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.opa334.choicy_1.3.6_iphoneos-arm.deb
+Size: 109446
+MD5sum: 837e66fe1a21936dc22293bb16956660
+SHA1: 4f2077ff1f943ea00719ef4b753e65ae7c995449
+SHA256: 9be8e2a2199199dde4074e349bcc3d83b3b0bf95cf0c3a1d258e69f1245ee0b3
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
 Description: Advanced Tweak Configuration!
@@ -3503,16 +3499,16 @@ Name: Graphite Library
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.graphite/depiction
 
 Package: se.geometric.intelligentpass4
-Version: 1.1
+Version: 1.1.1
 Architecture: iphoneos-arm
 Maintainer: Geometric Software
 Installed-Size: 444
 Depends: mobilesubstrate, firmware(>=14.0), firmware(<<15), preferenceloader, se.geometric.graphite
-Filename: ./debs/se.geometric.intelligentpass4_1.1_iphoneos-arm.deb
-Size: 89284
-MD5sum: 1dcd31b775a702376678365ac6c433c9
-SHA1: aa549822eaaaadecd075a8d0172c840b271e99f8
-SHA256: bba0b731fd92ed5f71a84b9aca9972bf24047548771eaa93ecaed16e48529b94
+Filename: ./debs/se.geometric.intelligentpass4_1.1.1_iphoneos-arm.deb
+Size: 89282
+MD5sum: 7d4dbdb0e4ff65d06f7d842e05090497
+SHA1: 380f1247e2eef9d54846a0d0ecd90fb1c11e9eab
+SHA256: 4f867aaab304904188fe2e957dcd6671f3bf70063b2a37636443cdf002408056
 Section: Tweaks
 Description: Disable passcode when not necessary
 Tag: cydia::commercial
@@ -3523,16 +3519,16 @@ Name: IntelligentPass 4
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.intelligentpass4/depiction
 
 Package: se.geometric.lendmyphone4
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: Geometric Software
 Installed-Size: 7592
-Depends: mobilesubstrate, se.geometric.graphite(>=1.3), firmware(>=14.0), preferenceloader
-Filename: ./debs/se.geometric.lendmyphone4_1.0_iphoneos-arm.deb
-Size: 7124146
-MD5sum: db1d2f8d3b85178ecc09b489d339c9be
-SHA1: c005dbe73831680b7ca93442b572274f05cccb1c
-SHA256: 7e78ec13b3865c756e2d0130faedd2de258cf8418bb01e4617a7d7dbd1462328
+Depends: mobilesubstrate, se.geometric.graphite(>=1.3), firmware(>=14.0), preferenceloader, firmware(<=14.7)
+Filename: ./debs/se.geometric.lendmyphone4_1.1_iphoneos-arm.deb
+Size: 7124024
+MD5sum: ed323e66bd36e540b3d230690d1b6567
+SHA1: e2f69e56cb54220d916c155bcebe8c669e7afb53
+SHA256: 6d75a0385b81bc59c3c8415eb8657c4d63f0cf82e5b0fa6567f12aa500144877
 Section: Tweaks
 Description: A true guest mode for iOS
 Tag: cydia::commercial
