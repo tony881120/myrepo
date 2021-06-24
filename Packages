@@ -571,20 +571,24 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.flex2areo.apptools14
-Version: 1.6.2
+Version: 1.6.4
 Architecture: iphoneos-arm
-Maintainer: aReo
-Installed-Size: 2176
-Depends: mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.6.2_iphoneos-arm.deb
-Size: 516088
-MD5sum: 4120c3c11e1eeda1b5e75256e16ee345
-SHA1: 95faffa29cddfa240d8d43d9186ee3d1305bb94e
-SHA256: 951a4ad32f6a3af7d6b8dd9ff11698bf52ef6632f84bf3b583b20f07c3f024f4
+Maintainer: aReo < >
+Depends: firmware (>=14.0), mobilesubstrate
+Filename: ./debs/com.flex2areo.apptools14_1.6.4_iphoneos-arm.deb
+Size: 664364
+MD5sum: 3673efdb505543a0e74837d6f610d42c
+SHA1: 0f10ecdfe145d478f5f6ca697cb6ad447e2cee52
+SHA256: 2593d11703e7e660712e897defb9736e435c3c12dd77b140679fcbf157369253
 Section: Tweaks
+Homepage: https://shuga.co/
 Description: An icon tool.
-Author: aReo
+Author: aReo < >
+Depiction: https://flex2areo.github.io/depiction/web/com.flex2areo.apptools14.html
+Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools14/icon.png
+Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
 Name: AppTools for iOS14
+Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
 
 Package: com.fouadraheb.appdata
 Version: 1.3.6
@@ -605,16 +609,16 @@ Name: AppData
 Sileodepiction: https://apt.fouadraheb.com/package/com.fouadraheb.appdata/sileo
 
 Package: com.foxfort.aperturize
-Version: 2.2.5
+Version: 2.2.6
 Architecture: iphoneos-arm
 Maintainer: FoxfortMobile
-Installed-Size: 960
-Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.19)
-Filename: ./debs/com.foxfort.aperturize_2.2.5_iphoneos-arm.deb
-Size: 253342
-MD5sum: 6478dd83d4b677c70f46776287b72d06
-SHA1: 8a5d1ee8336547ab013d7b1967d300fd71fb95a3
-SHA256: 489f4236d5c765e2a216063018acca019520e84aeb682d825754ec03f8a6839f
+Installed-Size: 896
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.2.20)
+Filename: ./debs/com.foxfort.aperturize_2.2.6_iphoneos-arm.deb
+Size: 229862
+MD5sum: 3ce526ced0adcccb17a324baae836804
+SHA1: e5b87b4e237c48addf21dccf819db4c08d72bc96
+SHA256: 633b580b40045ac9d7e51019dcc4ebe825ae336f60d6f1ec3ff121b3057d1301
 Section: Tweaks
 Description: Adjustable bokeh for portrait mode
 Author: FoxfortMobile
@@ -1005,6 +1009,22 @@ Description: 微信插件
 Author: Jan
 Name: WeChat
 
+Package: com.ios.wechat
+Version: 1.0.6-2
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/1.0.6-2.deb
+Size: 3737822
+MD5sum: 39a083b129472a58058c3db445e334b5
+SHA1: 5add0b4f39911d628a039f18477c6971ad2f07d7
+SHA256: 28745fb887ce91f4fc64cc02b65c838d380613995089822ccd5b456a8e341ada
+Section: 插件
+Priority: optional
+Description: 微信插件
+Author: Jan
+Name: WeChat
+
 Package: com.jaxroth.supporttheunsupportedrevived
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1181,17 +1201,17 @@ Name: PS Express Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/psexpressprosileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.0.9K
+Version: 1.1.6
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 1628
+Installed-Size: 1696
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.0.9K_iphoneos-arm.deb
-Size: 619036
-MD5sum: 58fc5e2b91ef3bff713f0a424f4818d6
-SHA1: 69e95ac5244aca83b2aa4c1cc8d5720342c6f528
-SHA256: dfb2134c8398bb4bca8ff5ec8ff53ec9ed46777db11df41458b0f52b56670895
+Filename: ./debs/com.lenglengyu.shortvideodl_1.1.6_iphoneos-arm.deb
+Size: 639360
+MD5sum: fc14910a5ea8a4c968f0d2b405c43810
+SHA1: a4712025d88dc5babac5c517daf3b530f1480dc4
+SHA256: 8c0171488b10c75f0905abb4459b52415979df01bb4647c0cb72bf097249d319
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号、小程序视频下载。
 Author: lenglengyu
@@ -1255,24 +1275,6 @@ Author: anondev
 Depiction: https://repo.lenglengyu.top/packageInfo/LocalIAPStore.html
 Name: LocalIAPStore 内购破解
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/LocalIAPStoresileo
-
-Package: com.lunogroup.Legizmo
-Version: 1.0-20OA082310i
-Architecture: iphoneos-arm
-Maintainer: lunotech11
-Installed-Size: 2148
-Depends: firmware (>= 12.0), mobilesubstrate
-Filename: ./debs/watchdown.deb
-Size: 844756
-MD5sum: 81c1e0b001ef7b3242bce79e80c875ee
-SHA1: 26332347c6c0250ecb3093855f2dde1957e1a282
-SHA256: f3260c134f0d7e6c7e30c82aacdc5bf23bf753694c272fc7fe4413b0cda3f2a7
-Section: Tweaks
-Description: Allow iOS to pair with newer versions of watchOS
-Tag: cydia::commercial
-Author: lunotech11
-Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
-Name: Legizmo (Internal Release)
 
 Package: com.magicsign.deb
 Version: 2.2
@@ -1854,19 +1856,19 @@ Author: Spark
 Name: libsparkcolourpicker
 
 Package: com.spark.snowboard
-Version: 1.4.12~Beta4
+Version: 1.4.20~Beta4
 Architecture: iphoneos-arm
 Maintainer: Spark
-Installed-Size: 4828
+Installed-Size: 5008
 Depends: mobilesubstrate, preferenceloader
 Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
 Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
-Filename: ./debs/com.spark.snowboard_1.4.12_Beta4_iphoneos-arm.deb
-Size: 1562164
-MD5sum: a4dc9696690c0711b57d8c8a327e7fcf
-SHA1: 389e7e7dc840e46aa0c601c86a6a42273005e91f
-SHA256: f517b7f5160a3d27282ecee016a23ecd1a6ace8dd7e23d63aca61e24a8ad2045
+Filename: ./debs/com.spark.snowboard_1.4.20_Beta4_iphoneos-arm.deb
+Size: 1591782
+MD5sum: 1fb582d7e8e2f3093cc0e02b66bb7b07
+SHA1: 65053af13e2cea17ac8342eeb36b47d9faecc2fc
+SHA256: a98bde4179af69362b3d969941c010a26ca05548d0b89e73e7e852a2875b64f1
 Section: Tweaks
 Description: Snowboard theming engine
 Author: Spark & Dennis D. Bednarz
@@ -2510,17 +2512,17 @@ Description: Tells launchd what to do
 Name: Launch Daemon Controller
 
 Package: ldid
-Version: 2:2.1.4-1
+Version: 2:2.1.4+16-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 456
+Installed-Size: 488
 Pre-Depends: dpkg (>= 1.14.25-8), libplist3
 Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: ./debs/ldid_2%3a2.1.4-1_iphoneos-arm.deb
-Size: 55008
-MD5sum: c35ac8c8a6ef1f766afccd1eca00dd7c
-SHA1: c9499a3e515e3d04733d72374f55f83476df5762
-SHA256: 7d9a8ca5f1d02f6fd399cc1418ff582e0f600ed508565f5db0dc28c853981040
+Filename: ./debs/ldid_2%3a2.1.4+16-1_iphoneos-arm.deb
+Size: 60636
+MD5sum: 2413a622282b2d28da7b22ff6173000e
+SHA1: cb83b207a63deff28200d38bf09620b5c7d61d6f
+SHA256: b2f85f28dcf22315b44b07c9acd79ef801ea464a5f3d22b4bc9a87a647379c92
 Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files
@@ -2727,16 +2729,16 @@ Description: OpenSSL Libraries for version 1.1.1
 Name: OpenSSL 1.1.1 Libraries
 
 Package: lunotech11.Legizmo
-Version: 1.0-21MB081325i
+Version: 1.1-21JB072139i
 Architecture: iphoneos-arm
 Maintainer: lunotech11
-Installed-Size: 1840
-Depends: firmware (>= 12.0), mobilesubstrate
-Filename: ./debs/1.deb
-Size: 291344
-MD5sum: 6af2c79a3554b40a0a5ca5f8c0cfaef3
-SHA1: e1693cc80c21f44836dbb0218ad8184d936ee434
-SHA256: 593cdfc9c4560e6ed74e736fd6fabd666d92c24a9db09fcd65fc18b032fd1d2b
+Installed-Size: 2008
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/watchdown-1.1-21JB072139i.deb
+Size: 297384
+MD5sum: d4f620a36742f02c25beac47b88e664f
+SHA1: b0258987879a7b0fd4b1fb4914a2007f4b672750
+SHA256: 809d8239e2e283b54f69dcc3c6df73dcacd299105d0b4521293fa62b017d8c65
 Section: Tweaks
 Description: Allow iOS to pair with newer versions of watchOS
 Tag: cydia::commercial
@@ -2779,16 +2781,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.11.4
+Version: 2.11.5
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12256
+Installed-Size: 12016
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.11.4_iphoneos-arm.deb
-Size: 2159474
-MD5sum: b9e92d23cf10c5c38ed59aa80436d6cf
-SHA1: 4ce60c66ee893778946bd7cb5d003324cac4e1c7
-SHA256: dbd65dae3546d48a3b838261cc2c3bcb19bf761f9f8dfd18dfcc295e04885a62
+Filename: ./debs/me.ahmedbafkir.dleasy_2.11.5_iphoneos-arm.deb
+Size: 2032684
+MD5sum: 6eff485f1987d40ab0dab77c17d86058
+SHA1: a6253d471d13f07af9234825f68559cd1237ab02
+SHA256: 8e4541833f27d035cc566332e624e8a1fafb100e777b97f57463f2a01fa15876
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
