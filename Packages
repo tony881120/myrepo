@@ -239,17 +239,19 @@ Name: libpackageinfo (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.0x7ff.dimentio
-Version: 2.0.7-1
+Version: 2.0.8-3
 Architecture: iphoneos-arm
 Maintainer: 1Conan <tweaks@1conan.com>
-Installed-Size: 372
+Installed-Size: 388
+Depends: firmware (<< 14.0) | libkernrw0 | org.coolstar.libkernrw | libkrw
 Conflicts: dimentio, libdimentio0, libdimentio-dev
-Provides: dimentio, libdimentio0, libdimentio-dev
-Filename: ./debs/com.0x7ff.dimentio_2.0.7-1_iphoneos-arm.deb
-Size: 23604
-MD5sum: e2d9b0e9a6bc3acbc565f58b8f918c72
-SHA1: 3ba6fe7a57e48f1b1c060f3bbd0d4a63d31dc779
-SHA256: 6984ccd7a19b5c9b84e415f2f3f03ca8faa13ffb3ad68cebf2d185fe3afedadf
+Replaces: dimentio, libdimentio0, libdimentio-dev
+Provides: dimentio (= 1:0), libdimentio0 (= 1:0), libdimentio-dev (= 1:0)
+Filename: ./debs/com.0x7ff.dimentio_2.0.8-3_iphoneos-arm.deb
+Size: 24134
+MD5sum: 8690b0a079a0281dcd3b7d2e8afc28de
+SHA1: 1dd81cec46873cd3be65ba25c29a4d3aadc9aaff
+SHA256: 2591a5768ed9a8b94c4045c84a195c0a6ca4ef9c6e58df20d452dbb64e6e4222
 Section: System
 Description: PoC tool for setting/getting nonce without triggering KPP/KTRR/PAC. (requires tfp0)
 Tag: role::hacker
@@ -273,19 +275,19 @@ Author: 1Conan <tweaks@1conan.com>
 Name: Steam Controller MFi
 
 Package: com.1conan.tsssaver
-Version: 2.0.4
+Version: 2.0.5-1
 Architecture: iphoneos-arm
 Maintainer: 1Conan <tweaks@1conan.com>
 Installed-Size: 232
-Depends: dimentio (>=1.0.3+git20201124.7ffffff) | com.0x7ff.dimentio (>=2.0.0)
+Depends: dimentio (>=99) | com.0x7ff.dimentio (>=2.0.0)
 Conflicts: co.dynastic.TSSsaver
-Filename: ./debs/com.1conan.tsssaver_2.0.4_iphoneos-arm.deb
-Size: 53992
-MD5sum: 03c1a16703aabfd02d8828b18b9d24dc
-SHA1: 5e8f04caa40dcb1168eb86c67ec5b2fe1399b678
-SHA256: 241df30de0adecefbe5b3eeffed3885ba4df1f9a697aa3b861b07b0907dde974
+Filename: ./debs/com.1conan.tsssaver_2.0.5-1_iphoneos-arm.deb
+Size: 53998
+MD5sum: b1cfa6cdbcb542f9304782449897c1a6
+SHA1: 6513ae9724faf761b9b8c3dc63b0f8694fd701a3
+SHA256: 10deb4471d7a66fcaac3de0662c0e8760c845f1decf90ad3eccb7c6f77b957f2
 Section: Applications
-Description: An awesome application!
+Description: An easy to use app to save SHSH2 blobs
 Author: 1Conan <tweaks@1conan.com>
 Name: TSS Saver
 
@@ -1010,15 +1012,15 @@ Author: Jan
 Name: WeChat
 
 Package: com.ios.wechat
-Version: 1.0.6-2
+Version: 1.0.6-3
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/1.0.6-2.deb
-Size: 3737822
-MD5sum: 39a083b129472a58058c3db445e334b5
-SHA1: 5add0b4f39911d628a039f18477c6971ad2f07d7
-SHA256: 28745fb887ce91f4fc64cc02b65c838d380613995089822ccd5b456a8e341ada
+Filename: ./debs/1.0.6-3.deb
+Size: 3819670
+MD5sum: c447e5342a4a13b29a0be72b70ae56d9
+SHA1: 88ddf1317ad21d8b2d478f65812320d0a6e6e36e
+SHA256: 216f1df15c52ea0d8776c7eac427f262360220e813af72cb518284fb0cb19cbf
 Section: 插件
 Priority: optional
 Description: 微信插件
@@ -1201,17 +1203,17 @@ Name: PS Express Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/psexpressprosileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.1.6
+Version: 1.1.7
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 1696
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.1.6_iphoneos-arm.deb
-Size: 639360
-MD5sum: fc14910a5ea8a4c968f0d2b405c43810
-SHA1: a4712025d88dc5babac5c517daf3b530f1480dc4
-SHA256: 8c0171488b10c75f0905abb4459b52415979df01bb4647c0cb72bf097249d319
+Filename: ./debs/com.lenglengyu.shortvideodl_1.1.7_iphoneos-arm.deb
+Size: 643132
+MD5sum: ac044d69db74df58d2267df8e32fe595
+SHA1: f8985d250a6493dcb93ca722f986883cd242c87f
+SHA256: ad5e0b55004439fc14bb27a21487994f7f6985a37e960e4677df7b9ea0dffc58
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号、小程序视频下载。
 Author: lenglengyu
