@@ -573,15 +573,15 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.flex2areo.apptools14
-Version: 1.6.4
+Version: 1.6.5
 Architecture: iphoneos-arm
 Maintainer: aReo < >
 Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.6.4_iphoneos-arm.deb
-Size: 664364
-MD5sum: 3673efdb505543a0e74837d6f610d42c
-SHA1: 0f10ecdfe145d478f5f6ca697cb6ad447e2cee52
-SHA256: 2593d11703e7e660712e897defb9736e435c3c12dd77b140679fcbf157369253
+Filename: ./debs/com.flex2areo.apptools14_1.6.5_iphoneos-arm.deb
+Size: 1157308
+MD5sum: 80d406c281c130a4cb935b4d40593185
+SHA1: b7a43e38f2137370858adb16a1c0ebe42bd79430
+SHA256: d6f93256e498113a257197a22d0e1b01491cbb7f41d7ad5048b00abdfa0d2ffb
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: An icon tool.
@@ -1203,19 +1203,19 @@ Name: PS Express Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/psexpressprosileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.1.7
+Version: 1.2.4
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 1696
+Installed-Size: 1804
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.1.7_iphoneos-arm.deb
-Size: 643132
-MD5sum: ac044d69db74df58d2267df8e32fe595
-SHA1: f8985d250a6493dcb93ca722f986883cd242c87f
-SHA256: ad5e0b55004439fc14bb27a21487994f7f6985a37e960e4677df7b9ea0dffc58
+Filename: ./debs/com.lenglengyu.shortvideodl_1.2.4_iphoneos-arm.deb
+Size: 679230
+MD5sum: 310a1c057e090b7b791784b320c9c256
+SHA1: bc5f9544c5e41edaf1301dc054adf0e81bc2fc09
+SHA256: dd116093cea9b8cb90f52dd26a40fb831b302423a7bf98d25c83884dbf6fb4c5
 Section: Tweaks
-Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号、小程序视频下载。
+Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号视频下载。
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/shortvideodl.html
 Name: 短视频助手
@@ -1466,19 +1466,19 @@ Dev: muirey03
 Name: libMRYIPC
 
 Package: com.opa334.ccsupport
-Version: 1.3.4
+Version: 1.3.5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 380
+Installed-Size: 386
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: com.ioscreatix.silo
 Replaces: com.ioscreatix.silo
 Provides: com.ioscreatix.silo
-Filename: ./debs/com.opa334.ccsupport_1.3.4_iphoneos-arm.deb
-Size: 56738
-MD5sum: ddf3f3979b9805137900e3e40a550e45
-SHA1: 09fd4c6f58ba988892541b3ab8157f662fa9b3ba
-SHA256: dc8099af721ad805c1f338962070bc0e9fe2ac7d193aa9726cc340800d2c1a2a
+Filename: ./debs/com.opa334.ccsupport_1.3.5_iphoneos-arm.deb
+Size: 56888
+MD5sum: ba62b041f456751233d72a147d54eb90
+SHA1: 101a08fa61f0e73aa93fdfc61a79c206e9f81b4e
+SHA256: 22eafbab78ccef3983db071f79c8afdbec46aa7c52e224dfd2784f18ee17ac8d
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Description: Support tweak for CC modules!
@@ -3237,16 +3237,16 @@ Name: FakeModel
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.qqpurification
-Version: 1.8-8.2
+Version: 1.9-3.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 566
+Installed-Size: 463
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/netskao.qqpurification_1.8-8.2_iphoneos-arm.deb
-Size: 156378
-MD5sum: e46b3dc055ea3909008b6fe26ddfab25
-SHA1: 037a5fce215eb70be664cd404469767c5c49cc56
-SHA256: 26a1e2eaf62ac2a38a3b8f7e07c5fd0791cce91b7f643c8c8a7292847f4b9d35
+Filename: ./debs/netskao.qqpurification_1.9-3.1_iphoneos-arm.deb
+Size: 130512
+MD5sum: 9399dd632518b7b660ae4605cf12220d
+SHA1: 2da40242c06f367d2dbc04cf11d6457e07c6ba6e
+SHA256: 137746fb025e16449ee722bf3d4125727db66a2cebe99676ade3479b6420ff33
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
@@ -3258,16 +3258,16 @@ Name: QQ净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatpurification
-Version: 2.0-2.2
+Version: 2.0-5.2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 531
+Installed-Size: 542
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_2.0-2.2_iphoneos-arm.deb
-Size: 160644
-MD5sum: e8cb0e24fe9599d7e13ec2bd649f6e8d
-SHA1: fd613adecd2245dcf41b21f46b22dacd533b5d1b
-SHA256: b893d2dfee73d163f71b8f28218c88dc791d64b9f6bbef0e5801874112828195
+Filename: ./debs/netskao.wechatpurification_2.0-5.2_iphoneos-arm.deb
+Size: 168954
+MD5sum: 8880053fa548e874cfa178f825fdb456
+SHA1: 2b69b533676d6abe2b7ce04db6f8686aa8c58d75
+SHA256: e13ca103843d552266ba81112a9203c04b9975506d60e07f7e69f2a404285842
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.0及以上版本，设置位于微信-设置
@@ -3791,16 +3791,16 @@ Author: TylerD3V
 Name: SyncStore
 
 Package: xyz.willy.zebra
-Version: 1.1.18
+Version: 1.1.20
 Architecture: iphoneos-arm
 Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 58332
+Installed-Size: 16324
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/xyz.willy.zebra_1.1.18_iphoneos-arm.deb
-Size: 19150270
-MD5sum: ba4bf1d313ac50c522afc6376bdd3c04
-SHA1: 690322825ed543d7ee2c9e0f18ef2edaa2346c5c
-SHA256: 50c315a3df7686cb1014475c6fc7532e094ced032e1d7dbef8946799f1b483de
+Filename: ./debs/xyz.willy.zebra_1.1.20_iphoneos-arm.deb
+Size: 8416762
+MD5sum: 8c23a78d2deed75b04c8b934287680c0
+SHA1: 3cdcbf16e51b05e73519a0b39fbdf1163af485e2
+SHA256: 4793d5c902e7871570ddf6cf3b4c7d342a38fed937860bf04a030275cc99815e
 Section: Packaging
 Description: A Useful Package Manager
 Tag: compatible::9.0-14.4
