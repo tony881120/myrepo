@@ -109,22 +109,6 @@ Description: Access the photo markup feature in less taps.
 Author: Simalary (Chris) <19harperc@gmail.com>
 Name: QuickMarkup
 
-Package: bettercydia
-Version: 1.0.3
-Architecture: iphoneos-arm
-Maintainer: The BetterCydia Team
-Depends: coreutils-bin, coreutils, mobilesubstrate
-Conflicts: com.julioverne.fastuprepo, com.julioverne.fastuprepo2
-Filename: ./debs/bettercydia_1.0.3_iphoneos-arm.deb
-Size: 70136
-MD5sum: 9d07fccfce9dcdc9dd9d8c2c5203556e
-SHA1: 9390a0ea2d299d9a6c4b841368f295634126f1d8
-SHA256: 29203c5eb89554af5a5896f32ef2e99c6a87933cfb666b5d756434a27961dfeb
-Section: Tweaks
-Description: Better Cydia for everyone.
-Author: The BetterCydia Team
-Name: BetterCydia
-
 Package: cn.agricu.aweme
 Version: 1.3
 Architecture: iphoneos-arm
@@ -996,35 +980,23 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.6
+Version: 1.0.7
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.6_iphoneos-arm.deb
-Size: 3643816
-MD5sum: f739166061fbd0704eaf79d770a6fb0a
-SHA1: bc541245b7836cfbdf3b5bce33a1d679b4cd1030
-SHA256: e73c389adec0d912f7c31747f16318199a17ff2c362bbfa3b9c22d188d84ae24
-Section: 插件
+Filename: ./debs/com.ios.wechat_1.0.7_iphoneos-arm.deb
+Size: 2637704
+MD5sum: cbba0957059565283ee68eb1e8699010
+SHA1: c7f0ca70f4b64ec4d9b41118cf71b02684d5b502
+SHA256: f90b2046030d7fd19c61e77cb6ceb9bc484a66aecbed2cd57dec3c03ac3c6e9f
+Section: Tweaks
 Priority: optional
-Description: 微信插件
+Homepage: https://twjacy.github.io/wx
+Description: 微信插件，购买授权联系微信/QQ：5889650，QQ 群：58128869
 Author: Jan
-Name: WeChat
-
-Package: com.ios.wechat
-Version: 1.0.6-3
-Architecture: iphoneos-arm
-Maintainer: Jan<237523005@qq.com>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/1.0.6-3.deb
-Size: 3819670
-MD5sum: c447e5342a4a13b29a0be72b70ae56d9
-SHA1: 88ddf1317ad21d8b2d478f65812320d0a6e6e36e
-SHA256: 216f1df15c52ea0d8776c7eac427f262360220e813af72cb518284fb0cb19cbf
-Section: 插件
-Priority: optional
-Description: 微信插件
-Author: Jan
+Depiction: https://twjacy.github.io/wx
+Dev: Jan
+Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
 Name: WeChat
 
 Package: com.jaxroth.supporttheunsupportedrevived
@@ -1203,17 +1175,17 @@ Name: PS Express Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/psexpressprosileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.2.4
+Version: 1.2.6
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 1804
+Installed-Size: 1896
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.2.4_iphoneos-arm.deb
-Size: 679230
-MD5sum: 310a1c057e090b7b791784b320c9c256
-SHA1: bc5f9544c5e41edaf1301dc054adf0e81bc2fc09
-SHA256: dd116093cea9b8cb90f52dd26a40fb831b302423a7bf98d25c83884dbf6fb4c5
+Filename: ./debs/com.lenglengyu.shortvideodl_1.2.6_iphoneos-arm.deb
+Size: 712888
+MD5sum: c3bd248a21be3dd4faaca9c430a1c302
+SHA1: 37cec2f3d3a1935fcecca95826086591be071e74
+SHA256: d17c9f33d8141176d57fe3b4f30280ab207fac181d9dac469d5d4b69dd259f98
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号视频下载。
 Author: lenglengyu
@@ -3573,6 +3545,21 @@ Description: NiceCaller için Türkçe dil yaması.
 Author: Önder Azazi <onderazazi@hotmail.com>
 Name: NiceCaller(iOS14) TR Yama
 
+Package: sileoturkiye.tweakcleaner
+Version: 14.9
+Architecture: iphoneos-arm
+Maintainer: Önder Azazi <onderazazi@hotmail.com>
+Depends: firmware (>= 13.0), firmware (<= 14.7), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
+Filename: ./debs/sileoturkiye.tweakcleaner_14.9_iphoneos-arm.deb
+Size: 1875310
+MD5sum: 0f978e9a0387bf2b283625ae5cc378cb
+SHA1: 9065a361a1736cf774e391f748af2e167eb8374d
+SHA256: b97b96f7eff9544d5b8eb0c4d22b0edd372a51045585ae26edb089402a5c7a81
+Section: TR - Uygulama
+Description: Returns the device to its original JB state.
+Author: Önder Azazi <onderazazi@hotmail.com>
+Name: Tweak Cleaner PRO
+
 Package: tar
 Version: 1.33-1
 Architecture: iphoneos-arm
@@ -3730,29 +3717,6 @@ Name: DingTalkHelperX
 Sponsor: Editornah <mxiaohan.2018@gmail.com>
 
 Package: x.DingTalkHelperX2
-Version: 2.1.5
-Architecture: iphoneos-arm
-Maintainer: Editornah<mxiaohan.2018@gmail.com>
-Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
-Conflicts: com.kevll.dingtalkhelper,x.DingTalkHelperX
-Filename: ./debs/x.dingtalkhelperx2_2.1.5_iphoneos-arm.deb
-Size: 241640
-MD5sum: 34b7f2388bfbc03e0128d77336150620
-SHA1: 6c9410c68fd9bf3b6092e12505fd9086c6865e63
-SHA256: 7e8b0a2eacaaf40148344b38dced57fbb39fb7ad5cdd24b89e55eb8e923e0151
-Section: Tweaks
-Priority: optional
-Homepage: https://cydia.editornah.top
-Description: 启动页屏蔽、消息防撤回、自动抢红包、callkit语音
-Tag: purpose::extension, compatible::ios13
-Author: Editornah
-Depiction: https://cydia.editornah.top/depiction/DingTalkHelperX2/index.html
-Dev: EditorNah
-Icon: file:///Library/PreferenceLoader/Preferences/DingTalkHelperX.png
-Name: DingTalkHelperX2
-Sponsor: Editornah <mxiaohan.2018@gmail.com>
-
-Package: x.DingTalkHelperX2
 Version: 2.1.7
 Architecture: iphoneos-arm
 Maintainer: Editornah<2330219387@qq.com>
@@ -3791,40 +3755,21 @@ Author: TylerD3V
 Name: SyncStore
 
 Package: xyz.willy.zebra
-Version: 1.1.20
+Version: 1.1.21
 Architecture: iphoneos-arm
 Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 16324
+Installed-Size: 16308
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/xyz.willy.zebra_1.1.20_iphoneos-arm.deb
-Size: 8416762
-MD5sum: 8c23a78d2deed75b04c8b934287680c0
-SHA1: 3cdcbf16e51b05e73519a0b39fbdf1163af485e2
-SHA256: 4793d5c902e7871570ddf6cf3b4c7d342a38fed937860bf04a030275cc99815e
+Filename: ./debs/xyz.willy.zebra_1.1.21_iphoneos-arm.deb
+Size: 8412210
+MD5sum: 2174a8f3d9a40e7801d1cad80c9ac1f2
+SHA1: 5e7b49f6675b06dc9b4f05bcdd6e2efce9a4d8ee
+SHA256: 84a59794b8959211224b29e972d26934c4e1579ee62aeaeaf73fadeedeb5e4ba
 Section: Packaging
 Description: A Useful Package Manager
-Tag: compatible::9.0-14.4
+Tag: compatible::9.0-14.6
 Author: Wilson Styres <wilson@styres.me>
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
-Name: Zebra
-
-Package: xyz.willy.zebra
-Version: 1.2~beta9a
-Architecture: iphoneos-arm
-Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 34668
-Depends: dpkg, uikittools, firmware (>= 11.0)
-Filename: ./debs/xyz.willy.zebra_1.2.beta9a_iphoneos-arm.deb
-Size: 13824842
-MD5sum: 04b97d9afc267c014e2acd90865ad25d
-SHA1: d0ab416db24c71b6ec9754bbf4d5d718f8008752
-SHA256: 822afc7db984c60ef24bd67d69b09b04853fb3afe470ecbed9031f9cdbbf8556
-Section: Packaging
-Description: A Useful Package Manager
-Tag: compatible_min::ios11.0, compatible_max::ios14.3
-Author: Wilson Styres <wilson@styres.me>
-Depiction: https://getzbra.com/beta/depictions/xyz.willy.Zebra/
-Icon: https://getzbra.com/repo/depictions/xyz.willy.Zebra/images/icon.png
 Name: Zebra
 
 Package: xyz.xninja.systeminfo
