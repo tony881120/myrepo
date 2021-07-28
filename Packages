@@ -980,15 +980,15 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.7
+Version: 1.0.8
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.7_iphoneos-arm.deb
-Size: 2637704
-MD5sum: cbba0957059565283ee68eb1e8699010
-SHA1: c7f0ca70f4b64ec4d9b41118cf71b02684d5b502
-SHA256: f90b2046030d7fd19c61e77cb6ceb9bc484a66aecbed2cd57dec3c03ac3c6e9f
+Filename: ./debs/com.ios.wechat_1.0.8_iphoneos-arm.deb
+Size: 3083240
+MD5sum: 329ad36e07001d3fa21c959da7cf2cfc
+SHA1: 1a9df637ec17c02bd3ecaf20341bd962bfec107d
+SHA256: fc1ec7c8843f236e4d92dc3a35e52ee05c85a376453251d27fd53af381667a38
 Section: Tweaks
 Priority: optional
 Homepage: https://twjacy.github.io/wx
@@ -1155,6 +1155,24 @@ Author: lenglengyu
 Depiction: https://apt.167025.cn/packageInfo/ffbaidu.html
 Name: 百度不跳转
 Sileodepiction: https://apt.167025.cn/packageInfo/ffbaidusileo
+
+Package: com.lenglengyu.jianyingpro
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.lenglengyu.jianyingpro_0.0.1_iphoneos-arm.deb
+Size: 14304
+MD5sum: b1874e85735e2aa53c65efd62aa5b34d
+SHA1: 86578af48d84a885b390075a7a3b16b358fe40be
+SHA256: 4f4d3efad9e7a3dd5f4735b6a83bf673d1b42e8f7d9af369f1b903b366cc55a4
+Section: Tweaks
+Description: 模版视频无水印保存。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/jianyingpro.html
+Name: 剪映Pro
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/jianyingprosileo
 
 Package: com.lenglengyu.psexpresspro
 Version: 0.0.1
@@ -1638,16 +1656,16 @@ Name: RocketBootstrap
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rpgfarm.a-bypass
-Version: 1.5.3
+Version: 1.5.4
 Architecture: iphoneos-arm
 Maintainer: Baw Appie <pp121324@gmail.com>
-Installed-Size: 844
+Installed-Size: 848
 Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast, preferenceloader
-Filename: ./debs/com.rpgfarm.a-bypass_1.5.3_iphoneos-arm.deb
-Size: 98952
-MD5sum: 5ba4349df8cdc749b4684c603479b5c1
-SHA1: ef83d980f978e7b3e3ae65e84f1fa5a6168c1dc4
-SHA256: 99ac1d1df7ac2bc78dfaf934c759ea879b1187e4e5d839a02fded8c007ebe397
+Filename: ./debs/com.rpgfarm.a-bypass_1.5.4_iphoneos-arm.deb
+Size: 100688
+MD5sum: e1eb6c4db0a9d111fd280896ef3a41f8
+SHA1: bad5157c3c6237fd7b9f48c53d56f021c2c78440
+SHA256: 3dcadcdebe4193115ab79ff00048df753893703e7a90b22a3b7e49246c103236
 Section: Tweaks
 Description: Super Jailbreak detection bypass!
 Author: Baw Appie <pp121324@gmail.com>
@@ -1668,6 +1686,22 @@ Description: Get Application View on SpringBoard.
 Tag: role::developer
 Author: Baw Appie <pp121324@gmail.com>
 Name: libAPAppView
+
+Package: com.rpgfarm.libaptoast
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 132
+Filename: ./debs/com.rpgfarm.libaptoast_1.0_iphoneos-arm.deb
+Size: 7066
+MD5sum: b6885d2503f2f35cb17eb13ca7aa6bbb
+SHA1: 5ef89490600eeec65c8a5f03b22861c524c40d7b
+SHA256: 9a8973fe080b4b7fcef034e32b34ba60ebd29c51fc71792f1e3ffe52f5ca3391
+Section: System
+Description: Baw Appie's Toast Library
+Tag: role::developer
+Author: Baw Appie <pp121324@gmail.com>
+Name: libAPToast
 
 Package: com.rpgfarm.u0smscompletefix
 Version: 1.0.1
@@ -1865,17 +1899,17 @@ Author: subdiox
 Name: StoreSwitcher 2
 
 Package: com.tigisoftware.filza64bit
-Version: 3.8.2-6
+Version: 3.8.2-8
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
 Installed-Size: 21788
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.8.2-6_iphoneos-arm.deb
-Size: 8387192
-MD5sum: 6b5b72b96b8249d976ce7b8db2da67c6
-SHA1: 5d4b197de8f2f3833b49ce20f7cc4e4a812b791a
-SHA256: ad9acf44d249ee16df0caa9d2047edb2ddad220b325d6ef4390a4e4208535a6b
+Filename: ./debs/com.tigisoftware.filza64bit_3.8.2-8_iphoneos-arm.deb
+Size: 8387190
+MD5sum: f8c610ef01f8edfd01b42ccd8c17c2b0
+SHA1: 3cbe783a6c1cd3af8dae9447e2aca5d14f17721b
+SHA256: 6ecc9e72f45db37a8fb4cff237b6bc1402c3e02c72f0f645e874f73012def96a
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
@@ -3209,16 +3243,16 @@ Name: FakeModel
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.qqpurification
-Version: 1.9-3.1
+Version: 1.9-4.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 463
+Installed-Size: 530
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/netskao.qqpurification_1.9-3.1_iphoneos-arm.deb
-Size: 130512
-MD5sum: 9399dd632518b7b660ae4605cf12220d
-SHA1: 2da40242c06f367d2dbc04cf11d6457e07c6ba6e
-SHA256: 137746fb025e16449ee722bf3d4125727db66a2cebe99676ade3479b6420ff33
+Filename: ./debs/netskao.qqpurification_1.9-4.1_iphoneos-arm.deb
+Size: 151710
+MD5sum: 5e37a7dd35a2b08143b6818126b5b87c
+SHA1: 9d048dabf83779a6032c7115e3a6a4ef01afa509
+SHA256: 38f6f1a8cf2298a9087b98ac5b516506a2e2a878f0196daea7234a84e424c26d
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
 Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
