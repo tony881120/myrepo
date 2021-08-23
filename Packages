@@ -327,20 +327,20 @@ Dev: c1d3r
 Name: PullOver Pro
 
 Package: com.cannathea.afc2d-arm64
-Version: 1.1.4
+Version: 1.1.5-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 736
+Installed-Size: 686
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64, mobilesubstrate, ldid
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/com.cannathea.afc2d-arm64_1.1.4_iphoneos-arm.deb
-Size: 20286
-MD5sum: dfc9fcd2ed58d58b5bea246369725a17
-SHA1: 68a47357380c8a2baa0e4c0f6ebc4206683b98e3
-SHA256: 29025062b18acdbe73d470e3846d43aa43381bce4f73642584d98e7b76bf695d
+Filename: ./debs/com.cannathea.afc2d-arm64_1.1.5-1_iphoneos-arm.deb
+Size: 14486
+MD5sum: c57f2a538b007e8f655ddcb3140804a1
+SHA1: 39ae9a6107ae67236ec5011530b08ef594248341
+SHA256: 488e4e86a97bdfcb12c396d14c9bc3e8666e810c5435023d7d8b530b5924e391
 Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
 Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
@@ -555,26 +555,6 @@ Author: Ivano Bilenchi <support@ib-soft.net>
 Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
-
-Package: com.flex2areo.apptools14
-Version: 1.6.5
-Architecture: iphoneos-arm
-Maintainer: aReo < >
-Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.6.5_iphoneos-arm.deb
-Size: 1157308
-MD5sum: 80d406c281c130a4cb935b4d40593185
-SHA1: b7a43e38f2137370858adb16a1c0ebe42bd79430
-SHA256: d6f93256e498113a257197a22d0e1b01491cbb7f41d7ad5048b00abdfa0d2ffb
-Section: Tweaks
-Homepage: https://shuga.co/
-Description: An icon tool.
-Author: aReo < >
-Depiction: https://flex2areo.github.io/depiction/web/com.flex2areo.apptools14.html
-Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools14/icon.png
-Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
-Name: AppTools for iOS14
-Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
 
 Package: com.fouadraheb.appdata
 Version: 1.3.6
@@ -980,15 +960,15 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.8
+Version: 1.0.8-2
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.8_iphoneos-arm.deb
-Size: 3083240
-MD5sum: 329ad36e07001d3fa21c959da7cf2cfc
-SHA1: 1a9df637ec17c02bd3ecaf20341bd962bfec107d
-SHA256: fc1ec7c8843f236e4d92dc3a35e52ee05c85a376453251d27fd53af381667a38
+Filename: ./debs/com.ios.wechat_1.0.8-2_iphoneos-arm.deb
+Size: 3233560
+MD5sum: 9dc65e6ee020636d9fa056b5a0f016ff
+SHA1: e8564b5dff42626746287c1250a4c6cae575a0b7
+SHA256: 3edba0a8803b2c3b3fdcee644b4859ad16e2749d4b82edba8a621a5dc60a72a2
 Section: Tweaks
 Priority: optional
 Homepage: https://twjacy.github.io/wx
@@ -1269,17 +1249,17 @@ Name: LocalIAPStore 内购破解
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/LocalIAPStoresileo
 
 Package: com.magicsign.deb
-Version: 2.2
+Version: 3.2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 10512
+Installed-Size: 10712
 Depends: firmware (>= 12.0)
 Conflicts: com.cydiaapp.magicsign, com.ios-tool.magicsign
-Filename: ./debs/com.magicsign.deb_2.2_iphoneos-arm.deb
-Size: 4572522
-MD5sum: 72c991aebf5d1fbafbe8df9be8753042
-SHA1: b2c7e1613d1ff2fa46a8deaa91f2a014aa950cc2
-SHA256: 6512d991eec02c35f5988fd5f7b751cf1ef615c483a342ba335726cf6f3f1624
+Filename: ./debs/com.magicsign.deb_3.2_iphoneos-arm.deb
+Size: 4827330
+MD5sum: 9a6a7a5e1162ae99071e66dee1ee0447
+SHA1: 524722a81f9300ed2825addfa5d8840d11b55c15
+SHA256: a116f33ab7e236650767a10c8b0a66ccf8b822d4a402cede0b40298e62999198
 Section: Utilities
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=magicsignDp
 Description: application signing tool
@@ -1579,22 +1559,22 @@ Name: LetMeBlock
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
 Package: com.qiop1379.swipeextenderx
-Version: 1.4.2
+Version: 1.5.1
 Architecture: iphoneos-arm
 Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
-Installed-Size: 1412
+Installed-Size: 644
 Depends: firmware (>= 12.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/com.qiop1379.swipeextenderx_1.4.2_iphoneos-arm.deb
-Size: 266832
-MD5sum: 53893e790eb630c2877d0577485998c8
-SHA1: 80e402cdec613d7db9de5dcf0196328a2d0188b3
-SHA256: 7bd808c8ec6fe8c84defa16b2b8b2d3ea10b3378923ddfe9419f9afaf085b07d
+Filename: ./debs/com.qiop1379.swipeextenderx_1.5.1_iphoneos-arm.deb
+Size: 86648
+MD5sum: 5e69e8e106d251af40a975df063820e2
+SHA1: 4d0e4dcaac5d84957d789ea97ae286cc1a73d4a0
+SHA256: 1063074b78db9ecc23d30ee803d52a300ac6786105aa16ba405a65b628a4ea29
 Section: Tweaks
 Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
 Tag: cydia::commercial, compatible_min::ios12.0
 Author: qwertyuiop1379 <support@qwertyuiop1379.com>
 Depiction: https://chariz.com/buy/swipeextenderx
-Icon: https://chariz.com/cdn/icon/swipeextenderx/icon@3x.png
+Icon: https://cdn.chariz.cloud/icon/swipeextenderx/icon@3x.png
 Name: SwipeExtenderX
 
 Package: com.r333d.eqe
@@ -1863,6 +1843,22 @@ Tag: role::developer
 Author: Spark
 Name: libsparkcolourpicker
 
+Package: com.spark.sneakycam
+Version: 2.0.6
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.spark.sneakycam_2.0.6_iphoneos-arm.deb
+Size: 105622
+MD5sum: bc46be0537ccea2d6c0756a37f5bcdde
+SHA1: d73b87afe821eef3639689471104fa1e08333dea
+SHA256: dda74a030313109ed3b6bd43beadf8fb999f4e6dc2d8f0df04065a2c3740bf97
+Section: Tweaks
+Description: Discretely take a photo or record a video from anywhere, even with your screen off.
+Author: Spark
+Name: SneakyCam
+
 Package: com.spark.snowboard
 Version: 1.4.20~Beta4
 Architecture: iphoneos-arm
@@ -1899,17 +1895,17 @@ Author: subdiox
 Name: StoreSwitcher 2
 
 Package: com.tigisoftware.filza64bit
-Version: 3.8.2-8
+Version: 3.9.0-2
 Architecture: iphoneos-arm
 Maintainer: TIGI Software
-Installed-Size: 21788
+Installed-Size: 21860
 Depends: zip, unzip, gzip, unrar, p7zip
 Conflicts: com.tigisoftware.filza
-Filename: ./debs/com.tigisoftware.filza64bit_3.8.2-8_iphoneos-arm.deb
-Size: 8387190
-MD5sum: f8c610ef01f8edfd01b42ccd8c17c2b0
-SHA1: 3cbe783a6c1cd3af8dae9447e2aca5d14f17721b
-SHA256: 6ecc9e72f45db37a8fb4cff237b6bc1402c3e02c72f0f645e874f73012def96a
+Filename: ./debs/com.tigisoftware.filza64bit_3.9.0-2_iphoneos-arm.deb
+Size: 8476070
+MD5sum: b5c0faa9d5650c370640adf3097b9a23
+SHA1: c64f82dfdac3a6e6233553852602bbb428137697
+SHA256: 624206dcc388e5e70f783fc066ad4713a102ade40f6205d33ff0dae951092982
 Section: Utilities
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
 Author: TIGI Software
@@ -2368,18 +2364,18 @@ Name: TechSupport Framework (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: jp.soh.reprovision
-Version: 0.6.2~release
+Version: 0.7.0~release
 Architecture: iphoneos-arm
 Maintainer: Soh Satoh
 Depends: firmware (>= 9.0)
 Replaces: com.matchstic.Extender-Installer, com.matchstic.reprovision
 Provides: com.matchstic.Extender-Installer, com.matchstic.reprovision
-Filename: ./debs/jp.soh.reprovision_0.6.2_release_iphoneos-arm.deb
-Size: 14667432
-MD5sum: d1f99bfa8aa62d5281416c973c9d12ce
-SHA1: d5c24c64df51f891a1e94b8d45bdeb997650d79f
-SHA256: 48b09b6d92e45ccd49c4249a025592247c9283342561b3615d532acc16844c43
-Section: System
+Filename: ./debs/jp.soh.reprovision_0.7.0_release_iphoneos-arm.deb
+Size: 14357632
+MD5sum: c60c2437ca4e270d6c63346b79544cc8
+SHA1: 815a8a792511a41702fcd19c3fe267ae6cd4aa15
+SHA256: e45722aa05f8aaab0da699dfa5c6114f9a055468d3eec1b14e360a23b90b1cf5
+Section: Utilities
 Priority: optional
 Description: Re-sign applications on your device
 Author: Soh Satoh, Matt Clarke
@@ -2789,16 +2785,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.11.5
+Version: 2.11.7
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12016
+Installed-Size: 12080
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.11.5_iphoneos-arm.deb
-Size: 2032684
-MD5sum: 6eff485f1987d40ab0dab77c17d86058
-SHA1: a6253d471d13f07af9234825f68559cd1237ab02
-SHA256: 8e4541833f27d035cc566332e624e8a1fafb100e777b97f57463f2a01fa15876
+Filename: ./debs/me.ahmedbafkir.dleasy_2.11.7_iphoneos-arm.deb
+Size: 2039050
+MD5sum: e65b9b0160cf7a39e01519acbdfc38e0
+SHA1: 64edc439a0da52430711ba1239e39736865443bb
+SHA256: 81a70f550c8d5bb35c0c6c628f748f1d05b06e52c05b621f6ffbd7eb493c50ee
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -2868,19 +2864,19 @@ Icon: file:///Applications/OTRLocation.app/icon.png
 Name: Anywhere!--虚拟定位
 
 Package: net.angelxwind.appsyncunified
-Version: 98.0
+Version: 100.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.6)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.7.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_98.0_iphoneos-arm.deb
-Size: 58308
-MD5sum: cd493deb0ef48d69d3568831c4fa2ab4
-SHA1: a5f8e680308228a880756e7d6cca5b6be2fe234b
-SHA256: ab386bd21e590b79a26cff21bec9d3ee3c10e4f67d095c7c30e49b67ee5f9367
+Filename: ./debs/net.angelxwind.appsyncunified_100.0_iphoneos-arm.deb
+Size: 58314
+MD5sum: d9d27173cc6130c5d230851d80ffd618
+SHA1: 56d334823c0dd7ef192a489ea8ec332041ce108a
+SHA256: c560fa196cd3fb244edb72f2a3943c7ead59979c300f9ecdceefc713439a8454
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
@@ -3634,16 +3630,16 @@ Name: ECG Enabler
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: uikittools
-Version: 1.1.20-1
+Version: 1.1.21-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 1168
-Depends: coreutils-bin, findutils
-Filename: ./debs/uikittools_1.1.20-1_iphoneos-arm.deb
-Size: 43150
-MD5sum: b4bd00027880367e2adf6fd603203f4a
-SHA1: 0bfbb09caf3f025623847976f18bd005dffeed3c
-SHA256: 9d5973fb24e39b3962f3be36b09bb7b73eec2fd301602b353cbc07e5a770fcb4
+Installed-Size: 1176
+Depends: findutils, coreutils-bin
+Filename: ./debs/uikittools_1.1.21-1_iphoneos-arm.deb
+Size: 44702
+MD5sum: b133ea6f04bd0443b3b64e5923247b29
+SHA1: 1a67cee902efd6fd309aa8925d0d7355edc2c5e9
+SHA256: e028d75ed17af6658ada950a33b6cc79e1fcb5e43221f1b3bb073f7cbcb799eb
 Section: Utilities
 Priority: optional
 Homepage: http://tukaani.org/lzma/
@@ -3707,23 +3703,23 @@ Name: Alderis Color Picker
 Support: https://hashbang.productions/support/
 
 Package: ws.hbang.common
-Version: 1.16
+Version: 1.17
 Architecture: iphoneos-arm
 Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 2012
-Depends: firmware (<< 8.0) | mobilesubstrate (>= 0.9.7000) | com.rpetrich.rocketbootstrap, firmware (<< 8.0) | mobilesubstrate (<< 99) | com.rpetrich.rocketbootstrap
-Filename: ./debs/ws.hbang.common_1.16_iphoneos-arm.deb
-Size: 237912
-MD5sum: 8e88f31a35e39e72ad670c8269a3630a
-SHA1: 0e100a44b977053deb2543317c2ccd4ff02ca3c8
-SHA256: b9691fec11afd5bb32fa7bae0efe5bea997566645ef9fe59f6c23f6b72ea3ea7
+Installed-Size: 1852
+Depends: firmware (<< 8.0) | firmware (>= 11.0) | com.rpetrich.rocketbootstrap
+Filename: ./debs/ws.hbang.common_1.17_iphoneos-arm.deb
+Size: 207662
+MD5sum: aea7132dbb77bf799ed6ff1942af9c0a
+SHA1: db31f872dab06eaeb0bc732ede9af5d2e94b52c5
+SHA256: 3eaea1713f40ef02606bfa67f44f62529ea8b923c0aefb39fc68e230c40a0f6d
 Section: Development
 Description: Support library for tweaks
 Tag: role::developer, compatible_min::ios5.0
 Author: HASHBANG Productions <support@hbang.ws>
 Depiction: https://chariz.com/get/cephei
 Dev: hbang
-Icon: https://chariz.com/cdn/icon/cephei/icon@3x.png
+Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
