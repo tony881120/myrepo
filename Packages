@@ -515,21 +515,21 @@ Name: CoySIM
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ex.substitute
-Version: 2.1.0
+Version: 2.2.0
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner
-Installed-Size: 26968
+Installed-Size: 27080
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_2.1.0_iphoneos-arm.deb
-Size: 7312798
-MD5sum: 6c18a0a77fe5a558413bf1f645597d5e
-SHA1: c4721c815798803407c2d0fc44bd48a1804fb8e1
-SHA256: b0f87877e0d951d8e02868dc83ab5e1ce7bc7ff336a08997d94845fc9c9455bb
+Filename: ./debs/com.ex.substitute_2.2.0_iphoneos-arm.deb
+Size: 7341680
+MD5sum: 7234549fd9f8c10c3411e79f8e558800
+SHA1: 60db4a5880b8551d609151066369ba5acb6e3e48
+SHA256: 5bf4274883798202902c65c0a346c167eaeb4d0581f49ff4fcd3f89fb469c6e2
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution
@@ -784,17 +784,17 @@ Name: CallLogPro (iOS 14 to 8)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ichitaso.altstore
-Version: 1.4.5
+Version: 1.4.6
 Architecture: iphoneos-arm
 Maintainer: ichitaso
 Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
 Replaces: com.ichitaso.altstore
-Filename: ./debs/com.ichitaso.altstore_1.4.5_iphoneos-arm.deb
-Size: 4591092
-MD5sum: 2ab8a810082f931e4a74f3e0199deabd
-SHA1: a3cf5ddaf7c21d093111f5bc51510135822a6bb0
-SHA256: 0765f62007897f79cda9870ab98e80b6b8e6604ca642a906586126d6445c2732
+Filename: ./debs/com.ichitaso.altstore_1.4.6_iphoneos-arm.deb
+Size: 4587676
+MD5sum: ab0241d09e8a40099137160f03cc0bf6
+SHA1: 3efa373d35ef674a887703615bc61e3a3b76a177
+SHA256: 4839583da2035c172ec9f1250a4eb8b751ae04929a394262464ebc098c7fb09f
 Section: Utilities
 Homepage: https://altstore.io/
 Description: Jailbroken version of AltStore with on device signing feauture.
@@ -960,15 +960,15 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.8-2
+Version: 1.0.9-4
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.8-2_iphoneos-arm.deb
-Size: 3233560
-MD5sum: 9dc65e6ee020636d9fa056b5a0f016ff
-SHA1: e8564b5dff42626746287c1250a4c6cae575a0b7
-SHA256: 3edba0a8803b2c3b3fdcee644b4859ad16e2749d4b82edba8a621a5dc60a72a2
+Filename: ./debs/com.ios.wechat_1.0.9-4_iphoneos-arm.deb
+Size: 862504
+MD5sum: ecdb4422968dcc7801b4c752441d8987
+SHA1: c96347bfa7a704265cd039569f6801b44af12173
+SHA256: 8e72231d2a22bd767f547a6654cc8c91def6f5072296e05960e1da04e46765dd
 Section: Tweaks
 Priority: optional
 Homepage: https://twjacy.github.io/wx
@@ -1541,16 +1541,16 @@ Name: DustBuster
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ps.letmeblock
-Version: 0.0.7.8
+Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: PoomSmart
 Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/com.ps.letmeblock_0.0.7.8_iphoneos-arm.deb
-Size: 6484
-MD5sum: 07cb96fba9fe6e979d13727d928c1e64
-SHA1: b44a5e1af3a72cbe2e123aa053a4cac5322e9225
-SHA256: fc32943d93d70d1f5df62052409990df565854c64cebf9e8a31c9897bb690a9e
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 9.0)
+Filename: ./debs/com.ps.letmeblock_1.0.0_iphoneos-arm.deb
+Size: 6464
+MD5sum: 09c838dc95ed81d9e7b6ab447098a9f2
+SHA1: 65ac030176ca81fb186cc02f88566d17595fecad
+SHA256: ff110b2c304f37f3c3feeb0e91770ea97e25c2e8ef2d01e171d390e07093c730
 Section: Tweaks
 Description: Make mDNSResponder care more about /etc/hosts
 Author: PoomSmart
@@ -1559,16 +1559,16 @@ Name: LetMeBlock
 Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/letmeblock.json
 
 Package: com.qiop1379.swipeextenderx
-Version: 1.5.1
+Version: 1.5.2
 Architecture: iphoneos-arm
 Maintainer: qwertyuiop1379 <support@qwertyuiop1379.com>
-Installed-Size: 644
+Installed-Size: 668
 Depends: firmware (>= 12.0), mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debs/com.qiop1379.swipeextenderx_1.5.1_iphoneos-arm.deb
-Size: 86648
-MD5sum: 5e69e8e106d251af40a975df063820e2
-SHA1: 4d0e4dcaac5d84957d789ea97ae286cc1a73d4a0
-SHA256: 1063074b78db9ecc23d30ee803d52a300ac6786105aa16ba405a65b628a4ea29
+Filename: ./debs/com.qiop1379.swipeextenderx_1.5.2_iphoneos-arm.deb
+Size: 90364
+MD5sum: d45d77c5a57feadca635cd7234aaad6b
+SHA1: 88da56cce036a73f0f88e8bde760fd6569efdd77
+SHA256: ab8e18f6c104439963894389ea44c96c91055ef5c2d74700546b22cf22049425
 Section: Tweaks
 Description: Reinvent your keyboard with this full remake of the legendary SwipeExpander tweak, designed to work on modern iOS!
 Tag: cydia::commercial, compatible_min::ios12.0
@@ -2800,6 +2800,28 @@ Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
 Icon: file:///Library/PreferenceBundles/DLEasy.bundle/icon@3x.png
 Name: DLEasy
+
+Package: me.health.app
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 348
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0)
+Filename: ./debs/me.health.app_2.1.0_iphoneos-arm.deb
+Size: 60998
+MD5sum: 6b57b70f924e66f4be1c865f1c92e67a
+SHA1: 6d3e47d88e854af271080fdd6e02a9809ecb1625
+SHA256: 4f064e4ccec62e709d4cb618b94ab54c1bc326f16ffe6c374a79dc0ba952f94d
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=healthappstepsDp
+Description: 修改系统自带健康App中的步数，完美达到让第三方App读取修改后的数据，数据可以随意修改，简单易操作！
+Tag: purpose::extension
+Author: 小哥哥 <zhulongfei28@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=healthappstepsDp
+Dev: zhulongfei28
+Icon: file:///Library/PreferenceLoader/Preferences/Health.png
+Name: 改个步数-专业的步数修改软件
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.lochook.app
 Version: 1.1.0
