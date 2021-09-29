@@ -960,19 +960,19 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.9-4
+Version: 1.0.9-61
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.9-4_iphoneos-arm.deb
-Size: 862504
-MD5sum: ecdb4422968dcc7801b4c752441d8987
-SHA1: c96347bfa7a704265cd039569f6801b44af12173
-SHA256: 8e72231d2a22bd767f547a6654cc8c91def6f5072296e05960e1da04e46765dd
+Filename: ./debs/com.ios.wechat_1.0.9-61_iphoneos-arm.deb
+Size: 846768
+MD5sum: 23b5cca13de862d84a88bc023689112c
+SHA1: 7f1ea3453c5897852475260d1c8f54de36dfd38e
+SHA256: 956c6fb6454a4b8263fda4fb58c73a13df71ea4600e3db02161d8353bb427e47
 Section: Tweaks
 Priority: optional
 Homepage: https://twjacy.github.io/wx
-Description: 微信插件，购买授权联系微信/QQ：5889650，QQ 群：58128869
+Description: 微信插件，购买授权联系微信/QQ：5889650，QQ 群：58128869 公众号：Jailbreaks
 Author: Jan
 Depiction: https://twjacy.github.io/wx
 Dev: Jan
@@ -1344,20 +1344,24 @@ Dev: kabiroberai
 Name: libswift4
 Sponsor: thebigboss.org <http://thebigboss.org>
 
-Package: com.moski.Divise
-Version: 1.1.2
+Package: com.moski.divise
+Version: 1.2.1
 Architecture: iphoneos-arm
-Maintainer: moski, Samg_is_a_Ninja
-Depends: firmware (>= 10.3.0), firmware-sbin, rsync, cy+cpu.arm64
-Filename: ./debs/com.moski.divise_1.1.2_iphoneos-arm.deb
-Size: 2891246
-MD5sum: 1efec147cc71a9a0b2826538ce3e1d4b
-SHA1: 8a69917da665f80827e30ae076eed4b8d9d9be81
-SHA256: 4ec2eec0ce8ff852edc0fa76d5ef50059810775a409b61829f02d866a041d696
+Maintainer: Moski <matthewpierson01@gmail.com>
+Installed-Size: 4836
+Pre-Depends: bash
+Depends: firmware (>= 10.3.0), firmware-sbin, rsync, cy+cpu.arm64, img4tool | firmware (<= 12.0.0)
+Filename: ./debs/com.moski.divise_1.2.1_iphoneos-arm.deb
+Size: 2567334
+MD5sum: ab912aafe7f395d8c2aafd2f8e115049
+SHA1: 78159437df86708f9acd4fbc8384c1f00f93ff42
+SHA256: f97228878aca41f5154e0f9485d0f62d188a3f75d11badcc44899061a95b1c64
 Section: Utilities
 Description: arm64 Dualboots/Tethered Downgrades on device!
-Author: moski, Samg_is_a_Ninja
-Icon: file:///Applications/Divisé.app/AppIcon60x60@3x.png
+Tag: compatible_min::ios10.3
+Author: Moski <matthewpierson01@gmail.com>
+Depiction: https://chariz.com/get/divise
+Icon: https://cdn.chariz.cloud/icon/divise/icon@3x.png
 Name: Divisé
 
 Package: com.mtac.ctf
@@ -1966,17 +1970,17 @@ Author: t0mi <fritsch.weiding@yahoo.de>
 Name: Cydia Timeout 5
 
 Package: com.udevs.dockx
-Version: 2.3.2
+Version: 2.4.1
 Architecture: iphoneos-arm
 Maintainer: udevs
-Installed-Size: 1464
+Installed-Size: 1480
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware(>=12.0), com.spark.libsparkcolourpicker
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.3.2_iphoneos-arm.deb
-Size: 292060
-MD5sum: de2e09aa828e9a4b7e782bd860a67719
-SHA1: 156ce0ca2055cf1f072fcab0fccab6357810ce4e
-SHA256: ffde18add41bdc099c652140bf16008c5316e09d046c33746a12cabd0feed9ae
+Filename: ./debs/com.udevs.dockx_2.4.1_iphoneos-arm.deb
+Size: 282784
+MD5sum: b2f02885fe3119ec200c5be4f70a4b94
+SHA1: e9318abd1f4c2a3db8a6e4983742d5a406e59e32
+SHA256: 66f4614b9300c1b6ccc0febcf29ce0c939a5fade3107c0db171e7ce03210ebfd
 Section: Tweaks
 Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
@@ -2516,17 +2520,17 @@ Description: Tells launchd what to do
 Name: Launch Daemon Controller
 
 Package: ldid
-Version: 2:2.1.4+16-1
+Version: 2:2.1.5-1
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Installed-Size: 488
 Pre-Depends: dpkg (>= 1.14.25-8), libplist3
 Depends: libplist3, libssl1.1.1, dpkg (>= 1.18.25-9)
-Filename: ./debs/ldid_2%3a2.1.4+16-1_iphoneos-arm.deb
-Size: 60636
-MD5sum: 2413a622282b2d28da7b22ff6173000e
-SHA1: cb83b207a63deff28200d38bf09620b5c7d61d6f
-SHA256: b2f85f28dcf22315b44b07c9acd79ef801ea464a5f3d22b4bc9a87a647379c92
+Filename: ./debs/ldid_2%3a2.1.5-1_iphoneos-arm.deb
+Size: 60746
+MD5sum: 91cbee6f10add8ce3a8ca2f8c40f8f09
+SHA1: 24e15b2f900e715769b11adca9be63f7fdf25f7b
+SHA256: 75503e23fdd8bcecf70602cc7505c357b590d08222e5bafc0fe6925ca1a09cf1
 Section: Development
 Priority: optional
 Description: pseudo-codesign Mach-O files
@@ -2750,6 +2754,24 @@ Author: lunotech11
 Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
 Name: Legizmo (Internal Release)
 
+Package: lunotech11.Legizmo
+Version: 1.1-21JB072139i
+Architecture: iphoneos-arm
+Maintainer: lunotech11
+Installed-Size: 2008
+Depends: firmware (>= 14.0), mobilesubstrate
+Filename: ./debs/手表.deb
+Size: 297384
+MD5sum: d4f620a36742f02c25beac47b88e664f
+SHA1: b0258987879a7b0fd4b1fb4914a2007f4b672750
+SHA256: 809d8239e2e283b54f69dcc3c6df73dcacd299105d0b4521293fa62b017d8c65
+Section: Tweaks
+Description: Allow iOS to pair with newer versions of watchOS
+Tag: cydia::commercial
+Author: lunotech11
+Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
+Name: Legizmo (Internal Release)
+
 Package: lzma
 Version: 2:4.32.7-2
 Architecture: iphoneos-arm
@@ -2785,16 +2807,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.11.7
+Version: 2.11.9
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 12080
+Installed-Size: 12176
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.11.7_iphoneos-arm.deb
-Size: 2039050
-MD5sum: e65b9b0160cf7a39e01519acbdfc38e0
-SHA1: 64edc439a0da52430711ba1239e39736865443bb
-SHA256: 81a70f550c8d5bb35c0c6c628f748f1d05b06e52c05b621f6ffbd7eb493c50ee
+Filename: ./debs/me.ahmedbafkir.dleasy_2.11.9_iphoneos-arm.deb
+Size: 2045336
+MD5sum: d90b04ebfda2fdc19dc9cd578f70c46c
+SHA1: 2e97a68c3ca4dff6c4a069e29932da4387bb3ba6
+SHA256: 3a4a94fa5cf75f2e226f08bb5b39341515b25b0989a8e31769303e35630239e1
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -2886,19 +2908,19 @@ Icon: file:///Applications/OTRLocation.app/icon.png
 Name: Anywhere!--虚拟定位
 
 Package: net.angelxwind.appsyncunified
-Version: 100.0
+Version: 102.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.7.1)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_100.0_iphoneos-arm.deb
-Size: 58314
-MD5sum: d9d27173cc6130c5d230851d80ffd618
-SHA1: 56d334823c0dd7ef192a489ea8ec332041ce108a
-SHA256: c560fa196cd3fb244edb72f2a3943c7ead59979c300f9ecdceefc713439a8454
+Filename: ./debs/net.angelxwind.appsyncunified_102.0_iphoneos-arm.deb
+Size: 58304
+MD5sum: bfc0ae0a9d103360e8d798d5a04b9620
+SHA1: f95286f3c6dab9f39307ebdc296fcbb273b227fe
+SHA256: 5ef22d365bd66e51815f20a739f1acfc5fe1ad84b5b2a5a6dd0f2279f2ca9d56
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
@@ -2907,16 +2929,16 @@ Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.joebruce.respringhelper
-Version: 1.4.3
+Version: 1.4.5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 6513
+Installed-Size: 6613
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
-Filename: ./debs/net.joebruce.respringhelper_1.4.3_iphoneos-arm.deb
-Size: 2017984
-MD5sum: 93ea19128d9c85d68747dfb1ca0d6df3
-SHA1: 799ad7dbcb3df222ba23c3675d6b170910140dfb
-SHA256: f57d0943e079c55b10b5c94f3038eedf2bad4d3b58b4d6499028d5d19afc1bdb
+Filename: ./debs/net.joebruce.respringhelper_1.4.5_iphoneos-arm.deb
+Size: 2041952
+MD5sum: 0cc4c2877eae6ceff49fd5e1da2730d5
+SHA1: 08865ce6d1ba561a4a4dcfd931865a1ee36464ca
+SHA256: fb334e01fea673f4e16553e155314a6cfb79068e9eb191da0a93da0aeb377d57
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringhelperDp
 Description: App which restarts SpringBoard by one click.
@@ -3598,15 +3620,15 @@ Author: Önder Azazi <onderazazi@hotmail.com>
 Name: NiceCaller(iOS14) TR Yama
 
 Package: sileoturkiye.tweakcleaner
-Version: 14.9
+Version: 14.9a
 Architecture: iphoneos-arm
 Maintainer: Önder Azazi <onderazazi@hotmail.com>
-Depends: firmware (>= 13.0), firmware (<= 14.7), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
-Filename: ./debs/sileoturkiye.tweakcleaner_14.9_iphoneos-arm.deb
-Size: 1875310
-MD5sum: 0f978e9a0387bf2b283625ae5cc378cb
-SHA1: 9065a361a1736cf774e391f748af2e167eb8374d
-SHA256: b97b96f7eff9544d5b8eb0c4d22b0edd372a51045585ae26edb089402a5c7a81
+Depends: firmware (>= 13.0), firmware (<= 14.8), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
+Filename: ./debs/sileoturkiye.tweakcleaner_14.9a_iphoneos-arm.deb
+Size: 1875322
+MD5sum: 6a1fa0c3c73aa06f8e0cbad00c7cb331
+SHA1: c07036869bd21dc87356fd124a1222574cd55164
+SHA256: 9274d4dfee0e42ca3ea3f63fc620705a3ec30574510ae35a082c32544e946f12
 Section: TR - Uygulama
 Description: Returns the device to its original JB state.
 Author: Önder Azazi <onderazazi@hotmail.com>
