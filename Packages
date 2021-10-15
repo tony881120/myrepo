@@ -556,6 +556,22 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
+Package: com.flex2areo.apptools14
+Version: 1.7.0
+Architecture: iphoneos-arm
+Maintainer: aReo
+Installed-Size: 2272
+Depends: mobilesubstrate
+Filename: ./debs/com.flex2areo.apptools14_1.7.0_iphoneos-arm.deb
+Size: 513980
+MD5sum: 91c3fc218203de178f9db41130efedb7
+SHA1: 5178816bba526c85427b0ca7e38945d1eefa09f3
+SHA256: 6a5441026601e34829f3054229224a94e2339a1d30693df28359f125a1f4dede
+Section: Tweaks
+Description: An icon tool.
+Author: aReo
+Name: AppTools for iOS14
+
 Package: com.fouadraheb.appdata
 Version: 1.3.6
 Architecture: iphoneos-arm
@@ -686,21 +702,20 @@ Name: libCSColorPicker
 Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=libcscolorpicker
 
 Package: com.haoict.iconcert
-Version: 1.0.1
+Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
-Installed-Size: 376
+Installed-Size: 380
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.0), firmware (>= 13)
-Filename: ./debs/com.haoict.iconcert_1.0.1_iphoneos-arm.deb
-Size: 18396
-MD5sum: d116c22385b41aa5b52af2457ad57f5d
-SHA1: 70fa41efae897bf851ba622415931d753008650d
-SHA256: bc5d51dbe735dcc61cbeb7eb3f938844755431db8dedb4ee4f3c97be00cfc1f0
+Filename: ./debs/com.haoict.iconcert_1.1.0_iphoneos-arm.deb
+Size: 19120
+MD5sum: d01415801d8e03cd9adae6593999b91c
+SHA1: 9f07bfc8187e54a248ef9f7c6cb82e274907446b
+SHA256: b0488558d2f708f32deb977c10f6883068a134ff7e7a5bd787c892a710ad0c5f
 Section: Tweaks
 Description: Show remaining certificate time on app icon
  Show remaining certificate time on app icon
- Change log:
- - v1.0.1: Fix crash due to conflict with SnowBoard
+ Change log: https://github.com/haoict/iconcert/releases
  .
  Features:
  - Show remaining certificate time on app icon
@@ -959,26 +974,6 @@ Dev: ichitaso
 Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
-Package: com.ios.wechat
-Version: 1.0.9-61
-Architecture: iphoneos-arm
-Maintainer: Jan<237523005@qq.com>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.9-61_iphoneos-arm.deb
-Size: 846768
-MD5sum: 23b5cca13de862d84a88bc023689112c
-SHA1: 7f1ea3453c5897852475260d1c8f54de36dfd38e
-SHA256: 956c6fb6454a4b8263fda4fb58c73a13df71ea4600e3db02161d8353bb427e47
-Section: Tweaks
-Priority: optional
-Homepage: https://twjacy.github.io/wx
-Description: 微信插件，购买授权联系微信/QQ：5889650，QQ 群：58128869 公众号：Jailbreaks
-Author: Jan
-Depiction: https://twjacy.github.io/wx
-Dev: Jan
-Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
-Name: WeChat
-
 Package: com.jaxroth.supporttheunsupportedrevived
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -1080,15 +1075,15 @@ Depiction: http://julioverne.github.io/description.html?id=com.julioverne.jbme93
 Name: JBMe 9.3.x Webclip
 
 Package: com.julioverne.ntspeed
-Version: 0.2~beta7
+Version: 0.2~beta8
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: firmware (>= 6.0), mobilesubstrate, preferenceloader
-Filename: ./debs/com.julioverne.ntspeed_0.2_beta7_iphoneos-arm.deb
-Size: 110788
-MD5sum: ef362c4050a24743dafc91feb02cac45
-SHA1: 55faba4da01bbb88f5f9d68f79516540cef48032
-SHA256: ef5cf1285d1fecf42e554a900f09b407c6012af7055bcc88d58a8743acb5bfa3
+Filename: ./debs/com.julioverne.ntspeed_0.2_beta8_iphoneos-arm.deb
+Size: 119692
+MD5sum: f7a8cdd3c0eb5987af0c748271e36515
+SHA1: d092ac443e3311ce876f93e2eb4fa4e927ef1c60
+SHA256: 483fe51bccac74b22e6442c83b108e4c47f6a9623ce1853d7c3659b2ede76666
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: See Active Traffic Network Speed
@@ -1173,17 +1168,17 @@ Name: PS Express Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/psexpressprosileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.2.6
+Version: 1.3.4
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 1896
-Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
+Installed-Size: 2020
+Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao
-Filename: ./debs/com.lenglengyu.shortvideodl_1.2.6_iphoneos-arm.deb
-Size: 712888
-MD5sum: c3bd248a21be3dd4faaca9c430a1c302
-SHA1: 37cec2f3d3a1935fcecca95826086591be071e74
-SHA256: d17c9f33d8141176d57fe3b4f30280ab207fac181d9dac469d5d4b69dd259f98
+Filename: ./debs/com.lenglengyu.shortvideodl_1.3.4_iphoneos-arm.deb
+Size: 759686
+MD5sum: cb1b9593a87e04e54d41a34843b8d57c
+SHA1: 1be89a070619f9e3edb764eb3622131543cb6515
+SHA256: 8ab8c81bbcb940d82b20193669de35a21d34603be4a04c4b740771c41350e182
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号视频下载。
 Author: lenglengyu
@@ -1322,6 +1317,22 @@ Section: System
 Description: Simple gadget that allows switching from unc0ver to checkra1n without having to manually reinstall Cydia Substrate.
 Author: Halo_Michael <yc992147156@me.com>
 Name: Unc0ver Support Package
+
+Package: com.midnightchips.harpy
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: midnightchips <midnightchips@gmail.com>
+Installed-Size: 12848
+Depends: network-cmds
+Filename: ./debs/com.midnightchips.harpy_2.0.1_iphoneos-arm.deb
+Size: 4854026
+MD5sum: 3559fecce45700cd3fc6504c5f088fc4
+SHA1: 5c0fd5947b139f6eebb42d66a8d73a34ad0b6d7c
+SHA256: 9ecdae8ff5db817d8b9c66cff196c594011132b356b4f0dd2a41606e0ea64924
+Section: System
+Description: Control your network with ease
+Author: midnightchips <midnightchips@gmail.com>
+Name: Harpy
 
 Package: com.modmyi.libswift4
 Version: 4.2.1-2
@@ -1687,6 +1698,22 @@ Tag: role::developer
 Author: Baw Appie <pp121324@gmail.com>
 Name: libAPToast
 
+Package: com.rpgfarm.pulloverproapappview
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Baw Appie <pp121324@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), com.c1d3r.pulloverpro, com.rpgfarm.libapappview
+Filename: ./debs/com.rpgfarm.pulloverproapappview_1.0_iphoneos-arm.deb
+Size: 4908
+MD5sum: f1b36b1857f909a25f8841910aa03f23
+SHA1: 2ebc6896e0bb45bf470f131811f95bf98efa2b95
+SHA256: 12a2ecf715ac6117ca129d5fa3c1247390a1f7cf66468b078414520dea49f441
+Section: Tweaks
+Description: PullOver Pro Keyboard Fix
+Author: Baw Appie <pp121324@gmail.com>
+Name: PullOver Pro Keyboard Fix
+
 Package: com.rpgfarm.u0smscompletefix
 Version: 1.0.1
 Architecture: iphoneos-arm
@@ -1814,6 +1841,29 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=translatio
 Dev: skypain
 Icon: file:///Library/PreferenceBundles/TranslationPrefs.bundle/icon/icon@2x.png
 Name: Translation
+
+Package: com.spark.libpackageinfo
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Revulate <revulate1@gmail.com>
+Depends: firmware (>=11.0), firmware (>=11.0)
+Conflicts: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Replaces: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Provides: jp.ashikase.libpackageinfo, cokepokes.jp.ashikase.libpackageinfo
+Filename: ./debs/com.spark.libpackageinfo_1.1.4_iphoneos-arm.deb
+Size: 90474
+MD5sum: cccaa34343540c8e06abb27f1e4eba94
+SHA1: 0f349a97375e114690239a8040a81e37ce8478a8
+SHA256: 1500e1bd851c96696d8b640dad3e2b506e73716db0bbc9ca1f739a7c5a4e1b4d
+Section: Utilities
+Homepage: https://revulate.dev
+Description: Library to retrieve package information.
+Author: Revulate <revulate1@gmail.com>
+Depiction: https://revulate.dev/depiction/web/com.spark.libpackageinfo.html
+Icon: https://revulate.dev/assets/com.spark.libpackageinfo/icon.png
+Moderndepiction: https://revulate.dev/depiction/native/com.spark.libpackageinfo.json
+Name: libpackageinfo (SparkDev)
+Sileodepiction: https://revulate.dev/depiction/native/com.spark.libpackageinfo.json
 
 Package: com.spark.libsparkapplist
 Version: 1.0.10
@@ -2368,17 +2418,16 @@ Name: TechSupport Framework (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: jp.soh.reprovision
-Version: 0.7.0~release
+Version: 0.8.2~release
 Architecture: iphoneos-arm
 Maintainer: Soh Satoh
 Depends: firmware (>= 9.0)
-Replaces: com.matchstic.Extender-Installer, com.matchstic.reprovision
-Provides: com.matchstic.Extender-Installer, com.matchstic.reprovision
-Filename: ./debs/jp.soh.reprovision_0.7.0_release_iphoneos-arm.deb
-Size: 14357632
-MD5sum: c60c2437ca4e270d6c63346b79544cc8
-SHA1: 815a8a792511a41702fcd19c3fe267ae6cd4aa15
-SHA256: e45722aa05f8aaab0da699dfa5c6114f9a055468d3eec1b14e360a23b90b1cf5
+Conflicts: com.matchstic.reprovision
+Filename: ./debs/jp.soh.reprovision_0.8.2_release_iphoneos-arm.deb
+Size: 15530012
+MD5sum: 2583f08391179f284e708355246635f1
+SHA1: 5185af8487326aca1e2ff8d8ec4e58f6d8162483
+SHA256: d094a418b306a7902a1f69e147ebe2d99dbf1e9a472c9aa47483165bb32a4144
 Section: Utilities
 Priority: optional
 Description: Re-sign applications on your device
@@ -2806,6 +2855,33 @@ Homepage: http://tukaani.org/lzma/
 Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
+Package: me.afhook.app
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 919
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap (>= 1.0.3)
+Filename: ./debs/me.afhook.app_1.0.0_iphoneos-arm.deb
+Size: 158244
+MD5sum: 3cde7f82417cbf46be8144d8e1b2ae35
+SHA1: 8ecf2a87b584fc1f2f37c1152140aecb4e4f7d1a
+SHA256: e4c90ffab15297dd5f14e3eac0bcb8033cf7da8b6d29d5fe44a11f0ac9e5c827
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afhookDp
+Description: 快速更改应用的名字、图标、机型、角标、版本号等。
+  快速更改应用的名字、图标、机型、角标、版本号等。
+ -随心所欲地更改系统应用和三方应用的名字
+ -从系统相册任意选择图片剪切为应用的图标
+ -手动选择软件内置机型和自定义需要的机型
+ -只需要点击一次就永久生效的清空角标功能
+Tag: purpose::extension
+Author: 小哥哥 <zhulongfei28@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afhookDp
+Dev: zhulongfei28
+Icon: file:///Library/PreferenceBundles/AFSet.bundle/icon.png
+Name: 改个应用-专业的应用修改软件
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: me.ahmedbafkir.dleasy
 Version: 2.11.9
 Architecture: iphoneos-arm
@@ -2929,16 +3005,16 @@ Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.joebruce.respringhelper
-Version: 1.4.5
+Version: 1.4.6
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 6613
+Installed-Size: 7113
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
-Filename: ./debs/net.joebruce.respringhelper_1.4.5_iphoneos-arm.deb
-Size: 2041952
-MD5sum: 0cc4c2877eae6ceff49fd5e1da2730d5
-SHA1: 08865ce6d1ba561a4a4dcfd931865a1ee36464ca
-SHA256: fb334e01fea673f4e16553e155314a6cfb79068e9eb191da0a93da0aeb377d57
+Filename: ./debs/net.joebruce.respringhelper_1.4.6_iphoneos-arm.deb
+Size: 2206358
+MD5sum: 62f3e07fe34d9cbeb74b33018734b988
+SHA1: 2eef272580a1a2bd13209c54765fe3794f70e5d9
+SHA256: c75381d7d11d6f797f9500b9cde993f5f04449126f6310050a8a442e494559ea
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringhelperDp
 Description: App which restarts SpringBoard by one click.
@@ -3364,22 +3440,69 @@ Description: arp, ifconfig, netstat, route, traceroute
 Name: Network Commands
 
 Package: openssh
-Version: 8.4-1
+Version: 8.4-2
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
-Installed-Size: 10856
+Installed-Size: 8
 Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: libssl1.1.1
-Filename: ./debs/openssh_8.4-1_iphoneos-arm.deb
-Size: 712452
-MD5sum: 322aa3b9c3aa64aece7c5aada4a9430c
-SHA1: 7aed6fc7b01f4345ac8f4971832a840d76d24116
-SHA256: bb41ae7213a279056e3e6fd0dc93b81c1981565a3cad20606d333ba68475c729
+Depends: libssl1.1.1, openssh-server, openssh-client, openssh-global-listener
+Filename: ./debs/openssh_8.4-2_iphoneos-arm.deb
+Size: 1022
+MD5sum: 6c1f11f33cf21944c892351e0ea3b9c1
+SHA1: 018ccd5f56ddd90d3ba3a391e5cf6c7ddce2bae9
+SHA256: aa7417489ad4d823713905347804b3fd1f481b710ec2512bed9d22b356875454
 Section: Networking
 Priority: important
-Description: secure remote access between machines
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
 Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH
+
+Package: openssh-client
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 8960
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1
+Breaks: openssh (<= 8.4-1)
+Filename: ./debs/openssh-client_8.4-2_iphoneos-arm.deb
+Size: 568946
+MD5sum: 1186ac8493773028650fffd175adf44d
+SHA1: b7c4091431d4eaa3b652b5ab870a32668a921e79
+SHA256: cf0c5846564ba8dc28ff75fff3c0ff1d63c8c404abc9643fe7e22affa55afa82
+Section: Networking
+Priority: important
+Description: secure shell (SSH) client, for secure access to remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the client binaries.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH Clients
 
 Package: openssh-global-listener
 Version: 8.4-2
@@ -3413,6 +3536,39 @@ Description: secure shell (SSH) server, for secure access from remote machines
  without a special permit.
 Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH Global Listener
+
+Package: openssh-server
+Version: 8.4-2
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1880
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1, openssh-client (>= 8.4)
+Breaks: openssh (<= 8.4-1)
+Filename: ./debs/openssh-server_8.4-2_iphoneos-arm.deb
+Size: 289990
+MD5sum: 259499fcbb9b26fedbecdeaaee420fe1
+SHA1: 015a2133dacd72994d3beed76522914eb1071c83
+SHA256: 5eab9bf07f41bc3be79e977a3ea170add9e15e40cb8b84ac09901f11d9cd7768
+Section: Networking
+Priority: important
+Description: secure shell (SSH) server, for secure access from remote machines
+ This is the portable version of OpenSSH, a free implementation of the
+ Secure Shell protocol as specified by the IETF secsh working group.
+ .
+ Ssh (Secure Shell) is a program for logging into a remote machine and
+ for executing commands on a remote machine.  It provides secure
+ encrypted communications between two untrusted hosts over an insecure
+ network. X11 connections and arbitrary TCP/IP ports can also be
+ forwarded over the secure channel.  It can be used to provide
+ applications with a secure communication channel.
+ .
+ This package provides the sshd server.
+ .
+ In some countries it may be illegal to use any encryption at all
+ without a special permit.
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH Server Binaries
 
 Package: org.hacx.hacxdaemon
 Version: 3.6
@@ -3653,16 +3809,16 @@ Description: tool for making tape archives
 Name: Tape Archive
 
 Package: tw.hiraku.ecgenabler
-Version: 1.5.2
+Version: 1.5.2-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 281
 Depends: firmware (>= 12.2), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/tw.hiraku.ecgenabler_1.5.2_iphoneos-arm.deb
-Size: 12334
-MD5sum: 245665a19ff49bdd7c497c144d44a2bb
-SHA1: 3fa68a571813404b2f05136eb7693a8a71e035e6
-SHA256: 0ba39d6d8aed0c372f9e3c0a33da0eddacea1f2674e5ad2fe92d763e47bcae56
+Filename: ./debs/tw.hiraku.ecgenabler_1.5.2-1_iphoneos-arm.deb
+Size: 12352
+MD5sum: 76647d9daa978fc1c17ea9488f795537
+SHA1: e6a13c335ef74815f4c613f91fea01215cc7ea99
+SHA256: 8cf7e6d17fa515e5590657732a6d5187ce62d5883cc56b4a03effeb76f909266
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ecgenablerDp
 Description: Enable Apple Watch ECG in your country
