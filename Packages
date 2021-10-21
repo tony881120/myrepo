@@ -572,6 +572,26 @@ Description: An icon tool.
 Author: aReo
 Name: AppTools for iOS14
 
+Package: com.flex2areo.apptools14
+Version: 1.7.2
+Architecture: iphoneos-arm
+Maintainer: aReo < >
+Depends: firmware (>=14.0), mobilesubstrate
+Filename: ./debs/com.flex2areo.apptools14_1.7.2_iphoneos-arm.deb
+Size: 701004
+MD5sum: a237cebb0275351dd7c48588e83b3869
+SHA1: 5a300ac42921900eca02478209a8f713b712c565
+SHA256: 1c9c5c1dac8f4948f382960b3edadebc3886ad141596ab008021abf647d740ce
+Section: Tweaks
+Homepage: https://shuga.co/
+Description: An icon tool.
+Author: aReo < >
+Depiction: https://flex2areo.github.io/depiction/web/com.flex2areo.apptools14.html
+Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools14/icon.png
+Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
+Name: AppTools for iOS14
+Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
+
 Package: com.fouadraheb.appdata
 Version: 1.3.6
 Architecture: iphoneos-arm
@@ -973,6 +993,26 @@ Depiction: https://cydia.ichitaso.com/depiction/quickcc.html
 Dev: ichitaso
 Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
+
+Package: com.ios.wechat
+Version: 1.0.9-9
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.ios.wechat_1.0.9-9_iphoneos-arm.deb
+Size: 873840
+MD5sum: 3f219bcd64186db4b358379ed3718a64
+SHA1: c53dcb5ea5165e690885b0ddd1f73247ab0e3803
+SHA256: 3012ba5ac77535303449534c56ce5433c6f55293186459e926277bbf3458829c
+Section: Tweaks
+Priority: optional
+Homepage: https://twjacy.github.io/wx
+Description: 微信插件，购买授权联系微信/QQ：5889650，QQ 群：58128869 公众号：Jailbreaks
+Author: Jan
+Depiction: https://twjacy.github.io/wx
+Dev: Jan
+Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
+Name: WeChat
 
 Package: com.jaxroth.supporttheunsupportedrevived
 Version: 1.0.0
