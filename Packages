@@ -1047,15 +1047,15 @@ Author: Johnzaro <johnzrgnns@gmail.com>
 Name: NetworkSpeed13
 
 Package: com.julioverne.cydown
-Version: 7.1.1
+Version: 7.1.2
 Architecture: iphoneos-arm
 Maintainer: Julio
 Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
-Filename: ./debs/com.julioverne.cydown_7.1.1_iphoneos-arm.deb
-Size: 4358056
-MD5sum: cd0eb2e0a8ebbd2f6a052fa596f03a89
-SHA1: ae29c69e57da2d62ff41ccd77ead0af1fc14e3ab
-SHA256: 47027504dc6b13bde402e5423fd3f06d6c20b94b9b94d274677753743cc692be
+Filename: ./debs/com.julioverne.cydown_7.1.2_iphoneos-arm.deb
+Size: 4361036
+MD5sum: e7578e70e355d57c7bd49aa77bd7a974
+SHA1: ad6f0eb7f039fbfd9b050d8265803c8aa62371e4
+SHA256: 09d1418fd281fbddfba6c76a39d4cf1db112b915b689907b3a3c0d5c80f80aaf
 Section: Tweaks
 Homepage: http://twitter.com/ijulioverne
 Description: Cydia Download Manager & Extra Features!
@@ -2923,16 +2923,16 @@ Name: 改个应用-专业的应用修改软件
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.12.0
+Version: 2.12.1
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
 Installed-Size: 6380
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.12.0_iphoneos-arm.deb
-Size: 1662810
-MD5sum: d482e30ee3e41cc2692e2fd9429c5d5a
-SHA1: c2feefffb9560046bdeb3aa2bdcc333bbbe5adca
-SHA256: d21ccb75e03ce942d86cfaafeb22fd9e0bfb94a016652ea47b24953bba1a5fc5
+Filename: ./debs/me.ahmedbafkir.dleasy_2.12.1_iphoneos-arm.deb
+Size: 1666116
+MD5sum: 0650d6c9f05cf914483eaab1b5c0d255
+SHA1: 6f5efe6c4f152bd0170e4fa55f9b799d6938e8fe
+SHA256: ec4b566d2dbb811de890c49f44ff9d4ad70fd39fac270edde4263837208e0d92
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
