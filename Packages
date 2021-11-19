@@ -369,16 +369,16 @@ Icon: file:///Library/PreferenceBundles/PhotonPrefs.bundle/icon_prefs@3x.png
 Name: Photon
 
 Package: com.cokepokes.appstoreplusplus
-Version: 0.9.17-1
+Version: 0.9.18
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
-Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.17-1_iphoneos-arm.deb
-Size: 3680284
-MD5sum: 2fc158dfa5b4fdefef751fb80c5d5422
-SHA1: 7891f574932627e168e2d3831854b7a4ff8567eb
-SHA256: b537e0618004157b7db28e45b72e97c784a3cb16509f5b20036caaf558f6d2e3
+Filename: ./debs/com.cokepokes.appstoreplusplus_0.9.18_iphoneos-arm.deb
+Size: 3706724
+MD5sum: a842ea1120891c11710c6b22012d1e1e
+SHA1: 36fc296d0d732fcd9e6704e9dd3ed67f9ff4a474
+SHA256: fe4bfe88eb41a8d8ff7403099787752eafdcc9b1fd1d1c087e28900d497f0dec
 Section: Tweaks
 Priority: optional
 Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-15.whatever
@@ -515,21 +515,21 @@ Name: CoySIM
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ex.substitute
-Version: 2.2.1
+Version: 2.2.3
 Architecture: iphoneos-arm
 Maintainer: Sam Bingner
-Installed-Size: 27244
+Installed-Size: 27260
 Pre-Depends: coreutils-bin, dpkg (>=1.17.11)
 Depends: firmware (>= 8.0), cy+cpu.arm64, com.saurik.substrate.safemode (>=0.9.6005), uikittools (>=1.1.13-4), darwintools
 Conflicts: com.ex.libsubstitute, org.coolstar.tweakinject, science.xnu.substitute, mobilesubstrate, ws.hbang.stopcrashingpls (<<1.0.2)
 Breaks: com.saurik.substrate.safemode (<<0.9.6004)
 Replaces: com.ex.libsubstitute, org.coolstar.tweakinject, mobilesubstrate
 Provides: com.ex.libsubstitute, mobilesubstrate (= 0.9.7033+dummy)
-Filename: ./debs/com.ex.substitute_2.2.1_iphoneos-arm.deb
-Size: 7385178
-MD5sum: b95ed4dd0dd48d95b7fb934d3a0d559a
-SHA1: 2c849052bf3011b68beda44436d47aa933b48c55
-SHA256: 772d642de5a5b9f13c58d450954b3da35ed134b0526e8fb9802443aecc09684c
+Filename: ./debs/com.ex.substitute_2.2.3_iphoneos-arm.deb
+Size: 7386890
+MD5sum: ad5b135b2372d8054eb00f70f234476a
+SHA1: a81d695d6f001db3a919d064bb33bb658a8a5c79
+SHA256: ab5295ed618a629a4d53bfc719a6a679f2eb6a77f30dc9dc726eafabe5e47fc2
 Section: System
 Priority: optional
 Description: Substrate substitute for code substitution
@@ -1655,18 +1655,22 @@ Name: EQE
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.rileytestut.altdaemon
-Version: 1.0
+Version: 1.0.1
 Architecture: iphoneos-arm
-Maintainer: Riley Testut
-Filename: ./debs/com.rileytestut.altdaemon_1.0_iphoneos-arm.deb
-Size: 597622
-MD5sum: 83660c2d5119ac6ecce72236b27cfae4
-SHA1: 3c7ce20ff72c17f17a1415b14534a9be3fc41ca1
-SHA256: 1f5b35f4c402f6abab69e1833b260a4dfac156bbe1f9807b7aec4cd22665cc95
+Maintainer: Riley Testut <support@altstore.io>
+Installed-Size: 2560
+Depends: firmware (>= 12.2)
+Filename: ./debs/com.rileytestut.altdaemon_1.0.1_iphoneos-arm.deb
+Size: 597754
+MD5sum: 86b026f3f838e0ca193b086898e7152a
+SHA1: ec653b6067c8dd8daa2d1fad29ebcbb0c054bbbd
+SHA256: e30852d1e922dbf83222dd1a35d726491f19ff0f25a4415846638a4f99eac695
 Section: System
-Homepage: https://altstore.io
 Description: AltDaemon allows AltStore to install and refresh apps without a computer.
-Author: Riley Testut
+Tag: compatible_min::ios12.2
+Author: Riley Testut <support@altstore.io>
+Depiction: https://chariz.com/get/altdaemon
+Icon: https://cdn.chariz.cloud/icon/altdaemon/icon@3x.png
 Name: AltDaemon
 
 Package: com.rpetrich.rocketbootstrap
@@ -2681,6 +2685,22 @@ Description: Nice kernel r/w API
 Author: Siguza
 Name: libkrw
 
+Package: libkrw
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Siguza
+Filename: ./debs/libkrw_1.1.1_iphoneos-arm.deb
+Size: 7216
+MD5sum: 3257fefd1308add040694912646c5360
+SHA1: 271885860ae03320ef049ade3662ac9e77e1119a
+SHA256: 324bb3d5fe6a0c743bd631c1c06b1812637cd5dfd682449dd3b0e3f755417116
+Section: Development
+Priority: optional
+Homepage: https://github.com/Siguza/libkrw/
+Description: Nice kernel r/w API
+Author: Siguza
+Name: libkrw
+
 Package: libplist
 Version: 2.2.1-3
 Architecture: iphoneos-arm
@@ -2844,16 +2864,16 @@ Icon: file:///Applications/Legizmo.app/AppIcon60x60@2x.png
 Name: Legizmo (Internal Release)
 
 Package: lunotech11.Legizmo
-Version: 1.1-21JB072139i
+Version: 1.1-21NA061247i
 Architecture: iphoneos-arm
 Maintainer: lunotech11
-Installed-Size: 2008
-Depends: firmware (>= 14.0), mobilesubstrate
+Installed-Size: 2860
+Depends: firmware (>= 14.0), mobilesubstrate, gsc.telephony
 Filename: ./debs/手表.deb
-Size: 297384
-MD5sum: d4f620a36742f02c25beac47b88e664f
-SHA1: b0258987879a7b0fd4b1fb4914a2007f4b672750
-SHA256: 809d8239e2e283b54f69dcc3c6df73dcacd299105d0b4521293fa62b017d8c65
+Size: 335312
+MD5sum: bbca5a0bfb875ae26673edde81e8791d
+SHA1: c06f76962351d899a8347ccd90a7901ddbc51db0
+SHA256: e038fb8ce1b78befab915cd3eedbdfe7551f6abdde33eddbfdb7635b324a3735
 Section: Tweaks
 Description: Allow iOS to pair with newer versions of watchOS
 Tag: cydia::commercial
