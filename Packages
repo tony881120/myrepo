@@ -1,21 +1,3 @@
-Package: Flex3beta
-Version: 1:3~Beta98
-Architecture: iphoneos-arm
-Maintainer: John Coates
-Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
-Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./debs/flex3beta_1%3a3_Beta98_iphoneos-arm.deb
-Size: 14346600
-MD5sum: 693c569e78f37e6d0e9c2e63287bc97e
-SHA1: c6b44a4c7ef73f7b68240775ee58f7591c14d2e4
-SHA256: 2b71e64db3e4b352ef73d54e76e0808bb122c614d97160bf5338b903d2d8f6a4
-Section: Tweaks
-Description: Develop your own tweaks and share them on the Flex Community Cloud
-Author: John Coates
-Name: Flex 3 Beta
-Recommended: com.rpetrich.rocketbootstrap
-
 Package: applebetas.ios.tweak.willow
 Version: 1.2.14
 Architecture: iphoneos-arm
@@ -556,42 +538,6 @@ Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
 Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
-Package: com.flex2areo.apptools14
-Version: 1.7.0
-Architecture: iphoneos-arm
-Maintainer: aReo
-Installed-Size: 2272
-Depends: mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.7.0_iphoneos-arm.deb
-Size: 513980
-MD5sum: 91c3fc218203de178f9db41130efedb7
-SHA1: 5178816bba526c85427b0ca7e38945d1eefa09f3
-SHA256: 6a5441026601e34829f3054229224a94e2339a1d30693df28359f125a1f4dede
-Section: Tweaks
-Description: An icon tool.
-Author: aReo
-Name: AppTools for iOS14
-
-Package: com.flex2areo.apptools14
-Version: 1.7.2
-Architecture: iphoneos-arm
-Maintainer: aReo < >
-Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.7.2_iphoneos-arm.deb
-Size: 701004
-MD5sum: a237cebb0275351dd7c48588e83b3869
-SHA1: 5a300ac42921900eca02478209a8f713b712c565
-SHA256: 1c9c5c1dac8f4948f382960b3edadebc3886ad141596ab008021abf647d740ce
-Section: Tweaks
-Homepage: https://shuga.co/
-Description: An icon tool.
-Author: aReo < >
-Depiction: https://flex2areo.github.io/depiction/web/com.flex2areo.apptools14.html
-Icon: https://flex2areo.github.io/assets/com.flex2areo.apptools14/icon.png
-Moderndepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
-Name: AppTools for iOS14
-Sileodepiction: https://flex2areo.github.io/depiction/native/com.flex2areo.apptools14.json
-
 Package: com.fouadraheb.appdata
 Version: 1.3.6
 Architecture: iphoneos-arm
@@ -1011,6 +957,25 @@ Description: 微信插件，购买授权联系微信/QQ：5889650，QQ 群：581
 Author: Jan
 Depiction: https://twjacy.github.io/wx
 Dev: Jan
+Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
+Name: WeChat
+
+Package: com.ios.wechat
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Jan<237523005@qq.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./debs/com.ios.wechat_1.1.0_iphoneos-arm.deb
+Size: 594324
+MD5sum: c353bc40d2995e79e754394491705574
+SHA1: 92131510d039593cba1dd71a3d8f1283821ee6b2
+SHA256: 9e0dc16a2c4ac28ab1f50a4011470da8984a9d328a8185db7eb28f2ea4aee065
+Section: Tweaks
+Priority: optional
+Homepage: https://twjacy.github.io/wx
+Description: 微信插件，购买授权联系微信/QQ：5889650，QQ 群：58128869 公众号：Jailbreaks
+Author: Jan
+Depiction: https://twjacy.github.io/wx
 Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
 Name: WeChat
 
@@ -2496,23 +2461,6 @@ Description: multitasking for iOS14.
 Author: YuriDevTeam
 Name: MilkyWay3
 
-Package: kr.xsf1re.flyjbx
-Version: 1.2.5
-Architecture: iphoneos-arm
-Maintainer: XsF1re
-Installed-Size: 1580
-Depends: mobilesubstrate
-Conflicts: kr.xsf1re.flyjb
-Filename: ./debs/kr.xsf1re.flyjbx_1.2.5_iphoneos-arm.deb
-Size: 649864
-MD5sum: 5e955e26724e79ff8ca45032679f9cd9
-SHA1: 7fb5d1a3982b471a2af9e47e904d4d0519df3a16
-SHA256: 96491acad71a3696950acf68b06075c04a8e3753164221f7e8f16fe7ca528419
-Section: Tweaks
-Description: You can HIDE Doing jailbreak your iDevice.
-Author: XsF1re
-Name: FlyJB X
-
 Package: kupord.fonts.mwzt2
 Version: 2.6
 Architecture: iphoneos-arm
@@ -2916,16 +2864,16 @@ Description: slower, but better, compression algorithm
 Name: LZMA Utils
 
 Package: me.afhook.app
-Version: 1.0.1
+Version: 1.0.2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 922
+Installed-Size: 953
 Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap (>= 1.0.3)
-Filename: ./debs/me.afhook.app_1.0.1_iphoneos-arm.deb
-Size: 161492
-MD5sum: 1cd201419b2037e2c9696416ae6869a4
-SHA1: cd3c8b7a9fb264dfe85d1dbc9c079c84afd8804c
-SHA256: 0f53679373277c2c4ddfd702425145d1a1fb456aff67d6f6ac62ebf5cfb11dbb
+Filename: ./debs/me.afhook.app_1.0.2_iphoneos-arm.deb
+Size: 161340
+MD5sum: 06cbfd39d1d91fa5a14dc8dd027d5b47
+SHA1: 560b83cadf3536e4024fa9d8e4280cf61afb430d
+SHA256: a5936b5bc453840fa64c26461ea03954e4fba0313252950cc13e8b13e6fd0375
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afhookDp
 Description: 快速更改应用的名字、图标、机型、角标、版本号等。
