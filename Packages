@@ -765,17 +765,17 @@ Name: CallLogPro (iOS 14 to 8)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ichitaso.altstore
-Version: 1.4.6
+Version: 1.4.8
 Architecture: iphoneos-arm
 Maintainer: ichitaso
 Depends: firmware (>= 12.2), com.rileytestut.altdaemon
 Conflicts: com.rileytestut.altstore.alpha.jailbroken, com.rileytestut.AltStore
 Replaces: com.ichitaso.altstore
-Filename: ./debs/com.ichitaso.altstore_1.4.6_iphoneos-arm.deb
-Size: 4587676
-MD5sum: ab0241d09e8a40099137160f03cc0bf6
-SHA1: 3efa373d35ef674a887703615bc61e3a3b76a177
-SHA256: 4839583da2035c172ec9f1250a4eb8b751ae04929a394262464ebc098c7fb09f
+Filename: ./debs/com.ichitaso.altstore_1.4.8_iphoneos-arm.deb
+Size: 5163014
+MD5sum: dbef6c28d3e75e4a3e721ed6223e0731
+SHA1: ff2b854e630c489b369f34f66c6411aa60bf0234
+SHA256: 21dd8724302972b4f587fc7dabfe74def70ab7a08f0916ead79159c6a386975d
 Section: Utilities
 Homepage: https://altstore.io/
 Description: Jailbroken version of AltStore with on device signing feauture.
@@ -941,26 +941,6 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.0.9-9
-Architecture: iphoneos-arm
-Maintainer: Jan<237523005@qq.com>
-Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.0.9-9_iphoneos-arm.deb
-Size: 873840
-MD5sum: 3f219bcd64186db4b358379ed3718a64
-SHA1: c53dcb5ea5165e690885b0ddd1f73247ab0e3803
-SHA256: 3012ba5ac77535303449534c56ce5433c6f55293186459e926277bbf3458829c
-Section: Tweaks
-Priority: optional
-Homepage: https://twjacy.github.io/wx
-Description: 微信插件，购买授权联系微信/QQ：5889650，QQ 群：58128869 公众号：Jailbreaks
-Author: Jan
-Depiction: https://twjacy.github.io/wx
-Dev: Jan
-Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
-Name: WeChat
-
-Package: com.ios.wechat
 Version: 1.1.0
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
@@ -1117,24 +1097,6 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccvpnDp
 Dev: kingpuffdaddi
 Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
 Name: CCVPN
-
-Package: com.lenglengyu.ffbaidu
-Version: 0.0.4
-Architecture: iphoneos-arm
-Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: ./debs/com.lenglengyu.ffbaidu_0.0.4_iphoneos-arm.deb
-Size: 8658
-MD5sum: c84a04a8e8dd5c2c718327c42e77181c
-SHA1: 4c010c1c955f34dc43e2fe06f6bfde07a7a79ba6
-SHA256: f25ac742b61ee00fcd0e6c5ba37ea088e40d26e0c28ee4a489c28e5f4d1f4566
-Section: Tweaks
-Description: 解决Safari浏览器跳转百度问题。
-Author: lenglengyu
-Depiction: https://apt.167025.cn/packageInfo/ffbaidu.html
-Name: 百度不跳转
-Sileodepiction: https://apt.167025.cn/packageInfo/ffbaidusileo
 
 Package: com.lenglengyu.jianyingpro
 Version: 0.0.1
@@ -2029,17 +1991,17 @@ Author: t0mi <fritsch.weiding@yahoo.de>
 Name: Cydia Timeout 5
 
 Package: com.udevs.dockx
-Version: 2.4.1
+Version: 2.4.2
 Architecture: iphoneos-arm
 Maintainer: udevs
 Installed-Size: 1480
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.2), firmware(>=12.0), com.spark.libsparkcolourpicker
 Conflicts: com.restiveconch.actionbar
-Filename: ./debs/com.udevs.dockx_2.4.1_iphoneos-arm.deb
-Size: 282784
-MD5sum: b2f02885fe3119ec200c5be4f70a4b94
-SHA1: e9318abd1f4c2a3db8a6e4983742d5a406e59e32
-SHA256: 66f4614b9300c1b6ccc0febcf29ce0c939a5fade3107c0db171e7ce03210ebfd
+Filename: ./debs/com.udevs.dockx_2.4.2_iphoneos-arm.deb
+Size: 278548
+MD5sum: bfd80a1f71b75c52a125e7e187762061
+SHA1: c40081ab9ab7e3950d68c8a0639c57374a84bc51
+SHA256: 5dfb2f2aae812ffe9081d09744a25c7702a04dd70f589e8afd89a90fadbc8519
 Section: Tweaks
 Description: Pasteboard shortcuts on your keyboard dock!
 Author: udevs
@@ -2323,25 +2285,6 @@ Priority: required
 Description: contains nothing, represents everything
 Depiction: http://cydia.saurik.com/info/essential/
 Name: Essential
-
-Package: github.io.gfp.graphite
-Version: 1.1.2
-Architecture: iphoneos-arm
-Maintainer: Ba🍌Na
-Installed-Size: 1032
-Depends: firmware(>=13.0)
-Conflicts: com.muris.libgraphite
-Filename: ./debs/github.io.gfp.graphite_1.1.2_iphoneos-arm.deb
-Size: 245698
-MD5sum: 7f2322c8be24a0e457e7ca8973f7ec57
-SHA1: 63c83e092a4d873376ef8fef8f69f527ef92737e
-SHA256: c5ea978b9e3c49bcffdf5a051f0dbdac4e6fb6f800a78d32c1de9258f50ed5e2
-Section: Development
-Description: powerful library for iOS development
-Author: Geometric Software
-Depiction: https://banana-gfp.github.io/repo/depictions/github.io.gfp.graphite/
-Icon: https://banana-gfp.github.io/repo/DebIcon.png
-Name: Graphite Library
 
 Package: github.io.gfp.lendmyphone3
 Version: 1.0.1
@@ -2891,16 +2834,16 @@ Name: 改个应用-专业的应用修改软件
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.12.1
+Version: 2.12.3
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 6380
+Installed-Size: 3532
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.12.1_iphoneos-arm.deb
-Size: 1666116
-MD5sum: 0650d6c9f05cf914483eaab1b5c0d255
-SHA1: 6f5efe6c4f152bd0170e4fa55f9b799d6938e8fe
-SHA256: ec4b566d2dbb811de890c49f44ff9d4ad70fd39fac270edde4263837208e0d92
+Filename: ./debs/me.ahmedbafkir.dleasy_2.12.3_iphoneos-arm.deb
+Size: 906374
+MD5sum: 42dc0943ab9f785d37826b1af0b632ac
+SHA1: a267a21807d5f57b2915c8e560b89fd3069bf2ec
+SHA256: 6749e12a354f0aa75203cf67896dff8613a68be91d63d0390b58ed6ca37bd32d
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -2992,19 +2935,19 @@ Icon: file:///Applications/OTRLocation.app/icon.png
 Name: Anywhere!--虚拟定位
 
 Package: net.angelxwind.appsyncunified
-Version: 102.0
+Version: 104.0
 Architecture: iphoneos-arm
 Maintainer: Karen/あけみ <karen@akemi.ai>
 Installed-Size: 732
-Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8)
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
 Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
 Replaces: us.hackulo.appsync50
 Provides: appsync
-Filename: ./debs/net.angelxwind.appsyncunified_102.0_iphoneos-arm.deb
-Size: 58304
-MD5sum: bfc0ae0a9d103360e8d798d5a04b9620
-SHA1: f95286f3c6dab9f39307ebdc296fcbb273b227fe
-SHA256: 5ef22d365bd66e51815f20a739f1acfc5fe1ad84b5b2a5a6dd0f2279f2ca9d56
+Filename: ./debs/net.angelxwind.appsyncunified_104.0_iphoneos-arm.deb
+Size: 59144
+MD5sum: 4d4f867de80c03237897a0396d1bd90b
+SHA1: ec75e0cf681f50c11ced972d9990912f6d57af99
+SHA256: 720ab7caf651b5922c41ce2960d0a94a6e5c9c3be3c76676c33524a5d5eab0d3
 Section: Tweaks
 Homepage: https://cydia.akemi.ai/
 Description: Enables the ability to install unsigned/fakesigned iOS applications.
@@ -3013,16 +2956,16 @@ Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsyncunified
 Name: AppSync Unified
 
 Package: net.joebruce.respringhelper
-Version: 1.4.6
+Version: 1.4.8
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 7113
+Installed-Size: 7028
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), applist (>= 1.5.14), com.rpetrich.rocketbootstrap (>= 1.0.2)
-Filename: ./debs/net.joebruce.respringhelper_1.4.6_iphoneos-arm.deb
-Size: 2206358
-MD5sum: 62f3e07fe34d9cbeb74b33018734b988
-SHA1: 2eef272580a1a2bd13209c54765fe3794f70e5d9
-SHA256: c75381d7d11d6f797f9500b9cde993f5f04449126f6310050a8a442e494559ea
+Filename: ./debs/net.joebruce.respringhelper_1.4.8_iphoneos-arm.deb
+Size: 2198236
+MD5sum: 19d787b140a8a1a5311f13c2222a0b98
+SHA1: 7673c4754ccb4c479cb536aecf01378e4fbebf75
+SHA256: 1c7d5fc736261997c13a05bbd393284eb84f3b831294c4914a8331ca62ad3974
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=respringhelperDp
 Description: App which restarts SpringBoard by one click.
@@ -3236,48 +3179,6 @@ Dev: limneos
 Icon: file:///Library/PreferenceBundles/voicechanger.bundle/voicechanger@2x.png
 Name: VoiceChanger XS (iOS 11 to 14)
 Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: net.myxxdev.mybloxx
-Version: 2.040821-13
-Architecture: iphoneos-arm
-Maintainer: MYXXdev
-Installed-Size: 1644
-Pre-Depends: dpkg
-Depends: com.opa334.ccsupport, com.opa334.libundirect, mobilesubstrate, preferenceloader, ws.hbang.common
-Conflicts: com.ceadd.blockyoux-procursus, com.ceadd.blockyoux, com.ceadd.blockyou10, com.ceadd.blockyou11, com.ceadd.blockyou12, com.droomone.tabblocker, com.git-anish.mdnsrestart, com.nathanaccidentally.mdnsflush, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic, com.p2kdev.safariblocker, com.reddestdream.minimalhostsblocker, com.reddestdream.mhbcb, com.thireus.hostscleaner, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblockermegaipv4, com.thireus.untrustedhostsblockermega, com.thireus.untrustedhostsblockerexperimental, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxx11, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
-Replaces: com.droomone.tabblocker, com.p2kdev.safariblocker, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxx11, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
-Filename: ./debs/net.myxxdev.mybloxx_2.040821-13_iphoneos-arm.deb
-Size: 487700
-MD5sum: 754a593cbc3b1bff0f0c2258d210e842
-SHA1: fca54487983b73636ad53adc53e69e72859d0bd2
-SHA256: a7fe4414fb46ea0fc1058aae4033211501be51fadf880c62a91cb62a36b0e271
-Section: Networking
-Description: The most advanced iOS xBlocker!
-Author: MYXXdev
-Depiction: https://myxxdev.github.io/depictions/MYbloXXforiOS/MYbloXXforiOS.html
-Name: MYbloXX for iOS (13+)
-Sileodepiction: https://myxxdev.github.io/depictions/MYbloXXforiOS/MYbloXXforiOS.html
-
-Package: net.myxxdev.mybloxx11
-Version: 2.040821-11
-Architecture: iphoneos-arm
-Maintainer: MYXXdev
-Installed-Size: 1512
-Pre-Depends: dpkg
-Depends: com.opa334.ccsupport, com.opa334.libundirect, mobilesubstrate, preferenceloader, ws.hbang.common
-Conflicts: com.ceadd.blockyoux-procursus, com.ceadd.blockyoux, com.ceadd.blockyou10, com.ceadd.blockyou11, com.ceadd.blockyou12, com.droomone.tabblocker, com.git-anish.mdnsrestart, com.nathanaccidentally.mdnsflush, com.myrepospace.reddestdream.minimal, com.myrepospace.basic.basic, com.p2kdev.safariblocker, com.reddestdream.minimalhostsblocker, com.reddestdream.mhbcb, com.thireus.hostscleaner, com.thireus.untrustedhostsblockerlight, com.thireus.untrustedhostsblockermegaipv4, com.thireus.untrustedhostsblockermega, com.thireus.untrustedhostsblockerexperimental, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxx, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
-Replaces: com.droomone.tabblocker, com.p2kdev.safariblocker, net.myxxdev.issupervisedbegone, net.myxxdev.mybloxx, net.myxxdev.mybloxxhipfix, net.myxxdev.mybloxxupdater
-Filename: ./debs/net.myxxdev.mybloxx11_2.040821-11_iphoneos-arm.deb
-Size: 453308
-MD5sum: 7b64edddeab945cb0dc2ee1a907e8474
-SHA1: 79c151632c73ccf38950b1233546953bb7749c92
-SHA256: 35c1ee4b4f248337557062dc88db57409ab8b8ab80c8fdc523bbd865d1c4694f
-Section: Networking
-Description: The most advanced iOS xBlocker!
-Author: MYXXdev
-Depiction: https://myxxdev.github.io/depictions/MYbloXXforiOS/MYbloXXforiOS.html
-Name: MYbloXX for iOS (11 & 12)
-Sileodepiction: https://myxxdev.github.io/depictions/MYbloXXforiOS/MYbloXXforiOS.html
 
 Package: netskao.3dnetworkfixer
 Version: 1.1-6
@@ -3993,19 +3894,19 @@ Author: TylerD3V
 Name: SyncStore
 
 Package: xyz.willy.zebra
-Version: 1.1.21
+Version: 1.1.22
 Architecture: iphoneos-arm
 Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 16308
+Installed-Size: 15964
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/xyz.willy.zebra_1.1.21_iphoneos-arm.deb
-Size: 8412210
-MD5sum: 2174a8f3d9a40e7801d1cad80c9ac1f2
-SHA1: 5e7b49f6675b06dc9b4f05bcdd6e2efce9a4d8ee
-SHA256: 84a59794b8959211224b29e972d26934c4e1579ee62aeaeaf73fadeedeb5e4ba
+Filename: ./debs/xyz.willy.zebra_1.1.22_iphoneos-arm.deb
+Size: 8370610
+MD5sum: 3134d77d81b67d250660d7f14ad1ef7e
+SHA1: e7b9fe3c996f339532cfa54db65fdb35af9180e7
+SHA256: 81ef07d4bbccf6fc2a94286d60153a9ad762771754e248af1ed296a03d16e8a5
 Section: Packaging
 Description: A Useful Package Manager
-Tag: compatible::9.0-14.6
+Tag: compatible::9.0-14.8
 Author: Wilson Styres <wilson@styres.me>
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
 Name: Zebra
