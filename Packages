@@ -3984,28 +3984,6 @@ Icon: https://cdn.chariz.cloud/icon/cephei/icon@3x.png
 Name: Cephei Tweak Support
 Support: https://hashbang.productions/support/
 
-Package: ws.hbang.newterm2
-Version: 2.5
-Architecture: iphoneos-arm
-Maintainer: HASHBANG Productions <support@hbang.ws>
-Installed-Size: 6664
-Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
-Conflicts: ws.hbang.newterm, com.lint.ntarrows
-Replaces: ws.hbang.newterm, com.lint.ntarrows
-Filename: ./debs/ws.hbang.newterm2_2.5_iphoneos-arm.deb
-Size: 2017880
-MD5sum: edfc0edf0e2080c1f7e3f762c19fb23e
-SHA1: b7137d41b2f51d3a9d6047405ba2f54485694f58
-SHA256: 20a7e7716cc1cb088136e92b0128ef12fa57670296023f93f3ec73c7be94916e
-Section: Terminal Support
-Description: A powerful terminal app for iOS
-Tag: compatible_min::ios10.0
-Author: HASHBANG Productions <support@hbang.ws>
-Depiction: https://chariz.com/get/newterm
-Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
-Name: NewTerm 2
-Support: https://hashbang.productions/support/
-
 Package: x.DingTalkHelperX
 Version: 1.3
 Architecture: iphoneos-arm
