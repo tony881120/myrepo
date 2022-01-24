@@ -4046,22 +4046,24 @@ Author: TylerD3V
 Name: SyncStore
 
 Package: xyz.willy.zebra
-Version: 1.1.22
+Version: 1.1.23
 Architecture: iphoneos-arm
-Maintainer: Wilson Styres <wilson@styres.me>
-Installed-Size: 15964
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 14616
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/xyz.willy.zebra_1.1.22_iphoneos-arm.deb
-Size: 8370610
-MD5sum: 3134d77d81b67d250660d7f14ad1ef7e
-SHA1: e7b9fe3c996f339532cfa54db65fdb35af9180e7
-SHA256: 81ef07d4bbccf6fc2a94286d60153a9ad762771754e248af1ed296a03d16e8a5
+Filename: ./debs/xyz.willy.zebra_1.1.23_iphoneos-arm.deb
+Size: 8028528
+MD5sum: 5d6d09a11c45176d54e70f21558baf4f
+SHA1: ad08d45e23dc9b9b5eea33333e9b5cfc124ebb0a
+SHA256: 8e39b1ddd4ee275ce84e8b54d2e04f2ad5a00d681011232efb8487831250cbd0
 Section: Packaging
 Description: A Useful Package Manager
 Tag: compatible::9.0-14.8
-Author: Wilson Styres <wilson@styres.me>
+Author: Zebra Team <team@getzbra.com>
 Depiction: https://getzbra.com/repo/depictions/xyz.willy.Zebra/
+Icon: file:///Applications/Zebra.app/AppIcon60x60@3x.png
 Name: Zebra
+Support: https://getzbra.com/repo/depictions/xyz.willy.Zebra/bug_report.html
 
 Package: xyz.xninja.systeminfo
 Version: 2.7.2-2
