@@ -275,6 +275,29 @@ Description: An easy to use app to save SHSH2 blobs
 Author: 1Conan <tweaks@1conan.com>
 Name: TSS Saver
 
+Package: com.ahmedmakls.trendingtiktok
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1132
+Depends: firmware(>= 10.0), mobilesubstrate, preferenceloader, ws.hbang.common
+Filename: ./debs/com.ahmedmakls.trendingtiktok_1.0-1_iphoneos-arm.deb
+Size: 415990
+MD5sum: 7e27bbeed17c9060322ef76a918de8f9
+SHA1: a4f7653e027ded1badf4736812c20733bd92efdc
+SHA256: 078c94585c9879ba770d436bd1bbc0558d89c02dad8af5e5939ae9ad186d6e9f
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=trendingtiktokDp
+Description: You can choose the direction of any country in the world on Tiktok
+Tag: purpose::extension
+Author: ahmedmakls <makhl.2266@yahoo.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=trendingtiktokDp
+Dev: ahmedmakls
+Icon: file:///Library/PreferenceBundles/TrendingTikTok.bundle/icon@2x.png
+Name: TrendingTikTok
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.amymega.dra1n
 Version: 1.4.3
 Architecture: iphoneos-arm
@@ -787,6 +810,51 @@ Description: Show remaining certificate time on app icon
 Author: Hao Nguyen
 Name: IconCert 14
 
+Package: com.haoict.microsoftdetectionbypass
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: Hao Nguyen
+Installed-Size: 304
+Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
+Filename: ./debs/com.haoict.microsoftdetectionbypass_1.4.0_iphoneos-arm.deb
+Size: 13818
+MD5sum: c60ebaf9adadd1c0f0bbcbc019a4aed7
+SHA1: 76b9111d17d7e1d8d4621a5850cbca6c7cec7501
+SHA256: b942bb4db52a7da634b9b4df5368c3cd5b8b4108feedb64d0e5845171b6aedf6
+Section: Tweaks
+Description: Free Tweak for Microsoft Apps Detection Bypass
+ Free Microsoft Apps Detection Bypass
+ README: Recently, Microsoft apps are changing class name every version, so please avoid updating their apps from App store until I figure out a solution to make the tweak works in a long term.
+ Change log: https://github.com/haoict/microsoft-detection-bypass/releases
+ .
+ Features:
+ - Bypass Jailbreak Detection for Microsoft Enterprise Apps:
+  + Outlook
+  + Teams
+  + Word
+  + Excel
+  + PowerPoint
+  + Office 365
+  + OneNote
+  + Power Apps
+  + OneDrive
+  + OneNote
+  + Skype for Business
+  + Edge
+  + SharePoint
+  + To Do
+  + Company Portal
+  + Yammer
+  + Power BI
+ - Support iOS 12-14
+ .
+ I work very hard to make good, free and open source tweaks for everyone
+ If you want to support, you can buy me a coffee at https://www.paypal.me/haoict
+ .
+ Thanks a ton
+Author: Hao Nguyen
+Name: Microsoft Detection Bypass
+
 Package: com.hius.gesturesi11
 Version: 3.6.7
 Architecture: iphoneos-arm
@@ -1033,15 +1101,15 @@ Icon: file:///Library/PreferenceBundles/QuickCCSettings.bundle/icon@2x.png
 Name: QuickCC
 
 Package: com.ios.wechat
-Version: 1.1.3
+Version: 1.1.5
 Architecture: iphoneos-arm
 Maintainer: Jan<237523005@qq.com>
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./debs/com.ios.wechat_1.1.3_iphoneos-arm.deb
-Size: 603320
-MD5sum: 9f09a3e663b61c4551a8047d594f7482
-SHA1: f7b46a3093e35449bce6f95d08fa3282b506e24e
-SHA256: 6047f4d31776dfd2db9cde4ced969e8c1434ae6486ec2f39f7feef94c4abb12b
+Filename: ./debs/com.ios.wechat_1.1.5_iphoneos-arm.deb
+Size: 609972
+MD5sum: fa3a16507bdecdaf40ce1ede3738e924
+SHA1: 14e53c83331be9d29826e90f61e4fba21a3fbe29
+SHA256: 66c3ba9770932f5057dbd7117071a06d6cccc45404f7a7ae1531280f9d84d77b
 Section: Tweaks
 Priority: optional
 Homepage: https://twjacy.github.io/wx
@@ -1190,6 +1258,24 @@ Dev: kingpuffdaddi
 Icon: file:///Library/ControlCenter/Bundles/CCVPN.bundle/Icon@2x.png
 Name: CCVPN
 
+Package: com.lacertosusrepo.libdeusprefs
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: LacertosusDeus <lacertosusthemes@gmail.com>
+Installed-Size: 308
+Depends: preferenceloader
+Filename: ./debs/com.lacertosusrepo.libdeusprefs_1.0.4_iphoneos-arm.deb
+Size: 45972
+MD5sum: ce575314fa3751110c50f0ea6082c40b
+SHA1: b282b7b0c1a4da209b1235e1d4bc8177557bd7e3
+SHA256: 36223f1063c694c62bcabcb685348fcd09571ee5385bac7a066e94f29605a629
+Section: Development
+Description: Support library for my preferences...
+Tag: compatible_min::ios12.0
+Author: LacertosusDeus <lacertosusthemes@gmail.com>
+Depiction: https://chariz.com/get/libdeusprefs
+Name: libDeusPrefs
+
 Package: com.lenglengyu.jianyingpro
 Version: 0.0.1
 Architecture: iphoneos-arm
@@ -1245,17 +1331,17 @@ Name: PS Express Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/psexpressprosileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.3.9
+Version: 1.4.0
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 2180
+Installed-Size: 2196
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
-Filename: ./debs/com.lenglengyu.shortvideodl_1.3.9_iphoneos-arm.deb
-Size: 830120
-MD5sum: 08f144f2258ee3fce48c79414d171dcc
-SHA1: 39e4b078a5273a6c9bc3f69182d5f7d7620ffeec
-SHA256: 702a9fef4d80602bbfcfab64031e7c40db3fcfd5ba155e5454ac8f3a0c3fd4a8
+Filename: ./debs/com.lenglengyu.shortvideodl_1.4.0_iphoneos-arm.deb
+Size: 831684
+MD5sum: de7a9ac4703b8a03fb533e5eaffb7718
+SHA1: a4a60e64a0eca0328c8ce4a4ba143d588ef3b130
+SHA256: b3df833142928ab497e7fa8d7bca4fe3f93ebcb85bb0dc8715f305413c644ef4
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号视频下载。
 Author: lenglengyu
@@ -2014,19 +2100,19 @@ Author: subdiox
 Name: StoreSwitcher 2
 
 Package: com.t0mi.freshcydia
-Version: 1.1.1
+Version: 1.2.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 707
+Installed-Size: 2607
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000), cydia
-Filename: ./debs/com.t0mi.freshcydia_1.1.1_iphoneos-arm.deb
-Size: 600906
-MD5sum: 699cdc93fa162b313306f8f263d85b1e
-SHA1: 5f65c6f54836cef575c2f5c467e98349dca223c1
-SHA256: 17ac19aab1c47038d7a4111243dec6b97b68eaeaf2b363fdb833fc9f440489f2
+Filename: ./debs/com.t0mi.freshcydia_1.2.1_iphoneos-arm.deb
+Size: 1004618
+MD5sum: f560941738181e05926712974915ee40
+SHA1: 0d923f1142e72b447c1952efaf27a22e964922dd
+SHA256: 149beab47bfb5295611b9ed4eb35afc52cf99d2ef3b8712cb97e86ee7e77d6ad
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=freshcydiaDp
-Description: A refreshing and modern look for the Cydia homepage.
+Description: A refreshing and modern look for the Cydia homepage & more.
 Tag: purpose::extension
 Author: t0mi, BluDood, DaanDH12 <t0mi@web.de>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=freshcydiaDp
@@ -2270,6 +2356,24 @@ Depiction: https://repo.lenglengyu.top/packageInfo/videoadsspeed.html
 Name: VideoAdsSpeed
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/adsspeesileo
 
+Package: com.yourepo.lly.dismissalert
+Version: 0.0.7
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 444
+Depends: mobilesubstrate, com.spark.libsparkapplist, preferenceloader
+Filename: ./debs/com.yourepo.lly.dismissalert_0.0.7_iphoneos-arm.deb
+Size: 113012
+MD5sum: 84b99d42ba44adf4072d91f9dd797b02
+SHA1: 88c0e25c9b9b7bb1f74d5519d91cd137a797b649
+SHA256: b65679655b685ebdebd49789b0e75097099923dc994bca1df982686095ce6792
+Section: Tweaks
+Description: 强制取消系统弹窗，如授权弹窗、app签名到期弹窗等等。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/dismissalert.html
+Name: DismissAlert
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/dismissalertsileo
+
 Package: com.yourepo.lly.prozs
 Version: 3.5.7
 Architecture: iphoneos-arm
@@ -2466,16 +2570,16 @@ Name: TechSupport Framework (cokepokes)
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: jp.dcsyhi.zetsu
-Version: 1.1.4
+Version: 1.2.2
 Architecture: iphoneos-arm
 Maintainer: Dcsyhi
-Installed-Size: 1068
-Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=13.0),applist
-Filename: ./debs/jp.dcsyhi.zetsu_1.1.4_iphoneos-arm.deb
-Size: 492798
-MD5sum: 9c633e530f95a7b1a40676dc9961437e
-SHA1: 79f6264dee87fa9b325c184fff8324bc98346112
-SHA256: 43938a960f0d05f68fe5fe90a670a58824f9136ea70c16d48c44e10fe6263ba8
+Installed-Size: 2180
+Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.rpetrich.rocketbootstrap,firmware (>=14.0),com.lacertosusrepo.libdeusprefs (>= 1.0)
+Filename: ./debs/jp.dcsyhi.zetsu_1.2.2_iphoneos-arm.deb
+Size: 1633096
+MD5sum: d3b40e89f12980ffe805644d53aabe97
+SHA1: f026490db6dd106f67ec58599cae49932a8545a7
+SHA256: 1460b4e558bf0ca38d431860e293e8ee66cfda522bc63e76dcdc4bee2b158b6f
 Section: Tweaks
 Description: Multitasking on iOS14.x
 Author: Dcsyhi
@@ -2934,16 +3038,16 @@ Name: 改个应用-专业的应用修改软件
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.ahmedbafkir.dleasy
-Version: 2.12.3
+Version: 2.12.4
 Architecture: iphoneos-arm
 Maintainer: AhmedBafkir <prooxy0@gmail.com>
-Installed-Size: 3532
+Installed-Size: 3540
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap
-Filename: ./debs/me.ahmedbafkir.dleasy_2.12.3_iphoneos-arm.deb
-Size: 906374
-MD5sum: 42dc0943ab9f785d37826b1af0b632ac
-SHA1: a267a21807d5f57b2915c8e560b89fd3069bf2ec
-SHA256: 6749e12a354f0aa75203cf67896dff8613a68be91d63d0390b58ed6ca37bd32d
+Filename: ./debs/me.ahmedbafkir.dleasy_2.12.4_iphoneos-arm.deb
+Size: 888254
+MD5sum: 34cd14a9e0a1ef18b186c0e9e9c5a332
+SHA1: 124b9cd45963f462f231f156d7861f98beb7e12e
+SHA256: 6f1e446d08c0e741725eebea8525adf53dd7f975534aae1be084f75edb84212b
 Section: Tweaks
 Description: Download/Share images & videos from social apps easily!
 Author: AhmedBafkir <prooxy0@gmail.com>
@@ -3242,17 +3346,17 @@ Name: libbulletin
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.limneos.nfcwriterx
-Version: 3.2-78+debug
+Version: 3.2-106+debug
 Architecture: iphoneos-arm
 Maintainer: Elias Limneos <limneoselias@gmail.com>
-Installed-Size: 4244
+Installed-Size: 4104
 Depends: mobilesubstrate, net.limneos.libbulletin
 Conflicts: net.limneos.nfcwriter, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos, me.kanam.nfcwriterquickaction
-Filename: ./debs/net.limneos.nfcwriterx_3.2-78+debug_iphoneos-arm.deb
-Size: 987320
-MD5sum: d6e167a1c97d55626d849fedcfefea85
-SHA1: bbd6345ce4142ea764fb7076b409539062beda1d
-SHA256: c78a7d80e1b1aea8bc3279b3119c60f73ce6e8cd5f69e5d0231d98ffee71423f
+Filename: ./debs/net.limneos.nfcwriterx_3.2-106+debug_iphoneos-arm.deb
+Size: 944372
+MD5sum: 7410e6e4a9152c5faf6f511c61996079
+SHA1: 155ebaa50d9ba2b70522dcf2dcd0df121840af89
+SHA256: 8c4b61ff8a11df6596f889393c559dbc4a3ef8b5ef4d50b51c71196112172e45
 Section: Utilities
 Description: NFCWriter XS for iOS 11/12/13
 Author: Elias Limneos <limneoselias@gmail.com>
@@ -3409,16 +3513,16 @@ Name: QQ净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatpurification
-Version: 2.1-5.3
+Version: 2.1-6
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 757
+Installed-Size: 764
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_2.1-5.3_iphoneos-arm.deb
-Size: 228170
-MD5sum: 8bcaffceef5478810562ebc2dd0b827f
-SHA1: 32cf07d6ad36a06f957f405189116edf93e03406
-SHA256: 98d22c2e0e63e3033f54c84387878e696e05ff271b1fc8de97a2089a18f4d718
+Filename: ./debs/netskao.wechatpurification_2.1-6_iphoneos-arm.deb
+Size: 229014
+MD5sum: 26965fe29ed26ca9ca40a6b7037cb480
+SHA1: f2377994dfb9b46755d5ed3783796aaa5c155908
+SHA256: 691bf268e107e43b212662637b9afce86d315edd2c084a008147333d6be53d5c
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.0及以上版本，设置位于微信-设置
@@ -3734,16 +3838,16 @@ Name: Graphite Library
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.graphite/depiction
 
 Package: se.geometric.intelligentpass4
-Version: 1.1.1
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Geometric Software
 Installed-Size: 444
 Depends: mobilesubstrate, firmware(>=14.0), firmware(<<15), preferenceloader, se.geometric.graphite
-Filename: ./debs/se.geometric.intelligentpass4_1.1.1_iphoneos-arm.deb
-Size: 89282
-MD5sum: 7d4dbdb0e4ff65d06f7d842e05090497
-SHA1: 380f1247e2eef9d54846a0d0ecd90fb1c11e9eab
-SHA256: 4f867aaab304904188fe2e957dcd6671f3bf70063b2a37636443cdf002408056
+Filename: ./debs/se.geometric.intelligentpass4_1.2_iphoneos-arm.deb
+Size: 89442
+MD5sum: bb8d0527eb843d3e616941ddf0612476
+SHA1: e6e365e40afa2264d471cecce5ee3fef2a9d4c50
+SHA256: 4717db661898216c758b1e89a7d5c4ff576e91636ea7ba3a2c8792f563ef3bf6
 Section: Tweaks
 Description: Disable passcode when not necessary
 Tag: cydia::commercial
@@ -3754,16 +3858,16 @@ Name: IntelligentPass 4
 Sileodepiction: https://apt.geometricsoftware.se/package/se.geometric.intelligentpass4/depiction
 
 Package: se.geometric.lendmyphone4
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm
 Maintainer: Geometric Software
 Installed-Size: 7592
-Depends: mobilesubstrate, se.geometric.graphite(>=1.3), firmware(>=14.0), preferenceloader, firmware(<=14.7)
-Filename: ./debs/se.geometric.lendmyphone4_1.1_iphoneos-arm.deb
-Size: 7124024
-MD5sum: ed323e66bd36e540b3d230690d1b6567
-SHA1: e2f69e56cb54220d916c155bcebe8c669e7afb53
-SHA256: 6d75a0385b81bc59c3c8415eb8657c4d63f0cf82e5b0fa6567f12aa500144877
+Depends: mobilesubstrate, se.geometric.graphite(>=1.3), firmware(>=14.0), preferenceloader, firmware(<<15)
+Filename: ./debs/se.geometric.lendmyphone4_1.2_iphoneos-arm.deb
+Size: 7123988
+MD5sum: 70beb89c0209a68ef138e8a40a1fc8ec
+SHA1: 93eb9538dcf3c9b140148118eeb1b2acb41f7ed5
+SHA256: 108d8563c39dc32097095d365bc8792bb720220189cc7dc51367661b18e0f382
 Section: Tweaks
 Description: A true guest mode for iOS
 Tag: cydia::commercial
