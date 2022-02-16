@@ -177,22 +177,22 @@ Name: Respring Assistant(快速注销+联网修复) - Restart your SpringBoard Q
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: cn.tinyapps.xgpspro
-Version: 4.4.5
+Version: 4.4.6
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 7521
+Installed-Size: 7511
 Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro, cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
 Replaces: cn.tinyapps.XGPS, cn.tinyapps.location360, cn.tinyapps.location360pro, app.weiphone.tinyapps.location360pro,cn.tinyapps.location360proex, cn.tinyapps.XGPSLite, cn.tinyapps.XGPSFree, com.locaspriti.app, com.txyapp.app, cn.tinyapps.pogo, app.weiphone.cn.tinyapps.pogo, apt.tinyapps.location360pro, me.liuming.locationhelper
-Filename: ./debs/cn.tinyapps.xgpspro_4.4.5_iphoneos-arm.deb
-Size: 2581096
-MD5sum: ac8b13329903abf78c5e117631f8014b
-SHA1: fcb9eadc873c36960508993744fa8e0c4786bb87
-SHA256: a2fd7aaa2212fcfe0c9091c55e4de19f159f8038d9bd61ae9290450192bafc38
+Filename: ./debs/cn.tinyapps.xgpspro_4.4.6_iphoneos-arm.deb
+Size: 2617034
+MD5sum: 215eced18ed337e1f68b32c630e57ec2
+SHA1: 99c96d5752b255d81d422161ec340ba58fe46061
+SHA256: 641c6954646f46262db554b8f3adf48cae2328129c234e8bf3574dc68cc0c6b7
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
-Description: iOS 5.1.1~14.3 CHANGE your iPhone's location as you wish. A perfect match for Facebook, Twitter, WeChat, Pokemon GO, Uber and other location-based apps.
- 经典的iPhone定位修改伪装插件，适合微信、口袋妖怪、微博、QQ、陌陌、美团、钉钉、口袋助理等地理位置应用。support all iOS versions(5.1.1~14.3)  and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XS/XR/XS Max/11/11Pro/12/12pro/12ProMax)。支持所有iOS系统(5.1.1~14.3)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XS/XR/XS Max/11/11Pro/12/12pro/12ProMax), iPad, iPod Touch. 完美兼容最新14.3越狱。12), iPad, iPod Touch. 完美兼容最新14.2越狱。
+Description: iOS 5.1.1~14.8 CHANGE your iPhone's location as you wish. A perfect match for Facebook, Twitter, WeChat, Pokemon GO, Uber and other location-based apps.
+ 经典的iPhone定位修改伪装插件，适合微信、口袋妖怪、微博、QQ、陌陌、美团、钉钉、口袋助理等地理位置应用。support all iOS versions(5.1.1~14.8)  and all iOS devices(iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XS/XR/XS Max/11/11Pro/12/12pro/12ProMax)。支持所有iOS系统(5.1.1~14.8)版本及设备(包括iPhone 4/4S/5/5S/5C/6/6+/6S/6S+/7/7+/SE/8/8+/X/XS/XR/XS Max/11/11Pro/12/12pro/12ProMax), iPad, iPod Touch. 完美兼容最新14.8越狱。
 Tag: purpose::extension
 Author: Sheng Wen <tinyapps@foxmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xgpsproDp
@@ -599,15 +599,15 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 Name: iCleaner Pro
 
 Package: com.flex2areo.apptools14
-Version: 1.8.2
+Version: 1.8.4
 Architecture: iphoneos-arm
 Maintainer: aReo < >
 Depends: firmware (>=14.0), mobilesubstrate
-Filename: ./debs/com.flex2areo.apptools14_1.8.2_iphoneos-arm.deb
-Size: 449892
-MD5sum: 53d7a4d9bcd69c473f2af2f0cb50dbf2
-SHA1: 8300fa8bae58b4a65b643aff838950af492d521f
-SHA256: f4aa853e67129e9af5a27a41430b944b7f7f089b95ee485335e2b62f283e94c6
+Filename: ./debs/com.flex2areo.apptools14_1.8.4_iphoneos-arm.deb
+Size: 471134
+MD5sum: 2682f1b09132711a05307c5df90cfd3b
+SHA1: 8fc948102dfec9b8aff9547d993017ae8239097a
+SHA256: 4c1a22258d76ed2b6e4d34e0a07295d88cede5bd765b06f92f5e8931bccb09ea
 Section: Tweaks
 Homepage: https://shuga.co/
 Description: An icon tool.
@@ -811,16 +811,16 @@ Author: Hao Nguyen
 Name: IconCert 14
 
 Package: com.haoict.microsoftdetectionbypass
-Version: 1.4.0
+Version: 1.5.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 304
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.4.0_iphoneos-arm.deb
-Size: 13818
-MD5sum: c60ebaf9adadd1c0f0bbcbc019a4aed7
-SHA1: 76b9111d17d7e1d8d4621a5850cbca6c7cec7501
-SHA256: b942bb4db52a7da634b9b4df5368c3cd5b8b4108feedb64d0e5845171b6aedf6
+Filename: ./debs/com.haoict.microsoftdetectionbypass_1.5.0_iphoneos-arm.deb
+Size: 13734
+MD5sum: a70aae01bc22201775973de203686924
+SHA1: 7b4078adf56381d03d5d1efe866a7c482ab2a9e0
+SHA256: f8bc9d8aed4102eca25d39e66e8349d37e09ae9339f8633f3df8c9e5670562ba
 Section: Tweaks
 Description: Free Tweak for Microsoft Apps Detection Bypass
  Free Microsoft Apps Detection Bypass
@@ -1118,6 +1118,28 @@ Author: Jan
 Depiction: https://twjacy.github.io/wx/wechat.html
 Icon: https://raw.githubusercontent.com/twjacy/wx/main/CydiaIcon.png
 Name: WeChat
+
+Package: com.istoreplus.tiktoklrd
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2120
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common, firmware (>= 11.0)
+Filename: ./debs/com.istoreplus.tiktoklrd_1.0.0_iphoneos-arm.deb
+Size: 978562
+MD5sum: 410c01896b31a4af03ad33b72449a4e6
+SHA1: 096193e0f9e0ac987c51af60a53b080d93251652
+SHA256: 4c36121051fd54c0150df8a0de202975734897e36b709b84072b857d952e43a9
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tiktoklrdDp
+Description: The best tweak for TikTok app.
+Tag: purpose::extension
+Author: iStorePlus <istorevip007@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=tiktoklrdDp
+Dev: istoreplus
+Icon: file:///Library/PreferenceBundles/tiktoklrdprefs.bundle/icon@2x.png
+Name: TikTokLRD
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.jaxroth.supporttheunsupportedrevived
 Version: 1.0.0
@@ -3077,16 +3099,16 @@ Name: 改个步数-专业的步数修改软件
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: me.lightmann.iamlazy
-Version: 1.4.1
+Version: 1.4.2
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 528
+Installed-Size: 526
 Depends: coreutils, findutils, gzip, tar, firmware (>= 13.0)
-Filename: ./debs/me.lightmann.iamlazy_1.4.1_iphoneos-arm.deb
-Size: 116532
-MD5sum: 872f1fd13bce32b6874a318fbd8a21e3
-SHA1: f5441f0d63a833340b8f4b891b345c2bdcad507a
-SHA256: 5951f57843aaa9b6d814041c4f852f9ff1a8081df699afd9b8dc8777039178c8
+Filename: ./debs/me.lightmann.iamlazy_1.4.2_iphoneos-arm.deb
+Size: 116556
+MD5sum: 012955b6fd0c58ce9511484ccfa2ee8c
+SHA1: 5ac4631c87413f16ad29f0d5abbcefe71ccfa134
+SHA256: 6e757064eed906b0ac0def8020223e4d83d7c19523a7af19503c2c807b4ff2c5
 Section: Utilities
 Priority: optional
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iamlazyDp
@@ -3513,16 +3535,16 @@ Name: QQ净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatpurification
-Version: 2.1-6
+Version: 2.1-6.5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Installed-Size: 764
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_2.1-6_iphoneos-arm.deb
-Size: 229014
-MD5sum: 26965fe29ed26ca9ca40a6b7037cb480
-SHA1: f2377994dfb9b46755d5ed3783796aaa5c155908
-SHA256: 691bf268e107e43b212662637b9afce86d315edd2c084a008147333d6be53d5c
+Filename: ./debs/netskao.wechatpurification_2.1-6.5_iphoneos-arm.deb
+Size: 233246
+MD5sum: 71e772d4e52ecc5ed837ababd076b229
+SHA1: 256258b0b342019d71eb46a2cd70e51ab26552ff
+SHA256: 699255b28eb62e38abe3fe0caad4357eefd8268d4f90289aba5d3de6131ea507
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.0及以上版本，设置位于微信-设置
@@ -4150,16 +4172,16 @@ Author: TylerD3V
 Name: SyncStore
 
 Package: xyz.willy.zebra
-Version: 1.1.23
+Version: 1.1.25
 Architecture: iphoneos-arm
 Maintainer: Zebra Team <team@getzbra.com>
-Installed-Size: 14616
+Installed-Size: 14828
 Depends: dpkg, uikittools, firmware (>= 9.0)
-Filename: ./debs/xyz.willy.zebra_1.1.23_iphoneos-arm.deb
-Size: 8028528
-MD5sum: 5d6d09a11c45176d54e70f21558baf4f
-SHA1: ad08d45e23dc9b9b5eea33333e9b5cfc124ebb0a
-SHA256: 8e39b1ddd4ee275ce84e8b54d2e04f2ad5a00d681011232efb8487831250cbd0
+Filename: ./debs/xyz.willy.zebra_1.1.25_iphoneos-arm.deb
+Size: 8245852
+MD5sum: b69d05478116f2963756201382ac3ae9
+SHA1: beafeff78811f6bab60cd0260c98553b042fe9c6
+SHA256: c57879dec835a015694512430bb28540708f31ab8adcf3088e9c4c74e3822dd9
 Section: Packaging
 Description: A Useful Package Manager
 Tag: compatible::9.0-14.8
