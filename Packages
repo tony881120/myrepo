@@ -369,20 +369,20 @@ Dev: c1d3r
 Name: PullOver Pro
 
 Package: com.cannathea.afc2d-arm64
-Version: 1.1.5-1
+Version: 1.1.6-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 686
+Installed-Size: 539
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64, mobilesubstrate, ldid
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debs/com.cannathea.afc2d-arm64_1.1.5-1_iphoneos-arm.deb
-Size: 14486
-MD5sum: c57f2a538b007e8f655ddcb3140804a1
-SHA1: 39ae9a6107ae67236ec5011530b08ef594248341
-SHA256: 488e4e86a97bdfcb12c396d14c9bc3e8666e810c5435023d7d8b530b5924e391
+Filename: ./debs/com.cannathea.afc2d-arm64_1.1.6-1_iphoneos-arm.deb
+Size: 12788
+MD5sum: 5c2ee661c5f7e356ce518dc902ef1fb5
+SHA1: c8c574c1581d61675c05c7cc7c6c427231b3eaef
+SHA256: c0871d4c9c35190c83b4c73fa236668662f5d996eed1cb981395483c0cf2467a
 Section: System
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
 Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
@@ -811,16 +811,16 @@ Author: Hao Nguyen
 Name: IconCert 14
 
 Package: com.haoict.microsoftdetectionbypass
-Version: 1.5.0
+Version: 1.7.0
 Architecture: iphoneos-arm
 Maintainer: Hao Nguyen
 Installed-Size: 304
 Depends: mobilesubstrate, preferenceloader, com.haoict.libhdev (>= 4.8.1), firmware (>= 12)
-Filename: ./debs/com.haoict.microsoftdetectionbypass_1.5.0_iphoneos-arm.deb
-Size: 13734
-MD5sum: a70aae01bc22201775973de203686924
-SHA1: 7b4078adf56381d03d5d1efe866a7c482ab2a9e0
-SHA256: f8bc9d8aed4102eca25d39e66e8349d37e09ae9339f8633f3df8c9e5670562ba
+Filename: ./debs/com.haoict.microsoftdetectionbypass_1.7.0_iphoneos-arm.deb
+Size: 13902
+MD5sum: d39ea8abde8d390fb0b5300afc51c542
+SHA1: 49244d6b03eaa5f7c5a245a88526185794b25475
+SHA256: b3aeb98fee59e335c5fbadc5bb989b4d5b47be5639aaf89566ee1644e254a70c
 Section: Tweaks
 Description: Free Tweak for Microsoft Apps Detection Bypass
  Free Microsoft Apps Detection Bypass
@@ -1375,17 +1375,17 @@ Name: PS Express Pro
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/psexpressprosileo
 
 Package: com.lenglengyu.shortvideodl
-Version: 1.4.9
+Version: 1.6.1
 Architecture: iphoneos-arm
 Maintainer: lenglengyu <lenglengyu@126.com>
-Installed-Size: 2476
+Installed-Size: 2812
 Depends: mobilesubstrate, preferenceloader
 Conflicts: com.yourepo.lly.awe, com.lenglengyu.dyhsb, com.lenglengyu.ksjsb, com.lenglengyu.qmxsp, com.lenglengyu.wsqsy, com.lenglengyu.wxgzh, com.lenglengyu.miaopai, com.lenglengyu.ppdgx, com.lenglengyu.qutoutiao, com.lenglengyu.pddsavevideo
-Filename: ./debs/com.lenglengyu.shortvideodl_1.4.9_iphoneos-arm.deb
-Size: 945964
-MD5sum: 298883bda843aeeaceb180292635786e
-SHA1: bfdc926620dd90a91f8b35f2ff1f5d8a3342f93c
-SHA256: b986b7662c801f440a0f002f7c83ed009e650ae77652de537edd9950a6cef15b
+Filename: ./debs/com.lenglengyu.shortvideodl_1.6.1_iphoneos-arm.deb
+Size: 1079430
+MD5sum: e81aa35dbb7add1f1d3807205dc8b697
+SHA1: d5adafda45c9384c22e14b8c4a68e54787e9be2b
+SHA256: 993ed9579fcf54411b648a4189ae68ca897c0660c3abf51ce0a71e54f48aa56b
 Section: Tweaks
 Description: 支持抖音、快手、微视等无水印下载。支持微信公众号、视频号视频下载。
 Author: lenglengyu
@@ -1682,16 +1682,16 @@ Name: CCSupport
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.opa334.choicy
-Version: 1.4
+Version: 1.4.1-1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 996
+Installed-Size: 1126
 Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
-Filename: ./debs/com.opa334.choicy_1.4_iphoneos-arm.deb
-Size: 154592
-MD5sum: 7127a2e9d58e021ad00a1969776636f7
-SHA1: e1ef3b8591bdbc98a87946256494be6a272d62e6
-SHA256: af7ca088eb6824d3974f588c2559e448b5abe07eab7abe5c875e9f3fa92de7bf
+Filename: ./debs/com.opa334.choicy_1.4.1-1_iphoneos-arm.deb
+Size: 156330
+MD5sum: 8189101ebbf31385120f6a602253c34a
+SHA1: a57371d4cb9cf128ccece9bcfc326844c051d04c
+SHA256: 95813a506ebd2fc06109209763dd1a8c63d5cee96eb249b4a9068b01c2b68f70
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
 Description: Advanced Tweak Configuration!
@@ -1761,6 +1761,24 @@ Dev: platykor
 Icon: file:///Applications/DustBuster.app/AppIcon60x60@2x.png
 Name: DustBuster
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.ps.batteryhealthenabler
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: PoomSmart
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.3)
+Filename: ./debs/com.ps.batteryhealthenabler_1.0.0_iphoneos-arm.deb
+Size: 5076
+MD5sum: ee5a019550451a04826fc37545a1861c
+SHA1: 9faccd1e95365511ce053ba73fa32b5c374fecae
+SHA256: b151ef91a78429568b02d90760728e79bc6ab2abdd0979baf478fa60fd8e6a33
+Section: Tweaks
+Description: Enable Battery Health on unsupported devices.
+Author: PoomSmart
+Depiction: https://poomsmart.github.io/repo/depictions/batteryhealthenabler.html
+Name: Battery Health Enabler
+Sileodepiction: https://poomsmart.github.io/repo/sileodepictions/batteryhealthenabler.json
 
 Package: com.ps.letmeblock
 Version: 1.0.0
@@ -2632,17 +2650,17 @@ Icon: https://dcsyhi1998.github.io/icons/zetsu/zetsu.png
 Name: Zetsu
 
 Package: jp.soh.reprovision
-Version: 0.8.3~release
+Version: 0.8.4~release
 Architecture: iphoneos-arm
 Maintainer: Soh Satoh
 Depends: firmware (>= 9.0)
 Conflicts: com.matchstic.reprovision
-Filename: ./debs/jp.soh.reprovision_0.8.3~release_iphoneos-arm.deb
-Size: 15477492
-MD5sum: 4ecea265b0b74c772bc94ab49a36e923
-SHA1: 21547146376e041b6ead427f1b53456f2bec4eab
-SHA256: eb1ec319ce0fab9584917eb3e8505121496c62b1f4826f6e7db60c6314661a21
-Section: Utilities
+Filename: ./debs/jp.soh.reprovision_0.8.4~release_iphoneos-arm.deb
+Size: 16816862
+MD5sum: 226e27fc058aa29af55ecccd267e9382
+SHA1: d14a5acbdeca38cda60a787e023c598d5a1fc10c
+SHA256: 84b3d28914e078176578f184ec29d10c7dfc0a1fa8e794934749ddcbab47586b
+Section: Applications
 Priority: optional
 Description: Re-sign applications on your device
 Author: Soh Satoh, Matt Clarke
@@ -3454,20 +3472,20 @@ Name: AlipaySteps
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.awemepurification
-Version: 2.4-1
+Version: 2.5-3.5
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 430
+Installed-Size: 1234
 Depends: firmware (>= 9.0), mobilesubstrate (>= 0.9.5000)
 Conflicts: netskao.awemehack
-Filename: ./debs/netskao.awemepurification_2.4-1_iphoneos-arm.deb
-Size: 126406
-MD5sum: 97da3df49d5372869e9640757c3ed370
-SHA1: 0d2958f2935bf15ed6bcfc27ebdd38fd878a09ed
-SHA256: 13300d4c2cb133e8f1f7bad22203c13c66b226cb30fd8f1014697882055b4929
+Filename: ./debs/netskao.awemepurification_2.5-3.5_iphoneos-arm.deb
+Size: 316756
+MD5sum: 339ef50d2d27ccfbbcab871e9d2ee11f
+SHA1: 4938881d9deb4fa6b70ce3c036d77ef611d747b6
+SHA256: ad95b9965baa8a8477a6d13eab5fb349dc652f9514d289aba05148d3a34e3c33
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
-Description: 抖音净化！设置位于抖音-设置
+Description: 抖音净化！设置位于抖音-设置，仅支持19.8.0及以上版本抖音
 Tag: purpose::extension
 Author: Netskao <admin@initnil.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=awemepurificationDp
@@ -3498,19 +3516,19 @@ Name: FakeModel
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.qqpurification
-Version: 1.9-9.1
+Version: 1.9-9.9
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 569
+Installed-Size: 896
 Depends: mobilesubstrate, firmware (>= 9.0)
-Filename: ./debs/netskao.qqpurification_1.9-9.1_iphoneos-arm.deb
-Size: 171308
-MD5sum: 8e3f551174627a7a3c802434142050fb
-SHA1: 28694fced308bf65d85077497699b210c984cb70
-SHA256: 32d2ffa9df12357ec0765bb6e65c5808e6cff5f3d258fb9b520fc718edc6534f
+Filename: ./debs/netskao.qqpurification_1.9-9.9_iphoneos-arm.deb
+Size: 243400
+MD5sum: 4759a7e9598b939ae928565f2fa9d04b
+SHA1: 006d82394c251d82f86b62a67f7ff04b73c95745
+SHA256: 772d686937c55291076b21d3991ee1c0ff3c3deb057031d7580684d1ce84bce9
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
-Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.7.5及以上版本
+Description: QQ净化，还原聊天本质，干净的QQ给你，设置位于QQ-设置页面顶部，仅支持8.8.0及以上版本
 Tag: purpose::extension
 Author: Netskao <netskao@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=qqpurificationDp
@@ -3519,16 +3537,16 @@ Name: QQ净化
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: netskao.wechatpurification
-Version: 2.1-7.2
+Version: 2.1-9.1
 Architecture: iphoneos-arm
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 848
+Installed-Size: 1711
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
-Filename: ./debs/netskao.wechatpurification_2.1-7.2_iphoneos-arm.deb
-Size: 258278
-MD5sum: 04c617fcb9226992f608e30ba464920c
-SHA1: c28543b3da40b654cb1c8f5eb7d4cb56cfde14d6
-SHA256: 11ccb3fa5d82ccea41727cb813a61b45db1f21bcf8ee1cec5b50ff4777b6b821
+Filename: ./debs/netskao.wechatpurification_2.1-9.1_iphoneos-arm.deb
+Size: 484152
+MD5sum: 7185ce60f6954a03acc493cc2ee5cad4
+SHA1: 386944d1d037de53f8625716c08373f93607596f
+SHA256: 929e937d432ea0548dc96844088d6d1c5cb23381d68b547f6054638c2a05023f
 Section: Tweaks
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=wechatpurificationDp
 Description: 微信净化，还原聊天本质，干净的微信给你，支持7.0.0及以上版本，设置位于微信-设置
@@ -3947,15 +3965,15 @@ Author: Önder Azazi <onderazazi@hotmail.com>
 Name: A.Repo Icons
 
 Package: sileoturkiye.tweakcleaner
-Version: 14.9c
+Version: 14.9d
 Architecture: iphoneos-arm
 Maintainer: Önder Azazi <onderazazi@hotmail.com>
 Depends: firmware (>= 13.0), firmware (<= 15.0), cy+model.iphone, bash, rsync, gzip, dpkg, coreutils, ncurses, system-cmds, openssh
-Filename: ./debs/sileoturkiye.tweakcleaner_14.9c_iphoneos-arm.deb
-Size: 4717592
-MD5sum: 9839753ece896dc2e4473dd04aadcf77
-SHA1: f69eab2f7ac71c2515b50aad405cb4f519d5a648
-SHA256: 92158d0d5c6c9badfcf55e0c1b7308aed9a12d1a3ae7e2bee8f908ca6a57f1ec
+Filename: ./debs/sileoturkiye.tweakcleaner_14.9d_iphoneos-arm.deb
+Size: 4717938
+MD5sum: 776e893a3bd555f865c7f83e5f909940
+SHA1: 934e17b8219925bde4b2a706a0fcef2494c81d35
+SHA256: cd72860a3b8f502e6ef92c9294366f2340ba1e9abb018a70615821586b18c3ba
 Section: TR - Uygulama
 Description: Returns the device to its original JB state.
 Author: Önder Azazi <onderazazi@hotmail.com>
